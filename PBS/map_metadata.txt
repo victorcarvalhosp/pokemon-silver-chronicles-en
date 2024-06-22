@@ -219,7 +219,6 @@ Outdoor = true
 ShowArea = true
 HealingSpot = 56,34,49
 MapPosition = 0,13,12
-Flags = PowerSpot
 #-------------------------------
 [057]   # Goldenrod City - Bill's House
 Name = Goldenrod City - Bill's House
@@ -243,7 +242,6 @@ MapPosition = 0,13,11
 Name = Goldenrod City - Name Rater
 Name = 
 MapPosition = 0,12,11
-Flags = PowerSpot
 #-------------------------------
 [062]   # Goldenrod City - Radio Tower 1F
 Name = Goldenrod City - Radio Tower 1F

@@ -120,7 +120,7 @@ class TriadCard
   def price
     maxValue = [@north, @east, @south, @west].max
     ret = (@north * @north) + (@east * @east) + (@south * @south) + (@west * @west)
-    ret += maxValue * maxValue * 2
+    ret += maxValue * maxValue
     ret *= maxValue
     ret *= (@north + @east + @south + @west)
     ret /= 10   # Ranges from 2 to 24,000
@@ -136,7 +136,7 @@ class TriadCard
     else
       ret = (1 + (ret / 10)) * 10
     end
-    return ret
+    return ret * 10 # Prices are multiplied by 10 as I want to make the cards much more expensive (@todo: evaluate if 10 is too much)
   end
 
   def self.createBack(type = nil, noback = false)
@@ -1308,7 +1308,7 @@ def pbSellTriads
           )
         end
         if quantity > 0
-          price /= 4
+          price /= 8 # Divide by 8 as I want to sell at 1/8th of the price - so player can't make easy money with selling gained cards.
           price *= quantity
           if pbConfirmMessage(_INTL("I can pay ${1}. Would that be OK?", price.to_s_formatted))
             $player.money += price

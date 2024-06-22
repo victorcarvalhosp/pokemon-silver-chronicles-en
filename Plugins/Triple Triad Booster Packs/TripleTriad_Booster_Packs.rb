@@ -1316,12 +1316,28 @@ end
 ItemHandlers::UseFromBag.add(:BOOSTERPACK_GENESIS,proc{|item|
   next BoosterPack.give(item, 5, 1)
 })
-ItemHandlers::UseFromBag.add(:BOOSTERPACK_DISCOVERY,proc{|item|
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_COLOSSEUM,proc{|item|
   next BoosterPack.give(item, 5, 2)
 })
-ItemHandlers::UseFromBag.add(:BOOSTERPACK_DESTINY,proc{|item|
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_DISCOVERY,proc{|item|
   next BoosterPack.give(item, 5, 3)
 })
-ItemHandlers::UseFromBag.add(:BOOSTERPACK_REVELATION,proc{|item|
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_DESTINY,proc{|item|
   next BoosterPack.give(item, 5, 4)
+})
+
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_EVOLUTION,proc{|item|
+  next BoosterPack.give(item, 5, 5)
+})
+
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_MYSTERY,proc{|item|
+  next BoosterPack.give(item, 5, 6)
+})
+
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_REVELATION,proc{|item|
+  next BoosterPack.give(item, 5, 7)
+})
+
+ItemHandlers::UseFromBag.add(:BOOSTERPACK_LABORATORY,proc{|item|
+  next BoosterPack.give(item, 5, 8)
 })
