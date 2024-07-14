@@ -37,6 +37,7 @@ module QuestModule
     :Stage1 => "Complete the Johto Pokédex.",
     :Stage2 => "Register at least 6 Pokémon.",
     :Stage3 => "Register at least 20 Pokémon.",
+    :Stage4 => "Register at least 50 Pokémon.",
     :Location1 => "nil",
     :Location2 => "Route 31",
     :QuestDescription => "Go meet many kinds of Pokémon and complete that Pokédex!",
@@ -50,18 +51,14 @@ module QuestModule
     :Stage2 => "Challenge Azalea Town's Gym.",
     :Stage3 => "Challenge Goldenrod City's Gym.",
     :Stage4 => "Challenge Ecruteak City's Gym.",
-    :Stage5 => "Challenge Cianwood City's Gym.",
-    :Stage6 => "Challenge Olivine City's Gym.",
-    :Stage7 => "Challenge Mohogany Town's Gym.",
-    :Stage8 => "Challenge Blackthorn City's Gym.",
+    :Stage5 => "Challenge the next Gym.",
+    :Stage6 => "Challenge Blackthorn City's Gym.",
     :Location1 => "Violet City",
     :Location2 => "Azalea Town",
     :Location3 => "Goldenrod City",
     :Location4 => "Ecruteak City",
-    :Location5 => "Cianwood City",
-    :Location6 => "Olivine City",
-    :Location7 => "Mohogany Town",
-    :Location8 => "Blackthorn City",
+    :Location5 => "Cianwood, Olivine or Mahogany Town",
+    :Location6 => "Blackthorn City",
     :QuestDescription => "Collect all 8 Gym Badges in Johto. If you manage to defeat all the Gym Leaders, you'll eventually challenge the Pokémon League Champion!",
   }
 
@@ -178,6 +175,62 @@ module QuestModule
     :QuestDescription => "One of the FARFETCH'D that cut trees for charcoal took off in the forest. Bring it back to the Charcoal Maker Apprentice.",
   }
 
+  MaizieTeddiursa = {
+    :ID => "13",
+    :Name => "Cute Teddiursa",
+    :QuestGiver => "Maizie",
+    :Stage1 => "Catch a Teddiursa.",
+    :Location1 => "Azalea Town",
+    :QuestDescription => "Kurt's grand daughter wants a Teddiursa, can you catch one and bring it to her?",
+  }
+
+  WildPokemonInGoldenrod = {
+    :ID => "14",
+    :Name => "Wild Pokémon in Goldenrod",
+    :Stage1 => "Catch the thief Pokémon.",
+    :Location1 => "Goldenrod City",
+    :QuestDescription => "This Pokémon is stealing items in Goldenrod City, can you make it stop?",
+  }
+
+  LetterDeliver = {
+    :ID => "15",
+    :Name => "Letter Delivery",
+    :QuestGiver => "Webster",
+    :Stage1 => "Get the letter.",
+    :Location1 => "Goldenrod City Gate",
+    :Stage2 => "Deliver the letter.",
+    :Location2 => "Route 31",
+    :QuestDescription => "This guy received a letter from a friend. Now he's asking for you to deliver the reply he wrote to his friend.",
+  }
+
+  BurnedTower = {
+    :ID => "16",
+    :Name => "Burned Tower",
+    :Stage1 => "Explore the Burned Tower.",
+    :Location1 => "Ecruteak City",
+    :QuestDescription => "Morty, the Gym Leader, has gone to the Burned Tower. Go there to investigate what's happening.",
+  }
+
+  KimonoGirlsEcruteak = {
+    :ID => "17",
+    :Name => "Kimono Girls power",
+    :Stage1 => "Defeat the 5 Kimono Girls.",
+    :Location1 => "Ecruteak City - Dance Theater",
+    :QuestGiver => "Hiroshi",
+    :QuestDescription => "Not only are the Kimono Girls great dancers, they're also skilled at Pokémon. If you win against them, you'll receive a gift.",
+  }
+
+  OlivineLighthouse = {
+    :ID => "18",
+    :Name => "Lighthouse is turned off?",
+    :Stage1 => "Go to the Lighthouse.",
+    :Location1 => "Olivine City",
+    :Stage2 => "Get some medicines to Amphy.",
+    :Location2 => "Cianwood City",
+    :Stage3 => "Deliver the medicines to Amphy.",
+    :Location3 => "Olivine City - Lighthouse",
+    :QuestDescription => "Olivine City Gym Leader isn't in the Gym, she is taking care of a sick Pokémon at the Lighthouse.",
+  }
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

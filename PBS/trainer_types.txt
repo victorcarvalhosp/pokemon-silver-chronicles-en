@@ -252,48 +252,48 @@ BaseMoney = 30
 #-------------------------------
 [PARASOLLADY]
 Name = PARASOL LADY
-Gender = Unknown
+Gender = Female
 BaseMoney = 30
 #-------------------------------
 [BUGMANIAC]
 Name = BUG MANIAC
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [SAILOR]
 Name = SAILOR
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [COLLECTOR]
 Name = COLLECTOR
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [PkMnBREEDER_Male]
 Name = PkMn BREEDER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [PkMnRANGER_Male]
 Name = PkMn RANGER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [PkMnRANGER_Female]
 Name = PkMn RANGER
-Gender = Unknown
+Gender = Female
 BaseMoney = 30
 #-------------------------------
 [TEAMMAGMA_Male]
 Name = TEAM MAGMA
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 IntroBGM = Encounter-Team_Magma
 #-------------------------------
 [TEAMMAGMA_Female]
 Name = TEAM MAGMA
-Gender = Unknown
+Gender = Female
 BaseMoney = 30
 IntroBGM = Encounter-Team_Magma
 #-------------------------------
@@ -480,6 +480,36 @@ BattleBGM = GSCChampionBattle
 VictoryBGM = PkmRS_Victory4
 #-------------------------------
 [KIMONO_Girl]
+Name = KIMONO Girl
+Gender = Female
+BaseMoney = 30
+IntroBGM = Kimono
+#-------------------------------
+[KIMONO_Girl_Zuki]
+Name = KIMONO Girl
+Gender = Female
+BaseMoney = 30
+IntroBGM = Kimono
+#-------------------------------
+[KIMONO_Girl_Naoko]
+Name = KIMONO Girl
+Gender = Female
+BaseMoney = 30
+IntroBGM = Kimono
+#-------------------------------
+[KIMONO_Girl_Miki]
+Name = KIMONO Girl
+Gender = Female
+BaseMoney = 30
+IntroBGM = Kimono
+#-------------------------------
+[KIMONO_Girl_Sayo]
+Name = KIMONO Girl
+Gender = Female
+BaseMoney = 30
+IntroBGM = Kimono
+#-------------------------------
+[KIMONO_Girl_Kuni]
 Name = KIMONO Girl
 Gender = Female
 BaseMoney = 30

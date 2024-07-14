@@ -258,7 +258,6 @@ BattleBack = radio
 [064]   # Goldenrod City - Magnet Train
 Name = Goldenrod City - Magnet Train
 MapPosition = 0,13,11
-Flags = PowerSpot
 #-------------------------------
 [065]   # Goldenrod City - House
 Name = Goldenrod City - House
@@ -420,6 +419,7 @@ MapPosition = 0,10,9
 [099]   # Olivine City - Gym
 Name = Olivine City - Gym
 MapPosition = 0,10,9
+Flags = PowerSpot
 #-------------------------------
 [100]   # Router 39 - Moomoo Farm
 Name = Router 39 - Moomoo Farm
@@ -512,6 +512,7 @@ Environment = Sand
 [123]   # Cianwood City - Gym
 Name = Cianwood City - Gym
 BattleBack = battle4
+Flags = PowerSpot
 #-------------------------------
 [124]   # Route 42
 Name = Rota 42
@@ -1547,6 +1548,10 @@ MapPosition = 2,16,6
 Name = Observatório
 Outdoor = true
 MapPosition = 2,18,5
+#-------------------------------
+[851]   # Battles
+Name = Battles
+Flags = PowerSpot
 #-------------------------------
 [857]   # Regiao Kalos
 Name = Ice Path Copy

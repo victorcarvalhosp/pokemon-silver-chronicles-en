@@ -519,31 +519,31 @@ Pokemon = MARILL,16
 Pokemon = CLEFAIRY,16
 Pokemon = JIGGLYPUFF,16
 #-------------------------------
-[KIMONO_Girl,Yoki]
+[KIMONO_Girl_Miki,Miki]
 LoseText = Oh, you are strong.
 Pokemon = FLAREON,21
 	Moves = DIG,FLAMETHROWER,REST,BABYDOLLEYES
 	Item = SHELLBELL
 #-------------------------------
-[KIMONO_Girl,Sayo]
+[KIMONO_Girl_Naoko,Naoko]
 LoseText = Oh, so close. Almost got you.
 Pokemon = ESPEON,21
 	Moves = DREAMEATER,IRONTAIL,REST,BABYDOLLEYES
 	Item = SHELLBELL
 #-------------------------------
-[KIMONO_Girl,Zuki]
+[KIMONO_Girl_Zuki,Zuki]
 LoseText = I have no more Pokémon...
 Pokemon = UMBREON,21
 	Moves = CRUNCH,DARKPULSE,REST,BABYDOLLEYES
 	Item = SHELLBELL
 #-------------------------------
-[KIMONO_Girl,Kuni]
+[KIMONO_Girl_Kuni,Kuni]
 LoseText = You are really strong.
 Pokemon = VAPOREON,21
 	Moves = ICEBEAM,SURF,REST,BABYDOLLEYES
 	Item = SHELLBELL
 #-------------------------------
-[KIMONO_Girl,Miki]
+[KIMONO_Girl_Sayo,Sayo]
 LoseText = You are good with Pokémon too.
 Pokemon = JOLTEON,21
 	Moves = HEADBUTT,THUNDERBOLT,REST,BABYDOLLEYES
@@ -551,47 +551,47 @@ Pokemon = JOLTEON,21
 #-------------------------------
 [Rival,???,7]
 LoseText = ...Humph! I'm not fighting with another weakling ever again. It's just too much playing around.
-Pokemon = HAUNTER,20
+Pokemon = HAUNTER,21
     Moves = LICK,CURSE,CONFUSERAY,HYPNOSIS
 Pokemon = ZUBAT,20
     Moves = SUPERSONIC,POISONFANG,AIRCUTTER
-Pokemon = MAGNEMITE,18
+Pokemon = MAGNEMITE,20
     Moves = THUNDERWAVE,SUPERSONIC,SONICBOOM,SPARK
 Pokemon = QUILAVA,24
     Moves = FLAMEWHEEL,SWIFT,SMOKESCREEN
-Pokemon = ABRA,16
+Pokemon = ABRA,18
 	Moves = CHARGEBEAM,CONFUSION,THUNDERPUNCH,ICEPUNCH
-Pokemon = SNEASEL,18
+Pokemon = SNEASEL,20
 	Moves = METALCLAW,HYPNOSIS,DOUBLETEAM,ICEPUNCH
 #-------------------------------
 [Rival,???,8]
 LoseText = ...Humph! I'm not fighting with another weakling ever again. It's just too much playing around.
-Pokemon = HAUNTER,20
+Pokemon = HAUNTER,21
     Moves = LICK,CURSE,CONFUSERAY,HYPNOSIS
 Pokemon = ZUBAT,20
     Moves = SUPERSONIC,POISONFANG,AIRCUTTER
-Pokemon = MAGNEMITE,18
+Pokemon = MAGNEMITE,20
     Moves = THUNDERWAVE,SUPERSONIC,SONICBOOM,SPARK
 Pokemon = BAYLEEF,24
     Moves = MAGICALLEAF,POISONPOWDER,SYNTHESIS,FRUSTRATION
-Pokemon = ABRA,16
+Pokemon = ABRA,18
 	Moves = CHARGEBEAM,CONFUSION,THUNDERPUNCH,ICEPUNCH
-Pokemon = SNEASEL,18
+Pokemon = SNEASEL,20
 	Moves = METALCLAW,HYPNOSIS,DOUBLETEAM,ICEPUNCH
 #-------------------------------
 [Rival,???,9]
 LoseText = ...Humph! I'm not fighting with another weakling ever again. It's just too much playing around.
-Pokemon = HAUNTER,20
+Pokemon = HAUNTER,21
     Moves = LICK,CURSE,CONFUSERAY,HYPNOSIS
 Pokemon = ZUBAT,20
     Moves = SUPERSONIC,POISONFANG,AIRCUTTER
-Pokemon = MAGNEMITE,18
+Pokemon = MAGNEMITE,20
     Moves = THUNDERWAVE,SUPERSONIC,SONICBOOM,SPARK
 Pokemon = CROCONAW,24
     Moves = WATERGUN,BITE,ICEFANG
-Pokemon = ABRA,16
+Pokemon = ABRA,18
 	Moves = CHARGEBEAM,CONFUSION,THUNDERPUNCH,ICEPUNCH
-Pokemon = SNEASEL,18
+Pokemon = SNEASEL,20
 	Moves = METALCLAW,HYPNOSIS,DOUBLETEAM,ICEPUNCH
 #-------------------------------
 [KINDLER,Dirk]
@@ -647,18 +647,18 @@ Pokemon = MISMAGIUS,24
 #-------------------------------
 [BIRDKEEPER,Toby]
 LoseText = I feel like just flying away now.
-Pokemon = DODUO,16
-Pokemon = DODUO,17
 Pokemon = DODUO,18
+Pokemon = DODUO,19
+Pokemon = DODUO,20
 #-------------------------------
 [SAILOR,Harry]
 LoseText = Your skill is world class!
-Pokemon = WOOPER,20
+Pokemon = WOOPER,24
 #-------------------------------
 [LASS,Dana]
-LoseText = I see. So you can battle way.
-Pokemon = FLAAFFY,19
-Pokemon = PSYDUCK,19
+LoseText = I see. So you can battle way better than I thought.
+Pokemon = FLAAFFY,22
+Pokemon = PSYDUCK,21
 #-------------------------------
 [LASS,Dana,1]
 LoseText = You're even better now.
@@ -667,31 +667,31 @@ Pokemon = GOLDUCK,32
 #-------------------------------
 [SCHOOLKID_Boy,Chad]
 LoseText = I didn't study enough, I guess.
-Pokemon = MRMIME,20
+Pokemon = MRMIME,24
 #-------------------------------
 [BEAUTY,Valerie]
 LoseText = I'm glad I got to see your Pokémon!
-Pokemon = HOPPIP,18
-Pokemon = SKIPLOOM,18
+Pokemon = HOPPIP,20
+Pokemon = SKIPLOOM,20
 #-------------------------------
 [PSYCHIC_Male,Norman]
 LoseText = Oh, your Pokémon have potential.
-Pokemon = SLOWPOKE,17
 Pokemon = SLOWPOKE,20
+Pokemon = SLOWPOKE,22
 #-------------------------------
 [POKeFAN_Male,Derek]
 LoseText = I couldn't brag...
-Pokemon = PIKACHU,17
+Pokemon = PIKACHU,24
 #-------------------------------
 [POKeFAN_Female,Ruth]
 LoseText = I don't mind losing.
-Pokemon = PIKACHU,17
+Pokemon = PIKACHU,24
 #-------------------------------
 [SAILOR,Eugene]
 LoseText = Awaaargh!
-Pokemon = POLIWHIRL,17
-Pokemon = KRABBY,19
-Pokemon = RATICATE,17
+Pokemon = POLIWHIRL,10
+Pokemon = KRABBY,21
+Pokemon = RATICATE,20
 #-------------------------------
 [GENTLEMAN,Alfred]
 LoseCText = Ah! I can see you're serious!
@@ -818,10 +818,69 @@ Pokemon = PRIMEAPE,28
 	Moves = LEER,DOUBLETEAM,ROCKSLIDE,FOCUSPUNCH
 Pokemon = POLIWRATH,32
 	Moves = HYPNOSIS,BODYSLAM,SURF,FOCUSPUNCH
+	Gender = male
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 Pokemon = MEDICHAM,29
 	Moves = THUNDERPUNCH,PSYCHOCUT,ATTRACT,HIGHJUMPKICK
 #-------------------------------
+[LEADER_Chuck,Chuck,1]
+LoseText = We...lost...
+Pokemon = HITMONCHAN,31
+	Moves = DOUBLETEAM,MACHPUNCH,SWAGGER,ICEPUNCH
+Pokemon = HITMONLEE,31
+	Moves = FAKEOUT,BULKUP,BLAZEKICK,HIGHJUMPKICK
+Pokemon = HITMONTOP,31
+	Moves = SUCKERPUNCH,ROCKSLIDE,THUNDERPUNCH,THIEF
+Pokemon = PRIMEAPE,30
+	Moves = LEER,DOUBLETEAM,ROCKSLIDE,FOCUSPUNCH
+Pokemon = POLIWRATH,35
+	Moves = HYPNOSIS,BODYSLAM,SURF,FOCUSPUNCH
+	Gender = male
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = MEDICHAM,30
+	Moves = THUNDERPUNCH,PSYCHOCUT,ATTRACT,HIGHJUMPKICK
+#-------------------------------
+[LEADER_Chuck,Chuck,2]
+LoseText = We...lost...
+Pokemon = HITMONCHAN,34
+	Moves = DOUBLETEAM,MACHPUNCH,SWAGGER,ICEPUNCH
+Pokemon = HITMONLEE,34
+	Moves = FAKEOUT,BULKUP,BLAZEKICK,HIGHJUMPKICK
+Pokemon = HITMONTOP,34
+	Moves = SUCKERPUNCH,ROCKSLIDE,THUNDERPUNCH,THIEF
+Pokemon = PRIMEAPE,35
+	Moves = LEER,DOUBLETEAM,ROCKSLIDE,FOCUSPUNCH
+Pokemon = POLIWRATH,36
+	Moves = HYPNOSIS,BODYSLAM,SURF,FOCUSPUNCH
+	Gender = male
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = MEDICHAM,34
+	Moves = THUNDERPUNCH,PSYCHOCUT,ATTRACT,HIGHJUMPKICK
+#-------------------------------
 [LEADER_Jasmine,Jasmine]
+LoseText = Well done...
+Items = MEGARING
+Pokemon = PERRSERKER,28
+	Moves = RAINDANCE,IRONHEAD,THRASH
+Pokemon = FORRETRESS,28
+	Moves = BUGBITE,SELFDESTRUCT,SPIKES,BUGBITE
+Pokemon = MAGNEMITE,28
+	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
+Pokemon = SKARMORY,29
+	Moves = STEELWING,SPIKES,AIRSLASH,NIGHTSLASH
+Pokemon = STEELIX,32
+    Item = STEELIXITE
+	Moves = IRONTAIL,STONEEDGE,STEALTHROCK,EARTHQUAKE
+Pokemon = MAGNETON,28
+	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
+#-------------------------------
+[LEADER_Jasmine,Jasmine,1]
 LoseText = Well done...
 Items = MEGARING
 Pokemon = PERRSERKER,31
@@ -837,7 +896,23 @@ Pokemon = STEELIX,35
 	Moves = IRONTAIL,STONEEDGE,STEALTHROCK,EARTHQUAKE
 Pokemon = MAGNETON,30
 	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
-
+#-------------------------------
+[LEADER_Jasmine,Jasmine,2]
+LoseText = Well done...
+Items = MEGARING
+Pokemon = PERRSERKER,34
+	Moves = RAINDANCE,IRONHEAD,THRASH
+Pokemon = FORRETRESS,34
+	Moves = BUGBITE,SELFDESTRUCT,SPIKES,BUGBITE
+Pokemon = MAGNEMITE,34
+	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
+Pokemon = SKARMORY,34
+	Moves = STEELWING,SPIKES,AIRSLASH,NIGHTSLASH
+Pokemon = STEELIX,36
+    Item = STEELIXITE
+	Moves = IRONTAIL,STONEEDGE,STEALTHROCK,EARTHQUAKE
+Pokemon = MAGNETON,35
+	Moves = THUNDERBOLT,SONICBOOM,SUPERSONIC,THUNDERWAVE
 #-------------------------------
 [FISHERMAN,Chris]
 LoseText = What? That's not right.
@@ -860,7 +935,7 @@ Pokemon = SANDSHREW,18
 Pokemon = SANDSLASH,18
 Pokemon = ZUBAT,20
 #-------------------------------
-[POKeMANIAC,Ron]
+[COLLECTOR,Ron]
 LoseText = My NIDOKING was outstanding!
 Pokemon = NIDOKING,20
 #-------------------------------
@@ -965,6 +1040,40 @@ LoseText = I wouldn't lose to you skiing...
 Pokemon = JYNX,29
 #-------------------------------
 [LEADER_Pryce,Pryce]
+Items = MEGARING
+LoseText = Hmm. Seems as if my luck has run out.
+Pokemon = SEEL,28
+    Moves = REST,HAIL,ICYWIND,SURF
+Pokemon = PILOSWINE,29
+    Moves = BLIZZARD,ICEFANG,ANCIENTPOWER,MUDBOMB
+Pokemon = LAPRAS,28
+    Moves = PERISHSONG,BLIZZARD,SURF,CONFUSERAY
+Pokemon = ABOMASNOW,32
+    Item = ABOMASITE
+	Moves = ICEBEAM,ENERGYBALL,ICEPUNCH,MAGICALLEAF
+Pokemon = GLALIE,28
+    Moves = PAYBACK,BLIZZARD,BITE,BULLDOZE
+Pokemon = DEWGONG,29
+    Moves = AURORABEAM,REST,SLEEPTALK,DIVE
+#-------------------------------
+[LEADER_Pryce,Pryce,1]
+Items = MEGARING
+LoseText = Hmm. Seems as if my luck has run out.
+Pokemon = SEEL,30
+    Moves = REST,HAIL,ICYWIND,SURF
+Pokemon = PILOSWINE,31
+    Moves = BLIZZARD,ICEFANG,ANCIENTPOWER,MUDBOMB
+Pokemon = LAPRAS,30
+    Moves = PERISHSONG,BLIZZARD,SURF,CONFUSERAY
+Pokemon = ABOMASNOW,35
+    Item = ABOMASITE
+	Moves = ICEBEAM,ENERGYBALL,ICEPUNCH,MAGICALLEAF
+Pokemon = GLALIE,30
+    Moves = PAYBACK,BLIZZARD,BITE,BULLDOZE
+Pokemon = DEWGONG,30
+    Moves = AURORABEAM,REST,SLEEPTALK,DIVE
+#-------------------------------
+[LEADER_Pryce,Pryce,2]
 Items = MEGARING
 LoseText = Hmm. Seems as if my luck has run out.
 Pokemon = SEEL,32

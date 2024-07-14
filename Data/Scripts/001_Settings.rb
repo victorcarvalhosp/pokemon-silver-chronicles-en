@@ -159,7 +159,7 @@ module Settings
   BADGE_FOR_FLASH          = 0
   BADGE_FOR_CUT            = 2
   BADGE_FOR_ROCKSMASH      = 3
-  BADGE_FOR_STRENGTH       = 3
+  BADGE_FOR_STRENGTH       = 6
   BADGE_FOR_SURF           = 4
   BADGE_FOR_FLY            = 1
   BADGE_FOR_WHIRLPOOL      = 7

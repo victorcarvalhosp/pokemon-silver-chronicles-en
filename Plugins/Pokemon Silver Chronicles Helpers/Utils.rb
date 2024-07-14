@@ -20,6 +20,13 @@ def isQuestActive?(quest)
   return false
 end
 
+def isQuestComplete?(quest)
+  $PokemonGlobal.quests.completed_quests.each do |q|
+    return true if q.id == quest
+  end
+  return false
+end
+
 # Could not find a generic transfer player function on Essentials,
 # so I made this one.
 def transferPlayer(map, x, y, direction = 0)
