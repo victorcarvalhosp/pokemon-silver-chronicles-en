@@ -1606,7 +1606,7 @@ Category = Tadpole
 Pokedex = Its body surface is always wet and slick with an oily fluid. Because of this greasy covering, it can easily slip and slide out of the clutches of any enemy in battle.
 Generation = 1
 WildItemUncommon = KINGSROCK
-Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,TradeItem,KINGSROCK
+Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,HoldItem,KINGSROCK,POLITOED,TradeItem,KINGSROCK
 #-------------------------------
 [POLIWRATH]
 Name = Poliwrath
@@ -2087,7 +2087,7 @@ Category = Dopey
 Pokedex = It catches prey by dipping its tail in water at the side of a river. But it often forgets what it is doing and spends whole days just loafing at the water's edge.
 Generation = 1
 WildItemUncommon = LAGGINGTAIL
-Evolutions = SLOWBRO,Level,37,SLOWKING,TradeItem,KINGSROCK
+Evolutions = SLOWBRO,Level,37,SLOWKING,HoldItem,KINGSROCK,SLOWKING,TradeItem,KINGSROCK
 #-------------------------------
 [SLOWBRO]
 Name = Slowbro
@@ -2513,7 +2513,7 @@ Habitat = Cave
 Category = Rock Snake
 Pokedex = There is a magnet in its brain that prevents an Onix from losing direction while tunneling. As it grows older, its body becomes steadily rounder and smoother.
 Generation = 1
-Evolutions = STEELIX,TradeItem,METALCOAT
+Evolutions = STEELIX,HoldItem,METALCOAT
 #-------------------------------
 [DROWZEE]
 Name = Drowzee
@@ -3096,7 +3096,7 @@ Category = Dragon
 Pokedex = The poisonous barbs all over its body are highly valued as ingredients for making traditional herbal medicine. It shows no mercy to anything approaching its nest.
 Generation = 1
 WildItemUncommon = DRAGONSCALE
-Evolutions = KINGDRA,TradeItem,DRAGONSCALE
+Evolutions = KINGDRA,HoldItem,DRAGONSCALE
 #-------------------------------
 [GOLDEEN]
 Name = Goldeen
@@ -3259,7 +3259,7 @@ Habitat = Grassland
 Category = Mantis
 Pokedex = Its blindingly fast speed adds to the sharpness of its twin forearm scythes. The scythes can slice through thick logs in one wicked stroke.
 Generation = 1
-Evolutions = SCIZOR,TradeItem,METALCOAT,KLEAVOR,Item,BLACKAUGURITE
+Evolutions = SCIZOR,HoldItem,METALCOAT,KLEAVOR,Item,BLACKAUGURITE
 #-------------------------------
 [JYNX]
 Name = Jynx
@@ -6159,7 +6159,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = INTIMIDATE,FRISK
 HiddenAbilities = SAPSIPPER
-Moves = 1,TACKLE,3,LEER,7,ASTONISH,10,HYPNOSIS,13,STOMP,16,SANDATTACK,21,TAKEDOWN,23,CONFUSERAY,27,CALMMIND,32,ROLEPLAY,37,ZENHEADBUTT,49,IMPRISON,55,DOUBLEEDGE
+Moves = 1,TACKLE,3,LEER,7,ASTONISH,10,HYPNOSIS,13,STOMP,16,SANDATTACK,21,TAKEDOWN,23,CONFUSERAY,27,CALMMIND,32,ROLEPLAY,37,ZENHEADBUTT,40,PSYSHIELDBASH,49,IMPRISON,55,DOUBLEEDGE
 TutorMoves = AGILITY,BODYSLAM,BULLDOZE,CALMMIND,CHARGEBEAM,CONFUSERAY,DIG,EARTHPOWER,EARTHQUAKE,ENDURE,ENERGYBALL,FACADE,GIGAIMPACT,HELPINGHAND,HYPERBEAM,IMPRISON,LIGHTSCREEN,PROTECT,PSYBEAM,PSYCHIC,PSYSHOCK,RAINDANCE,REFLECT,REST,SCARYFACE,SHADOWBALL,SKILLSWAP,SLEEPTALK,SOLARBEAM,STOREDPOWER,SUBSTITUTE,SUNNYDAY,SWIFT,TAKEDOWN,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,TRAILBLAZE,TRICK,TRICKROOM,WILDCHARGE,ZENHEADBUTT
 EggMoves = BITE,DISABLE,DOUBLEKICK,EXTRASENSORY,MEGAHORN,PSYSHIELDBASH,SPITE,THRASH
 EggGroups = Field

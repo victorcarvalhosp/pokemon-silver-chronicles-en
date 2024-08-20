@@ -327,39 +327,39 @@ IntroBGM = GSCPokemaniacEncounter
 #-------------------------------
 [KINDLER]
 Name = KINDLER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [CAMPER]
 Name = CAMPER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [PICNICKER]
 Name = PICNICKER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [PSYCHIC_Male]
 Name = PSYCHIC
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 IntroBGM = Encounter-Psychic
 #-------------------------------
 [PSYCHIC_Female]
 Name = PSYCHIC
-Gender = Unknown
+Gender = Female
 BaseMoney = 30
 IntroBGM = Encounter-Psychic
 #-------------------------------
 [SCHOOLKID_Female]
 Name = SCHOOL KID
-Gender = Unknown
+Gender = Female
 BaseMoney = 30
 #-------------------------------
 [POKeFAN_Male]
 Name = POKeFAN
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 IntroBGM = Encounter-Pokefan
 #-------------------------------
@@ -375,12 +375,12 @@ BaseMoney = 30
 #-------------------------------
 [TEAMAQUA_MaleAlt]
 Name = TEAM AQUA
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [TEAMAQUA_MaleAlt2]
 Name = TEAM AQUA
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [MONGE]

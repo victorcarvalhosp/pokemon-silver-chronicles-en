@@ -50,6 +50,7 @@ MapPosition = 0,23,13
 Name = Route 31
 Outdoor = true
 MapPosition = 0,19,9
+SnapEdges = true
 #-------------------------------
 [010]   # Violet City
 Name = Violet City
@@ -512,14 +513,13 @@ Environment = Sand
 [123]   # Cianwood City - Gym
 Name = Cianwood City - Gym
 BattleBack = battle4
-Flags = PowerSpot
 #-------------------------------
 [124]   # Route 42
 Name = Rota 42
 Outdoor = true
 MapPosition = 0,16,6
 #-------------------------------
-[126]   # Mohogany Town
+[126]   # Mahogany Town
 Name = Mohogany
 Outdoor = true
 ShowArea = true
@@ -673,7 +673,7 @@ Weather = Snow,90
 MapPosition = 0,22,6
 Environment = Snow
 #-------------------------------
-[159]   # Blackthorn City - House
+[159]   # Blackthorn City - Trade House
 Name = Blackthorn City - House
 MapPosition = 0,22,6
 #-------------------------------
@@ -689,7 +689,7 @@ MapPosition = 0,22,6
 Name = Move Deleter House
 MapPosition = 0,22,6
 #-------------------------------
-[163]   # Blackthorn City - House 2
+[163]   # Blackthorn City - House
 Name = Blackthorn City - House 2
 MapPosition = 0,22,6
 #-------------------------------
@@ -718,7 +718,7 @@ Outdoor = true
 Weather = Snow,10
 MapPosition = 0,22,9
 #-------------------------------
-[171]   # Planalto Indigo
+[171]   # Indigo Plateau
 Name = Planalto Indigo
 Outdoor = true
 ShowArea = true
@@ -876,7 +876,7 @@ Name = Rota
 Outdoor = true
 MapPosition = 3,23,6
 #-------------------------------
-[261]   # National Park
+[261]   # National Park - Contest
 Name = National Park
 MapPosition = 0,13,8
 #-------------------------------
@@ -1049,6 +1049,8 @@ Name = Dragon's Den
 #-------------------------------
 [346]   # Whirl Islands
 Name = Whirl Islands
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [350]   # Lavender Town
 Name = Lavender Town
@@ -1508,14 +1510,23 @@ MapPosition = 2,5,15
 Name = GRANITE CAVE(24.8)
 MapPosition = 2,5,15
 #-------------------------------
-[737]   # Whirl Island sub
+[737]   # Whirl Islands
 Name = Whirl Island sub
+MapPosition = 0,9,12
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
-[738]   # Descendo
+[738]   # Whirl Islands
 Name = Descendo
+MapPosition = 0,9,12
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
-[739]   # Final
-Name = Final
+[739]   # Whirls Islands
+Name = Whirl Islands
+MapPosition = 0,9,12
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [751]   # Fiery Path
 Name = Fiery Path

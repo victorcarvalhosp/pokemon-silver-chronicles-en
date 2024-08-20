@@ -116,7 +116,7 @@ module QuestModule
     :ID => "8",
     :Name => "Phanpy's fan",
     :QuestGiver => "School Kid Henry",
-    :Stage1 => "Check the Ruins Misteries.",
+    :Stage1 => "Catch a Phanpy.",
     :Location1 => "Route 46",
     :RewardString => "Berries!",
     :QuestDescription => "This kid near Route 46 really wants to see a Phanpy. If you can help with that, he's happy to thank you with some berries as a thank-you gift.",
@@ -230,6 +230,66 @@ module QuestModule
     :Stage3 => "Deliver the medicines to Amphy.",
     :Location3 => "Olivine City - Lighthouse",
     :QuestDescription => "Olivine City Gym Leader isn't in the Gym, she is taking care of a sick Pokémon at the Lighthouse.",
+  }
+
+  MantykeTrade = {
+    :ID => "19",
+    :Name => "Billy Trade",
+    :QuestGiver => "Fisherman Richard",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Olivine City",
+    :QuestDescription => "This fisherman in Olivine City wants to trade a Krabby for his Mantyke. Do you think it's a good trade?",
+  }
+
+  TeamRockerGoldenrod = {
+    :ID => "20",
+    :Name => "Team Rocket is back?!",
+    :QuestGiver => "Prof. Elm",
+    :Stage1 => "Investigate the Radio Tower.",
+    :Location1 => "Goldenrod City",
+    :Stage2 => "Investigate the Underground Warehouse.",
+    :Location2 => "Goldenrod City",
+    :Stage3 => "Go to the transmission room.",
+    :Location3 => "Radio Tower 5F",
+    :QuestDescription => "Something weird is happening with the radio broadcasts. Maybe Team Rocket has returned. Do you know anything about it?",
+  }
+
+  MrMimeTrade = {
+    :ID => "21",
+    :Name => "Maria Trade",
+    :QuestGiver => "Schoolgirl Maria",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Blackthorn City",
+    :QuestDescription => "This schoolgirl in Blackthorn City wants to trade a Dratini for her Mr. Mime. Do you think it's a good trade?",
+  }
+
+  ArcheologyIsCool = {
+    :ID => "22",
+    :Name => "The Enigmatic Unown",
+    :QuestGiver => "Researcher Albright",
+    :Stage1 => "Catch an Unown.",
+    :Location1 => "Ruins of Alph",
+    :RewardString => "Thunder Stone",
+    :QuestDescription => "Catch and bring an Unown to the Leader Researcher Albright in the Ruins of Alph to help with his research.",
+  }
+
+  LugiaTeamRocket = {
+    :ID => "23",
+    :Name => "Pokémon Mistery",
+    :QuestGiver => "Kimono Girl Kuni",
+    :Stage1 => "Help Kuni to recover the Tidal Bell",
+    :Location1 => "Whirl Islands",
+    :QuestDescription => "The Tidal Bell was stolen by Team Rocket, now Kimono Girl Kuni needs your help to get it back.",
+  }
+
+
+  JohtoPokemonLeague = {
+    :ID => "24",
+    :Name => "Johto Pokémon League!",
+    :QuestGiver => "Prof. Elm",
+    :Stage1 => "Battle against Elite Four.",
+    :Location1 => "Indigo Plateau",
+    :QuestDescription => "The Indigo League and Johto League share a single group of Elite Four and Champion; eight Badges from either region will allow a Trainer to battle the Elite Four at Kanto's Indigo Plateau. Now this time has come for you!",
   }
   
   # Here's an extension of the above that includes multiple stages

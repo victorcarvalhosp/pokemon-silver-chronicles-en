@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
 !isQuestActive?(:BellsproutTrade)
 
-activateQuest(:OlivineLighthouse,colorQuest("blue"))
-advanceQuestToStage(:OlivineLighthouse, 2)
-completeQuest(:OlivineLighthouse)
+activateQuest(:JohtoPokemonLeague,colorQuest("blue"))
+advanceQuestToStage(:TeamRockerGoldenrod, 2)
+completeQuest(:LugiaTeamRocket)
 
 
 Dialog lines to use on TCG:
