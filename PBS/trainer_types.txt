@@ -458,18 +458,24 @@ Name = ELITE FOUR
 Gender = Male
 BaseMoney = 100
 IntroBGM = SEQ_EYE_ELITE
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
 #-------------------------------
 [ELITEFOUR_Koga]
 Name = ELITE FOUR
 Gender = Male
 BaseMoney = 100
 IntroBGM = SEQ_EYE_ELITE
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
 #-------------------------------
 [ELITEFOUR_Bruno]
 Name = ELITE FOUR
 Gender = Male
 BaseMoney = 100
 IntroBGM = SEQ_EYE_ELITE
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
 #-------------------------------
 [ELITEFOUR_Lance]
 Name = ELITE FOUR
@@ -550,9 +556,11 @@ IntroBGM = GSCTeamRocketEncounter
 #-------------------------------
 [ELITEFOUR_Karen]
 Name = ELITE FOUR
-Gender = Unknown
+Gender = Female
 BaseMoney = 100
 IntroBGM = SEQ_EYE_ELITE
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
 #-------------------------------
 [PkMnTRAINER_Malen]
 Name = PkMn TRAINER

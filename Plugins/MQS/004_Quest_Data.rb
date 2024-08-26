@@ -291,6 +291,22 @@ module QuestModule
     :Location1 => "Indigo Plateau",
     :QuestDescription => "The Indigo League and Johto League share a single group of Elite Four and Champion; eight Badges from either region will allow a Trainer to battle the Elite Four at Kanto's Indigo Plateau. Now this time has come for you!",
   }
+
+  WorldChampionshipTraining = {
+    :ID => "25",
+    :Name => "Train for the World Championship",
+    :QuestGiver => "Prof. Elm",
+    :Stage1 => "Re-match against Johto Gym Leaders",
+    :Stage2 => "Re-match against Johto Gym Leaders 1/8",
+    :Stage3 => "Re-match against Johto Gym Leaders 2/8",
+    :Stage4 => "Re-match against Johto Gym Leaders 3/8",
+    :Stage5 => "Re-match against Johto Gym Leaders 4/8",
+    :Stage6 => "Re-match against Johto Gym Leaders 5/8",
+    :Stage7 => "Re-match against Johto Gym Leaders 6/8",
+    :Stage8 => "Re-match against Johto Gym Leaders 7/8",
+    :Stage9 => "Re-match against Johto Gym Leaders 8/8",
+    :QuestDescription => "Now that you are the new Champion, a lot of people will be looking for a rematch! This includes the Gym Leaders... They are allowed to use their full-power this time, so be prepared.",
+  }
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

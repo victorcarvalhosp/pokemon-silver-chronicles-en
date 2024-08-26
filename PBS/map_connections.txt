@@ -1,15 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Route 29 (4) - New Bark Town (1)
-4,East,2,1,West,0
-# Route 27 (175) - New Bark Town (1)
-175,West,2,1,East,0
-# Route 29 (4) - Cherrygrove City (5)
-4,West,0,5,East,0
-# Route 30 (6) - Cherrygrove City (5)
-6,South,0,5,North,7
-# Route 31 (9) - Route 30 (6)
-9,South,0,6,North,0
 # Violet City (10) - Route 32 (11)
 10,South,0,11,North,7
 # Violet City (10) - Route 36 (13)
@@ -46,7 +36,13 @@
 102,North,36,101,South,0
 # Cianwood City (117) - Route 41 (102)
 117,East,0,102,West,25
-# Rota 43 (136) - Lago da Raiva (139)
+# Mahogany Town (126) - Route 42 (124)
+126,West,2,124,East,0
+# Route 42 - Complemento (853) - Route 42 (124)
+853,East,0,124,West,0
+# Route 44 (152) - Mahogany Town (126)
+152,West,1,126,East,0
+# Route 43 (136) - Lake of Rage (139)
 136,North,0,139,South,10
 # Ilha Mikan (341) - Rota baixo (154)
 341,South,0,154,North,6
@@ -68,16 +64,12 @@
 157,South,0,341,North,61
 # Rota baixo (521) - Rota lado esquerdo (157)
 521,West,0,157,East,30
-# Blacktorn City (158) - Rota 45 (169)
+# Blackthorn City (158) - Route 45 (169)
 158,South,0,169,North,1
-# Rota 45 (169) - Route 46 (297)
+# Route 45 (169) - Route 46 (297)
 169,West,72,297,East,0
-# Rota 23 (299) - Planalto Indigo (171)
+# Route 23 (299) - Indigo Plateau (171)
 299,North,0,171,South,14
-# Route 27 (175) - Rota 26 (336)
-175,East,0,336,West,81
-# Route 27 (175) - Rota 26 (337)
-175,East,18,337,West,0
 # rota 101 (201) - Littleroot town (200)
 201,South,0,200,North,0
 # Oldale Town (202) - rota 101 (201)
@@ -222,10 +214,6 @@
 331,West,11,419,East,0
 # Fuchsia City (331) - Rota 17 (418)
 331,West,0,418,East,149
-# Rota 26 (337) - Rota 26 (336)
-337,North,0,336,South,0
-# Rota 26 complemento cima (338) - Rota 26 (336)
-338,South,0,336,North,0
 # Valencia Island (340) - Rota baixo (342)
 340,South,4,342,North,0
 # Rota 10 (389) - Lavender Town (350)
@@ -368,9 +356,29 @@
 690,East,0,689,West,0
 # complemento2 (795) - complemento1 (794)
 795,West,0,794,East,15
-# Mohogany Town (126) - Route 42 (124)
-126,West,2,124,East,0
-# Route 42 - Complemento (853) - Route 42 (124)
-853,East,0,124,West,0
-# Rota 44 (152) - Mohogany Town (126)
-152,West,1,126,East,0
+# Route 29 (4) - Route 30 (6)
+4,North,0,6,South,48
+# Route 27 (175) - Route 30 (6)
+175,North,0,6,South,148
+# Cherrygrove City (5) - Route 30 (6)
+5,North,7,6,South,0
+# Route 31 (9) - Route 30 (6)
+9,South,0,6,North,0
+# New Bark Town (1) - Route 29 (4)
+1,West,0,4,East,2
+# Cherrygrove City (5) - Route 29 (4)
+5,East,0,4,West,0
+# Route 31 (9) - Route 29 (4)
+9,East,86,4,West,0
+# Route 27 (175) - New Bark Town (1)
+175,West,2,1,East,0
+# Route 26 (336) - Route 27 (175)
+336,West,81,175,East,0
+# Route 26 (337) - Route 27 (175)
+337,West,0,175,East,18
+# Rota 26 complemento cima (338) - Route 27 (175)
+338,West,96,175,East,0
+# Route 26 (337) - Route 26 (336)
+337,North,0,336,South,0
+# Rota 26 complemento cima (338) - Route 26 (336)
+338,South,0,336,North,0

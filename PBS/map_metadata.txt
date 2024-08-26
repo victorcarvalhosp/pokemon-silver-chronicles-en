@@ -50,12 +50,13 @@ MapPosition = 0,23,13
 Name = Route 31
 Outdoor = true
 MapPosition = 0,19,9
-SnapEdges = true
+SnapEdges = false
 #-------------------------------
 [010]   # Violet City
 Name = Violet City
 Outdoor = true
 ShowArea = true
+HealingSpot = 34,9,8
 MapPosition = 0,17,9
 Flags = PowerSpot
 #-------------------------------
@@ -732,11 +733,35 @@ MapPosition = 1,4,13
 [180]   # Victory Road
 Name = Victory Road
 #-------------------------------
-[181]   # Elite 4
+[181]   # Pokémon League HQ
 Name = Elite 4
 HealingSpot = 171,27,10
 #-------------------------------
-[189]   # Final
+[183]   # Pokémon League HQ
+Name = SALA 01
+MapPosition = 1,9,7
+BattleBack = elite1
+Flags = PowerSpot
+#-------------------------------
+[184]   # Pokémon League HQ
+Name = SALA 02
+MapPosition = 1,9,7
+BattleBack = elite2
+Flags = PowerSpot
+#-------------------------------
+[185]   # Pokémon League HQ
+Name = SALA 03
+MapPosition = 1,9,7
+BattleBack = elite3
+Flags = PowerSpot
+#-------------------------------
+[186]   # Pokémon League HQ
+Name = SALA LANCE
+MapPosition = 1,9,7
+BattleBack = champion1
+Flags = PowerSpot
+#-------------------------------
+[189]
 Name = Final
 DiveMap = 300
 #-------------------------------
@@ -971,7 +996,7 @@ Outdoor = true
 MapPosition = 0,21,12
 BattleBack = grass
 #-------------------------------
-[299]   # Rota 23
+[299]   # Route 23
 Name = Rota 23
 Outdoor = true
 MapPosition = 1,6,6
@@ -1004,12 +1029,12 @@ ShowArea = true
 HealingSpot = 331,24,33
 MapPosition = 1,18,14
 #-------------------------------
-[336]   # Rota 26
+[336]   # Route 26
 Name = Rota 26
 Outdoor = true
 MapPosition = 1,6,8
 #-------------------------------
-[337]   # Rota 26
+[337]   # Route 26
 Name = Rota 26
 Outdoor = true
 MapPosition = 1,6,13
@@ -1527,6 +1552,12 @@ Name = Whirl Islands
 MapPosition = 0,9,12
 BattleBack = cave1
 Environment = Cave
+#-------------------------------
+[740]   # Pokémon League HQ
+Name = SALA 04
+MapPosition = 1,9,7
+BattleBack = elite4
+Flags = PowerSpot
 #-------------------------------
 [751]   # Fiery Path
 Name = Fiery Path

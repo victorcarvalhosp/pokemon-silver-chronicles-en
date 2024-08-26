@@ -47,15 +47,58 @@ class Scene_Credits
   # Start Editing
   CREDIT = <<_END_
 
-Your credits go here.
+Game created by:
+Victor Fernandes de Carvalho "@victordevjs"
 
-Your credits go here.
+Mappers:
+Rafael Zeca "Jameszekinha"
+Dayon Renan "Blaze"
+Raul Guilherme "Ragui"
+Victor Fernandes de Carvalho "@victordevjs"
+ 
+Spriters:
+Leonan Carvalho "Grundor"
+Robson de Souza "Binho"
+Higor Renan "DarknessX"
+Hugo Conceição "Hitsugaya Ryussen"
+Victor Fernandes de Carvalho "@victordevjs"
 
-Your credits go here.
+Screenwriters:
+Jefferson Almeida"Gaara" 
+Euricos da Silva Junior
+Flávio Ramone
+Victor Fernandes de Carvalho "@victordevjs"
 
-Your credits go here.
+Event programmers:
+Victor Fernandes de Carvalho "@victordevjs"
+Guilherme Bruno "GuiiH"
+Matheus Ferreira "Corujinha"
 
-Your credits go here.
+Beta-testers:
+Eddie Aparecido "Eas"
+Fernando B. Gomes "Chronos"
+José Henrique "Crazy Fox "
+Lucas Lazarim "Raionic"
+Danilo Farias "Clow"
+Erick Oliveira "Drew"
+Filipe Poubel "Hakku"
+Matheus Victor "Matoer"
+Rômulo Rodrigues "Ratinho"
+
+Scripters:
+Victor Fernandes de Carvalho "@victordevjs"
+Jeferson "Red"
+
+Amazing people that shared free sprites that are used in the game:
+DescendedFromUllr
+mid117
+Gregarlink10
+Ekat99
+Morlock-Liam
+PaperFire88
+PurpleZaffre
+DiegoWT
+
 
 {INSERTS_PLUGIN_CREDITS_DO_NOT_REMOVE}
 

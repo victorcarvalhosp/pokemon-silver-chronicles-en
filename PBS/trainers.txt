@@ -152,6 +152,31 @@ Pokemon = NOCTOWL,16
     DynamaxLvl = 10
     Gigantamax = yes
 #-------------------------------
+[LEADER_Falkner,Falkner,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = I understand...I'll blow out gracefully...
+Pokemon = SKARMORY,50
+	Moves = DRILLPECK,SANDATTACK,FLASHCANNON,SPIKES
+    Gender = male
+Pokemon = MANTINE,50
+	Moves = ROOST,SURF,AQUARING,AIRSLASH
+	Gender = female	
+Pokemon = TALONFLAME,50
+	Moves = SANDATTACK,FLY,FLAREBLITZ,SOLARBEAM
+Pokemon = PIDGEOT,50
+    Moves = SANDATTACK,HURRICANE,UPROAR,ROOST
+	Item = PIDGEOTITE
+Pokemon = TOGEKISS,50
+	Moves = EXTRASENSORY,ANCIENTPOWER,DAZZLINGGLEAM,FLY
+	Gender = female
+	Item = FLYINIUMZ
+Pokemon = NOCTOWL,54
+    Moves = HYPERVOICE,AIRSLASH,HYPNOSIS,CONFUSION
+	Gender = male
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
 [YOUNGSTER,Albert]
 LoseText = You're strong!
 Pokemon = RATTATA,6
@@ -303,21 +328,46 @@ Pokemon = BEEDRILL,13
 Pokemon = KAKUNA,12
 #-------------------------------
 [LEADER_Bugsy,Bugsy]
-Items = MEGARING
+Items = DYNAMAXBAND
 LoseText = Aw, that's the end of it...
 Pokemon = PINECO,16
     Moves = PAYBACK,BUGBITE,REVERSAL,DIG
-Pokemon = BUTTERFREE,16
+Pokemon = BUTTERFREE,18
     Moves = POISONPOWDER,STUNSPORE,PSYBEAM,LIGHTSCREEN
+	Gender = female
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 Pokemon = SCYTHER,16
     Moves = WINGATTACK,XSCISSOR,BRICKBREAK,LIGHTSCREEN
 Pokemon = BEEDRILL,16
     Moves = TOXICSPIKES,FURYATTACK,PURSUIT,ACROBATICS
-Pokemon = LEDIAN,18
+Pokemon = LEDIAN,16
     Moves = MACHPUNCH,STRUGGLEBUG,AERIALACE,LIGHTSCREEN
 Pokemon = HERACROSS,20
     Moves = HORNATTACK,BRICKBREAK,TAKEDOWN,DIG
-    Item = HERACRONITE
+#-------------------------------
+[LEADER_Bugsy,Bugsy,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Aw, that's the end of it...
+Pokemon = FORRETRESS,50
+    Moves = GYROBALL,SPIKES,VOLTSWITCH,TOXIC
+Pokemon = BUTTERFREE,50
+    Moves = POISONPOWDER,STUNSPORE,CONFUSION,LIGHTSCREEN
+	Gender = female
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = KLEAVOR,50
+    Moves = STONEEDGE,XSCISSOR,NIGHTSLASH,COUNTER
+Pokemon = BEEDRILL,50
+    Moves = TOXICSPIKES,UTURN,POISONJAB,SWORDSDANCE
+	Item = BUGINIUMZ
+Pokemon = LEDIAN,50
+    Moves = FOCUSBLAST,BUGBITE,AERIALACE,LIGHTSCREEN
+Pokemon = HERACROSS,54
+    Moves = MEGAHORN,CLOSECOMBAT,TAKEDOWN,DIG
+	Item = HERACRONITE
 #-------------------------------
 [CAMPER,Tood]
 LoseText = You don't have to worry about the night when you're with strong Pokémon.
@@ -477,13 +527,14 @@ Pokemon = JIGGLYPUFF,15
 [LEADER_Whitney,Whitney]
 Items = DYNAMAXBAND
 LoseText = Ugh...
-Pokemon = CLEFAIRY,18
-    Moves = BRICKBREAK,BOUNCE,SNORE,REFLECT
+Pokemon = JIGGLYPUFF,18
+    Moves = BRICKBREAK,BOUNCE,SNORE,SING
 Pokemon = MILTANK,20
     Moves = ATTRACT,STOMP,ROLLOUT,MILKDRINK
 Pokemon = GIRAFARIG,19
     Moves = SHADOWBALL,BATONPASS,CALMMIND,STOMP
 Pokemon = MEOWTH,21
+	Moves = SLASH,ASSURANCE,SHADOWCLAW,THUNDERBOLT
     Ace = yes
     DynamaxLvl = 10
     Gigantamax = yes
@@ -496,10 +547,31 @@ Pokemon = BIBAREL,18
 LoseText = ...
 Pokemon = MILTANK,38
     Moves = ZENHEADBUTT,STOMP,BODYSLAM,DOUBLEEDGE
-Pokemon = CLEFAIRY,36
+Pokemon = JIGGLYPUFF,36
     Moves = BRICKBREAK,BOUNCE,SNORE,REFLECT
 Pokemon = LICKITUNG,36
     Moves = FLAMETHROWER,THUNDERBOLT,WRINGOUT,ICEBEAM
+#-------------------------------
+[LEADER_Whitney,Whitney,3]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Ugh...
+Pokemon = WIGGLYTUFF,50
+    Moves = PLAYROUGH,THUNDERPUNCH,ICEPUNCH,SING
+Pokemon = MILTANK,50
+    Moves = ATTRACT,STOMP,ROLLOUT,MILKDRINK
+	Item = NORMALIUMZ
+Pokemon = FARIGIRAF,50
+    Moves = SHADOWBALL,PSYCHIC,CALMMIND,HYPERVOICE
+Pokemon = MEOWTH,50
+	Moves = HYPERVOICE,FOULPLAY,SHADOWCLAW,THUNDER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = KANGASKHAN,54
+    Moves = DOUBLEEDGE,HAMMERARM,EARTHQUAKE,ICEBEAM
+	Item = KANGASKHANITE
+Pokemon = BIBAREL,50
+    Moves = SURF,ICEBEAM,CHARGEBEAM,THUNDERBOLT
 #-------------------------------
 [SCHOOLKID_Boy,Alan]
 LoseText = Huh...? Was my prediction incorrect?
@@ -629,7 +701,7 @@ Pokemon = HAUNTER,20
 Pokemon = GASTLY,20
 #-------------------------------
 [LEADER_Morty,Morty]
-Items = MEGARING
+Items = DYNAMAXBAND
 LoseText = How is this possible...
 Pokemon = MISDREAVUS,22
 	Moves = CONFUSERAY,PERISHSONG,MEANLOOK,ASTONISH
@@ -638,13 +710,39 @@ Pokemon = GASTLY,23
 Pokemon = HAUNTER,23
 	Moves = HYPNOSIS,DREAMEATER,NIGHTMARE,PAYBACK
 Pokemon = GENGAR,25
-	Item = GENGARITE
 	Moves = HYPNOSIS, SHADOWBALL, CONFUSERAY, AURASPHERE
+	Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 Pokemon = CORSOLA,23
 	Form = 1
 	Moves = ANCIENTPOWER,HEX,CONFUSERAY,LIGHTSCREEN
 Pokemon = MISMAGIUS,24
 	Moves = ASTONISH,SUBSTITUTE,PERISHSONG,CONFUSERAY
+#-------------------------------
+[LEADER_Morty,Morty,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = How is this possible...
+Pokemon = MAROWAK,50
+	Moves = SUNNYDAY,STOMPINGTANTRUM,FIREPUNCH,SHADOWBONE
+	Form = 1
+Pokemon = TYPHLOSION,50
+	Moves = SHADOWBALL,MYSTICALFIRE,CALMMIND,OVERHEAT
+	Form = 1
+Pokemon = GENGAR,50
+	Moves = PERISHSONG, SHADOWBALL, DAZZLINGGLEAM, FOCUSBLAST
+	Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CURSOLA,50
+	Form = 1
+	Moves = POWERGEM,LIGHTSCREEN,WATERPULSE,EARTHPOWER
+Pokemon = MISMAGIUS,50
+	Moves = POWERGEM,SUCKERPUNCH,SHADOWBALL,CONFUSERAY
+	Item = GHOSTIUMZ
+Pokemon = GENGAR,54
+	Moves = HYPNOSIS, PHANTOMFORCE, DREAMEATER, FOCUSBLAST
+	Item = GENGARITE
 #-------------------------------
 [BIRDKEEPER,Toby]
 LoseText = I feel like just flying away now.
@@ -1528,28 +1626,107 @@ Pokemon = AIPOM,26
 Pokemon = DONPHAN,30
 #-------------------------------
 [ELITEFOUR_Will,Will,1]
-LoseText = ...
-Pokemon = XATU,40
-Pokemon = SLOWBRO,41
-Pokemon = XATU,42
-Pokemon = JYNX,41
-Pokemon = EXEGGUTOR,41
+Items = ZRING,DYNAMAXBAND
+LoseText = I... I can't...believe it...
+Pokemon = GIRAFARIG,45
+	Moves = STOMP,BATONPASS,PSYCHIC,CALMMIND
+	Gender = Female
+Pokemon = WOBBUFFET,46
+	Moves = COUNTER,MIRRORCOAT,SAFEGUARD,DESTINYBOND
+Pokemon = SLOWBRO,46
+	Moves = PSYCHIC,SURF,POWERGEM,NASTYPLOT
+	Ace = yes
+    DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = XATU,47
+	Moves = PSYCHIC,CONFUSERAY,UTURN,WISH
+	Item = PSYCHIUMZ
+Pokemon = JYNX,46
+	Moves = PSYCHIC,BLIZZARD,LIGHTSCREEN,PERISHSONG
+Pokemon = EXEGGUTOR,46
+	Moves = REFLECT,PSYCHIC,GIGADRAIN,HYPNOSIS
 #-------------------------------
 [ELITEFOUR_Koga,Koga]
-LoseText = ...
-Pokemon = ARIADOS,40
-Pokemon = FORRETRESS,43
-Pokemon = MUK,42
-Pokemon = CROBAT,44
-Pokemon = VENOMOTH,41
+Items = ZRING,DYNAMAXBAND
+LoseText = Ah! You have proven your worth!
+Pokemon = ARIADOS,46
+	Moves = CROSSPOISON,LEECHLIFE,SUCKERPUNCH,PSYCHIC
+Pokemon = FORRETRESS,47
+	Moves = PROTECT,GYROBALL,SPIKES,EXPLOSION
+Pokemon = TENTACRUEL,46
+	Moves = TOXICSPIKES,BARRIER,SLUDGEBOMB,SURF
+Pokemon = MUK,46
+	Moves = GUNKSHOT,DIG,ACIDARMOR,TOXIC
+	Item = POISONIUMZ
+Pokemon = CROBAT,49
+	Moves = CONFUSERAY,AERIALACE,BITE,CROSSPOISON
+	Ace = yes
+    DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = VENOMOTH,46
+	Moves = PSYCHIC,SLUDGEBOMB,SLEEPPOWDER,SIGNALBEAM
 #-------------------------------
 [ELITEFOUR_Bruno,Bruno]
-LoseText = ...
-Pokemon = HITMONTOP,42
-Pokemon = ONIX,43
-Pokemon = MACHAMP,46
-Pokemon = HITMONLEE,42
-Pokemon = HITMONCHAN,42
+Items = ZRING,DYNAMAXBAND
+LoseText = Why?! ...How could we lose?
+Pokemon = HITMONTOP,48
+	Moves = CLOSECOMBAT,ROCKSLIDE,SUCKERPUNCH,COUNTER
+Pokemon = ANNIHILAPE,49
+	Moves = CROSSCHOP,SHADOWPUNCH,THRASH,BULLDOZE
+	Item = FIGHTINIUMZ
+Pokemon = ONIX,48
+	Moves = STONEEDGE,DIG,DRAGONBREATH,PROTECT
+Pokemon = MACHAMP,51
+	Moves = STONEEDGE,DYNAMICPUNCH,REVENGE,EARTHQUAKE
+	Ace = yes
+	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = HITMONLEE,48
+	Moves = HIGHJUMPKICK,BLAZEKICK,FORESIGHT,MEDITATE
+Pokemon = HITMONCHAN,48	
+	Moves = FIREPUNCH,THUNDERPUNCH,ICEPUNCH,MACHPUNCH
+#-------------------------------
+[ELITEFOUR_Karen,Karen]
+Items = ZRING,DYNAMAXBAND
+LoseText = Well, aren't you good. I like that in a Trainer.
+Pokemon = UMBREON,50
+	Moves = SANDATTACK,PAYBACK,CONFUSERAY,MOONLIGHT
+Pokemon = GENGAR,50
+	Moves = SHADOWBALL,THUNDERBOLT,FOCUSBLAST,DESTINYBOND
+	Ace = yes
+	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = HONCHKROW,50
+	Moves = SUCKERPUNCH,DRILLPECK,HAZE,HEATWAVE
+Pokemon = HOUNDOOM,51
+	Moves = FLAMETHROWER,THUNDERFANG,NASTYPLOT,DARKPULSE
+Pokemon = VILEPLUME,50
+	Moves = SLEEPPOWDER,SLUDGEBOMB,PETALDANCE,POLLENPUFF
+Pokemon = TYRANITAR,53
+	Moves = EARTHQUAKE,STONEEDGE,PAYBACK,ICEFANG
+	Item = DARKINIUMZ
+#-------------------------------
+[ELITEFOUR_Lance,Lance,1]
+Items = ZRING,DYNAMAXBAND
+LoseText = ...It's over. But it's and odd feeling. I'm not angry that I lost. In fact, I feel happy. Happy that I witnessed the rise of a great new Champion!
+Pokemon = GYARADOS,52
+	Moves = DRAGONPULSE,DRAGONDANCE,AQUATAIL,ICEFANG
+Pokemon = CHARIZARD,53
+	Moves = AIRSLASH,FLAMETHROWER,SHADOWCLAW,DRAGONPULSE
+	Moves = SHADOWBALL,THUNDERBOLT,FOCUSBLAST,DESTINYBOND
+	Ace = yes
+	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = AERODACTYL,52
+	Moves = THUNDERFANG,ROCKSLIDE,AERIALACE,CRUNCH
+Pokemon = EXEGGUTOR,52
+	Form = 1
+	Moves = DRAGONHAMMER,HYPNOSIS,LEAFSTORM,SUNNYDAY
+Pokemon = YANMEGA,52
+	Moves = UTURN,ANCIENTPOWER,AIRSLASH,HYPERBEAM
+Pokemon = DRAGONITE,55
+	Moves = DRAGONDANCE,OUTRAGE,FIREPUNCH,HYPERBEAM
+	Item = DRAGONIUMZ
 #-------------------------------
 [ROCKET_Male,Allen]
 LoseText = ...
@@ -1580,14 +1757,6 @@ Pokemon = PERSIAN,52
 Pokemon = RHYDON,49
 Pokemon = CROBAT,41
 Pokemon = GRANBULL,47
-#-------------------------------
-[ELITEFOUR_Karen,Karen]
-LoseText = ...
-Pokemon = UMBREON,42
-Pokemon = GENGAR,45
-Pokemon = MURKROW,44
-Pokemon = HOUNDOOM,47
-Pokemon = VILEPLUME,42
 #-------------------------------
 [PSYCHIC_Male,Frend]
 LoseText = ...
@@ -1751,29 +1920,59 @@ Pokemon = LINOONE,32
 Pokemon = BEAUTIFLY,34
 Pokemon = MEDICHAM,45
 #-------------------------------
-[Rival,greeN]
-LoseText = ...
-Pokemon = GOLBAT,35
-Pokemon = MEGANIUM,40
-Pokemon = HAUNTER,32
-Pokemon = MAGNEMITE,30
-Pokemon = SNEASEL,35
+[Rival,???,14]
+Items = ZRING
+LoseText = ...I couldn't win... I need to obtain stronger Pokémon...
+Pokemon = GOLBAT,41
+    Moves = SUPERSONIC,POISONFANG,AIRCUTTER,TOXIC
+Pokemon = TYPHLOSION,45
+	Moves = DIG,LAVAPLUME,ROCKSLIDE,THUNDERPUNCH
+	Item = FIRIUMZ
+	Ace = yes
+Pokemon = GENGAR,40
+    Moves = SHADOWBALL,SUCKERPUNCH,CONFUSERAY,HYPNOSIS
+Pokemon = MAGNETON,40
+    Moves = THUNDERWAVE,SUPERSONIC,SONICBOOM,THUNDERBOLT
+Pokemon = WEAVILE,40
+	Moves = METALCLAW,HYPNOSIS,DOUBLETEAM,ICEPUNCH
+Pokemon = ALAKAZAM,42
+	Moves = CHARGEBEAM,PSYCHIC,THUNDERPUNCH,ICEPUNCH
 #-------------------------------
-[Rival,RED]
-LoseText = ...
-Pokemon = GOLBAT,35
-Pokemon = TYPHLOSION,40
-Pokemon = HAUNTER,32
-Pokemon = MAGNEMITE,30
-Pokemon = SNEASEL,35
+[Rival,???,13]
+Items = ZRING
+LoseText = ...I couldn't win... I need to obtain stronger Pokémon...
+Pokemon = GOLBAT,41
+    Moves = SUPERSONIC,POISONFANG,AIRCUTTER,TOXIC
+Pokemon = MEGANIUM,45
+	Moves = PETALDANCE,EARTHQUAKE,LIGHTSCREEN,POISONPOWDER
+	Item = GRASSIUMZ
+	Ace = yes
+Pokemon = GENGAR,40
+    Moves = SHADOWBALL,SUCKERPUNCH,CONFUSERAY,HYPNOSIS
+Pokemon = MAGNETON,40
+    Moves = THUNDERWAVE,SUPERSONIC,SONICBOOM,THUNDERBOLT
+Pokemon = WEAVILE,40
+	Moves = METALCLAW,HYPNOSIS,DOUBLETEAM,ICEPUNCH
+Pokemon = ALAKAZAM,42
+	Moves = CHARGEBEAM,PSYCHIC,THUNDERPUNCH,ICEPUNCH
 #-------------------------------
-[Rival,blue]
-LoseText = ...
-Pokemon = GOLBAT,35
-Pokemon = FERALIGATR,40
-Pokemon = HAUNTER,32
-Pokemon = MAGNEMITE,30
-Pokemon = SNEASEL,35
+[Rival,???,15]
+Items = ZRING
+LoseText = ...I couldn't win... I need to obtain stronger Pokémon...
+Pokemon = GOLBAT,41
+    Moves = SUPERSONIC,POISONFANG,AIRCUTTER,TOXIC
+Pokemon = FERALIGATR,45
+    Moves = CRUNCH,WATERFALL,ICEFANG,DIG
+	Item = WATERIUMZ
+	Ace = yes
+Pokemon = GENGAR,40
+    Moves = SHADOWBALL,SUCKERPUNCH,CONFUSERAY,HYPNOSIS
+Pokemon = MAGNETON,40
+    Moves = THUNDERWAVE,SUPERSONIC,SONICBOOM,THUNDERBOLT
+Pokemon = WEAVILE,40
+	Moves = METALCLAW,HYPNOSIS,DOUBLETEAM,ICEPUNCH
+Pokemon = ALAKAZAM,42
+	Moves = CHARGEBEAM,PSYCHIC,THUNDERPUNCH,ICEPUNCH
 #-------------------------------
 [COOLTRAINER_Female,Megan]
 LoseText = Oh! You're really strong!
@@ -3053,15 +3252,6 @@ Pokemon = XATU,55
 Pokemon = JYNX,50
 Pokemon = EXEGGUTOR,50
 Pokemon = ALAKAZAM,56
-#-------------------------------
-[ELITEFOUR_Lance,Lance,1]
-LoseText = ...
-Pokemon = GYARADOS,55
-Pokemon = CHARIZARD,59
-Pokemon = AERODACTYL,55
-Pokemon = TYRANITAR,59
-Pokemon = KINGDRA,52
-Pokemon = DRAGONITE,75
 #-------------------------------
 [ELITEFOUR_Lance,Lance,2]
 LoseText = ...
