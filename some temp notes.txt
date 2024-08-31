@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
-!isQuestActive?(:BellsproutTrade)
+!isQuestActive?(:SSAqua)
 
-activateQuest(:JohtoPokemonLeague,colorQuest("blue"))
+activateQuest(:SSAqua,colorQuest("blue"))
 advanceQuestToStage(:TeamRockerGoldenrod, 2)
-completeQuest(:LugiaTeamRocket)
+completeQuest(:SSAqua)
 
 
 Dialog lines to use on TCG:

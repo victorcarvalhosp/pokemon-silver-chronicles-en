@@ -307,6 +307,15 @@ module QuestModule
     :Stage9 => "Re-match against Johto Gym Leaders 8/8",
     :QuestDescription => "Now that you are the new Champion, a lot of people will be looking for a rematch! This includes the Gym Leaders... They are allowed to use their full-power this time, so be prepared.",
   }
+
+  SSAqua = {
+    :ID => "24",
+    :Name => "Johto Pokémon League!",
+    :QuestGiver => "Prof. Elm",
+    :Stage1 => "Battle against Elite Four.",
+    :Location1 => "Indigo Plateau",
+    :QuestDescription => "The Indigo League and Johto League share a single group of Elite Four and Champion; eight Badges from either region will allow a Trainer to battle the Elite Four at Kanto's Indigo Plateau. Now this time has come for you!",
+  }
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

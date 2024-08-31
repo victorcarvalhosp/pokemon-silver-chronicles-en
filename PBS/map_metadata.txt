@@ -421,6 +421,7 @@ MapPosition = 0,10,9
 [099]   # Olivine City - Gym
 Name = Olivine City - Gym
 MapPosition = 0,10,9
+BattleBack = battle7
 Flags = PowerSpot
 #-------------------------------
 [100]   # Router 39 - Moomoo Farm
@@ -458,16 +459,16 @@ MapPosition = 0,10,9
 Name = Olivine City - Trade House
 MapPosition = 0,10,9
 #-------------------------------
-[108]   # Cais 1
-Name = Cais 1
+[108]   # Olivine City - Port
+Name = Olivine City - Port
 Name = 
 MapPosition = 0,10,9
 #-------------------------------
-[109]   # Cais 2
+[109]
 Name = Cais 2
 MapPosition = 0,10,9
 #-------------------------------
-[110]   # Cais 3
+[110]
 Name = Cais 3
 MapPosition = 0,10,9
 #-------------------------------
@@ -838,6 +839,38 @@ MapPosition = 2,10,13
 [227]   # Pokecenter
 Name = Pokecenter
 MapPosition = 2,5,11
+#-------------------------------
+[235]   # S. S. Aqua
+Name = S. S. Aqua
+MapPosition = 0,9,16
+BattleBack = ssaqua
+#-------------------------------
+[236]   # S. S. Aqua
+Name = S. S. Aqua
+#-------------------------------
+[237]   # S. S. Aqua
+Name = S. S. Aqua
+BattleBack = ssaqua
+#-------------------------------
+[238]   # S. S. Aqua - Room
+Name = S. S. Aqua - Room
+BattleBack = ssaqua
+#-------------------------------
+[239]   # S. S. Aqua - Room
+Name = S. S. Aqua - Room
+BattleBack = ssaqua
+#-------------------------------
+[240]   # S. S. Aqua - Room
+Name = S. S. Aqua - Room
+#-------------------------------
+[241]   # S. S. Aqua - Room
+Name = S. S. Aqua - Room
+BattleBack = ssaqua
+#-------------------------------
+[242]   # S. S. Aqua - Room
+Name = S. S. Aqua - Room
+Name = 
+BattleBack = ssaqua
 #-------------------------------
 [243]   # Rustboro City 
 Name = Rustboro City

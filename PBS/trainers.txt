@@ -1221,6 +1221,7 @@ Pokemon = LAPRAS,28
     DynamaxLvl = 10
 	Gigantamax = yes
 Pokemon = NINETALES,28
+	Form = 1
     Moves = BLIZZARD,DAZZLINGGLEAM,EXTRASENSORY,DARKPULSE
 Pokemon = DEWGONG,29
     Moves = AURORABEAM,REST,SLEEPTALK,DIVE
@@ -1242,6 +1243,7 @@ Pokemon = LAPRAS,30
 	Gigantamax = yes
 Pokemon = NINETALES,30
     Moves = BLIZZARD,DAZZLINGGLEAM,EXTRASENSORY,DARKPULSE
+	Form = 1
 Pokemon = DEWGONG,30
     Moves = AURORABEAM,REST,SLEEPTALK,DIVE
 #-------------------------------
@@ -1262,6 +1264,7 @@ Pokemon = LAPRAS,34
 	Gigantamax = yes
 Pokemon = NINETALES,35
     Moves = BLIZZARD,DAZZLINGGLEAM,EXTRASENSORY,DARKPULSE
+	Form = 1
 Pokemon = DEWGONG,36
     Moves = AURORABEAM,REST,SLEEPTALK,DIVE
 #-------------------------------
@@ -1284,6 +1287,7 @@ Pokemon = LAPRAS,54
 	Gigantamax = yes
 Pokemon = NINETALES,50
     Moves = BLIZZARD,DAZZLINGGLEAM,EXTRASENSORY,DARKPULSE
+	Form = 1
 Pokemon = DEWGONG,50
     Moves = AURORABEAM,REST,SLEEPTALK,DIVE
 #-------------------------------
@@ -1666,7 +1670,7 @@ Pokemon = EXEGGUTOR,50
 	Form = 1
 	Moves = DRAGONHAMMER,HYPNOSIS,LEAFSTORM,SUNNYDAY
 Pokemon = AMPHAROS,50
-	Moves = THUNDERWAVE,SURF,FLAMETHROWER,DRAGONPULSE
+	Moves = THUNDERWAVE,DISCHARGE,ICEPUNCH,DRAGONPULSE
 	Gender = female
 	Item = AMPHAROSITE
 Pokemon = KINGDRA,54
@@ -1997,44 +2001,44 @@ Pokemon = CARVANHA,18
 Pokemon = WINGULL,18
 #-------------------------------
 [COLLECTOR,Gill]
-LoseText = ...
-Pokemon = NATU,26
-Pokemon = VILEPLUME,30
+LoseText = I can't move anymore...
+Pokemon = MRMIME,50
+Pokemon = VILEPLUME,50
 Pokemon = AIPOM,24
 #-------------------------------
 [EXPERT_Male,Julio]
-LoseText = ...
-Pokemon = MURKROW,34
-Pokemon = PINECO,37
-Pokemon = TANGELA,32
+LoseText = Good battle!
+Pokemon = MURKROW,50
+Pokemon = PINECO,50
+Pokemon = TANGELA,50
 #-------------------------------
 [AROMALADY,Maria]
-LoseText = ...
-Pokemon = HOPPIP,26
-Pokemon = SKIPLOOM,27
-Pokemon = JUMPLUFF,36
+LoseText = My Pokémon...
+Pokemon = HOPPIP,50
+Pokemon = SKIPLOOM,50
+Pokemon = JUMPLUFF,50
 #-------------------------------
 [BLACKBELT,Fill]
-LoseText = ...
-Pokemon = MACHAMP,45
+LoseText = You're strong!
+Pokemon = MACHAMP,55
 #-------------------------------
 [SAILOR,Maicon]
-LoseText = ...
-Pokemon = MACHOKE,29
-Pokemon = TENTACOOL,30
+LoseText = Oh! I lost!
+Pokemon = MACHOKE,50
+Pokemon = TENTACOOL,50
 #-------------------------------
 [SAILOR,Abreu]
-LoseText = ...
-Pokemon = MAGNEMITE,28
-Pokemon = KRABBY,27
-Pokemon = VOLTORB,25
+LoseText = Win or lose, my break's over!
+Pokemon = MAGNEMITE,50
+Pokemon = KRABBY,50
+Pokemon = VOLTORB,50
 #-------------------------------
 [SAILOR,Bred]
-LoseText = ...
-Pokemon = ELECTRODE,41
-Pokemon = KINGLER,38
-Pokemon = CLOYSTER,36
-Pokemon = TENTACRUEL,36
+LoseText = Really strong!
+Pokemon = ELECTRODE,50
+Pokemon = KINGLER,50
+Pokemon = CLOYSTER,50
+Pokemon = TENTACRUEL,50
 #-------------------------------
 [PkMnTRAINER_Wally,Wally]
 LoseText = ...
@@ -2917,6 +2921,7 @@ Pokemon = WOBBUFFET,38
 Pokemon = CARNIVINE,41
 Pokemon = YANMEGA,41
 Pokemon = MEOWTH,40
+	Gender = male
 #-------------------------------
 [PICNICKER,MARTHA]
 LoseText = ...
