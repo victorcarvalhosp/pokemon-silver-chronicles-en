@@ -294,7 +294,7 @@ module QuestModule
 
   WorldChampionshipTraining = {
     :ID => "25",
-    :Name => "Train for the World Championship",
+    :Name => "Train for the World Cup",
     :QuestGiver => "Prof. Elm",
     :Stage1 => "Re-match against Johto Gym Leaders",
     :Stage2 => "Re-match against Johto Gym Leaders 1/8",
