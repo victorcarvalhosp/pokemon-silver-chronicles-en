@@ -8,8 +8,8 @@ LandDay,21
     14,SENTRET,3
     10,LEDYBA,2
     10,SUNKERN,2,4
-    1,FLETCHLING,2,4
     1,FLETCHLING,2
+    1,FLETCHLING,2,4
 LandNight,21
     30,HOOTHOOT,2
     20,RATTATA,2,4
@@ -20,8 +20,8 @@ LandNight,21
     5,SPINARAK,2,3
     4,SPINARAK,2,4
     4,WEEDLE,2,4
-    1,FLETCHLING,2,4
     1,FLETCHLING,2
+    1,FLETCHLING,2,4
 #-------------------------------
 [006] # Route 30
 Water,2
@@ -43,8 +43,8 @@ LandDay,21
     20,LEDYBA,2
     20,SUNKERN,2,3
     10,CATERPIE,2,4
-    10,PIDGEY,2,4
     10,PIDGEY,2
+    10,PIDGEY,2,4
     10,RATTATA,2,3
     5,HOPPIP,3,4
     5,PIDGEY,3
@@ -56,8 +56,8 @@ LandNight,21
     20,HOOTHOOT,3,4
     20,SPINARAK,3
     10,CATERPIE,4,5
-    10,HOOTHOOT,3
     10,HOOTHOOT,2,3
+    10,HOOTHOOT,3
     10,SPINARAK,2,4
     5,POLIWAG,3,4
     5,ZUBAT,3,4
@@ -124,13 +124,13 @@ Land,21
     24,EKANS,4
     20,BELLSPROUT,6
     15,RATTATA,4
-    10,BELLSPROUT,5
     10,BELLSPROUT,4
+    10,BELLSPROUT,5
     10,EKANS,5
     5,HOPPIP,6
     4,WOOPER,4
-    1,MAREEP,6
     1,MAREEP,4
+    1,MAREEP,6
 Water,2
     60,MAGIKARP,2
     30,GOLDEEN,3
@@ -292,8 +292,8 @@ Cave,15
 #-------------------------------
 [031] # Violet City - Sprout Tower 2F
 Cave,6
-    30,RATTATA,3,6
     30,RATTATA,3,5
+    30,RATTATA,3,6
     29,GASTLY,3,6
     6,MACHOP,2,5
     4,CHATOT,3,5
@@ -301,8 +301,8 @@ Cave,6
 #-------------------------------
 [032] # Violet City - Sprout Tower 3F
 Cave,5
-    30,RATTATA,3,6
     30,RATTATA,3,5
+    30,RATTATA,3,6
     29,GASTLY,3,6
     6,MACHOP,2,5
     4,CHATOT,3,5
@@ -310,8 +310,8 @@ Cave,5
 #-------------------------------
 [039] # Union Cave
 Cave,15
-    20,RATTATA,6
     20,RATTATA,4
+    20,RATTATA,6
     20,ZUBAT,5
     11,RATTATA,5
     10,RATTATA,3
@@ -474,8 +474,8 @@ Land,21
     10,PIDGEY,13
     10,WEEDLE,10
     5,SUNKERN,14
-    5,VENONAT,10,12
     5,VENONAT,10
+    5,VENONAT,10,12
     4,SPINARAK,14
     1,PARAS,12
 BugContest,21
@@ -532,8 +532,8 @@ LandNight,21
 #-------------------------------
 [082] # Route 37
 Land,21
-    20,PIDGEY,15
     20,PIDGEY,14
+    20,PIDGEY,15
     10,PIDGEY,13
     10,STANTLER,14
     10,VULPIX,11
@@ -793,6 +793,86 @@ SuperRod
     20,MAGIKARP,40
     10,SEAKING,40
 #-------------------------------
+[127] # Mt. Mortar
+Cave,5
+    15,RATTATA,14,16
+    50,ZUBAT,13,16
+    20,MACHOP,14,16
+    10,GEODUDE,14,16
+    5,MARILL,14,16
+Water,2
+    90,GOLDEEN,10,25
+    10,SEAKING,15,25
+OldRod
+    15,GOLDEEN,10
+    85,MAGIKARP,10
+GoodRod
+    15,GOLDEEN,20
+    85,MAGIKARP,20
+SuperRod
+    15,GOLDEEN,40
+    85,MAGIKARP,40
+#-------------------------------
+[128] # Mt. Mortar
+Cave,5
+    15,RATTATA,14,16
+    50,ZUBAT,13,16
+    20,MACHOP,14,16
+    10,GEODUDE,14,16
+    5,MARILL,14,16
+Water,2
+    90,GOLDEEN,10,25
+    10,SEAKING,15,25
+OldRod
+    15,GOLDEEN,10
+    85,MAGIKARP,10
+GoodRod
+    15,GOLDEEN,20
+    85,MAGIKARP,20
+SuperRod
+    15,GOLDEEN,40
+    85,MAGIKARP,40
+#-------------------------------
+[131] # Mt. Mortar
+Cave,5
+    15,RATTATA,14,16
+    50,ZUBAT,13,16
+    20,MACHOP,14,16
+    10,GEODUDE,14,16
+    5,MARILL,14,16
+Water,2
+    90,GOLDEEN,10,25
+    10,SEAKING,15,25
+OldRod
+    15,GOLDEEN,10
+    85,MAGIKARP,10
+GoodRod
+    15,GOLDEEN,20
+    85,MAGIKARP,20
+SuperRod
+    15,GOLDEEN,40
+    85,MAGIKARP,40
+#-------------------------------
+[132] # Mt. Mortar
+Cave,5
+    15,RATTATA,14,16
+    50,ZUBAT,13,16
+    20,MACHOP,14,16
+    10,GEODUDE,14,16
+    5,MARILL,14,16
+Water,2
+    90,GOLDEEN,10,25
+    10,SEAKING,15,25
+OldRod
+    15,GOLDEEN,10
+    85,MAGIKARP,10
+GoodRod
+    15,GOLDEEN,20
+    85,MAGIKARP,20
+SuperRod
+    15,GOLDEEN,40
+    85,MAGIKARP,40
+#-------------------------------
 [136] # Route 43
 Land,21
     20,PIDGEOTTO,16
@@ -881,11 +961,11 @@ Land,21
     4,SPEAROW,15,16
     2,POLIWHIRL,15,16
 LandMorning,21
-    20,TANGELA,14,16
     20,TANGELA,13
+    20,TANGELA,14,16
     15,BELLSPROUT,14
-    10,LICKITUNG,15,16
     10,LICKITUNG,14
+    10,LICKITUNG,15,16
     10,WEEPINBELL,13,14
     5,BEEDRILL,15
     4,LICKITUNG,13,14
@@ -922,11 +1002,11 @@ Land,21
     4,SPEAROW,17,18
     2,POLIWHIRL,17,18
 LandMorning,21
-    20,TANGELA,16,18
     20,TANGELA,15
+    20,TANGELA,16,18
     15,BELLSPROUT,16
-    10,LICKITUNG,17,18
     10,LICKITUNG,16
+    10,LICKITUNG,17,18
     10,WEEPINBELL,15,16
     5,BEEDRILL,17
     4,LICKITUNG,15,16
@@ -962,11 +1042,11 @@ Land,21
     4,SPEAROW,20,21
     2,POLIWHIRL,18,21
 LandMorning,21
-    20,TANGELA,18,20
     20,TANGELA,18
+    20,TANGELA,18,20
     15,BELLSPROUT,19
-    10,LICKITUNG,18,21
     10,LICKITUNG,20
+    10,LICKITUNG,18,21
     10,WEEPINBELL,18,20
     5,BEEDRILL,17,19
     4,LICKITUNG,19,20
@@ -1003,11 +1083,11 @@ Land,21
     4,SPEAROW,15,16
     2,POLIWHIRL,25,26
 LandMorning,21
-    20,TANGELA,20,22
     20,TANGELA,23
+    20,TANGELA,20,22
     15,BELLSPROUT,24
-    10,LICKITUNG,25,26
     10,LICKITUNG,24
+    10,LICKITUNG,25,26
     10,WEEPINBELL,23,24
     5,BEEDRILL,24
     4,LICKITUNG,23,24
@@ -1316,9 +1396,9 @@ SuperRod
 [175] # Route 27
 Land,21
     50,DODUO,28,32
-    10,ARBOK,30,32
     10,ARBOK,27,32
     10,ARBOK,28,33
+    10,ARBOK,30,32
     9,PONYTA,32,34
     5,RATICATE,29,32
     4,RATICATE,30,33
@@ -1327,7 +1407,7 @@ LandNight,21
     60,QUAGSIRE,28,32
     10,DODUO,28,32
     10,NOCTOWL,27,32
-    5,PONYTA,32,32
+    5,PONYTA,32
     5,RATICATE,29,32
     4,NOCTOWL,32,33
     4,RATICATE,30,32
@@ -1343,15 +1423,15 @@ GoodRod
     60,TENTACOOL,20
     20,SHELLDER,20
     10,CHINCHOU,20
-	10,MAGIKARP,20
+    10,MAGIKARP,20
 SuperRod
-    40,TENTACRUEL,40
     40,SHELLDER,40
+    40,TENTACRUEL,40
     10,CHINCHOU,40
-    10,LANTURN,40	
+    10,LANTURN,40
 #-------------------------------
 [180] # Victory Road
-Cave,5
+Cave,10
     20,GEODUDE,32
     20,MACHOP,32
     15,ZUBAT,32
@@ -1364,7 +1444,7 @@ Cave,5
     1,MACHOKE,46
     1,MAROWAK,44
 #-------------------------------
-[188] # Descendo
+[188] # Room 3
 Cave,5
     30,GOLBAT,32
     20,GOLBAT,34
@@ -1377,25 +1457,6 @@ Cave,5
     4,SANDSLASH,34
     1,DONPHAN,34
     1,MACHOKE,36
-#-------------------------------
-[189] # Final
-Cave,5
-    30,GOLBAT,32
-    20,GOLBAT,34
-    10,ONIX,36
-    10,URSARING,36
-    10,ZUBAT,32
-    5,GRAVELER,34
-    5,RHYHORN,30,34
-    4,GOLBAT,36
-    4,SANDSLASH,34
-    1,DONPHAN,34
-    1,MACHOKE,36
-Water,1
-    50,DRATINI,15,30
-    1,DRAGONAIR,30,35
-    9,SLOWPOKE,25,35
-    40,WOOPER,25,35
 #-------------------------------
 [201] # rota 101
 Land,21
@@ -1444,8 +1505,8 @@ Land,21
     9,ELECTRIKE,13
     5,GULPIN,14
     4,POOCHYENA,13
-    1,MINUN,13
     1,MINUN,12,13
+    1,MINUN,13
 #-------------------------------
 [211] # Rota 109
 Water,2
@@ -1453,13 +1514,13 @@ Water,2
     9,WINGULL,10,30
     1,PELIPPER,25,30
 #-------------------------------
-[257] # Rota
+[257] # Coliseum Town - Entrance
 Land,21
-    20,BUTTERFREE,13
     20,BUTTERFREE,14
+    20,BUTTERFREE,13
     10,BUTTERFREE,17
-    10,CHINCHOU,13
     10,CHINCHOU,20
+    10,CHINCHOU,13
     10,VICTREEBEL,17
     5,AIPOM,16
     5,YANMA,17
@@ -1536,8 +1597,8 @@ Land,21
     20,CATERPIE,4
     20,WEEDLE,4
     14,WEEDLE,3
-    10,CATERPIE,3
     10,CATERPIE,5
+    10,CATERPIE,3
     10,WEEDLE,5
     5,KAKUNA,5
     5,METAPOD,5
@@ -1587,8 +1648,8 @@ Water,2
 Land,21
     90,NUMEL,14,16
     8,MIGHTYENA,14,16
-    1,LINOONE,15,16
     1,LINOONE,14,16
+    1,LINOONE,15,16
 #-------------------------------
 [293] # rota 113
 Land,21
@@ -1618,8 +1679,8 @@ LandNight,21
     10,TEDDIURSA,3,4
     5,HOUNDOUR,3,4
 #-------------------------------
-[302] # Victory Road saida
-Cave,5
+[302] # Victory Road
+Cave,10
     20,GEODUDE,32
     20,MACHOP,32
     15,ZUBAT,32
@@ -1632,8 +1693,8 @@ Cave,5
     1,MACHOKE,34
     1,MAROWAK,34
 #-------------------------------
-[303] # Victory Road cima
-Cave,5
+[303] # Victory Road
+Cave,10
     20,GEODUDE,32
     20,MACHOP,32
     15,ZUBAT,32
@@ -1653,7 +1714,7 @@ Water,2
     5,PELIPPER,25,30
     5,WINGULL,16,30
 #-------------------------------
-[336] # Rota 26
+[336] # Route 26
 Land,21
     40,DODUO,28,33
     20,SANDSLASH,28,33
@@ -1685,10 +1746,10 @@ GoodRod
     60,TENTACOOL,20
     20,SHELLDER,20
     10,CHINCHOU,20
-	10,MAGIKARP,20
+    10,MAGIKARP,20
 SuperRod
-    40,TENTACRUEL,40
     40,SHELLDER,40
+    40,TENTACRUEL,40
     10,CHINCHOU,40
     10,LANTURN,40
 #-------------------------------
@@ -1701,15 +1762,15 @@ Land,21
     10,PIDGEOTTO,18,22
     5,HOPPIP,14,20
     5,SUNKERN,17,20
-    4,HOPPIP,18,20
     4,HOPPIP,16,19
+    4,HOPPIP,18,20
     1,AIPOM,18,21
     1,BUTTERFREE,21,24
 #-------------------------------
 [343] # Vale Vileplume
 Land,21
-    20,ODDISH,16,24
     20,ODDISH,15,24
+    20,ODDISH,16,24
     10,GLOOM,22,25
     10,PARAS,20,26
     10,RATICATE,20,29
@@ -1718,8 +1779,8 @@ Land,21
     5,VENOMOTH,28,31
     4,VILEPLUME,26,32
     4,WEEPINBELL,23,26
-    1,VILEPLUME,25,31
     1,VILEPLUME,24,30
+    1,VILEPLUME,25,31
 #-------------------------------
 [361] # Rota 22
 Land,21
@@ -1783,8 +1844,8 @@ OldRod
     100,MAGIKARP,5
 GoodRod
     60,MAGIKARP,15
-    20,POLIWAG,10
     20,POLIWAG,15
+    20,POLIWAG,10
 SuperRod
     40,POLIWHIRL,20,30
     40,PSYDUCK,15,25
@@ -1942,12 +2003,12 @@ Cave,5
 #-------------------------------
 [391] # Mt. Moon 1.2
 Cave,5
-    25,PARAS,8
     25,PARAS,7
-    14,PARAS,6
+    25,PARAS,8
     14,PARAS,5
-    11,PARAS,10
+    14,PARAS,6
     11,PARAS,9
+    11,PARAS,10
 #-------------------------------
 [392] # Mt. Moon 1.3
 Cave,5
@@ -1966,10 +2027,10 @@ Cave,5
 Land,21
     20,EKANS,12
     20,SANDSHREW,12
-    10,DROWZEE,13
     10,DROWZEE,15
-    10,SPEAROW,14
+    10,DROWZEE,13
     10,SPEAROW,13
+    10,SPEAROW,14
     5,EKANS,13
     5,SANDSHREW,13
     4,DROWZEE,17
@@ -1997,14 +2058,14 @@ SuperRod
 #-------------------------------
 [407] # Digletts Cave
 Cave,5
-    20,DIGLETT,19
     20,DIGLETT,18
+    20,DIGLETT,19
     14,DIGLETT,17
     10,DIGLETT,15
     10,DIGLETT,16
     10,DIGLETT,20
-    5,DIGLETT,22
     5,DIGLETT,21
+    5,DIGLETT,22
     4,DUGTRIO,26
     1,DIGLETT,14
     1,DUGTRIO,29
@@ -2013,10 +2074,10 @@ Cave,5
 Land,21
     20,BELLSPROUT,18
     20,ODDISH,18
-    10,PIDGEY,16
     10,PIDGEY,18
-    10,VENONAT,23
+    10,PIDGEY,16
     10,VENONAT,20
+    10,VENONAT,23
     5,BELLSPROUT,23
     5,ODDISH,23
     4,GLOOM,25
@@ -2080,8 +2141,8 @@ Land,21
     20,ODDISH,20
     10,DITTO,18
     10,PIDGEY,20
-    10,VENONAT,25
     10,VENONAT,22
+    10,VENONAT,25
     5,GLOOM,27
     5,WEEPINBELL,27
     4,DITTO,21
@@ -2095,8 +2156,8 @@ Land,21
     20,ODDISH,22
     10,BELLSPROUT,24
     10,PIDGEY,20
-    10,VENONAT,25
     10,VENONAT,23
+    10,VENONAT,25
     5,DITTO,27
     5,ODDISH,24
     4,GLOOM,28
@@ -2109,12 +2170,12 @@ Land,21
     20,DODUO,20
     20,SPEAROW,18
     10,DODUO,22
-    10,RATTATA,18
     10,RATTATA,20
+    10,RATTATA,18
     10,SPEAROW,20
     5,DODUO,24
-    5,RATTATA,23
     5,RATTATA,21
+    5,RATTATA,23
     4,RATICATE,25
     1,RATICATE,27
 #-------------------------------
@@ -2123,8 +2184,8 @@ Land,21
     20,DODUO,20
     20,SPEAROW,18
     10,DODUO,22
-    10,RATICATE,22
     10,RATICATE,24
+    10,RATICATE,22
     10,SPEAROW,21
     5,DODUO,24
     5,RATICATE,26
@@ -2208,18 +2269,18 @@ SuperRod
 #-------------------------------
 [424] # Rota 21
 Land,21
-    20,TANGELA,21
     20,TANGELA,20
-    10,TANGELA,18
+    20,TANGELA,21
     10,TANGELA,22
     10,TANGELA,23
     10,TANGELA,19
+    10,TANGELA,18
     5,TANGELA,17
     5,TANGELA,16
-    4,TANGELA,25
     4,TANGELA,24
-    1,TANGELA,26
+    4,TANGELA,25
     1,TANGELA,15
+    1,TANGELA,26
 Water,2
     60,TENTACOOL,5,10
     30,TENTACOOL,10,20
@@ -2243,8 +2304,8 @@ SuperRod
 Land,21
     20,NIDORANmA,18
     20,RHYHORN,21
-    10,EXEGGCUTE,20
     10,EXEGGCUTE,18
+    10,EXEGGCUTE,20
     10,NIDORINO,26
     10,VENONAT,20
     5,NIDORINA,26
@@ -2276,8 +2337,8 @@ SuperRod
 Land,21
     20,DODUO,18
     20,NIDORANfE,20
-    10,EXEGGCUTE,22
     10,EXEGGCUTE,20
+    10,EXEGGCUTE,22
     10,NIDORINO,26
     10,PARAS,18
     5,NIDORINA,26
@@ -2309,8 +2370,8 @@ SuperRod
 Land,21
     20,NIDORANfE,20
     20,RHYHORN,22
-    10,EXEGGCUTE,24
     10,EXEGGCUTE,22
+    10,EXEGGCUTE,24
     10,NIDORINO,27
     10,PARAS,18
     5,NIDORINA,27
@@ -2342,8 +2403,8 @@ SuperRod
 Land,21
     20,DODUO,22
     20,NIDORANmA,21
-    10,EXEGGCUTE,25
     10,EXEGGCUTE,23
+    10,EXEGGCUTE,25
     10,NIDORINO,28
     10,VENONAT,18
     5,NIDORANfE,21
@@ -2416,11 +2477,11 @@ Water,2
 #-------------------------------
 [524] # Ilha Pinkan
 Land,21
-    20,NIDORANmA,21,28
     20,NIDORANmA,24,31
+    20,NIDORANmA,21,28
     10,NIDORANmA,22,29
-    10,NIDORINO,24,33
     10,NIDORINO,25,33
+    10,NIDORINO,24,33
     10,VENOMOTH,24,30
     5,CHANSEY,21,25
     5,NIDOKING,25,34
@@ -2484,8 +2545,8 @@ Land,21
     5,MURKROW,19,30
     4,DODRIO,31,35
     4,MAGNETON,28,33
-    1,KINGLER,28,35
     1,KINGLER,30,34
+    1,KINGLER,28,35
 Water,2
     60,GOLDEEN,20,30
     30,MAGIKARP,22,28
@@ -2495,8 +2556,8 @@ Water,2
 #-------------------------------
 [530] # Rota direita
 Land,21
-    20,PINECO,26,31
     20,PINECO,25,31
+    20,PINECO,26,31
     10,CUBONE,24,28
     10,DUNSPARCE,23,30
     10,EXEGGCUTE,25,30
@@ -2505,8 +2566,8 @@ Land,21
     5,LARVITAR,24,27
     4,PINECO,25,35
     4,TEDDIURSA,22,27
-    1,FORRETRESS,24,32
     1,FORRETRESS,26,34
+    1,FORRETRESS,24,32
 #-------------------------------
 [531] # Ilha Trovita
 Water,2
@@ -2646,8 +2707,8 @@ Cave,5
     5,SNEASEL,22,29
     4,GOLBAT,23,30
     4,ZUBAT,22,28
-    1,GOLBAT,23,34
     1,GOLBAT,23,33
+    1,GOLBAT,23,34
 Water,2
     60,REMORAID,20,26
     30,CORSOLA,28,33
@@ -2661,8 +2722,8 @@ Cave,5
     20,SWINUB,20,23
     10,CORSOLA,21,25
     10,DELIBIRD,21,26
-    10,GOLBAT,20,27
     10,GOLBAT,24,28
+    10,GOLBAT,20,27
     5,SANDSHREW,25,30
     5,SANDSLASH,27,33
     4,GOLBAT,24,32
@@ -2685,17 +2746,17 @@ Cave,5
     5,QUAGSIRE,25,34
     4,GOLBAT,25,34
     4,SANDSHREW,27,34
-    1,SANDSLASH,24,35
     1,SANDSLASH,29,34
+    1,SANDSLASH,24,35
 #-------------------------------
 [611] # caverna kabuto 2°
 Cave,5
     20,GOLBAT,25,31
     20,MACHOP,25,32
-    10,GEODUDE,25,32
     10,GEODUDE,26,33
     10,GEODUDE,24,31
     10,GEODUDE,23,30
+    10,GEODUDE,25,32
     5,PHANPY,23,27
     5,ZUBAT,22,27
     4,GOLBAT,27,33
@@ -2712,16 +2773,16 @@ Water,2
 [644] # Ilha do Fogo
 Land,21
     20,GROWLITHE,28,33
-    20,VULPIX,27,32
     20,VULPIX,32,34
-    10,PONYTA,28,33
+    20,VULPIX,27,32
     10,PONYTA,27,33
+    10,PONYTA,28,33
     5,MAGBY,29,33
     5,MAGMAR,32,36
     4,NINETALES,32,36
     4,RAPIDASH,32,36
-    1,ARCANINE,32,36
     1,ARCANINE,31,36
+    1,ARCANINE,32,36
 Water,2
     60,MAGIKARP,29
     30,REMORAID,30,34
@@ -2749,15 +2810,15 @@ Water,2
 #-------------------------------
 [646] # Ilha do Gelo
 Cave,5
-    20,SWINUB,27,32
     20,SWINUB,29,33
+    20,SWINUB,27,32
     10,JYNX,30,36
     10,PILOSWINE,31,36
     10,SWINUB,26,33
     10,SWINUB,27,33
     9,SMOOCHUM,28,33
-    5,DELIBIRD,29,32
     5,DELIBIRD,28,33
+    5,DELIBIRD,29,32
     1,SMOOCHUM,27,32
 Water,2
     60,SEEL,31,34
@@ -2778,8 +2839,8 @@ Cave,5
     5,GRAVELER,30,34
     4,MAGCARGO,31,34
     4,SLUGMA,25,30
-    1,MAGCARGO,36
     1,MAGCARGO,28,35
+    1,MAGCARGO,36
 Water,2
     60,OCTILLERY,27,31
     30,OCTILLERY,28,33
@@ -2810,8 +2871,8 @@ Water,2
 #-------------------------------
 [649] # Caverna 3nd
 Cave,5
-    20,GRAVELER,32,35
     20,GRAVELER,33,35
+    20,GRAVELER,32,35
     10,GOLBAT,30,33
     10,MAGCARGO,29,33
     10,RHYHORN,30,34
@@ -2832,8 +2893,8 @@ Cave,5
     10,SLOWBRO,28,30
     4,GEODUDE,30,33
     4,MACHOKE,30,36
-    1,GRAVELER,29,37
     1,GRAVELER,30,35
+    1,GRAVELER,29,37
 #-------------------------------
 [651] # Caverna 2nd
 Cave,5
@@ -2955,8 +3016,8 @@ Cave,5
 Cave,5
     50,MAKUHITA,6,10
     11,ARON,7,10
-    10,ARON,7,9
     10,ARON,6,9
+    10,ARON,7,9
     9,SABLEYE,7,9
     5,LINOONE,7,10
     4,ARON,6,10

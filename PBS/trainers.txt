@@ -135,9 +135,9 @@ Items = DYNAMAXBAND
 LoseText = I understand...I'll blow out gracefully...
 Pokemon = PIDGEY,10
 	Moves = SANDATTACK,QUICKATTACK,GUST,MUDSLAP
-Pokemon = SPEAROW,13
+Pokemon = SPEAROW,12
 	Moves = FURYATTACK,LEER,AERIALACE,ROOST
-Pokemon = SKARMORY,13
+Pokemon = SKARMORY,12
 	Moves = METALCLAW,SANDATTACK,WINGATTACK,PAYBACK
     Gender = male
 Pokemon = PIDGEOTTO,12
@@ -344,7 +344,7 @@ Pokemon = BEEDRILL,16
     Moves = TOXICSPIKES,FURYATTACK,PURSUIT,ACROBATICS
 Pokemon = LEDIAN,16
     Moves = MACHPUNCH,STRUGGLEBUG,AERIALACE,LIGHTSCREEN
-Pokemon = HERACROSS,20
+Pokemon = HERACROSS,19
     Moves = HORNATTACK,BRICKBREAK,TAKEDOWN,DIG
 #-------------------------------
 [LEADER_Bugsy,Bugsy,2]
@@ -709,7 +709,7 @@ Pokemon = GASTLY,23
 	Moves = LICK,CURSE,MEANLOOK,HYPNOSIS
 Pokemon = HAUNTER,23
 	Moves = HYPNOSIS,DREAMEATER,NIGHTMARE,PAYBACK
-Pokemon = GENGAR,25
+Pokemon = GENGAR,24
 	Moves = HYPNOSIS, SHADOWBALL, CONFUSERAY, AURASPHERE
 	Ace = yes
     DynamaxLvl = 10
@@ -1817,7 +1817,7 @@ Pokemon = HITMONCHAN,48
 [ELITEFOUR_Karen,Karen]
 Items = ZRING,DYNAMAXBAND
 LoseText = Well, aren't you good. I like that in a Trainer.
-Pokemon = UMBREON,50
+Pokemon = UMBREON,48
 	Moves = SANDATTACK,PAYBACK,CONFUSERAY,MOONLIGHT
 Pokemon = GENGAR,50
 	Moves = SHADOWBALL,THUNDERBOLT,FOCUSBLAST,DESTINYBOND
@@ -1826,30 +1826,30 @@ Pokemon = GENGAR,50
 	Gigantamax = yes
 Pokemon = HONCHKROW,50
 	Moves = SUCKERPUNCH,DRILLPECK,HAZE,HEATWAVE
-Pokemon = HOUNDOOM,51
+Pokemon = HOUNDOOM,49
 	Moves = FLAMETHROWER,THUNDERFANG,NASTYPLOT,DARKPULSE
-Pokemon = VILEPLUME,50
+Pokemon = VILEPLUME,48
 	Moves = SLEEPPOWDER,SLUDGEBOMB,PETALDANCE,POLLENPUFF
-Pokemon = TYRANITAR,53
+Pokemon = TYRANITAR,51
 	Moves = EARTHQUAKE,STONEEDGE,PAYBACK,ICEFANG
 	Item = DARKINIUMZ
 #-------------------------------
 [ELITEFOUR_Lance,Lance,1]
 Items = ZRING,DYNAMAXBAND
 LoseText = ...It's over. But it's and odd feeling. I'm not angry that I lost. In fact, I feel happy. Happy that I witnessed the rise of a great new Champion!
-Pokemon = GYARADOS,52
+Pokemon = GYARADOS,50
 	Moves = DRAGONPULSE,DRAGONDANCE,AQUATAIL,ICEFANG
-Pokemon = CHARIZARD,53
+Pokemon = CHARIZARD,51
 	Moves = AIRSLASH,FLAMETHROWER,SHADOWCLAW,DRAGONPULSE
 	Moves = SHADOWBALL,THUNDERBOLT,FOCUSBLAST,DESTINYBOND
 	Ace = yes
 	DynamaxLvl = 10
 	Gigantamax = yes
-Pokemon = AERODACTYL,52
+Pokemon = AERODACTYL,50
 	Moves = THUNDERFANG,ROCKSLIDE,AERIALACE,CRUNCH
 Pokemon = DRAGONITE,52
 	Moves = ICESPINNER,OUTRAGE,THUNDERPUNCH,FLY
-Pokemon = YANMEGA,52
+Pokemon = YANMEGA,50
 	Moves = UTURN,ANCIENTPOWER,AIRSLASH,HYPERBEAM
 Pokemon = DRAGONITE,55
 	Moves = DRAGONDANCE,OUTRAGE,FIREPUNCH,HYPERBEAM
@@ -2188,7 +2188,7 @@ Pokemon = RATICATE,55
 Pokemon = CLOYSTER,60
 Pokemon = VILEPLUME,57
 #-------------------------------
-[PkMnTRAINER_Malen,BRendan]
+[PkMnTRAINER_Malen,Brendan,1]
 LoseText = ...
 Pokemon = AGGRON,49
 Pokemon = ABSOL,48
@@ -2212,14 +2212,65 @@ Pokemon = MILOTIC,63
 Pokemon = ROSERADE,60
 Pokemon = LUCARIO,63
 #-------------------------------
+[ELITEFOUR_Caitlin,Caitlin]
+LoseText = You and your Pokémon are both excellent and elegant.
+Items = DYNAMAXBAND,ZRING,MEGARING
+Pokemon = MUSHARNA,56
+    Moves = REFLECT,CHARGEBEAM,DREAMEATER,HYPNOSIS
+Pokemon = SIGILYPH,58
+    Moves = SHADOWBALL,PSYCHIC,ICEBEAM,AIRSLASH
+    Gender = male
+    Item = PSYCHIUMZ
+Pokemon = GOTHITELLE,60
+    Moves = PSYCHIC,FLATTER,SHADOWBALL,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GALLADE,58
+    Moves = CLOSECOMBAT,NIGHTSLASH,LEAFBLADE,PSYCHOCUT
+    Gender = male
+Pokemon = REUNICLUS,60
+    Moves = PSYCHIC,THUNDER,RECOVER,FOCUSBLAST
+Pokemon = METAGROSS,60
+    Moves = ZENHEADBUTT,BULLETPUNCH,EARTHQUAKE,HAMMERARM
+#-------------------------------
+[LEADER_Nessa,Nessa]
+LoseText = You and your Pokémon are just too much...
+Items = DYNAMAXBAND,ZRING,MEGARING
+Pokemon = SEAKING,58
+   Moves = WATERFALL,SMARTSTRIKE,MEGAHORN,AQUARING
+Pokemon = GOLISOPOD,58
+    Moves = FIRSTIMPRESSION,LIQUIDATION,SWORDSDANCE,SHADOWCLAW
+Pokemon = PELIPPER,60
+    Moves = ROOST,HURRICANE,WATERPULSE,TAILWIND
+    Item = WATERIUMZ
+Pokemon = QUAGSIRE,60
+    Moves = EARTHQUAKE,SCALD,ICEPUNCH,TOXIC
+Pokemon = TOXAPEX,61
+    Moves = BANEFULBUNKER, RECOVER,VENOSHOCK,LIQUIDATION
+Pokemon = DREDNAW,62
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
 [PAUL,Paul]
-LoseText = ...
-Pokemon = TORTERRA,65
-Pokemon = HONCHKROW,45
-Pokemon = WEAVILE,49
-Pokemon = URSARING,60
-Pokemon = GLISCOR,45
-Pokemon = MAGMAR,46
+LoseText = Oh, no...
+Items = DYNAMAXBAND,ZRING,MEGARING
+Pokemon = HONCHKROW,52
+    Moves = SKYATTACK,FOULPLAY,THUNDERWAVE,CONFUSERAY,
+Pokemon = GLISCOR,55
+    Moves = TOXICSPIKES,CRUNCH,DUALWINGBEAT,HIGHHORSEPOWER
+Pokemon = TORTERRA,62
+    Moves = EARTHQUAKE,LEAFSTORM,REST,HYPERBEAM
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = WEAVILE,55
+    Moves = DARKPULSE,ICESPINNER,SURF,XSCISSOR
+Pokemon = URSARING,50
+    Moves = THRASH,HAMMERARM,EARTHQUAKE,DOUBLEEDGE
+Pokemon = MAGMAR,56
+    Moves = FIREBLAST,HYPERBEAM,THUNDERPUNCH,PSYCHIC
 #-------------------------------
 [LEADER_GIOVANNI,GiovaNni]
 LoseText = ...
@@ -5834,3 +5885,25 @@ LoseText = ...
 Pokemon = GENGAR,21
     DynamaxLvl = 8
     Gigantamax = yes
+#-------------------------------
+[YELL_Male,Grunt,1]
+LoseText = Went lookin' for a fight, and I lost... I'm so pathetic...
+Pokemon = ZIGZAGOON,48
+    Form = 1
+Pokemon = LINOONE,50
+    Form = 1
+Pokemon = OBSTAGOON,52
+    Form = 1
+#-------------------------------
+[YELL_Male,Grunt,2]
+LoseText = My voice is unsure when I'm sad... I wanna yell, but I'm unsure...
+Pokemon = PANCHAM,48
+Pokemon = PANGORO,52
+Pokemon = SKUNTANK,50
+#-------------------------------
+[YELL_Female,Grunt,1]
+LoseText = I came to see the World Cup openin' ceremony, but this is awful!
+Pokemon = THIEVUL,52
+Pokemon = SABLEYE,48
+Pokemon = LIEPARD,50
+#-------------------------------

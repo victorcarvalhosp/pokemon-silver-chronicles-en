@@ -313,6 +313,7 @@ MapPosition = 0,13,11
 #-------------------------------
 [077]   # National Park - Gate
 Name = National Park - Gate
+Outdoor = false
 Bicycle = true
 MapPosition = 0,13,11
 #-------------------------------
@@ -464,11 +465,11 @@ Name = Olivine City - Port
 Name = 
 MapPosition = 0,10,9
 #-------------------------------
-[109]
+[109]   # Coliseum Town - Port
 Name = Cais 2
 MapPosition = 0,10,9
 #-------------------------------
-[110]
+[110]   # Grand Hotel 2F
 Name = Cais 3
 MapPosition = 0,10,9
 #-------------------------------
@@ -529,34 +530,58 @@ HealingSpot = 126,15,20
 MapPosition = 0,18,6
 #-------------------------------
 [127]   # Mt. Mortar
-Name = Caverna
+Name = Mt. Mortar
+Name = 
 Bicycle = true
+MapPosition = 0,16,5
 DarkMap = true
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [128]   # Mt. Mortar
-Name = Cav2
+Name = Mt. Mortar
+Name = 
 Bicycle = true
+MapPosition = 0,16,5
 DarkMap = true
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [129]   # Mt. Mortar
-Name = Cav
+Name = Mt. Mortar
+Name = 
 Bicycle = true
+MapPosition = 0,16,5
 DarkMap = true
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [130]   # Mt. Mortar
-Name = MAP130
+Name = Mt. Mortar
+Name = 
 Bicycle = true
+MapPosition = 0,16,6
 DarkMap = true
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [131]   # Mt. Mortar
-Name = MAP131
+Name = Mt. Mortar
+Name = 
 Bicycle = true
+MapPosition = 0,16,5
 DarkMap = true
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [132]   # Mt. Mortar
-Name = MAP132
+Name = Mt. Mortar
+Name = 
 Bicycle = true
+MapPosition = 0,16,5
 DarkMap = true
+BattleBack = cave1
+Environment = Cave
 #-------------------------------
 [136]   # Route 43
 Name = Rota 43
@@ -733,6 +758,7 @@ MapPosition = 1,4,13
 #-------------------------------
 [180]   # Victory Road
 Name = Victory Road
+BattleBack = cave1
 #-------------------------------
 [181]   # Pokémon League HQ
 Name = Elite 4
@@ -762,7 +788,7 @@ MapPosition = 1,9,7
 BattleBack = champion1
 Flags = PowerSpot
 #-------------------------------
-[189]
+[189]   # Room 2
 Name = Final
 DiveMap = 300
 #-------------------------------
@@ -922,14 +948,14 @@ Bicycle = true
 HealingSpot = 251,28,17
 MapPosition = 2,22,6
 #-------------------------------
-[256]   # Coliseum town
+[256]   # Coliseum Town
 Name = Coliseum town
 Outdoor = true
 ShowArea = true
 HealingSpot = 256,52,47
 MapPosition = 3,23,4
 #-------------------------------
-[257]   # Rota
+[257]   # Coliseum Town - Entrance
 Name = Rota
 Outdoor = true
 MapPosition = 3,23,6
@@ -990,6 +1016,12 @@ Name = Rota para cidade 2
 Outdoor = true
 MapPosition = 3,23,7
 #-------------------------------
+[278]   # Grand Hotel
+Name = Grand Hotel
+Outdoor = false
+MapPosition = 3,8,1
+BattleBack = indoor4
+#-------------------------------
 [285]   # Verdanturf
 Name = Verdanturf
 Outdoor = true
@@ -1033,6 +1065,14 @@ BattleBack = grass
 Name = Rota 23
 Outdoor = true
 MapPosition = 1,6,6
+#-------------------------------
+[302]   # Victory Road
+Name = Victory Road
+BattleBack = cave1
+#-------------------------------
+[303]   # Victory Road
+Name = Victory Road
+BattleBack = cave1
 #-------------------------------
 [327]   # Rota 114
 Name = Rota 114
@@ -1631,3 +1671,9 @@ Flags = PowerSpot
 [857]   # Regiao Kalos
 Name = Ice Path Copy
 Outdoor = false
+#-------------------------------
+[735]   # Super Arena REMAKE
+Name = Coliseum Town Arena
+MapPosition = 0,10,9
+BattleBack = battlewc
+Flags = PowerSpot

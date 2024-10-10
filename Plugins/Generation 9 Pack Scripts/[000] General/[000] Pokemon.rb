@@ -326,7 +326,9 @@ MultipleForms.register(:QUILAVA, {
     next if pkmn.form_simple >= 2
     if $game_map
       map_pos = $game_map.metadata&.town_map_position
-      next 1 if map_pos && map_pos[0] == 3   # Hisui region
+     # next 1 if map_pos && map_pos[0] == 3   # Hisui region
+     # 89 and 90 are Burned Tower
+     next 1 if $game_map.map_id == 89 || $game_map.map_id == 90
     end
     next 0
   }

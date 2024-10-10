@@ -6,3 +6,4 @@ Morlock-Liam - some tilesets
 PaperFire88 - Custom TCG Sprites
 PurpleZaffre - overworlds
 DiegoWT - Overworlds
+Wolfang62 - trainer sprites and overworlds

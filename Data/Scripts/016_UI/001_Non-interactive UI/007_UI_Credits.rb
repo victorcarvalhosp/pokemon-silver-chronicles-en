@@ -98,7 +98,8 @@ Morlock-Liam
 PaperFire88
 PurpleZaffre
 DiegoWT
-
+Wolfang62
+hyo-oppa
 
 {INSERTS_PLUGIN_CREDITS_DO_NOT_REMOVE}
 

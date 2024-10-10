@@ -579,11 +579,6 @@ Name = PkMn PROFESSOR
 Gender = Unknown
 BaseMoney = 30
 #-------------------------------
-[PAUL]
-Name = RIVAL
-Gender = Unknown
-BaseMoney = 30
-#-------------------------------
 [ELITEFOUR_Cynthia]
 Name = ELITE FOUR
 Gender = Unknown
@@ -878,4 +873,41 @@ Name = JUGGLER
 Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_BOY
-
+#-------------------------------
+[LEADER_Nessa]
+Name = PkMn TRAINER
+Gender = Female
+BaseMoney = 100
+IntroBGM = SEQ_EYE_ELITE
+BattleBGM = world_cup_battle_01
+VictoryBGM = world_cup_victory_01
+#-------------------------------
+[ELITEFOUR_Caitlin]
+Name = ELITE FOUR
+Gender = Female
+BaseMoney = 100
+IntroBGM = SEQ_EYE_ELITE
+BattleBGM = world_cup_battle_01
+VictoryBGM = world_cup_victory_01
+#-------------------------------
+[PAUL]
+Name = Pkmn Trainer
+Gender = Male
+BaseMoney = 100
+IntroBGM = SEQ_EYE_ELITE
+BattleBGM = world_cup_battle_01
+VictoryBGM = world_cup_victory_01
+#-------------------------------
+[YELL_Male]
+Name = Team Yell
+Gender = Male
+BaseMoney = 32
+IntroBGM = Team-Yell-Appears
+BattleBGM = Team-Yell-Battle
+#-------------------------------
+[YELL_Female]
+Name = Team Yell
+Gender = Female
+BaseMoney = 30
+IntroBGM = Team-Yell-Appears
+BattleBGM = Team-Yell-Battle

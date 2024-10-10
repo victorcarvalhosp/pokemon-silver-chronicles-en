@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
-!isQuestActive?(:SSAqua)
+!isQuestActive?(:HotelCheckIn)
 
-activateQuest(:SSAqua,colorQuest("blue"))
-advanceQuestToStage(:TeamRockerGoldenrod, 2)
-completeQuest(:SSAqua)
+activateQuest(:FirstWorldCupBattle,colorQuest("blue"))
+advanceQuestToStage(:SecondWorldCupBattle, 2)
+completeQuest(:FirstWorldCupBattle)
 
 
 Dialog lines to use on TCG:

@@ -309,13 +309,50 @@ module QuestModule
   }
 
   SSAqua = {
-    :ID => "24",
-    :Name => "Johto Pokémon League!",
-    :QuestGiver => "Prof. Elm",
-    :Stage1 => "Battle against Elite Four.",
-    :Location1 => "Indigo Plateau",
-    :QuestDescription => "The Indigo League and Johto League share a single group of Elite Four and Champion; eight Badges from either region will allow a Trainer to battle the Elite Four at Kanto's Indigo Plateau. Now this time has come for you!",
+    :ID => "26",
+    :Name => "S. S. Aqua trip",
+    :QuestGiver => "S. S. Aqua Captain",
+    :Stage1 => "Battle against all S. S. Aqua Trainers",
+    :Location1 => "S. S. Aqua",
+    :QuestDescription => "Most passengers are  Trainers and they're all itching to battle in their cabins. If you defeat all of them, please let the Captain know.",
   }
+
+  HotelCheckIn = {
+    :ID => "27",
+    :Name => "Grand Hotel Check-in",
+    :Stage1 => "Battle against all S. S. Aqua trainers",
+    :Location1 => "Colosseum Town",
+    :QuestDescription => "Your battle will be just tomorrow, try to get some rest and build your strength for what's to come.",
+  }
+
+  FirstWorldCupBattle = {
+    :ID => "28",
+    :Name => "First Pokémon World Cup Match!",
+    :Stage1 => "Fist World Cup Match!",
+    :Stage3 => "Knockout phase begins!",
+    :Stage3 => "Quarter-finals phase begins!",
+    :Location1 => "Colosseum Town",
+    :QuestDescription => "That's it, the World Cup started! Go to the Stadium to participate in your first match, that will be against Caitlin, from Unova!",
+  }
+
+  SecondWorldCupBattle = {
+    :ID => "29",
+    :Name => "Second Pokémon World Cup Match!",
+    :Stage1 => "Get some rest in the Grand Hotel.",
+    :Stage2 => "Second World Cup Match!",
+    :Location1 => "Colosseum Town",
+    :QuestDescription => "That's it, the World Cup started! Go to the Stadium to participate in your second match, that will be against Nessa, from Galar!",
+  }
+
+  ThirdWorldCupBattle = {
+    :ID => "30",
+    :Name => "Third Pokémon World Cup Match!",
+    :Stage1 => "Get some rest in the Grand Hotel.",
+    :Stage2 => "Third World Cup Match!",
+    :Location1 => "Colosseum Town",
+    :QuestDescription => "It's time for the last Match in the Group phase! This time you'll face Paul, from Sinnoh!",
+  }
+
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {
