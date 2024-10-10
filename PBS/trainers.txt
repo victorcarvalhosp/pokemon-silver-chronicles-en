@@ -2267,10 +2267,31 @@ Pokemon = TORTERRA,62
     Gigantamax = yes
 Pokemon = WEAVILE,55
     Moves = DARKPULSE,ICESPINNER,SURF,XSCISSOR
+    Item = WATERIUMZ
 Pokemon = URSARING,50
     Moves = THRASH,HAMMERARM,EARTHQUAKE,DOUBLEEDGE
 Pokemon = MAGMAR,56
     Moves = FIREBLAST,HYPERBEAM,THUNDERPUNCH,PSYCHIC
+#-------------------------------
+[ELITEFOUR_Hala,Hala]
+LoseText = I could feel the power you gained on your journey.
+Items = DYNAMAXBAND,ZRING,MEGARING
+Pokemon = HARIYAMA,60
+    Moves = REVENGE,TOXIC,REST,SLEEPTALK
+Pokemon = PRIMEAPE,61
+    Moves =  CLOSECOMBAT,UTURN,ICEPUNCH,GUNKSHOT
+    Item = FIGHTINIUMZ
+Pokemon = BEWEAR,60
+    Moves = SWORDSDANCE,DOUBLEEDGE,SUPERPOWER,SHADOWCLAW
+Pokemon = POLIWRATH,62
+    Moves = SCALD,FOCUSBLAST,ICEBEAM,PROTECT
+Pokemon = CRABOMINABLE,63
+    Moves = DRAINPUNCH,ICEHAMMER,EARTHQUAKE,THUNDERPUNCH
+Pokemon = MACHAMP,62
+    Moves = CLOSECOMBAT,KNOCKOFF,FACADE,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 #-------------------------------
 [LEADER_GIOVANNI,GiovaNni]
 LoseText = ...

@@ -911,3 +911,12 @@ Gender = Female
 BaseMoney = 30
 IntroBGM = Team-Yell-Appears
 BattleBGM = Team-Yell-Battle
+#-------------------------------
+[ELITEFOUR_Hala]
+Name = ELITE FOUR
+Gender = Male
+BaseMoney = 100
+IntroBGM = SEQ_EYE_ELITE
+BattleBGM = world_cup_battle_01
+VictoryBGM = world_cup_victory_01
+#-------------------------------

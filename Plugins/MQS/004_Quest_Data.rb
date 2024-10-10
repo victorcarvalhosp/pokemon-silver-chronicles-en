@@ -353,6 +353,14 @@ module QuestModule
     :QuestDescription => "It's time for the last Match in the Group phase! This time you'll face Paul, from Sinnoh!",
   }
 
+  RoundOf16Battle = {
+    :ID => "31",
+    :Name => "Third Pokémon World Cup Match!",
+    :Stage1 => "Third World Cup Match!",
+    :Location1 => "Colosseum Town",
+    :QuestDescription => "It's time for the last Match in the Group phase! This time you'll face Paul, from Sinnoh!",
+  }
+
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

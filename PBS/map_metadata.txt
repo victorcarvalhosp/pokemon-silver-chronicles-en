@@ -1677,3 +1677,9 @@ Name = Coliseum Town Arena
 MapPosition = 0,10,9
 BattleBack = battlewc
 Flags = PowerSpot
+#-------------------------------
+[736]   # Super Arena fase final REMAKE
+Name = Coliseum Town Arena
+MapPosition = 0,10,9
+BattleBack = battlewc
+Flags = PowerSpot
