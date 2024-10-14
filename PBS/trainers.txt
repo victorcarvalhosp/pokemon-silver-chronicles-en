@@ -2302,16 +2302,26 @@ Pokemon = CROBAT,47
 Pokemon = GRANBULL,47
 Pokemon = GENGAR,49
 #-------------------------------
-[RIVAL_ROCKET,Agente017]
+[RIVAL_ROCKET,Agent-017]
+Items = DYNAMAXBAND,ZRING,MEGARING
 LoseText = ...
-Pokemon = FERALIGATR,65
-Pokemon = TYPHLOSION,65
-Pokemon = TYRANITAR,65
-Pokemon = METAGROSS,65
-Pokemon = MEGANIUM,65
-Pokemon = MEWTWO,100
-    Shiny = yes
+Pokemon = MAGNEZONE,62
+    Moves = ZAPCANNON,FLASHCANNON,REFLECT,THUNDERWAVE
+Pokemon = WEAVILE,62
+    Moves = ICICLECRASH,KNOCKOFF,ICESHARD,PURSUIT
+Pokemon = TYRANITAR,62
+    Moves = ROCKSLIDE,CRUNCH,PURSUIT,EARTHQUAKE
+Pokemon = KINGDRA,62
+    Moves = HYDROPUMP,SURF,DRACOMETEOR,ICEBEAM
+Pokemon = GENGAR,62
+    Moves = DARKPULSE,CONFUSERAY,SHADOWBALL,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = MEWTWO,80
+    Form = 3
     Moves = PSYCHIC,RECOVER,FIREPUNCH,ICEPUNCH
+    Item = PSYCHIUMZ
 #-------------------------------
 [LEADER_Brock,Brock]
 LoseText = ...
@@ -2796,7 +2806,7 @@ LoseText = ...
 Pokemon = RHYHORN,37
 Pokemon = WEEZING,41
 #-------------------------------
-[RIVAL_ROCKET,Agente017,2]
+[RIVAL_ROCKET,Agent-017,2]
 LoseText = ...
 Pokemon = VENUSAUR,45
 Pokemon = CHARIZARD,46

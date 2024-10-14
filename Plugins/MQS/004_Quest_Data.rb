@@ -355,10 +355,18 @@ module QuestModule
 
   RoundOf16Battle = {
     :ID => "31",
-    :Name => "Third Pokémon World Cup Match!",
-    :Stage1 => "Third World Cup Match!",
+    :Name => "World Cup Round of 16!",
+    :Stage1 => "Go to the Stadium.",
     :Location1 => "Colosseum Town",
-    :QuestDescription => "It's time for the last Match in the Group phase! This time you'll face Paul, from Sinnoh!",
+    :QuestDescription => "It's time for the Round of 16! Go to the Stadium to see the draw and see who you'll face!",
+  }
+
+  RoundOf8Battle = {
+    :ID => "31",
+    :Name => "World Cup Round of 8!",
+    :Stage1 => "Go to the Stadium.",
+    :Location1 => "Colosseum Town",
+    :QuestDescription => "You've made it to the Round of 8! Your next battle will be against your Rival, so be ready!",
   }
 
   

@@ -1682,4 +1682,4 @@ Flags = PowerSpot
 Name = Coliseum Town Arena
 MapPosition = 0,10,9
 BattleBack = battlewc
-Flags = PowerSpot
+Flags = PowerSpot,ShowFollowingPkmn

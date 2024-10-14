@@ -134,7 +134,32 @@ def pbPhotograph()
   # $game_map.scroll_up(10)
   pbScrollMap(8, 2, 5) # Move camera two tiles up
 
-  # Game_Map.scroll_up(2)
+  pbPhotographSimple()
+
+  pbScrollMap(2, 2, 5) # Go camera back two tiles down
+
+  for event in events
+    $game_map.events[event.id]&.erase
+    $PokemonMap&.addErasedEvent(event.id)
+  end
+
+  pbToneChangeAll(Tone.new(0,0,0),10)
+  
+
+  FollowingPkmn.toggle(true,false)
+
+end
+
+# To be used on Bar even in Olivine
+def pbPhotographOlivineBar()
+
+  pbZoomMap(2,1,"in")
+  pbScrollMap(2, 1, 5) # Go camera back one tile down
+  pbPhotographSimple()
+
+end
+
+def pbPhotographSimple()
 
   pbToneChangeAll(Tone.new(0,0,0),10)
 
@@ -168,17 +193,7 @@ def pbPhotograph()
   pbMessage(_INTL("It has taken a picture successfully."))
   pbMessage(_INTL("Photo is saved on /Album folder."))
 
-  pbScrollMap(2, 2, 5) # Go camera back two tiles down
+ 
 
-  for event in events
-    $game_map.events[event.id]&.erase
-    $PokemonMap&.addErasedEvent(event.id)
-  end
-
-  pbToneChangeAll(Tone.new(0,0,0),10)
-  
-
-  FollowingPkmn.toggle(true,false)
-
-end
+end  
   

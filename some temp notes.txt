@@ -1,7 +1,7 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
 !isQuestActive?(:HotelCheckIn)
 
-activateQuest(:RoundOf16Battle,colorQuest("blue"),true)
+activateQuest(:RoundOf8Battle,colorQuest("blue"),true)
 advanceQuestToStage(:SecondWorldCupBattle, 2)
 completeQuest(:FirstWorldCupBattle)
 

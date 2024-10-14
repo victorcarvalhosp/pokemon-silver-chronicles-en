@@ -596,8 +596,8 @@ Name = ROCKET
 Gender = Male
 BaseMoney = 100
 IntroBGM = GSCRival
-BattleBGM = GSCRival
-VictoryBGM = Victory - Trainer
+BattleBGM = world_cup_battle_01
+VictoryBGM = world_cup_victory_01
 #-------------------------------
 [LEADER_Brock]
 Name = LEADER

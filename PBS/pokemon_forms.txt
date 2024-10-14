@@ -609,6 +609,18 @@ Habitat = Rare
 Pokedex = Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.
 Generation = 6
 #-------------------------------
+[MEWTWO,3]
+FormName = Armored Mewtwo
+Types = PSYCHIC
+BaseStats = 106,110,150,130,194,90
+BaseExp = 390
+Abilities = PRESSURE
+HiddenAbilities = UNNERVE
+Height = 2.0
+Weight = 135.0
+Habitat = Rare
+Pokedex = This is a genetically engineered Pokémon, enhanced with advanced metallic armor for increased defense and power.
+#-------------------------------
 [PICHU,2]
 FormName = Spiky-Eared
 Generation = 4
