@@ -306,9 +306,19 @@ class PokemonPokedexInfo_Scene
     GameData::Encounter.each_of_version($PokemonGlobal.encounter_version) do |enc_data|
       next if !pbFindEncounter(enc_data.types, @species)   # Species isn't in encounter table
       # Get the map belonging to the encounter table
+      Console.echoln_li _INTL("enc_data.map {1}",enc_data.map)
+
       map_metadata = GameData::MapMetadata.try_get(enc_data.map)
+      Console.echoln_li _INTL("map_metadata {1}",map_metadata)
+
       next if !map_metadata || map_metadata.has_flag?("HideEncountersInPokedex")
       mappos = map_metadata.town_map_position
+
+      Console.echoln_li _INTL("{1}",mappos)
+      Console.echoln_li _INTL("next line")
+
+      Console.echoln_li _INTL("{1}",mappos[0])
+
       next if mappos[0] != @region   # Map isn't in the region being shown
       # Get the size and shape of the map in the Town Map
       map_size = map_metadata.town_map_size

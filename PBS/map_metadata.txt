@@ -79,6 +79,7 @@ MapPosition = 0,15,9
 #-------------------------------
 [017]   # Dark Cave
 Name = Dark Cave
+MapPosition = 0,19,8
 DarkMap = true
 BattleBack = cave1
 Environment = Cave
@@ -737,7 +738,11 @@ MapPosition = 0,22,6
 Name = Dragon's Den
 Name = 
 Outdoor = false
-MapPosition = 0,22,1
+MapPosition = 0,23,5
+#-------------------------------
+[168]   # Toca do dragão
+Name = Toca do dragão
+MapPosition = 0,22,5
 #-------------------------------
 [169]   # Route 45
 Name = Rota 45
@@ -758,32 +763,39 @@ MapPosition = 1,4,13
 #-------------------------------
 [180]   # Victory Road
 Name = Victory Road
+MapPosition = 1,9,9
 BattleBack = cave1
 #-------------------------------
 [181]   # Pokémon League HQ
-Name = Elite 4
+Name = Pokémon League HQ
+Name = 
 HealingSpot = 171,27,10
+MapPosition = 1,9,7
 #-------------------------------
 [183]   # Pokémon League HQ
-Name = SALA 01
+Name = Pokémon League HQ
+Name = 
 MapPosition = 1,9,7
 BattleBack = elite1
 Flags = PowerSpot
 #-------------------------------
 [184]   # Pokémon League HQ
-Name = SALA 02
+Name = Pokémon League HQ
+Name = 
 MapPosition = 1,9,7
 BattleBack = elite2
 Flags = PowerSpot
 #-------------------------------
 [185]   # Pokémon League HQ
-Name = SALA 03
+Name = Pokémon League HQ
+Name = 
 MapPosition = 1,9,7
 BattleBack = elite3
 Flags = PowerSpot
 #-------------------------------
 [186]   # Pokémon League HQ
-Name = SALA LANCE
+Name = Pokémon League HQ
+Name = 
 MapPosition = 1,9,7
 BattleBack = champion1
 Flags = PowerSpot
@@ -791,6 +803,9 @@ Flags = PowerSpot
 [189]   # Room 2
 Name = Final
 DiveMap = 300
+#-------------------------------
+[190]   # Hall da Fama Johto
+Name = Hall da Fama Johto
 #-------------------------------
 [200]   # Littleroot town
 Name = Littleroot town
@@ -905,6 +920,10 @@ ShowArea = true
 HealingSpot = 243,20,39
 MapPosition = 2,4,7
 #-------------------------------
+[244]   # Automare
+Name = Automare
+MapPosition = 2,18,12
+#-------------------------------
 [245]   # Mauville City
 Name = Mauville City
 Outdoor = true
@@ -947,6 +966,10 @@ ShowArea = true
 Bicycle = true
 HealingSpot = 251,28,17
 MapPosition = 2,22,6
+#-------------------------------
+[252]   #  Sootopolis City 
+Name = Sootopolis City
+MapPosition = 2,22,9
 #-------------------------------
 [256]   # Coliseum Town
 Name = Coliseum town
@@ -1016,6 +1039,10 @@ Name = Rota para cidade 2
 Outdoor = true
 MapPosition = 3,23,7
 #-------------------------------
+[274]   # Rota para cidade 3-1
+Name = Rota para cidade 3-1
+MapPosition = 3,23,11
+#-------------------------------
 [278]   # Grand Hotel
 Name = Grand Hotel
 Outdoor = false
@@ -1029,10 +1056,25 @@ ShowArea = true
 HealingSpot = 285,24,9
 MapPosition = 2,8,5
 #-------------------------------
+[286]   # Rota 105
+Name = Rota 105
+MapPosition = 2,1,12
+#-------------------------------
+[287]   # complemento rota 104
+Name = complemento rota 104
+#-------------------------------
 [288]   # Rota 107
 Name = Rota 107
 Outdoor = true
 MapPosition = 2,6,15
+#-------------------------------
+[289]   # Rota 108
+Name = Rota 108
+MapPosition = 2,8,16
+#-------------------------------
+[290]   #  
+Name =  
+Name = 
 #-------------------------------
 [291]   # Rota 118
 Name = Rota 118
@@ -1055,6 +1097,14 @@ MapPosition = 0,15,9
 BattleBack = unown
 Environment = Cave
 #-------------------------------
+[295]   # Unown Cave
+Name = Unown Cave
+MapPosition = 0,15,10
+#-------------------------------
+[296]   # Unown Cave
+Name = Unown Cave
+MapPosition = 0,15,10
+#-------------------------------
 [297]   # Route 46
 Name = Rota 46
 Outdoor = true
@@ -1068,11 +1118,17 @@ MapPosition = 1,6,6
 #-------------------------------
 [302]   # Victory Road
 Name = Victory Road
+MapPosition = 1,9,8
 BattleBack = cave1
 #-------------------------------
 [303]   # Victory Road
 Name = Victory Road
+MapPosition = 1,9,9
 BattleBack = cave1
+#-------------------------------
+[307]   # Tohjo Falls
+Name = Tohjo Falls
+MapPosition = 1,4,13
 #-------------------------------
 [327]   # Rota 114
 Name = Rota 114
@@ -1103,17 +1159,23 @@ HealingSpot = 331,24,33
 MapPosition = 1,18,14
 #-------------------------------
 [336]   # Route 26
-Name = Rota 26
+Name = Route 26
+Name = 
 Outdoor = true
 MapPosition = 1,6,8
 #-------------------------------
 [337]   # Route 26
-Name = Rota 26
+Name = Route 26
+Name = 
 Outdoor = true
 MapPosition = 1,6,13
 #-------------------------------
 [338]   # Rota 26 complemento cima
 Name = Rota 26 complemento cima
+#-------------------------------
+[339]   # Ecruteak complemento
+Name = Ecruteak complemento
+MapPosition = 0,14,6
 #-------------------------------
 [340]   # Valencia Island
 Name = Valencia Island
@@ -1137,6 +1199,7 @@ MapPosition = 4,5,15
 [343]   # Vale Vileplume
 Name = Vale Vileplume
 Outdoor = true
+MapPosition = 4,5,14
 #-------------------------------
 [344]   # Elm's House
 Name = Elm's House
@@ -1147,6 +1210,7 @@ Name = Dragon's Den
 #-------------------------------
 [346]   # Whirl Islands
 Name = Whirl Islands
+MapPosition = 0,9,12
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
@@ -1245,6 +1309,14 @@ Name = Rota 11
 Outdoor = true
 MapPosition = 1,24,10
 #-------------------------------
+[406]   # DIGLETT'S CAVE
+Name = DIGLETT'S CAVE
+MapPosition = 1,17,6
+#-------------------------------
+[407]   # Digletts Cave
+Name = Digletts Cave
+MapPosition = 1,17,6
+#-------------------------------
 [408]   # Rota 12
 Name = Rota 12
 Outdoor = true
@@ -1280,6 +1352,9 @@ MapPosition = 1,16,11
 Name = Rota 18
 Outdoor = true
 MapPosition = 1,17,14
+#-------------------------------
+[421]   # transição 2nd
+Name = transição 2nd
 #-------------------------------
 [422]   # Rota 19
 Name = Rota 19
@@ -1340,6 +1415,17 @@ SafariMap = true
 [494]   # Casa Secreta
 Name = Casa Secreta
 SafariMap = true
+#-------------------------------
+[495]   # casa Policia
+Name = casa Policia
+#-------------------------------
+[497]   # ROCK TUNNEL
+Name = ROCK TUNNEL
+MapPosition = 1,25,6
+#-------------------------------
+[511]   # ROCK TUNNEL 2
+Name = ROCK TUNNEL 2
+MapPosition = 1,25,6
 #-------------------------------
 [521]   # Rota baixo
 Name = Rota baixo
@@ -1494,19 +1580,30 @@ Name = Rota direita
 Outdoor = true
 MapPosition = 4,10,3
 #-------------------------------
+[592]   # Pokecenter
+Name = Pokecenter
+#-------------------------------
 [598]   # Caverna
 Name = Caverna
+MapPosition = 4,9,11
 #-------------------------------
 [599]   # Caverna de Cristal
 Name = Caverna de Cristal
 Bicycle = true
+MapPosition = 4,9,11
 DarkMap = true
 #-------------------------------
 [610]   # Caverna Kabuto
 Name = Caverna Kabuto
+Name = 
+MapPosition = 4,16,14
 #-------------------------------
 [611]   # caverna kabuto 2°
 Name = caverna kabuto 2°
+MapPosition = 4,16,14
+#-------------------------------
+[623]   # descida
+Name = descida
 #-------------------------------
 [643]   # Casa
 Name = Casa
@@ -1528,21 +1625,6 @@ Name = Ilha do Gelo
 Outdoor = true
 Weather = Snow,100
 MapPosition = 4,16,9
-#-------------------------------
-[647]   # Caverna
-Name = Caverna
-#-------------------------------
-[648]   # Caverna 2nd
-Name = Caverna 2nd
-#-------------------------------
-[649]   # Caverna 3nd
-Name = Caverna 3nd
-#-------------------------------
-[650]   # Caverna
-Name = Caverna
-#-------------------------------
-[651]   # Caverna 2nd
-Name = Caverna 2nd
 #-------------------------------
 [671]   # Rota 115
 Name = Rota 115
@@ -1585,15 +1667,52 @@ Name = Rota 124
 Outdoor = true
 MapPosition = 2,19,5
 #-------------------------------
+[679]   # Rota 125
+Name = Rota 125
+MapPosition = 2,25,5
+#-------------------------------
+[680]   # Rota 127
+Name = Rota 127
+MapPosition = 2,25,8
+#-------------------------------
+[681]   # Rota 131
+Name = Rota 131
+MapPosition = 2,20,12
+#-------------------------------
+[682]   # Rota 132
+Name = Rota 132
+MapPosition = 2,16,12
+#-------------------------------
+[683]   # Rota 126
+Name = Rota 126
+MapPosition = 2,23,8
+#-------------------------------
 [686]   # Rota 123
 Name = Rota 123
 Outdoor = true
 MapPosition = 2,15,7
 #-------------------------------
+[687]   # Rota 129
+Name = Rota 129
+MapPosition = 2,25,12
+#-------------------------------
+[688]   # Rota 130
+Name = Rota 130
+MapPosition = 2,23,12
+#-------------------------------
+[689]   # Rota 133
+Name = Rota 133
+MapPosition = 2,14,12
+#-------------------------------
+[690]   # Rota 134
+Name = Rota 134
+MapPosition = 2,10,12
+#-------------------------------
 [698]   # Vale Petalburg
 Name = Vale Petalburg
 Outdoor = true
 ShowArea = true
+MapPosition = 2,1,10
 #-------------------------------
 [716]   # gim
 Name = gim
@@ -1606,7 +1725,31 @@ MapPosition = 2,5,15
 #-------------------------------
 [718]   # GRANITE CAVE(24.8)
 Name = GRANITE CAVE(24.8)
-MapPosition = 2,5,15
+MapPosition = 2,2,15
+#-------------------------------
+[719]   # GRANITE CAVE(24.9)
+Name = GRANITE CAVE(24.9)
+MapPosition = 2,2,15
+#-------------------------------
+[720]   # GRANITE CAVE(24.10)
+Name = GRANITE CAVE(24.10)
+MapPosition = 2,2,15
+#-------------------------------
+[723]   # Rusturf Tunnel
+Name = Rusturf Tunnel
+MapPosition = 2,3,7
+#-------------------------------
+[735]   # Super Arena REMAKE
+Name = Coliseum Town Arena
+MapPosition = 0,10,9
+BattleBack = battlewc
+Flags = PowerSpot
+#-------------------------------
+[736]   # Super Arena fase final REMAKE
+Name = Coliseum Town Arena
+MapPosition = 0,10,9
+BattleBack = battlewc
+Flags = PowerSpot,ShowFollowingPkmn
 #-------------------------------
 [737]   # Whirl Islands
 Name = Whirl Island sub
@@ -1627,7 +1770,8 @@ BattleBack = cave1
 Environment = Cave
 #-------------------------------
 [740]   # Pokémon League HQ
-Name = SALA 04
+Name = Pokémon League HQ
+Name = 
 MapPosition = 1,9,7
 BattleBack = elite4
 Flags = PowerSpot
@@ -1637,6 +1781,26 @@ Name = Fiery Path
 Outdoor = false
 ShowArea = true
 MapPosition = 2,9,5
+#-------------------------------
+[759]   # Meteor Falls (24.0)
+Name = Meteor Falls (24.0)
+MapPosition = 2,1,5
+#-------------------------------
+[760]   # Meteor Falls (24.1)
+Name = Meteor Falls (24.1)
+MapPosition = 2,1,5
+#-------------------------------
+[761]   # Meteor Falls (24.2)
+Name = Meteor Falls (24.2)
+MapPosition = 2,1,5
+#-------------------------------
+[762]   # Meteor Falls (24.3)
+Name = Meteor Falls (24.3)
+MapPosition = 2,1,5
+#-------------------------------
+[764]   # Caverna Maniaco
+Name = Caverna Maniaco
+MapPosition = 2,1,5
 #-------------------------------
 [766]   # Mt Chimney
 Name = Mt Chimney
@@ -1648,6 +1812,50 @@ MapPosition = 2,9,4
 Name = Jagged Pass
 Outdoor = true
 MapPosition = 2,8,4
+#-------------------------------
+[768]   # Ever Grand City (0.8)
+Name = Ever Grand City (0.8)
+MapPosition = 2,28,10
+#-------------------------------
+[769]   # Victory Road (24.43)
+Name = Victory Road (24.43)
+MapPosition = 2,28,10
+#-------------------------------
+[770]   # Victory Road (24.44)
+Name = Victory Road (24.44)
+MapPosition = 2,28,10
+#-------------------------------
+[771]   # Victory Road (24.45)
+Name = Victory Road (24.45)
+MapPosition = 2,28,10
+#-------------------------------
+[777]   # Rota 128
+Name = Rota 128
+MapPosition = 2,26,11
+#-------------------------------
+[805]   # Mt. Pire (24.15)
+Name = Mt. Pire (24.15)
+MapPosition = 2,17,6
+#-------------------------------
+[806]   # Mt. Pire (24.16)
+Name = Mt. Pire (24.16)
+MapPosition = 2,17,6
+#-------------------------------
+[807]   # Mt. Pire (24.17)
+Name = Mt. Pire (24.17)
+MapPosition = 2,17,6
+#-------------------------------
+[808]   # Mt Pire (24.18)
+Name = Mt Pire (24.18)
+MapPosition = 2,17,7
+#-------------------------------
+[809]   # Mt. Pire (24.19)
+Name = Mt. Pire (24.19)
+MapPosition = 2,17,6
+#-------------------------------
+[810]   # Mt. Pire (24.20)
+Name = Mt. Pire (24.20)
+MapPosition = 2,17,7
 #-------------------------------
 [811]   # Mt. Pire (24.21)
 Name = Mt. Pire (24.21)
@@ -1671,15 +1879,3 @@ Flags = PowerSpot
 [857]   # Regiao Kalos
 Name = Ice Path Copy
 Outdoor = false
-#-------------------------------
-[735]   # Super Arena REMAKE
-Name = Coliseum Town Arena
-MapPosition = 0,10,9
-BattleBack = battlewc
-Flags = PowerSpot
-#-------------------------------
-[736]   # Super Arena fase final REMAKE
-Name = Coliseum Town Arena
-MapPosition = 0,10,9
-BattleBack = battlewc
-Flags = PowerSpot,ShowFollowingPkmn

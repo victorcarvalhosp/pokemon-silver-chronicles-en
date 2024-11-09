@@ -319,7 +319,7 @@ MultipleForms.copy(:RATTATA, :SANDSHREW, :VULPIX, :DIGLETT, :MEOWTH, :GEODUDE, :
                   )                                                       
 
 #-------------------------------------------------------------------------------
-# Species with regional evolutions (Hisuian forms).
+# Species with regional evolutions (Hisuian and Galarian forms).
 #-------------------------------------------------------------------------------			  
 MultipleForms.register(:QUILAVA, {
   "getForm" => proc { |pkmn|
@@ -334,7 +334,39 @@ MultipleForms.register(:QUILAVA, {
   }
 })
 
-MultipleForms.copy(:QUILAVA, :DEWOTT, :DARTRIX)
+MultipleForms.copy(:QUILAVA, :CUBONE)
+
+#MultipleForms.copy(:QUILAVA, :DEWOTT, :DARTRIX)
+
+# Makes Exeggcute to evolve to Alolan Exeggcutor in the Dragons Den cave.
+MultipleForms.register(:EXEGGCUTE, {
+  "getForm" => proc { |pkmn|
+    next if pkmn.form_simple >= 2
+    if $game_map
+     # 167 is the dragons den cave
+     next 1 if $game_map.map_id == 167
+    end
+    next 0
+  }
+})
+
+
+# Evolves Koffing to Galarian Form on Rocket Hideout or big cities.
+MultipleForms.register(:KOFFING, {
+  "getForm" => proc { |pkmn|
+    next if pkmn.form_simple >= 2
+    if $game_map
+      map_pos = $game_map.metadata&.town_map_position
+     # 141,142 and 143 are Rocket Hideout in Mahogany Town
+     # 56 is Goldenrod City
+     # 384 is Saffron City
+     next 1 if $game_map.map_id == 141 || $game_map.map_id == 142  || $game_map.map_id == 143 || $game_map.map_id == 56  || $game_map.map_id == 384
+    end
+    next 0
+  }
+})
+
+
 
 #-------------------------------------------------------------------------------
 # Dundunsparce - Segment sizes.

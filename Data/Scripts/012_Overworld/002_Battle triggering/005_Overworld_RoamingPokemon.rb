@@ -196,6 +196,9 @@ EventHandlers.add(:on_calling_wild_battle, :roaming_pokemon,
 )
 
 def pbRoamingPokemonBattle(species, level)
+
+  Console.echo("Roaming Pokemon Battle")
+  Console.echo(species)
   # Get the roaming Pokémon to encounter; generate it based on the species and
   # level if it doesn't already exist
   idxRoamer = $game_temp.roamer_index_for_encounter
