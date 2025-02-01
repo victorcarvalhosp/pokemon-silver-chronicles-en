@@ -739,6 +739,7 @@ Name = Dragon's Den
 Name = 
 Outdoor = false
 MapPosition = 0,23,5
+BattleBack = cave1
 #-------------------------------
 [168]   # Toca do dragão
 Name = Toca do dragão
@@ -987,14 +988,14 @@ MapPosition = 3,23,6
 Name = National Park
 MapPosition = 0,13,8
 #-------------------------------
-[263]   # Pallet town
+[263]   # Pallet Town
 Name = Pallet town
 Outdoor = true
 ShowArea = true
 HealingSpot = 263,27,21
 MapPosition = 1,13,12
 #-------------------------------
-[264]   # Rota 01
+[264]   # Route 1
 Name = Rota 01
 Outdoor = true
 MapPosition = 1,13,11
@@ -1108,6 +1109,7 @@ MapPosition = 0,15,10
 [297]   # Route 46
 Name = Rota 46
 Outdoor = true
+Weather = Rain,10
 MapPosition = 0,21,12
 BattleBack = grass
 #-------------------------------
@@ -1221,7 +1223,7 @@ ShowArea = true
 HealingSpot = 350,6,6
 MapPosition = 1,25,8
 #-------------------------------
-[361]   # Rota 22
+[361]   # Route 22
 Name = Rota 22
 Outdoor = true
 MapPosition = 1,10,9

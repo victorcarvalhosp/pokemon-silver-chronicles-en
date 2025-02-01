@@ -120,7 +120,7 @@ class Game_Player < Game_Character
       new_charset = pbGetPlayerCharset(meta.surf_charset)
     when :cycling, :cycling_fast, :cycling_jumping, :cycling_stopped
       if !@move_route_forcing
-        self.move_speed = (type == :cycling_jumping) ? 3 : 5
+        self.move_speed = (type == :cycling_jumping) ? 3 : 6
       end
       new_charset = pbGetPlayerCharset(meta.cycle_charset)
     when :running

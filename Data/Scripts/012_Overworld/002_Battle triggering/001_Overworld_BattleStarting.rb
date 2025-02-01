@@ -346,7 +346,7 @@ class WildBattle
     # roaming Pokémon, Safari battles, Bug Contest battles)
     if foe_party.length == 1 && can_override
       handled = [nil]
-      EventHandlers.trigger(:on_calling_wild_battle, foe_party[0].species, foe_party[0].level, handled)
+      EventHandlers.trigger(:on_calling_wild_battle, foe_party[0], foe_party[0].level, handled)
       return handled[0] if !handled[0].nil?
     end
     # Perform the battle

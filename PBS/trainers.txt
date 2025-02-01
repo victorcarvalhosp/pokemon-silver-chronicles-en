@@ -2107,11 +2107,25 @@ Pokemon = BULBASAUR,34
 Pokemon = IVYSAUR,36
 Pokemon = VENUSAUR,38
 #-------------------------------
+[COOLTRAINER_Female,Megan,2]
+LoseText = Oh! You're really strong!
+Pokemon = EKANS,48
+Pokemon = IVYSAUR,48
+Pokemon = VENUSAUR,50
+Pokemon = ARBOK,50
+#-------------------------------
 [COOLTRAINER_Male,Blake]
 LoseText = ...!
 Pokemon = MAGNETON,38
 Pokemon = QUAGSIRE,36
 Pokemon = EXEGGCUTE,34
+#-------------------------------
+[COOLTRAINER_Male,Blake,2]
+LoseText = ...!
+Pokemon = MAGNEZONE,50
+Pokemon = QUAGSIRE,48
+Pokemon = EXEGGCUTE,50
+Pokemon = DRAGONAIR,50
 #-------------------------------
 [COOLTRAINER_Male,Brian]
 LoseText = Just as I thought!
@@ -2130,6 +2144,13 @@ LoseText = Oh! You're much too strong!
 Pokemon = GROWLITHE,36
 Pokemon = STARMIE,38
 Pokemon = NIDOQUEEN,40
+#-------------------------------
+[COOLTRAINER_Female,Reena,2]
+LoseText = Oh! You're much too strong!
+Pokemon = ARCANINE,50
+Pokemon = STARMIE,55
+Pokemon = NIDOQUEEN,50
+Pokemon = NIDOKING,50
 #-------------------------------
 [FISHERMAN,Scott]
 LoseText = No! Not in this battle!
@@ -2173,11 +2194,26 @@ Pokemon = LEDIAN,35
 Pokemon = MAGMAR,35
 Pokemon = GRAVELER,35
 #-------------------------------
+[COOLTRAINER_Male,Jake,2]
+LoseText = I blew it!
+Pokemon = PARASECT,50
+Pokemon = GOLDUCK,50
+Pokemon = VAPOREON,55
+Pokemon = LEDIAN,50
+Pokemon = MAGMORTAR,54
+Pokemon = GOLEM,52
+#-------------------------------
 [COOLTRAINER_Female,Beth]
 LoseText = Pokémon aren't tools of war
 Pokemon = RAPIDASH,40
 Pokemon = FLAAFFY,36
 Pokemon = WIGGLYTUFF,38
+#-------------------------------
+[COOLTRAINER_Female,Beth,2]
+LoseText = Pokémon aren't tools of war
+Pokemon = RAPIDASH,50
+Pokemon = AMPHAROS,54
+Pokemon = WIGGLYTUFF,58
 #-------------------------------
 [PROFESSOR_Ivy,Ivy]
 LoseText = ...
@@ -2333,21 +2369,21 @@ Pokemon = STEELIX,45
 Pokemon = CROBAT,41
 #-------------------------------
 [COOLTRAINER_Male,Julius]
-LoseText = ...
-Pokemon = PRIMEAPE,29
-Pokemon = GASTLY,27
-Pokemon = BEEDRILL,26
+LoseText = You're really good!
+Pokemon = PRIMEAPE,52
+Pokemon = HAUNTER,52
+Pokemon = BEEDRILL,54
 #-------------------------------
 [COOLTRAINER_Male,Abreu]
-LoseText = ...
-Pokemon = MAROWAK,32
-Pokemon = WEEPINBELL,28
+LoseText = You're not weak...
+Pokemon = MAROWAK,52
+Pokemon = VICTREEBEL,54
 #-------------------------------
 [YOUNGSTER,Jones]
-LoseText = ...
-Pokemon = VENONAT,26
-Pokemon = PIDGEOTTO,27
-Pokemon = VULPIX,28
+LoseText = I need to follow the textbook.
+Pokemon = VENONAT,45
+Pokemon = PIDGEOT,50
+Pokemon = VULPIX,48
 #-------------------------------
 [BUGCATCHER,RICK]
 LoseText = ...

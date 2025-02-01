@@ -23,7 +23,7 @@ class EBDXBitmapWrapper
     @total_frames = 0
     @frame_idx    = 0
     @changed_hue  = false
-    @speed        = 1
+    @speed        = 2
     # 0 - not moving at all
     # 1 - normal speed
     # 2 - medium speed

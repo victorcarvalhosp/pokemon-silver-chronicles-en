@@ -357,13 +357,13 @@ EventHandlers.add(:on_leave_map, :end_bug_contest,
 #
 #===============================================================================
 EventHandlers.add(:on_calling_wild_battle, :bug_contest_battle,
-  proc { |species, level, handled|
+  proc { |pkmn, level, handled|
     # handled is an array: [nil]. If [true] or [false], the battle has already
     # been overridden (the boolean is its outcome), so don't do anything that
     # would override it again
     next if !handled[0].nil?
     next if !pbInBugContest?
-    handled[0] = pbBugContestBattle(species, level)
+    handled[0] = pbBugContestBattle(pkmn.species, level)
   }
 )
 

@@ -1165,8 +1165,26 @@ end
 
 # I choose to just ignore items that restore PP here for simplicity and because it would be too weird to first eat the berry,
 # and then choose the move to restore PP for.
-def pbChooseMove(pokemon, variableNumber)
-  return -1
+#def pbChooseMove(pkmn, text, index = 0)
+  #return -1
+#end
+
+
+def pbChooseMove(pokemon, variableNumber, nameVarNumber)
+  return if !pokemon
+  ret = -1
+  pbFadeOutIn {
+    scene = PokemonSummary_Scene.new
+    screen = PokemonSummaryScreen.new(scene)
+    ret = screen.pbStartForgetScreen([pokemon], 0, nil)
+  }
+  $game_variables[variableNumber] = ret
+  if ret >= 0
+    $game_variables[nameVarNumber] = pokemon.moves[ret].name
+  else
+    $game_variables[nameVarNumber] = ""
+  end
+  $game_map.need_refresh = true if $game_map
 end
 
 # These functions below are added to keep the 002_Item_Effects script to work properly

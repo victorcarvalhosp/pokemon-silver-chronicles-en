@@ -36,7 +36,8 @@ module WardrobeConfig
     OUTFITS = [
         "Basic Clothes",
         "Winter Clothes",
-        "Rocket Uniform"
+        "Rocket Uniform",
+        "Kanto Clothes"
     ]
 
 	# Change background style (only works if TYPE is 1):

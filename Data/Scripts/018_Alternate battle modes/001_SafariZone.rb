@@ -105,13 +105,13 @@ EventHandlers.add(:on_player_step_taken_can_transfer, :safari_game_counter,
 #
 #===============================================================================
 EventHandlers.add(:on_calling_wild_battle, :safari_battle,
-  proc { |species, level, handled|
+  proc { |pkmn, level, handled|
     # handled is an array: [nil]. If [true] or [false], the battle has already
     # been overridden (the boolean is its outcome), so don't do anything that
     # would override it again
     next if !handled[0].nil?
     next if !pbInSafari?
-    handled[0] = pbSafariBattle(species, level)
+    handled[0] = pbSafariBattle(pkmn.species, level)
   }
 )
 

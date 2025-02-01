@@ -367,6 +367,21 @@ MultipleForms.register(:KOFFING, {
 })
 
 
+# Evolves Mime Jr. to Galarian Form on Ice Path.
+MultipleForms.register(:MIMEJR, {
+  "getForm" => proc { |pkmn|
+    next if pkmn.form_simple >= 2
+    if $game_map
+      map_pos = $game_map.metadata&.town_map_position
+     # 20 and 153 are Ice Path
+     next 1 if $game_map.map_id == 20 || $game_map.map_id == 153
+    end
+    next 0
+  }
+})
+
+
+
 
 #-------------------------------------------------------------------------------
 # Dundunsparce - Segment sizes.
