@@ -371,6 +371,40 @@ module QuestModule
     :QuestDescription => "You've made it to the Round of 8! Your next battle will be against your Rival, so be ready!",
   }
 
+
+  OaksResearch = {
+    :ID => "32",
+    :Name => "Oak's new research!",
+    :QuestGiver => "Professor Oak",
+    :Stage1 => "Go talk with Professor Oak.",
+    :Stage2 => "Mega Evolve your new Pokémon.",
+    :Location1 => "Pallet Town",
+    :Location2 => "nil",
+    # :Location2 => "Route 31",
+    :QuestDescription => "Professor Oak is working on a new research and wants your help on it!",
+  }
+
+  # @todo: Still need to add code to complete it in the game
+  KantoPokedex = {
+    :ID => "33",
+    :Name => "Gotta catch ‘em all(Kanto)!",
+    :QuestGiver => "Professor Oak",
+    :Stage1 => "Complete the Kanto Pokédex.",
+    :Stage2 => "Register at least 80 Pokémon.",
+    :Location1 => "nil",
+    # :Location2 => "Route 31",
+    :QuestDescription => "Go meet many kinds of Pokémon and complete the Kanto Pokédex!",
+  }
+
+  RedRescue = {
+    :ID => "35",
+    :Name => "Red's missing!",
+    :QuestGiver => "Yellow",
+    :Stage1 => "Search for Red in the Viridian Forest.",
+    :Location1 => "Viridian Forest",
+    :QuestDescription => "Red's is missing since he won the World Cup. Help Yellow and Prof. Oak to find him!",
+  }
+
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

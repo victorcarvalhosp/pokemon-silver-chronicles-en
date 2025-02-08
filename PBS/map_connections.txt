@@ -312,26 +312,32 @@
 690,East,0,689,West,0
 # complemento2 (795) - complemento1 (794)
 795,West,0,794,East,15
-# Pallet Town (263) - Route 1 (264)
-263,North,3,264,South,0
+# Route 1 (264) - Pallet Town (263)
+264,South,0,263,North,3
+# Rota 21 (424) - Pallet Town (263)
+424,North,0,263,South,2
+# Route 21 Complement (258) - Pallet Town (263)
+258,North,0,263,South,34
 # Viridian City (265) - Route 1 (264)
 265,South,0,264,North,1
 # Rota 11 (403) - Route 1 (264)
 403,South,0,264,North,231
-# Rota 21 (424) - Pallet Town (263)
-424,North,0,263,South,2
-# Rota 20 (423) - Rota 21 (424)
-423,West,0,424,East,36
 # Cinnabar Island (330) - Rota 21 (424)
 330,North,0,424,South,2
-# Cinnabar Island (330) - Rota 20 (423)
-330,East,0,423,West,39
+# Rota 20 (423) - Rota 21 (424)
+423,West,0,424,East,36
+# Route 21 Complement (258) - Rota 21 (424)
+258,West,0,424,East,0
+# Rota 20 (423) - Cinnabar Island (330)
+423,West,39,330,East,0
+# Route 22 (361) - Cinnabar Island (330)
+361,East,178,330,West,0
+# Route 21 Complement (258) - Cinnabar Island (330)
+258,West,75,330,East,0
 # Fuchsia City (331) - Rota 20 (423)
 331,South,0,423,North,80
 # Rota 19 (422) - Rota 20 (423)
 422,West,0,423,East,0
-# Route 22 (361) - Cinnabar Island (330)
-361,East,178,330,West,0
 # Viridian City (265) - Route 22 (361)
 265,West,10,361,East,0
 # Rota 2 (266) - Viridian City (265)

@@ -1674,8 +1674,9 @@ Land,21
     20,PIDGEY,23,33
     20,RATTATA,23,30
     20,PIDGEOTTO,24,31
-    20,RATICATE,24,31
+    10,RATICATE,24,31
     19,WATTREL,16,26
+    10,PACHIRISU,23,33    
     1,PIDGEOT,36
 #-------------------------------
 [266] # Rota 2
