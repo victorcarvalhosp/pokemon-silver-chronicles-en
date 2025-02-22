@@ -1679,57 +1679,40 @@ Land,21
     10,PACHIRISU,23,33    
     1,PIDGEOT,36
 #-------------------------------
-[266] # Rota 2
+[266] # Route 2
 Land,21
-    24,PIDGEY,4
-    20,CATERPIE,4
-    20,RATTATA,4
-    10,RATTATA,5
-    10,WEEDLE,3
-    5,RATTATA,3
-    5,WEEDLE,4
-    4,WEEDLE,5
-    1,CATERPIE,5
-    1,PIDGEY,6
+    30,PIDGEOTTO,24,33
+    20,SPEAROW,24,30
+    20,RATTATA,25,33
+    10,BEEDRILL,23,30
+    10,RATICATE,30,35
+    10,SMOLIV,15,23
 #-------------------------------
 [267] # Viridian Forest
 Land,21
-    20,CATERPIE,4
-    20,WEEDLE,4
-    14,WEEDLE,3
-    10,CATERPIE,3
-    10,CATERPIE,5
-    10,WEEDLE,5
-    5,KAKUNA,5
-    5,METAPOD,5
-    4,KAKUNA,4
-    1,KAKUNA,6
-    1,PIKACHU,5
-#-------------------------------
-[268] # Casa Rota 2
-Land,21
-    24,PIDGEY,4
-    20,CATERPIE,4
-    20,RATTATA,4
-    10,RATTATA,5
-    10,WEEDLE,3
-    5,RATTATA,3
-    5,WEEDLE,4
-    4,WEEDLE,5
-    1,CATERPIE,5
-    1,PIDGEY,6
+    15,CATERPIE,24,28
+    15,WEEDLE,24,28
+    15,BURMY,25,28
+    15,COMBEE,25,28
+    5,PIDGEOTTO,25,34
+    5,SPEAROW,25,34
+    5,KAKUNA,30,35
+    5,METAPOD,30,35
+    5,BEEDRILL,30,35
+    5,BUTTERFREE,30,35
+    5,PIKACHU,15,35
+    5,PACHIRISU,15,35
 #-------------------------------
 [270] # Rota 3
 Land,21
-    30,PIDGEY,6
-    20,SPEAROW,6
-    14,SPEAROW,7
-    10,MANKEY,7
-    10,NIDORANmA,7
-    6,JIGGLYPUFF,7
-    5,SPEAROW,8
-    4,NIDORANfE,6
-    1,PIDGEY,7
+    20,PIDGEY,26,30
+    20,SPEAROW,26,30
+    10,SPRITZEE,17,27
+    10,MANKEY,27,32
+    10,NIDORANmA,17,31
+    10,JIGGLYPUFF,17,27
+    10,NIDORANfE,16,26
+    10,PIDGEOTTO,26,35
 #-------------------------------
 [291] # Rota 118
 Land,21
@@ -1909,17 +1892,14 @@ SuperRod
 #-------------------------------
 [377] # Rota 4
 Land,21
-    20,RATTATA,10
-    20,SPEAROW,10
-    14,RATTATA,8
-    10,EKANS,6
-    10,SPEAROW,8
-    10,SPEAROW,12
-    5,MANKEY,10
-    5,RATTATA,12
-    4,EKANS,10
-    1,EKANS,12
-    1,MANKEY,12
+    20,RATTATA,30,33
+    20,SPEAROW,30,33
+    10,MANKEY,30,33
+    10,JIGGLYPUFF,28,32
+    10,EKANS,29,33
+    10,RATICATE,30,36
+    10,RIOLU,26,30
+    10,ARBOK,32,42
 #-------------------------------
 [379] # Rota 5
 Land,21

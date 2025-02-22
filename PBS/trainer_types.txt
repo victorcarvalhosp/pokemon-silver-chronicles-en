@@ -610,7 +610,7 @@ VictoryBGM = pgs_gymvictory
 Name = RIVAL
 Gender = Unknown
 BaseMoney = 100
-IntroBGM = GSCRival
+IntroBGM = SEQ_EYE_YELLOW
 BattleBGM = GSCRival
 VictoryBGM = Victory - Trainer
 #-------------------------------

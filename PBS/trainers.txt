@@ -2359,14 +2359,152 @@ Pokemon = MEWTWO,80
     Moves = PSYCHIC,RECOVER,FIREPUNCH,ICEPUNCH
     Item = PSYCHIUMZ
 #-------------------------------
-[LEADER_Brock,Brock]
-LoseText = ...
-Pokemon = GEODUDE,40
-Pokemon = MARSHTOMP,41
-Pokemon = HAPPINY,35
-Pokemon = LUDICOLO,41
-Pokemon = STEELIX,45
-Pokemon = CROBAT,41
+[LEADER_Brock,Brock,1]
+Items = DYNAMAXBAND
+LoseText = Looks like you're the stronger one...
+Pokemon = GRAVELER,55
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,58
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYHORN,56
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,56
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,60
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,56
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Brock,Brock,2]
+Items = DYNAMAXBAND
+LoseText = Looks like you're the stronger one...
+Pokemon = GRAVELER,56
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,59
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYHORN,57
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,57
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,61
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,57
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Brock,Brock,3]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like you're the stronger one...
+Pokemon = GRAVELER,57
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,60
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYHORN,58
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,58
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,62
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,58
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Brock,Brock,4]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like you're the stronger one...
+Pokemon = GRAVELER,58
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,61
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYHORN,59
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,59
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,63
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,59
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Brock,Brock,5]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like you're the stronger one...
+Pokemon = GRAVELER,59
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,62
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYHORN,60
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,60
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,64
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,60
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Brock,Brock,6]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like you're the stronger one...
+Pokemon = GOLEM,60
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,63
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYHORN,61
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,61
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,65
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,61
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Brock,Brock,7]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like you're the stronger one...
+Pokemon = GOLEM,60
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,63
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYPERIOR,61
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,61
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,65
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,61
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
 #-------------------------------
 [COOLTRAINER_Male,Julius]
 LoseText = You're really good!
@@ -2386,58 +2524,60 @@ Pokemon = PIDGEOT,50
 Pokemon = VULPIX,48
 #-------------------------------
 [BUGCATCHER,RICK]
-LoseText = ...
-Pokemon = WEEDLE,27
-Pokemon = CATERPIE,28
+LoseText = That's wonderful...
+Pokemon = BEEDRILL,55
+Pokemon = BUTTERFREE,48
 #-------------------------------
 [BUGCATCHER,DOUG]
-LoseText = ...
-Pokemon = WEEDLE,28
-Pokemon = WEEDLE,28
-Pokemon = KAKUNA,30
+LoseText = Oh, no!
+Pokemon = COMBEE,48
+Pokemon = COMBEE,48
+Pokemon = VESPIQUEN,52
 #-------------------------------
 [BUGCATCHER,ANTHONY]
-LoseText = ...
-Pokemon = CATERPIE,28
-Pokemon = CATERPIE,28
+LoseText = I couldn't catch it!
+Pokemon = METAPOD,55
+Pokemon = METAPOD,58
+Pokemon = METAPOD,60
 #-------------------------------
 [BUGCATCHER,CHARLIE]
-LoseText = ...
-Pokemon = METAPOD,30
-Pokemon = CATERPIE,29
-Pokemon = METAPOD,30
+LoseText = I lost beautifully!
+Pokemon = VENOMOTH,50
+Pokemon = KAKUNA,55
+Pokemon = BEEDRILL,56
 #-------------------------------
 [BUGCATCHER,SAMMY]
-LoseText = ...
-Pokemon = BUTTERFREE,34
+LoseText = Thanks for your hard work, my lovely Pokémon...
+Pokemon = BUTTERFREE,64
 #-------------------------------
 [CAMPER,LIAM]
-LoseText = ...
-Pokemon = GEODUDE,31
-Pokemon = SANDSHREW,32
+LoseText = I ave to win these battles...
+Pokemon = RHYDON,58
 #-------------------------------
 [LASS,JANICE]
-LoseText = ...
-Pokemon = PIDGEY,25
-Pokemon = PIDGEY,24
+LoseText = You weren't bluffing...
+Pokemon = ELECTABUZZ,55
+Pokemon = DUGTRIO,54
 #-------------------------------
 [BUGCATCHER,COLTON]
-LoseText = ...
-Pokemon = CATERPIE,20
-Pokemon = WEEDLE,20
-Pokemon = CATERPIE,20
+LoseText = I knew I'd lose...
+Pokemon = METAPOD,50
+Pokemon = BEEDRILL,58
 #-------------------------------
 [YOUNGSTER,BEN]
-LoseText = ...
-Pokemon = RATTATA,20
-Pokemon = EKANS,20
+LoseText = That is... Fail Boy...
+Pokemon = GOLBAT,50
+Pokemon = ELECTRODE,54
 #-------------------------------
-[BUGCATCHER,GREG]
-LoseText = ...
-Pokemon = WEEDLE,24
-Pokemon = CATERPIE,19
-Pokemon = KAKUNA,19
-Pokemon = METAPOD,22
+[BLACKBELT,GREG]
+LoseText = Looks like I've been beaten at my own game...
+Pokemon = POLIWRATH,57
+Pokemon = MACHOKE,54
+#-------------------------------
+[KINDLER,Burt]
+LoseText = Yow! That's hot!
+Pokemon = WEEZING,54
+Pokemon = MAGMAR,56
 #-------------------------------
 [LASS,SALLY]
 LoseText = ...
@@ -2445,25 +2585,32 @@ Pokemon = PIDGEY,20
 Pokemon = NIDORANfE,20
 #-------------------------------
 [YOUNGSTER,CALVIN]
-LoseText = ...
-Pokemon = SPEAROW,21
-Pokemon = SPEAROW,21
+LoseText = Blown away!
+Pokemon = RATICATE,52
+Pokemon = ARBOK,51
+Pokemon = PARASECT,54
 #-------------------------------
-[BUGCATCHER,JAMES]
-LoseText = ...
-Pokemon = CATERPIE,20
-Pokemon = METAPOD,20
+[HIKER,JAMES]
+LoseText = Amazing performance!
+Pokemon = GRAVELER,53
+Pokemon = RHYDON,54
+Pokemon = CLEFAIRY,56
 #-------------------------------
-[LASS,ROBIN]
-LoseText = ...
-Pokemon = JIGGLYPUFF,22
-Pokemon = PIDGEY,20
+[HIKER,ROBIN]
+LoseText = Peace--even though I lost!
+Pokemon = MAGNETON,52
+Pokemon = STEELIX,55
 #-------------------------------
 [RIVAL_YELLOW,Yellow,1]
 LoseText = ...
-Pokemon = BULBASAUR,14
+Pokemon = PIKACHU,80
+    Moves = VOLTSWITCH,ZAPCANNON,DIG,EXTREMESPEED
+    Form = 12
+    Gender = male
 Pokemon = PIKACHU,44
-Pokemon = RATTATA,29
+    Gender = female
+    Form = 5
+    Moves = VOLTSWITCH,CHARM,SIGNALBEAM,EXTREMESPEED
 #-------------------------------
 [RIVAL_YELLOW,Yellow,2]
 LoseText = ...
@@ -5973,4 +6120,24 @@ LoseText = I came to see the World Cup openin' ceremony, but this is awful!
 Pokemon = THIEVUL,52
 Pokemon = SABLEYE,48
 Pokemon = LIEPARD,50
+
+#-------------------------------
+[ROCKET_Male,Grunt,62]
+LoseText = I can't believe that!
+Pokemon = GOLEM,53
+Pokemon = TAUROS,55
+	Form = 2
+Pokemon = ELECTABUZZ,56
+#-------------------------------
+[ROCKET_Female,Grunt,7]
+LoseText = How could you?
+Pokemon = VILEPLUME,55
+Pokemon = JYNX,55
+Pokemon = ELECTRODE,55
+#-------------------------------
+[BUGCATCHER,Ed]
+LoseText = Ouch, ouch, ouch!
+Pokemon = BURMY,48
+Pokemon = BEEDRILL,50
+Pokemon = BUTTERFREE,50
 #-------------------------------
