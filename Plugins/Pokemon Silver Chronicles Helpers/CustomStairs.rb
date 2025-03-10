@@ -153,6 +153,7 @@ module CustomStairs
 
 
     $game_switches[STAIRCASE_DOWN_ANIMATION_ACTIVE] = false
+    $game_map.refresh
 
   end
 end

@@ -623,7 +623,7 @@ VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_Surge]
 Name = LEADER
-Gender = Unknown
+Gender = Male
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
@@ -664,7 +664,7 @@ VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_SABRINA]
 Name = LEADER
-Gender = Unknown
+Gender = Female
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
@@ -919,4 +919,12 @@ BaseMoney = 100
 IntroBGM = SEQ_EYE_ELITE
 BattleBGM = world_cup_battle_01
 VictoryBGM = world_cup_victory_01
+#-------------------------------
+[CHAMPION_Red]
+Name = CHAMPION
+Gender = Male
+BaseMoney = 100
+IntroBGM = SEQ_EYE_CHAMP
+BattleBGM = GSCChampionBattle
+VictoryBGM = PkmRS_Victory4
 #-------------------------------

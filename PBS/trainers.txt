@@ -2624,25 +2624,25 @@ Pokemon = SQUIRTLE,14
 Pokemon = PIKACHU,44
 Pokemon = RATTATA,29
 #-------------------------------
-[BUGCATCHER,KENT]
-LoseText = ...
-Pokemon = WEEDLE,20
-Pokemon = KAKUNA,20
+[HIKER,KENT]
+LoseText = You got me!
+Pokemon = GRAVELER,50
+Pokemon = RHYPERIOR,55
 #-------------------------------
 [LASS,IRIS]
-LoseText = ...
-Pokemon = CLEFAIRY,27
+LoseText = I lost?
+Pokemon = CLEFAIRY,57
 #-------------------------------
 [BUGCATCHER,ROBBY]
-LoseText = ...
-Pokemon = CATERPIE,19
-Pokemon = CATERPIE,22
-Pokemon = METAPOD,19
+LoseText = I lost.
+Pokemon = BUTTERFREE,55
+Pokemon = VENONAT,52
+Pokemon = PARASECT,54
 #-------------------------------
 [LASS,MIRIAM]
-LoseText = ...
-Pokemon = ODDISH,25
-Pokemon = BELLSPROUT,26
+LoseText = Oh! I lost this one!
+Pokemon = GLOOM,53
+Pokemon = JIGGLYPUFF,56
 #-------------------------------
 [YOUNGSTER,JOSH]
 LoseText = ...
@@ -2651,10 +2651,10 @@ Pokemon = RATTATA,29
 Pokemon = ZUBAT,25
 #-------------------------------
 [HIKER,MARCOS]
-LoseText = ...
-Pokemon = GEODUDE,24
-Pokemon = GEODUDE,22
-Pokemon = ONIX,29
+LoseText = Wow! You scared me again!
+Pokemon = GOLEM,54
+Pokemon = CLEFAIRY,52
+Pokemon = ONIX,56
 #-------------------------------
 [ROCKET_Male,Grunt15]
 LoseText = ...
@@ -2702,11 +2702,11 @@ Pokemon = EKANS,26
 Pokemon = EKANS,25
 Pokemon = MEOWTH,23
 #-------------------------------
-[ROCKET_Male,ADM]
-LoseText = ...
-Pokemon = NIDORINA,25
-Pokemon = NIDORINO,25
-Pokemon = MACHOKE,23
+[ROCKET_Male,Grunt,63]
+LoseText = Oh, no!
+Pokemon = NIDORINA,55
+Pokemon = NIDORINO,55
+Pokemon = MACHOKE,53
 #-------------------------------
 [ROCKET_Female,ADM]
 LoseText = ...
@@ -6140,4 +6140,49 @@ LoseText = Ouch, ouch, ouch!
 Pokemon = BURMY,48
 Pokemon = BEEDRILL,50
 Pokemon = BUTTERFREE,50
+#-------------------------------
+[LEADER_Surge,Lt.Surge,1]
+Items = ZRING,MEGARING
+LoseText = Retreat. Giovanni’s not gonna like this, but we’ve got no choice.
+Pokemon = ELECTRODE,55
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+Pokemon = RAICHU,58
+    Item = ELECTRIUMZ
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+Pokemon = ELECTABUZZ,55
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+#-------------------------------
+[LEADER_SABRINA,Sabrina,1]
+Items = ZRING,MEGARING
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,55
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,58
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,55
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+#-------------------------------
+[CHAMPION_Red,Red,1]
+Items = ZRING,MEGARING
+LoseText = ...
+Pokemon = PIKACHU,80
+    Gender = male
+    Moves = VOLTSWITCH,ZAPCANNON,DIG,EXTREMESPEED
+    Item = ELECTRIUMZ
+Pokemon = SNORLAX,75
+    Gender = male
+    Moves = CURSE,BODYSLAM,REST,SLEEPTALK
+Pokemon = LAPRAS,74
+    Gender = female
+    Moves = FREEZEDRY,HYDROPUMP,ICEBEAM,SING
+Pokemon = CHARIZARD,75
+    Gender = male
+    Moves = FIREBLAST,FOCUSBLAST,SOLARBEAM,EARTHQUAKE
+Pokemon = BLASTOISE,75
+    Gender = male
+    Moves = HYDROPUMP,DARKPULSE,ICEBEAM,RAPIDSPIN
+Pokemon = VENUSAUR,75
+    Gender = male
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
 #-------------------------------

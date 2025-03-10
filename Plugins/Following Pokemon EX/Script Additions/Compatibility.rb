@@ -38,7 +38,7 @@ class Game_FollowerFactory
     followers.each_with_index do |follower, i|
       event = @events[i]
       next if !@events[i]
-      event.move_speed = leader.move_speed if follower.following_pkmn?
+      event.move_speed = leader.move_speed
       leader = event
     end
   end

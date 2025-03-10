@@ -402,7 +402,36 @@ module QuestModule
     :QuestGiver => "Yellow",
     :Stage1 => "Search for Red in the Viridian Forest.",
     :Location1 => "Viridian Forest",
+    :Stage2 => "Search for Red in the Mt. Moon.",
+    :Location2 => "Mt. Moon",
     :QuestDescription => "Red's is missing since he won the World Cup. Help Yellow and Prof. Oak to find him!",
+  }
+
+
+  KantoGymChallenge = {
+    :ID => "36",
+    :Name => "Pokémon Gym challenge",
+    :QuestGiver => "Prof. Carvalho",
+    :Stage1 => "Challenge Kanto Gym Leaders",
+    :Stage2 => "Challenge Kanto Gym Leaders 1/8",
+    :Stage3 => "Challenge Kanto Gym Leaders 2/8",
+    :Stage4 => "Challenge Kanto Johto Gym Leaders 3/8",
+    :Stage5 => "Challenge Kanto Johto Gym Leaders 4/8",
+    :Stage6 => "Challenge Kanto Johto Gym Leaders 5/8",
+    :Stage7 => "Challenge Kanto Johto Gym Leaders 6/8",
+    :Stage8 => "Challenge Kanto Johto Gym Leaders 7/8",
+    :Stage9 => "Challenge Kanto Johto Gym Leaders 8/8",
+    :QuestDescription => "Collect all 8 Gym Badges in Kanto. If you manage to defeat all the Gym Leaders, you'll eventually challenge the Kanto Pokémon League Champion!",
+  }
+
+
+  GrowlitheTrade = {
+    :ID => "37",
+    :Name => "Wiglett Trade",
+    :QuestGiver => "Mr. Johnson",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Cerulean City",
+    :QuestDescription => "This old man in Cerulean City wants to trade a Growlithe for his Wiglett. Do you think it's a good trade?",
   }
 
   
