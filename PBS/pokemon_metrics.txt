@@ -1615,158 +1615,158 @@ ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,2]
-BackSprite = 0,32
-FrontSprite = 0,20
+BackSprite = -13,-14
+FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,3]
-BackSprite = 0,32
-FrontSprite = 0,20
+BackSprite = -17,-15
+FrontSprite = 0,-4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,4]
-BackSprite = 0,33
-FrontSprite = 0,20
+BackSprite = -15,-20
+FrontSprite = -1,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,5]
-BackSprite = 0,33
-FrontSprite = 0,20
+BackSprite = -19,-19
+FrontSprite = 1,-1
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,6]
-BackSprite = 0,30
-FrontSprite = 0,19
+BackSprite = -12,-15
+FrontSprite = 0,-2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,7]
-BackSprite = 0,32
-FrontSprite = 0,20
+BackSprite = -14,-14
+FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,8]
-BackSprite = 0,32
-FrontSprite = 0,20
+BackSprite = -14,-14
+FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,9]
-BackSprite = 0,33
-FrontSprite = 0,20
+BackSprite = -18,-15
+FrontSprite = 0,1
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,10]
-BackSprite = 0,33
-FrontSprite = 0,20
+BackSprite = -17,-13
+FrontSprite = 0,-5
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,11]
-BackSprite = 0,35
-FrontSprite = 0,21
+BackSprite = -13,-17
+FrontSprite = -1,-2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,12]
-BackSprite = 0,35
-FrontSprite = 0,21
+BackSprite = -16,-16
+FrontSprite = 0,-2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,13]
-BackSprite = 0,36
-FrontSprite = 0,22
+BackSprite = -16,-20
+FrontSprite = 0,-5
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,14]
-BackSprite = 0,32
-FrontSprite = 0,20
+BackSprite = -15,-6
+FrontSprite = -1,1
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,15]
-BackSprite = 0,38
-FrontSprite = 0,21
+BackSprite = -19,-18
+FrontSprite = 0,-4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,16]
-BackSprite = 0,37
-FrontSprite = 0,22
+BackSprite = -14,-12
+FrontSprite = 0,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,17]
-BackSprite = 0,35
-FrontSprite = 0,21
+BackSprite = -17,-19
+FrontSprite = -1,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,18]
-BackSprite = 0,30
-FrontSprite = 0,18
+BackSprite = -15,-13
+FrontSprite = 0,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,19]
-BackSprite = 0,36
-FrontSprite = 0,21
+BackSprite = -16,-17
+FrontSprite = -2,-2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,20]
-BackSprite = 0,36
-FrontSprite = 0,21
+BackSprite = -15,-12
+FrontSprite = 0,-1
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,21]
-BackSprite = 0,35
-FrontSprite = 0,21
+BackSprite = -16,-17
+FrontSprite = 0,-1
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,22]
-BackSprite = 0,36
-FrontSprite = 0,21
+BackSprite = -16,-18
+FrontSprite = 0,-4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,23]
-BackSprite = 0,37
-FrontSprite = 0,22
+BackSprite = -14,-20
+FrontSprite = 0,-6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,24]
-BackSprite = 0,33
-FrontSprite = 0,20
+BackSprite = -16,-17
+FrontSprite = 0,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,25]
-BackSprite = 0,32
-FrontSprite = 0,20
+BackSprite = -11,-16
+FrontSprite = -1,-6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,26]
-BackSprite = 0,32
-FrontSprite = 0,19
+BackSprite = -15,-15
+FrontSprite = 0,-3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [UNOWN,27]
-BackSprite = 0,0
-FrontSprite = 0,0
+BackSprite = -12,-16
+FrontSprite = 0,-2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------

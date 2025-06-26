@@ -13830,7 +13830,7 @@ Pokedex = Because its energy was too great to be contained, the energy leaked an
 Generation = 5
 WildItemCommon = EVERSTONE
 WildItemUncommon = HARDSTONE
-Evolutions = GIGALITH,Trade,
+Evolutions = GIGALITH,Item,LINKINGCORD,GIGALITH,Trade,
 #-------------------------------
 [GIGALITH]
 Name = Gigalith
@@ -14042,7 +14042,7 @@ Habitat = Urban
 Category = Muscular
 Pokedex = They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.
 Generation = 5
-Evolutions = CONKELDURR,Trade,
+Evolutions = CONKELDURR,Item,LINKINGCORD,CONKELDURR,Trade,
 #-------------------------------
 [CONKELDURR]
 Name = Conkeldurr
@@ -18628,7 +18628,7 @@ Habitat = Forest
 Category = Stump
 Pokedex = These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.
 Generation = 6
-Evolutions = TREVENANT,Trade,
+Evolutions = TREVENANT,Item,LINKINGCORD,TREVENANT,Trade,
 #-------------------------------
 [TREVENANT]
 Name = Trevenant
@@ -18681,7 +18681,7 @@ Pokedex = When taking spirits to the afterlife, small Pumpkaboo prefer the spiri
 FormName = Small Size
 Generation = 6
 Flags = InheritFormFromMother
-Evolutions = GOURGEIST,Trade,
+Evolutions = GOURGEIST,Item,LINKINGCORD,GOURGEIST,Trade,
 #-------------------------------
 [GOURGEIST]
 Name = Gourgeist

@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
-!isQuestActive?(:HotelCheckIn)
+!isQuestActive?(: AssociationElections)
 
-activateQuest(:RoundOf8Battle,colorQuest("blue"),true)
-advanceQuestToStage(:SecondWorldCupBattle, 2)
-completeQuest(:FirstWorldCupBattle)
+activateQuest(:AssociationElections,colorQuest("blue"),true)
+advanceQuestToStage(:AssociationElections, 3)
+completeQuest(:AssociationElections)
 
 
 Dialog lines to use on TCG:

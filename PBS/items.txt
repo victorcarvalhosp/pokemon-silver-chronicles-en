@@ -7252,18 +7252,18 @@ Flags = KeyItem
 Description = A key that opens a door in the Goldenrod Tunnel.
 #-------------------------------
 [TREMTICKETB]
-Name = TremTicket B
-NamePlural = TremTicket B
+Name = Magnet Train Pass
+NamePlural = Magnet Train Pass
 Pocket = 8
 Price = 0
-Description = Um ticket para viajar de trem da cidade de Saffron para Goldenrod, ou vice-versa.
+Description = A ticket required for riding the Magnet Train. It allows you to ride whenever and however much you'd like.
 #-------------------------------
 [POKeDOLLCOPYCAT]
-Name = Ursinho POKémon
-NamePlural = Ursinho POKémon
-Pocket = 1
-Price = 1000
-Description = An attractive doll. Use it to flee from any battle with a wild POKéMON.
+Name = Lost Item
+NamePlural = Lost Item's
+Pocket = 8
+Price = 0
+Description = The Poke Doll lost by te Copycat.
 #-------------------------------
 [ILHASTICKET]
 Name = Ilhas Laranja Ticket

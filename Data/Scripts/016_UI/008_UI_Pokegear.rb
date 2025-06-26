@@ -187,10 +187,12 @@ MenuHandlers.add(:pokegear_menu, :phone, {
   }
 })
 
+# 526 is the switch for the Jukebox, activated in the Goldenrod Radio Tower after answering the quiz
 MenuHandlers.add(:pokegear_menu, :jukebox, {
-  "name"      => _INTL("Jukebox"),
+  "name"      => _INTL("Radio"),
   "icon_name" => "jukebox",
   "order"     => 30,
+  "condition" => proc { next $game_switches && $game_switches[526] },
   "effect"    => proc { |menu|
     pbFadeOutIn {
       scene = PokemonJukebox_Scene.new

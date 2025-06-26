@@ -48,7 +48,7 @@ BaseMoney = 30
 IntroBGM = SEQ_EYE_LADY
 #-------------------------------
 [TRIATHLETE_MaleCyclist]
-Name = TRIATHLETE
+Name = CYCLIST
 Gender = Male
 BaseMoney = 30
 #-------------------------------
@@ -182,13 +182,13 @@ BattleBGM = team-rocket-battle
 VictoryBGM = Victory - Trainer
 #-------------------------------
 [TRIATHLETE_FemaleRunner]
-Name = TRIATHLETE
-Gender = Unknown
+Name = JOGGER
+Gender = Female
 BaseMoney = 30
 #-------------------------------
 [TRIATHLETE_MaleRunner]
-Name = TRIATHLETE
-Gender = Unknown
+Name = JOGGER
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [BATTLEGIRL]
@@ -197,7 +197,7 @@ Gender = Unknown
 BaseMoney = 30
 #-------------------------------
 [TRIATHLETE_FemaleCyclist]
-Name = TRIATHLETE
+Name = CYCLIST
 Gender = Unknown
 BaseMoney = 30
 #-------------------------------
@@ -655,9 +655,9 @@ BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
-[LEADER_GARY]
+[LEADER_BLUE]
 Name = LEADER
-Gender = Unknown
+Gender = Male
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
@@ -874,6 +874,13 @@ Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_BOY
 #-------------------------------
+[BIKER]
+Name = BIKER
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_BIKER
+#-------------------------------
+
 [LEADER_Nessa]
 Name = PkMn TRAINER
 Gender = Female

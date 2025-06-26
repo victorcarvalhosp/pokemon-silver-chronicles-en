@@ -55,12 +55,14 @@ module QuestModule
     :Stage4 => "Challenge Ecruteak City's Gym.",
     :Stage5 => "Challenge the next Gym.",
     :Stage6 => "Challenge Blackthorn City's Gym.",
+    :Stage7 => "Talk with Professor Elm.",
     :Location1 => "Violet City",
     :Location2 => "Azalea Town",
     :Location3 => "Goldenrod City",
     :Location4 => "Ecruteak City",
     :Location5 => "Cianwood, Olivine or Mahogany Town",
     :Location6 => "Blackthorn City",
+    :Location7 => "New Bark Town",
     :QuestDescription => "Collect all 8 Gym Badges in Johto. If you manage to defeat all the Gym Leaders, you'll eventually challenge the Pokémon League Champion!",
   }
 
@@ -298,15 +300,15 @@ module QuestModule
     :ID => "25",
     :Name => "Train for the World Cup",
     :QuestGiver => "Prof. Elm",
-    :Stage1 => "Re-match against Johto Gym Leaders",
-    :Stage2 => "Re-match against Johto Gym Leaders 1/8",
-    :Stage3 => "Re-match against Johto Gym Leaders 2/8",
-    :Stage4 => "Re-match against Johto Gym Leaders 3/8",
-    :Stage5 => "Re-match against Johto Gym Leaders 4/8",
-    :Stage6 => "Re-match against Johto Gym Leaders 5/8",
-    :Stage7 => "Re-match against Johto Gym Leaders 6/8",
-    :Stage8 => "Re-match against Johto Gym Leaders 7/8",
-    :Stage9 => "Re-match against Johto Gym Leaders 8/8",
+    :Stage1 => "Re-match Johto Gym Leaders",
+    :Stage2 => "Re-match Johto Gym Leaders 1/8",
+    :Stage3 => "Re-match Johto Gym Leaders 2/8",
+    :Stage4 => "Re-match Johto Gym Leaders 3/8",
+    :Stage5 => "Re-match Johto Gym Leaders 4/8",
+    :Stage6 => "Re-match Johto Gym Leaders 5/8",
+    :Stage7 => "Re-match Johto Gym Leaders 6/8",
+    :Stage8 => "Re-match Johto Gym Leaders 7/8",
+    :Stage9 => "Re-match Johto Gym Leaders 8/8",
     :QuestDescription => "Now that you are the new Champion, a lot of people will be looking for a rematch! This includes the Gym Leaders... They are allowed to use their full-power this time, so be prepared.",
   }
 
@@ -432,6 +434,54 @@ module QuestModule
     :Stage1 => "Trade Pokémon.",
     :Location1 => "Cerulean City",
     :QuestDescription => "This old man in Cerulean City wants to trade a Growlithe for his Wiglett. Do you think it's a good trade?",
+  }
+
+  BillHouse = {
+    :ID => "38",
+    :Name => "Blue Johto Pokémon",
+    :QuestGiver => "Bill's Grandparent",
+    :Stage1 => "Show Bill's Grandparent a blue and round Pokémon.",
+    :Location1 => "Route 25",
+    :QuestDescription => "Bill's grandparent wants to see a blue and round Pokemon from Johto. Can you show it to him?",
+  }
+
+  CopycatGirl = {
+    :ID => "39",
+    :Name => "Copycat Girl lost doll",
+    :QuestGiver => "Copycat Girl",
+    :Stage1 => "Find the lost doll from the Copycat Girl.",
+    :Stage2 => "Return the doll to the Copycat Girl.",
+    :Location1 => "Vermilion City",
+    :Location2 => "Saffron City",
+    :QuestDescription => "The Copycat girl lost her cherised Poke Doll when she was visiting Vermilion City. Can you find it for her?",
+    :RewardString => "Magnet Train Ticket!"
+  }
+
+  RocketRadioBroadcast = {
+    :ID => "40",
+    :Name => "Strange Radio Broadcast",
+    :QuestGiver => "Lance",
+    :Stage1 => "Investigate the Radio Broadcast.",
+    :Stage2 => "Open the Boss Office door.",
+    :Stage3 => "Follow Murkrow.",
+    :Stage4 => "Stop the Radio Broadcast.",
+    :Location1 => "Mahogany Town",
+    :Location2 => "Mahogany Town - Souvenir Shop",
+    :Location3 => "Mahogany Town - Souvenir Shop",
+    :Location4 => "Mahogany Town - Souvenir Shop",
+    :QuestDescription => "It seems that the Lake of Rage's Magikarp are being forced to evolve. A misterious radio broadcast coming from Mahogany is probably the cause.",
+  }
+
+  AssociationElections = {
+    :ID => "41",
+    :Name => "Pokémon Association Elections",
+    :Stage1 => "Participate in the Elections.",
+    :Stage2 => "Vote in the Elections.",
+    :Stage3 => "Wait for the results.",
+    :Location1 => "Celadon City",
+    :Location2 => "Celadon City",
+    :Location3 => "Celadon City",
+    :QuestDescription => "The Pokémon Association is holding elections to elect their new president. You can vote for the candidate of your choice.",
   }
 
   

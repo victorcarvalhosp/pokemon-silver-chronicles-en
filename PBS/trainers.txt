@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [Rival,???,1]
 LoseText = Hmm... Are you happy you won?!
@@ -2004,7 +2004,7 @@ Pokemon = WINGULL,18
 LoseText = I can't move anymore...
 Pokemon = MRMIME,50
 Pokemon = VILEPLUME,50
-Pokemon = AIPOM,24
+Pokemon = AIPOM,50	
 #-------------------------------
 [EXPERT_Male,Julio]
 LoseText = Good battle!
@@ -2506,6 +2506,403 @@ Pokemon = CROBAT,61
     Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
     Item = FLYINIUMZ
 #-------------------------------
+[LEADER_Brock,Brock,8]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like you're the stronger one...
+Pokemon = GOLEM,60
+    Moves = STEALTHROCK,TOXIC,EARTHQUAKE,STONEEDGE
+Pokemon = OMASTAR,63
+    Moves = SHELLSMASH,HYDROPUMP,ICEBEAM,STEALTHROCK
+Pokemon = RHYPERIOR,61
+    Moves = SUBSTITUTE,EARTHQUAKE,ROCKSLIDE,MEGAHORN
+Pokemon = KABUTOPS,61
+    Moves = LIQUIDATION,STONEEDGE,KNOCKOFF,RAPIDSPIN
+    Item = CHOICESCARF
+Pokemon = ONIX,65
+    Moves = STEALTHROCK,ROCKBLAST,EARTHQUAKE,ENDURE
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = CROBAT,61
+    Moves = BRAVEBIRD,SUPERFANG,TAUNT,ROOST
+    Item = FLYINIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,1]
+Items = DYNAMAXBAND,
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,55
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,56
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,56
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,56
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,60
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,58
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,2]
+Items = DYNAMAXBAND,ZRING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,56
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,57
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,57
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,57
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,61
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,59
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,3]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,57
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,58
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,59
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,60
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,62
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,60
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,4]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,58
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,59
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,60
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,61
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,63
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,61
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,5]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,59
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,60
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,61
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,62
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,64
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,62
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,6]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,60
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,61
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,62
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,63
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,65
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,63
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,7]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,61
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,62
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,63
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,64
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,66
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,64
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Misty,Misty,8]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like this is it..
+Pokemon = QUAGSIRE,61
+    Moves = SCALD,EARTHQUAKE,RAINDANCE,TOXIC
+Pokemon = SLOWBRO,62
+    Moves = SCALD,IRONDEFENSE,CALMMIND,SLACKOFF
+    Item = SLOWBRONITE
+Pokemon = SEAKING,63
+    Moves = WATERFALL,KNOCKOFF,DRILLRUN,MEGAHORN
+Pokemon = LANTURN,64
+    Moves = VOLTSWITCH,SCALD,TOXIC,PROTECT
+Pokemon = STARMIE,66
+    Moves = HYDROPUMP,ICEBEAM,PSYSHOCK,THUNDERBOLT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = GOLDUCK,64
+    Moves = RAINDANCE,HYDROPUMP,ICEBEAM,HIDDENPOWER
+    Item = WATERIUMZ
+#-------------------------------
+[LEADER_Surge,Lt.Surge,2]
+LoseText = My electric trick...
+Pokemon = RAICHU,51
+Pokemon = ELECTRODE,47
+Pokemon = ELECTABUZZ,50
+Pokemon = VOLTORB,36
+Pokemon = MAGNETON,46
+#-------------------------------
+[LEADER_SABRINA,Sabrina,2]
+Items = MEGARING
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,55
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,60
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,55
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,56
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 58
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 57
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,3]
+Items = ZRING,MEGARING
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,56
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,61
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,56
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,57
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 59
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 58
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,4]
+Items = ZRING,MEGARING,DYNAMAXBAND
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,57
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,62
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,57
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,58
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 60
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 59
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,5]
+Items = ZRING,MEGARING,DYNAMAXBAND
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,58
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,63
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,58
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,59
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 61
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 60
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,6]
+Items = ZRING,MEGARING,DYNAMAXBAND
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,59
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,64
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,59
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,60
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 62
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 61
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,7]
+Items = ZRING,MEGARING,DYNAMAXBAND
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,60
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,65
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,60
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,61
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 63
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 62
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,8]
+Items = ZRING,MEGARING,DYNAMAXBAND
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,61
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,66
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,61
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,62
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 64
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 63
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_SABRINA,Sabrina,9]
+Items = ZRING,MEGARING,DYNAMAXBAND
+LoseText = How... How could this happen?
+Pokemon = VENOMOTH,62
+    Moves = QUIVERDANCE,SLEEPPOWDER,BUGBUZZ,SLUDGEBOMB
+Pokemon = ALAKAZAM,67
+    Item = ALAKAZITE
+    Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,RECOVER
+Pokemon = MRMIME,62
+    Item = PSYCHIUMZ
+    Moves = NASTYPLOT,DAZZLINGGLEAM,PSYCHIC,ENCORE
+Pokemon = JYNX,63
+    Moves = LOVELYKISS,NASTYPLOT,ICEBEAM,PSYSHOCK
+Pokemon = RAPIDASH, 65
+    Form = 1
+    Moves = SWORDSDANCE,PLAYROUGH,HIGHHORSEPOWER,MORNINGSUN
+Pokemon = SLOWKING, 64
+    Form = 1
+    Moves = PSYCHIC,SLUDGEBOMB,FLAMETHROWER,SCALD
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[HEXMANIAC,Rebecca]
+LoseText = Strong... Far too strong...
+Pokemon = DROWZEE,55
+Pokemon = HYPNO,55
+#-------------------------------
+[PSYCHIC_Male,Jared]
+LoseText = I was no match...
+Pokemon = MRMIME,55
+Pokemon = EXEGGCUTE,54
+Pokemon = INDEEDEE,54
+#-------------------------------
+[PSYCHIC_Male,Franklin]
+LoseText = Your mind has more power than mine!
+Pokemon = KADABRA,55
+Pokemon = SLOWBRO,55
+#-------------------------------
 [COOLTRAINER_Male,Julius]
 LoseText = You're really good!
 Pokemon = PRIMEAPE,52
@@ -2752,32 +3149,40 @@ LoseText = ...
 Pokemon = ONIX,25
 #-------------------------------
 [YOUNGSTER,JOEY]
-LoseText = ...
-Pokemon = RATTATA,23
-Pokemon = SPEAROW,23
+LoseText = Whoo! Good stuff.
+Pokemon = VILEPLUME,58
 #-------------------------------
 [YOUNGSTER,DAN]
-LoseText = ...
-Pokemon = SLOWPOKE,25
+LoseText = Ow! Stomped flat!
+Pokemon = TANGROWTH,58
 #-------------------------------
 [CAMPER,FLINT]
-LoseText = ...
-Pokemon = RATTATA,23
-Pokemon = EKANS,23
+LoseText = Whoa! Too much.
+Pokemon = NIDOKING,58
 #-------------------------------
 [LASS,HALEY]
-LoseText = ...
-Pokemon = ODDISH,22
-Pokemon = PIDGEY,22
-Pokemon = ODDISH,22
+LoseText = How could I lose?
+Pokemon = WIGGLYTUFF,58
 #-------------------------------
-[LEADER_Misty,Misty]
-LoseText = ...
-Pokemon = GOLDEEN,34
-Pokemon = STARYU,36
-Pokemon = STARMIE,44
-Pokemon = GYARADOS,49
-Pokemon = HORSEA,35
+[LASS,LAURA]
+LoseText = I lost, too...
+Pokemon = VILEPLUME,58
+Pokemon = VAPOREON,58
+#-------------------------------
+[LASS,SHANNON]
+LoseText = You're kidding!
+Pokemon = PARASECT,58
+Pokemon = PIDGEOTTO,58
+#-------------------------------
+[SUPERNERD,PAT]
+LoseText = Aren't you tired et all?
+Pokemon = PORYGON,60
+#-------------------------------
+[COOLTRAINER_Male,Kevin]
+LoseText = I've never had a battle this wonderful!
+Pokemon = RHYHORN,58
+Pokemon = WARTORTLE,58
+Pokemon = CHARMELEON,58
 #-------------------------------
 [ROCKET_Male,ADM,3]
 LoseText = ...
@@ -2785,21 +3190,23 @@ Pokemon = ARBOK,32
 Pokemon = RATICATE,34
 #-------------------------------
 [SAILOR,DWAYNE]
-LoseText = ...
-Pokemon = PIKACHU,28
-Pokemon = PIKACHU,28
+LoseText = Ooh, how shocking!
+Pokemon = JOLTEON,55
+Pokemon = MAGNEMITE,55
+Pokemon = VOLTORB,55
 #-------------------------------
-[POKeFAN_Male,BAILY]
-LoseText = ...
-Pokemon = VOLTORB,29
-Pokemon = MAGNEMITE,29
+[JUGGLER,BAILY]
+LoseText = Gyaah! I was overpowered!
+Pokemon = ELECTRODE,55
+Pokemon = ELECTRODE,55
 #-------------------------------
 [GENTLEMAN,TUCKER]
-LoseText = ...
-Pokemon = PIKACHU,30
+LoseText = Sorry I failed you, Lt. Surge, sir!
+Pokemon = PIKACHU,55
+Pokemon = KILOWATTREL,55
 #-------------------------------
-[LEADER_Surge,Lt.Surge]
-LoseText = ...
+[LEADER_Surge,Lt.Surge,1]
+LoseText = My electric trick...
 Pokemon = RAICHU,51
 Pokemon = ELECTRODE,47
 Pokemon = ELECTABUZZ,50
@@ -2807,29 +3214,28 @@ Pokemon = VOLTORB,36
 Pokemon = MAGNETON,46
 #-------------------------------
 [BUGCATCHER,KEIGO]
-LoseText = ...
-Pokemon = WEEDLE,28
-Pokemon = WEEDLE,28
-Pokemon = CATERPIE,28
+LoseText = Yha! I lost!
+Pokemon = BEEDRILL,54
+Pokemon = BUTTERFREE,54
+Pokemon = VESPIQUEN,54
 #-------------------------------
 [CAMPER,RICKY]
-LoseText = ...
-Pokemon = SQUIRTLE,30
+LoseText = Waah!
+Pokemon = BLASTOISE,60
 #-------------------------------
 [PICNICKER,NANCY]
-LoseText = ...
-Pokemon = RATTATA,29
-Pokemon = PIKACHU,29
+LoseText = Eeeh!
+Pokemon = VENUSAUR,60
 #-------------------------------
 [BUGCATCHER,ELIJAH]
 LoseText = ...
 Pokemon = BUTTERFREE,30
 #-------------------------------
 [PICNICKER,ISABELLE]
-LoseText = ...
-Pokemon = PIDGEY,28
-Pokemon = PIDGEY,28
-Pokemon = PIDGEY,28
+LoseText = You are pretty good!
+Pokemon = FLOATZEL,55
+Pokemon = PACHIRISU,55
+Pokemon = TANGELA,55
 #-------------------------------
 [CAMPER,JEFF]
 LoseText = ...
@@ -2837,32 +3243,33 @@ Pokemon = SPEAROW,28
 Pokemon = RATICATE,28
 #-------------------------------
 [PICNICKER,ALICIA]
-LoseText = ...
-Pokemon = ODDISH,28
-Pokemon = BELLSPROUT,28
-Pokemon = ODDISH,28
+LoseText = Oh no...
+Pokemon = ODDISH,55
+Pokemon = BELLSPROUT,55
+Pokemon = ODDISH,55
 #-------------------------------
 [HIKER,JEREMY]
-LoseText = ...
-Pokemon = MACHOP,28
-Pokemon = ONIX,29
+LoseText = I was kind of focused on the mountain and forgot my Pokémon...
+Pokemon = GRAVELER,54
+Pokemon = GRAVELER,54
+Pokemon = GRAVELER,54
 #-------------------------------
 [BUGCATCHER,BRENT]
-LoseText = ...
-Pokemon = BEEDRILL,30
-Pokemon = BEEDRILL,29
+LoseText = What? That was a waste of time!
+Pokemon = BEEDRILL,55
+Pokemon = BEEDRILL,55
 #-------------------------------
 [CAMPER,CHRIS]
-LoseText = ...
-Pokemon = GROWLITHE,28
-Pokemon = CHARMANDER,28
+LoseText = I was just pointing out...
+Pokemon = DUGTRIO,55
+Pokemon = PRIMEAPE,55
+Pokemon = POLIWRATH,55
 #-------------------------------
 [CAMPER,DREW]
 LoseText = ...
-Pokemon = RATTATA,26
-Pokemon = SANDSHREW,26
-Pokemon = EKANS,26
-Pokemon = SANDSHREW,26
+Pokemon = RATTATA,54
+Pokemon = SANDSHREW,54
+Pokemon = EKANS,54
 #-------------------------------
 [BUGCATCHER,CONNER]
 LoseText = ...
@@ -2877,18 +3284,19 @@ Pokemon = GEODUDE,27
 Pokemon = MACHOP,28
 #-------------------------------
 [PICNICKER,CAITLIN]
-LoseText = ...
-Pokemon = MEOWTH,30
+LoseText = Ohhhh!
+Pokemon = MEOWTH,55
+Pokemon = PERSIAN,56
 #-------------------------------
 [HIKER,ALAN]
-LoseText = ...
-Pokemon = GEODUDE,28
-Pokemon = ONIX,29
+LoseText = Hahahaha! You beat me easily!
+Pokemon = GEODUDE,55
+Pokemon = ONIX,55
 #-------------------------------
 [PICNICKER,HEIDI]
-LoseText = ...
-Pokemon = PIKACHU,29
-Pokemon = CLEFAIRY,28
+LoseText = One ore lost...
+Pokemon = PIKACHU,55
+Pokemon = CLEFAIRY,55
 #-------------------------------
 [LASS,JULIA]
 LoseText = ...
@@ -2903,45 +3311,64 @@ Pokemon = NIDORANmA,26
 Pokemon = MEOWTH,26
 Pokemon = PIKACHU,26
 #-------------------------------
-[TRIATHLETE_MaleCyclist,JAREN]
-LoseText = ...
-Pokemon = KOFFING,32
-Pokemon = KOFFING,32
+[BIKER,JAREN]
+LoseText = Yikes! Sorry!
+Pokemon = KOFFING,55
+Pokemon = WEEZING,55
 #-------------------------------
-[TRIATHLETE_MaleCyclist,HARRYS]
-LoseText = ...
-Pokemon = FLAREON,34
+[BIKER,HARRYS]
+LoseText = F-forgive me!
+Pokemon = FLAREON,60
 #-------------------------------
-[TRIATHLETE_MaleCyclist,DWAYNE]
-LoseText = ...
-Pokemon = KOFFING,27
-Pokemon = KOFFING,28
-Pokemon = KOFFING,29
-Pokemon = KOFFING,30
+[BIKER,DWAYNE]
+LoseText = S-sorry!
+Pokemon = KOFFING,48
+Pokemon = KOFFING,49
+Pokemon = KOFFING,50
+Pokemon = KOFFING,51
+#-------------------------------
+[YOUNGCOUPLE,Moe & Lulu]
+LoseText = Moe: Uwaaaahhh... Lulu: Eeek!
+Pokemon = ORICORIO,55
+Pokemon = ORICORIO,55
+    Form = 1
+#-------------------------------
+[SUPERNERD,Tyrone]
+LoseText = Just as I thought... You're tough!
+Pokemon = MAGNEMITE,50
+Pokemon = MAGNEMITE,51
+Pokemon = MAGNEMITE,52
+#-------------------------------
+[SUPERNERD,Sam]
+LoseText = I wish I had the chance to see the Magnet Train...
+Pokemon = GRIMER,52
+Pokemon = MUK,55
+#-------------------------------
+[GENTLEMAN,Milton]
+LoseText = You were very skillful.
+Pokemon = ARCANINE,60
 #-------------------------------
 [LASS,KAY]
-LoseText = ...
-Pokemon = BELLSPROUT,30
-Pokemon = WEEPINBELL,30
+LoseText = Oh, bleah!
+Pokemon = BELLSPROUT,55
+Pokemon = WEEPINBELL,56
 #-------------------------------
 [BEAUTY,BRIDGET]
-LoseText = ...
-Pokemon = ODDISH,28
-Pokemon = BELLSPROUT,28
-Pokemon = ODDISH,28
-Pokemon = BELLSPROUT,28
+LoseText = Ohh... I lost...
+Pokemon = EXEGGUTOR,60
 #-------------------------------
 [BEAUTY,LORI]
-LoseText = ...
-Pokemon = EXEGGCUTE,30
+LoseText = Whoa!
+Pokemon = PARAS,55
+Pokemon = PARASECT,56
 #-------------------------------
 [LASS,LISA]
-LoseText = ...
-Pokemon = ODDISH,30
-Pokemon = GLOOM,30
+LoseText = I lost...
+Pokemon = VICTREEBEL,55
+Pokemon = VILEPLUME,56
 #-------------------------------
-[LEADER_Erika,ERIKA]
-LoseText = ...
+[LEADER_Erika,Erika,1]
+LoseText = Looks like I underestimated you...
 Pokemon = TANGELA,49
 Pokemon = BELLOSSOM,49
 Pokemon = VILEPLUME,48
@@ -2997,38 +3424,38 @@ Pokemon = MACHAMP,45
 Pokemon = BLASTOISE,44
 Pokemon = GENGAR,51
 #-------------------------------
-[YOUNGSTER,EDDIE]
-LoseText = ...
-Pokemon = EKANS,29
+[PSYCHIC_Male,EDDIE]
+LoseText = I couldn't foresee your power...
+Pokemon = XATU,58
 #-------------------------------
 [YOUNGSTER,DAVE]
-LoseText = ...
-Pokemon = NIDORANmA,26
-Pokemon = NIDORINO,26
+LoseText = Huh? How did this happen?
+Pokemon = ARCANINE,56
 #-------------------------------
 [YOUNGSTER,DILLON]
-LoseText = ...
-Pokemon = SANDSHREW,27
-Pokemon = ZUBAT,27
+LoseText = Aiyaaah! I got stomped!
+Pokemon = SANDSLASH,56
+Pokemon = CROBAT,56
 #-------------------------------
 [YOUNGSTER,YASU]
-LoseText = ...
-Pokemon = RATTATA,25
-Pokemon = RATTATA,25
-Pokemon = RATICATE,30
+LoseText = My Pokémon needs to be stronger...
+Pokemon = RATTATA,50
+Pokemon = RATTATA_1,50
+Pokemon = RATICATE,50
+Pokemon = RATICATE_1,50
 #-------------------------------
 [BEAUTY,LINDA]
-LoseText = ...
-Pokemon = BULBASAUR,30
-Pokemon = VENUSAUR,34
-Pokemon = IVYSAUR,32
+LoseText = Oh, dear! I wanted to win!
+Pokemon = BULBASAUR,50
+Pokemon = VENUSAUR,55
+Pokemon = IVYSAUR,58
 #-------------------------------
 [BEAUTY,CINDY]
-LoseText = ...
-Pokemon = NIDOQUEEN,36
+LoseText = Ooh... I lost... You're not weak...
+Pokemon = NIDOQUEEN,60
 #-------------------------------
-[LEADER_Janine,JANINE]
-LoseText = ...
+[LEADER_Janine,Janine,1]
+LoseText = ...! So... So strong!
 Pokemon = GOLBAT,47
 Pokemon = WEEZING,44
 Pokemon = WEEZING,44
@@ -3198,9 +3625,9 @@ LoseText = ...
 Pokemon = GEODUDE,32
 #-------------------------------
 [HIKER,ERIC]
-LoseText = ...
-Pokemon = MACHOP,30
-Pokemon = ONIX,32
+LoseText = Thrown away!
+Pokemon = MACHOKE,56
+Pokemon = ONIX,58
 #-------------------------------
 [PICNICKER,SOFIA]
 LoseText = ...
@@ -3209,26 +3636,24 @@ Pokemon = PIDGEY,30
 Pokemon = MEOWTH,30
 #-------------------------------
 [HIKER,DUDLEY]
-LoseText = ...
-Pokemon = GEODUDE,30
-Pokemon = GEODUDE,30
-Pokemon = GRAVELER,33
+LoseText = Whoops! Too strong!
+Pokemon = GEODUDE_1,50
+Pokemon = GRAVELER_1,55
+Pokemon = GOLEM,60
 #-------------------------------
 [HIKER,LENNY]
-LoseText = ...
-Pokemon = GEODUDE,30
-Pokemon = MACHOP,31
+LoseText = You won!
+Pokemon = COALOSSAL,60
 #-------------------------------
 [HIKER,OLIVER]
-LoseText = ...
-Pokemon = ONIX,30
-Pokemon = ONIX,32
-Pokemon = GEODUDE,30
+LoseText = Where is the exit?
+Pokemon = ONIX,55
+Pokemon = ONIX,56
+Pokemon = GRAVELER,56
 #-------------------------------
 [HIKER,LUCAS]
-LoseText = ...
-Pokemon = GEODUDE,32
-Pokemon = GRAVELER,36
+LoseText = Hahaha-hachoo!
+Pokemon = MACHAMP,60
 #-------------------------------
 [PICNICKER,DANA]
 LoseText = ...
@@ -3248,10 +3673,11 @@ LoseText = ...
 Pokemon = BELLSPROUT,31
 Pokemon = CLEFAIRY,31
 #-------------------------------
-[FISHERMAN,ANDREW]
-LoseText = ...
-Pokemon = MAGIKARP,31
-Pokemon = MAGIKARP,31
+[FISHERMAN,ANDREW,1]
+LoseText = My Pokémon bucket is empty!
+Pokemon = MAGIKARP,51
+Pokemon = MAGIKARP,51
+Pokemon = GYARADOS,58
 #-------------------------------
 [CAMPER,JUSTIN]
 LoseText = ...
@@ -3259,132 +3685,120 @@ Pokemon = NIDORANmA,34
 Pokemon = NIDORINO,34
 #-------------------------------
 [FISHERMAN,ELLIOT]
-LoseText = ...
-Pokemon = POLIWAG,30
-Pokemon = SHELLDER,30
-Pokemon = GOLDEEN,30
-Pokemon = HORSEA,30
+LoseText = The answer is coming up next!
+Pokemon = POLIWRATH,56
+Pokemon = CLOYSTER,55
+Pokemon = SEAKING,55
 #-------------------------------
 [FISHERMAN,HANK]
-LoseText = ...
-Pokemon = GOLDEEN,42
+LoseText = I was listening to my radio the whole time... Is that why I lost?
+Pokemon = SEAKING,60
 #-------------------------------
 [FISHERMAN,CHIP]
-LoseText = ...
-Pokemon = TENTACOOL,34
-Pokemon = GOLDEEN,33
+LoseText = Patience!
+Pokemon = TENTACOOL,55
+Pokemon = LUMINEON,56
 #-------------------------------
 [FISHERMAN,NED]
-LoseText = ...
-Pokemon = GOLDEEN,32
-Pokemon = POLIWAG,32
-Pokemon = GOLDEEN,32
+LoseText = Yo do remember?
+Pokemon = GOLDEEN,55
+Pokemon = POLIWAG,55
+Pokemon = SEAKING,55
 #-------------------------------
 [PICNICKER,ALMA]
-LoseText = ...
-Pokemon = GOLDEEN,35
-Pokemon = POLIWAG,35
-Pokemon = HORSEA,35
+LoseText = Shoot! Not good enough!
+Pokemon = GOLDEEN,55
+Pokemon = POLIWAG,55
+Pokemon = HORSEA,55
 #-------------------------------
 [PICNICKER,SUSIE]
-LoseText = ...
-Pokemon = PIDGEY,30
-Pokemon = PIKACHU,30
-Pokemon = RATTATA,30
-Pokemon = MEOWTH,30
-Pokemon = MEOWTH,30
+LoseText = Oh, that's too bad...
+Pokemon = SLOWBRO,60
 #-------------------------------
 [BIRDKEEPER,SEBASTIAN]
-LoseText = ...
-Pokemon = PIDGEY,34
-Pokemon = PIDGEOTTO,36
+LoseText = You beat me with your speed...
+Pokemon = FARFETCHD,54
+Pokemon = PIDGEOT,56
 #-------------------------------
 [BEAUTY,LOLA]
-LoseText = ...
-Pokemon = RATTATA,35
-Pokemon = PIKACHU,35
-Pokemon = RATTATA,35
+LoseText = Wa ha...
+Pokemon = CLEFABLE,54
+Pokemon = GOLDUCK,56
+Pokemon = PIKACHU,55
 #-------------------------------
-[BEAUTY,SHEILA]
-LoseText = ...
-Pokemon = CLEFAIRY,34
-Pokemon = MEOWTH,36
+[BATTLEGIRL,SHEILA]
+LoseText = You're the strongest!
+Pokemon = MACHOKE,54
+Pokemon = PRIMEAPE,56
 #-------------------------------
 [PICNICKER,VALERIE]
-LoseText = ...
-Pokemon = POLIWAG,35
-Pokemon = POLIWAG,36
+LoseText = Pfuuuuhh...
+Pokemon = MORGREM,55
+Pokemon = PONYTA,56
 #-------------------------------
 [PICNICKER,GWEN]
-LoseText = ...
-Pokemon = PIDGEY,32
-Pokemon = MEOWTH,32
-Pokemon = PIDGEY,32
-Pokemon = PIDGEOTTO,35
+LoseText = Oh, I'm hungry...
+Pokemon = TREVENANT,60
 #-------------------------------
 [BIRDKEEPER,PERRY]
-LoseText = ...
-Pokemon = SPEAROW,34
-Pokemon = PIDGEY,35
-Pokemon = SPEAROW,34
+LoseText = How dare you mock my royalty bird!
+Pokemon = FEAROW,65
+    Shiny = yes
 #-------------------------------
 [BIRDKEEPER,ROBERT]
-LoseText = ...
-Pokemon = PIDGEY,33
-Pokemon = PIDGEOTTO,36
-Pokemon = SPEAROW,33
-Pokemon = FEAROW,36
+LoseText = My birds!
+Pokemon = PIDGEY,53
+Pokemon = PIDGEOTTO,56
+Pokemon = SPEAROW,53
+Pokemon = FEAROW,56
 #-------------------------------
 [TRIATHLETE_MaleCyclist,JARED]
-LoseText = ...
-Pokemon = KOFFING,35
-Pokemon = KOFFING,35
-Pokemon = KOFFING,35
+LoseText = My tire is flat!
+Pokemon = DODUO,55
+Pokemon = PARASECT,55
+Pokemon = POLIWHIRL,55
 #-------------------------------
 [BIRDKEEPER,CARTER]
-LoseText = ...
-Pokemon = PIDGEY,33
-Pokemon = DODUO,33
-Pokemon = PIDGEOTTO,37
+LoseText = Twee!
+Pokemon = PIDGEOTTO,60
 #-------------------------------
-[BIRDKEEPER,MITCH]
-LoseText = ...
-Pokemon = PIDGEY,31
-Pokemon = SPEAROW,31
-Pokemon = PIDGEY,31
-Pokemon = FEAROW,31
+[HIKER,MITCH]
+LoseText = I lost...
+Pokemon = SANDSLASH,55
+Pokemon = GRAVELER,55
+Pokemon = GOLEM,55
 #-------------------------------
 [BIRDKEEPER,MARLON]
-LoseText = ...
-Pokemon = SPEAROW,35
-Pokemon = DODUO,35
-Pokemon = FEAROW,35
+LoseText = I lost as lightly as a feather floats!
+Pokemon = SPEAROW,55
+Pokemon = DODRIO,55
+Pokemon = FEAROW,55
 #-------------------------------
-[TRIATHLETE_MaleCyclist,ISAAC]
-LoseText = ...
-Pokemon = GRIMER,35
-Pokemon = GRIMER,35
-Pokemon = KOFFING,35
+[TRIATHLETE_MaleRunner,ISAAC]
+LoseText = What?! You're strong!
+Pokemon = RAPIDASH,55
+Pokemon = ELECTRODE,55
+Pokemon = KANGASKHAN,55
 #-------------------------------
 [TRIATHLETE_MaleCyclist,MALIK]
-LoseText = ...
-Pokemon = KOFFING,37
-Pokemon = GRIMER,35
+LoseText = I'm tired...
+Pokemon = DODRIO,55
+Pokemon = ESPEON,60
 #-------------------------------
-[TRIATHLETE_MaleCyclist,GERALD]
-LoseText = ...
-Pokemon = GRIMER,35
-Pokemon = MUK,40
+[TRIATHLETE_MaleRunner,GERALD]
+LoseText = I was in too much of a hurry.
+Pokemon = PERSIAN,55
+Pokemon = DUGTRIO,60
 #-------------------------------
 [BIRDKEEPER,BENNY]
-LoseText = ...
-Pokemon = SPEAROW,35
-Pokemon = FEAROW,37
+LoseText = I can dream, but I can't ever fly...
+Pokemon = SPEAROW,55
+Pokemon = FEAROW,57
 #-------------------------------
 [TWINS,KIRI & JAN]
-LoseText = ...
-Pokemon = CHARMANDER,35
-Pokemon = SQUIRTLE,35
+LoseText = Uhnnn... We lost, don't we?
+Pokemon = CHARMELEON,55
+Pokemon = WARTORTLE,55
 #-------------------------------
 [TRIATHLETE_MaleCyclist,ERNEST]
 LoseText = ...
@@ -3399,9 +3813,9 @@ Pokemon = GRIMER,35
 Pokemon = WEEZING,35
 #-------------------------------
 [BEAUTY,GRACE]
-LoseText = ...
-Pokemon = PIDGEOTTO,38
-Pokemon = WIGGLYTUFF,30
+LoseText = Oh, well...
+Pokemon = PIDGEOTTO,55
+Pokemon = WIGGLYTUFF,55
 #-------------------------------
 [BEAUTY,OLIVIA]
 LoseText = ...
@@ -3415,14 +3829,14 @@ Pokemon = ODDISH,34
 Pokemon = ODDISH,34
 #-------------------------------
 [PICNICKER,BECKY]
-LoseText = ...
-Pokemon = PIKACHU,36
-Pokemon = RAICHU,39
+LoseText = No, this is wrong!
+Pokemon = PIKACHU,55
+Pokemon = RAICHU,56
 #-------------------------------
 [INTERVIEWERS,RON & MYA]
-LoseText = ...
-Pokemon = HITMONCHAN,37
-Pokemon = HITMONLEE,37
+LoseText = Oh, no, no... I'm sorry!
+Pokemon = HITMONCHAN,58
+Pokemon = HITMONLEE,58
 #-------------------------------
 [BIRDKEEPER,CHESTER]
 LoseText = ...
@@ -3431,62 +3845,78 @@ Pokemon = DODUO,34
 Pokemon = DODUO,34
 #-------------------------------
 [BIRDKEEPER,EDWIN]
-LoseText = ...
-Pokemon = PIDGEOTTO,36
-Pokemon = FARFETCHD,32
-Pokemon = DODUO,32
-Pokemon = PIDGEY,32
+LoseText = I lost my wings!
+Pokemon = XATU,56
+Pokemon = SIRFETCHD,56
+Pokemon = DODRIO,56
 #-------------------------------
 [PICNICKER,YAZMIN]
-LoseText = ...
-Pokemon = BELLSPROUT,34
-Pokemon = ODDISH,34
-Pokemon = TANGELA,34
+LoseText = Sorry, Mom! I was beaten!
+Pokemon = WEEPINBELL,54
+Pokemon = VILEPLUME,54
+Pokemon = TANGELA,58
+#-------------------------------
+[POKeFAN_Female,Hillary]
+LoseText = I didn't want to lose...
+Pokemon = SUNFLORA,56
+Pokemon = VENUSAUR,58
+#-------------------------------
+[POKeFAN_Male,Boone]
+LoseText = Yay! That was great!
+Pokemon = PIKACHU,56
+Pokemon = VAPOREON,58
+#-------------------------------
+[SCHOOLKID_Boy,Johnson]
+LoseText = You're wickedly tough!
+Pokemon = BELLSPROUT,52
+Pokemon = WEEPINBELL,54
+Pokemon = VICTREEBEL,56
 #-------------------------------
 [PICNICKER,CELIA]
-LoseText = ...
-Pokemon = CLEFAIRY,42
+LoseText = I said trading Pokémon!
+Pokemon = CLEFAIRY,60
 #-------------------------------
 [TRIATHLETE_MaleCyclist,HIDEO]
-LoseText = ...
-Pokemon = WEEZING,36
+LoseText = I lost. I lost!
+Pokemon = MACHOKE,60
 #-------------------------------
 [TRIATHLETE_MaleCyclist,ISAIAH]
-LoseText = ...
-Pokemon = MACHOP,36
-Pokemon = MACHOKE,37
+LoseText = Stronger than I expected!
+Pokemon = MACHOP,55
+Pokemon = MACHOKE,56
 #-------------------------------
 [TRIATHLETE_MaleCyclist,VIRGIL]
-LoseText = ...
-Pokemon = WEEZING,37
-Pokemon = KOFFING,34
-Pokemon = WEEZING,37
+LoseText = Wow, too strong!
+Pokemon = WEEZING,56
+Pokemon = KOFFING,55
+Pokemon = WEEZING,56
+    Form = 1
 #-------------------------------
 [TRIATHLETE_MaleCyclist,NIKOLAS]
-LoseText = ...
-Pokemon = VOLTORB,36
-Pokemon = VOLTORB,36
+LoseText = But you don't just look cool...
+Pokemon = VOLTORB,56
+Pokemon = MAGMAR,56
 #-------------------------------
 [TRIATHLETE_MaleCyclist,COREY]
-LoseText = ...
-Pokemon = PRIMEAPE,38
-Pokemon = MACHOKE,38
+LoseText = Argh! I failed...
+Pokemon = PRIMEAPE,58
+Pokemon = TENTACRUEL,56
 #-------------------------------
 [TRIATHLETE_MaleCyclist,JAXON]
-LoseText = ...
-Pokemon = WEEZING,38
-Pokemon = MUK,38
+LoseText = Hnnff... hnnff... I'm out of breath...
+Pokemon = WEEZING,56
+Pokemon = PRIMEAPE,55
 #-------------------------------
 [BIRDKEEPER,WILTON]
-LoseText = ...
-Pokemon = SPEAROW,37
-Pokemon = FEAROW,39
+LoseText = ...Whew!
+Pokemon = NOCTOWL,57
+Pokemon = FEAROW,58
 #-------------------------------
 [SWIMMERmA,REECE]
-LoseText = ...
-Pokemon = GOLDEEN,35
-Pokemon = HORSEA,30
-Pokemon = STARYU,32
+LoseText = Ooh! That was annoying.
+Pokemon = GOLDEEN,55
+Pokemon = SEADRA,60
+Pokemon = STARYU,55
 #-------------------------------
 [PkMnBREEDER_Male,DUSTY]
 LoseText = ...
@@ -3506,15 +3936,15 @@ Pokemon = RAPIDASH,40
 LoseText = ...
 Pokemon = PONYTA,40
 #-------------------------------
-[LEADER_BLAINE,BLAINE]
-LoseText = ...
+[LEADER_BLAINE,Blaine,1]
+LoseText = My spirit has not been defeated!
 Pokemon = NINETALES,49
 Pokemon = RAPIDASH,50
 Pokemon = ARCANINE,45
 Pokemon = MAGMAR,53
 #-------------------------------
-[LEADER_GARY,GARY]
-LoseText = ...
+[LEADER_BLUE,Blue,1]
+LoseText = This is the real power of Johto...
 Pokemon = DODRIO,56
 Pokemon = GOLEM,56
 Pokemon = BLASTOISE,57
@@ -3523,22 +3953,20 @@ Pokemon = ARCANINE,58
 Pokemon = UMBREON,60
 #-------------------------------
 [SWIMMERmA,TONY]
-LoseText = ...
-Pokemon = HORSEA,29
-Pokemon = HORSEA,30
+LoseText = I thought I could win.
+Pokemon = HORSEA,57
+Pokémon = TENTACOOL,56CC
+Pokemon = SEADRA,60
 #-------------------------------
 [SWIMMERmA,DAVID]
-LoseText = ...
-Pokemon = GOLDEEN,28
-Pokemon = SHELLDER,28
-Pokemon = SEAKING,33
+LoseText = Glub...
+Pokemon = FINNEON,55
+Pokemon = LUMINEON,58
 #-------------------------------
 [SWIMMERmA,DOUGLAS]
-LoseText = ...
-Pokemon = HORSEA,28
-Pokemon = TENTACOOL,28
-Pokemon = TENTACOOL,28
-Pokemon = GOLDEEN,29
+LoseText = I'm drowning!
+Pokemon = SHELLDER,56
+Pokemon = CLOYSTER,58
 #-------------------------------
 [SWIMMERmA,MATTHEW]
 LoseText = ...
@@ -3554,61 +3982,54 @@ Pokemon = HORSEA,27
 Pokemon = STARYU,27
 #-------------------------------
 [SWIMMERfE,ALICE]
-LoseText = ...
-Pokemon = GOLDEEN,30
-Pokemon = SEAKING,32
+LoseText = I could beat you at swimming...
+Pokemon = GOLDEEN,55
+Pokemon = SEAKING,58
 #-------------------------------
 [SWIMMERfE,CONNIE]
-LoseText = ...
-Pokemon = STARYU,30
-Pokemon = STARYU,30
-Pokemon = STARYU,30
+LoseText = Awww...
+Pokemon = SLOWBRO,60
 #-------------------------------
 [SWIMMERfE,ANYA]
-LoseText = ...
-Pokemon = POLIWAG,27
-Pokemon = SEAKING,30
-Pokemon = GOLDEEN,27
-Pokemon = POLIWAG,27
+LoseText = I'm worried about sunburn...
+Pokemon = SEEL,55
+Pokemon = DEWGONG,56
 #-------------------------------
 [SWIMMERmA,BARRY]
-LoseText = ...
-Pokemon = SHELLDER,31
-Pokemon = CLOYSTER,36
+LoseText = Ulp...
+Pokemon = POLIWHIRL,56
+Pokemon = TENTACRUEL,60
 #-------------------------------
 [SWIMMERmA,DARRIN]
-LoseText = ...
-Pokemon = HORSEA,30
-Pokemon = HORSEA,30
-Pokemon = SEADRA,30
-Pokemon = HORSEA,30
+LoseText = No!
+Pokemon = STARMIE,56
+Pokemon = STARMIE,56
+Pokemon = STARMIE,60
 #-------------------------------
 [SWIMMERfE,SHIRLEY]
-LoseText = ...
-Pokemon = SEADRA,34
-Pokemon = HORSEA,30
-Pokemon = SEADRA,34
+LoseText = Oh, no!
+Pokemon = SEADRA,56
+Pokemon = HORSEA,56
+Pokemon = LAPRAS,56
 #-------------------------------
 [BIRDKEEPER,ROGER]
-LoseText = ...
-Pokemon = FEAROW,33
-Pokemon = FEAROW,33
-Pokemon = PIDGEOTTO,33
+LoseText = You're strong!
+Pokemon = FEAROW,56
+Pokemon = FEAROW,56
+Pokemon = PIDGEOTTO,56
 #-------------------------------
 [SWIMMERfE,NORA]
-LoseText = ...
-Pokemon = SHELLDER,30
-Pokemon = SHELLDER,30
-Pokemon = CLOYSTER,36
+LoseText = Ohhh!
+Pokemon = BIDOOF,60
 #-------------------------------
 [SWIMMERmA,DEAN]
 LoseText = ...
 Pokemon = STARYU,40
 #-------------------------------
 [SWIMMERfE,MELISSA]
-LoseText = ...
-Pokemon = POLIWAG,30
-Pokemon = SEAKING,33
+LoseText = Aiyah!
+Pokemon = POLIWAG,55
+Pokemon = SEAKING,55
 #-------------------------------
 [SWIMMERmA,JEROME]
 LoseText = ...
@@ -3616,17 +4037,17 @@ Pokemon = STARYU,35
 Pokemon = WARTORTLE,35
 #-------------------------------
 [SWIMMERmA,RONALD]
-LoseText = ...
-Pokemon = POLIWHIRL,35
-Pokemon = TENTACOOL,33
-Pokemon = SEADRA,35
+LoseText = I'm sorry, Teacher...
+Pokemon = POLIWHIRL,55
+Pokemon = GOLDUCK,56
 #-------------------------------
 [SWIMMERmA,JACK]
 LoseText = ...
-Pokemon = STARMIE,45
+Pokemon = KABUTO,55
+Pokemon = KINGLER,55
 #-------------------------------
 [SWIMMERmA,SPENCER]
-LoseText = ...
+LoseText = Glug...
 Pokemon = SEADRA,37
 Pokemon = TENTACRUEL,38
 #-------------------------------

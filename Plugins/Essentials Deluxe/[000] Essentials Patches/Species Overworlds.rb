@@ -52,7 +52,10 @@ end
 # Compatibility with Visible Overworld Wild Encounters.
 #-------------------------------------------------------------------------------
 def ow_sprite_filename(*params)
+  Console.echo("Params are #{params}")
+
   params = species_overworld_params(*params)
+  
   return GameData::Species.check_graphic_file("Graphics/Characters/", params, "Followers")
 end
 
