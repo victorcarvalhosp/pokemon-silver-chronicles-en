@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [PkMnTRAINER_Male]
 Name = PkMn TRAINER
@@ -24,6 +24,12 @@ Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_BOY
 #-------------------------------
+[YOUNGSTER_2]
+Name = YOUNGSTER
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_BOY
+#-------------------------------
 [HIKER]
 Name = HIKER
 Gender = Male
@@ -36,6 +42,12 @@ Gender = Female
 BaseMoney = 30
 #-------------------------------
 [FISHERMAN]
+Name = FISHERMAN
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_FISHERMAN
+#-------------------------------
+[FISHERMAN_2]
 Name = FISHERMAN
 Gender = Male
 BaseMoney = 30
@@ -64,6 +76,12 @@ Gender = Female
 BaseMoney = 30
 #-------------------------------
 [SWIMMERfE]
+Name = SWIMMERfE
+Gender = Female
+BaseMoney = 30
+IntroBGM = Encounter-Swimmer_2
+#-------------------------------
+[SWIMMERfE_2]
 Name = SWIMMERfE
 Gender = Female
 BaseMoney = 30
@@ -202,6 +220,12 @@ Gender = Unknown
 BaseMoney = 30
 #-------------------------------
 [SWIMMERmA]
+Name = SWIMMERmA
+Gender = Unknown
+BaseMoney = 30
+IntroBGM = Encounter-Swimmer_2
+#-------------------------------
+[SWIMMERmA_2]
 Name = SWIMMERmA
 Gender = Unknown
 BaseMoney = 30
@@ -484,6 +508,22 @@ BaseMoney = 100
 IntroBGM = SEQ_EYE_CHAMP
 BattleBGM = GSCChampionBattle
 VictoryBGM = PkmRS_Victory4
+#-------------------------------
+[ELITEFOUR_Thorton]
+Name = ELITE FOUR
+Gender = Male
+BaseMoney = 100
+IntroBGM = SEQ_EYE_ELITE
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
+#-------------------------------
+[ELITEFOUR_Green]
+Name = ELITE FOUR
+Gender = Female
+BaseMoney = 100
+IntroBGM = SEQ_EYE_ELITE
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
 #-------------------------------
 [KIMONO_Girl]
 Name = KIMONO Girl

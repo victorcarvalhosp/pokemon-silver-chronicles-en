@@ -91,8 +91,8 @@ class EncounterList_Scene
   # This method initiates the following:
   # Background graphics, text overlay, Pokémon sprites and navigation arrows
   def pbStartScene
-    if !File.file?("Graphics/Pictures/EncounterUI/"+WINDOWSKIN)
-      raise _INTL("You are missing the graphic for this UI. Make sure the image is in your Graphics/Pictures folder and that it is named appropriately.")
+    if !pbResolveBitmap("Graphics/Pictures/EncounterUI/"+WINDOWSKIN)
+      raise _INTL("You are missing the graphic for this UI. Make sure the image is in your Graphics/Pictures folder and that it is named appropriately: Graphics/Pictures/EncounterUI/{1}", WINDOWSKIN)
     end
     addBackgroundPlane(@sprites,"bg","EncounterUI/bg",@viewport)
     @sprites["base"] = IconSprite.new(0,0,@viewport)

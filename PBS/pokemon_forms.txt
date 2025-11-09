@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [VENUSAUR,1]
 FormName = Mega Venusaur
@@ -582,6 +582,14 @@ Category = Malevolent
 Pokedex = This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
 Generation = 8
 #-------------------------------
+[DRAGONITE,1]
+FormName = Mega Dragonite
+MegaStone = DRAGONITENITE
+BaseStats = 91,164,105,100,120,120
+BaseExp = 317
+Pokedex = Its wings radiate immense power, allowing it to soar faster than sound. The air trembles as it flies, leaving storms in its wake.
+Generation = 6
+#-------------------------------
 [MEWTWO,1]
 FormName = Mega Mewtwo X
 MegaStone = MEWTWONITEX
@@ -612,7 +620,7 @@ Generation = 6
 [MEWTWO,3]
 FormName = Armored Mewtwo
 Types = PSYCHIC
-BaseStats = 106,110,150,130,194,90
+BaseStats = 120,70,150,100,194,150
 BaseExp = 390
 Abilities = PRESSURE
 HiddenAbilities = UNNERVE

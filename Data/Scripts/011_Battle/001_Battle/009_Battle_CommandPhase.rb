@@ -98,6 +98,10 @@ class Battle
   end
 
   def pbItemMenu(idxBattler, firstAction)
+    if trainerBattle?
+      pbDisplay(_INTL("Items can't be used in Trainer battles."))
+      return false
+    end
     if !@internalBattle
       pbDisplay(_INTL("Items can't be used here."))
       return false

@@ -218,9 +218,9 @@ module Settings
     return [
       [_INTL("Johto Pokédex"),0],  
       [_INTL("Kanto Pokédex"),1],
-      # [_INTL("Hoenn Pokédex"),2],
-     # [_INTL("Sinnoh Pokédex"),3],
-     # [_INTL("Unova Pokédex"),4],
+      [_INTL("Hoenn Pokédex"),2],
+      [_INTL("Sinnoh Pokédex"),3],
+      [_INTL("Orange Islands Dex"),4],
       _INTL("National Pokédex")
     ]
   end

@@ -5,8 +5,9 @@ module QuestModule
   Quest0 = {
   
   }
+  # change 3
   
-  # Here's the simplest example of a single-stage quest with everything specified
+  # Here's the simplest example of a single-stage quest with everything specified - test
   # Quest1 = {
   #   :ID => "1",
   #   :Name => "Introductions",
@@ -44,6 +45,7 @@ module QuestModule
     :Location2 => "Route 31",
     :QuestDescription => "Go meet many kinds of Pokémon and complete that Pokédex!",
   }
+  # @todo: Still need to add code to complete it in the game
 
   JohtoGymChallenge = {
     :ID => "3",
@@ -380,8 +382,10 @@ module QuestModule
     :QuestGiver => "Professor Oak",
     :Stage1 => "Go talk with Professor Oak.",
     :Stage2 => "Mega Evolve your new Pokémon.",
+    :Stage3 => "Visit the Pokémon Lab in Cinnabar.",
     :Location1 => "Pallet Town",
     :Location2 => "nil",
+    :Location3 => "Cinnabar Island",
     # :Location2 => "Route 31",
     :QuestDescription => "Professor Oak is working on a new research and wants your help on it!",
   }
@@ -484,6 +488,76 @@ module QuestModule
     :QuestDescription => "The Pokémon Association is holding elections to elect their new president. You can vote for the candidate of your choice.",
   }
 
+  LavenderTVTower = {
+    :ID => "42",
+    :Name => "Association Media Control",
+    :Stage1 => "Meet Yellow",
+    :Stage2 => "Squeeze through the vents.",
+    :Location1 => "Lavender Town",
+    :Location2 => "Lavender Catacombs",
+    :QuestDescription => "Giovanni’s always at the tower now, running broadcasts, speeches, 'updates'.But it’s not just news, it’s all carefully controlled. Yellow needs your help to investigate the tower and find out what’s going on.",
+  }
+
+  SilphCoResearch = {
+    :ID => "43",
+    :Name => "Agent017 Secret Research",
+    :Stage1 => "Find Secret Research location.",
+    :Stage2 => "Destroy Psychic barrier.",
+    :Location1 => "Saffron City",
+    :Location2 => "Saffron City",
+    :QuestDescription => "Agent017 is now the boss of Team Rocket. He's been conducting a secret Mewtwo research. Find out what he's up to.",
+  }
+
+  KantoPokemonLeague = {
+    :ID => "44",
+    :Name => "Kanto Pokémon League!",
+    :QuestGiver => "Prof. Oak",
+    :Stage1 => "Battle against Elite Four.",
+    :Location1 => "Indigo Plateau",
+    :QuestDescription => "The time has come for you again to challenge the Elite Four! What are their new members? How stronger they are now?",
+  }
+
+  GSBall = {
+    :ID => "45",
+    :Name => "Mysterious GS Ball",
+    :QuestGiver => "Prof. Elm",
+    :Stage1 => "Deliver GS Ball to Prof. Ivy.",
+    :Location1 => "Valencia Island",
+    :QuestDescription => "Professor Elm asked you to deliver a GS Ball to Prof. Ivy in order to continue their research.",
+  }
+
+  OrangeIslandsGymChallenge = {
+    :ID => "46",
+    :Name => "Pokémon Gym challenge",
+    :QuestGiver => "Prof. Ivy",
+    :Stage1 => "Challenge Orange Islands Gym Leaders 1/4",
+    :Stage2 => "Challenge Orange Islands Gym Leaders 2/4",
+    :Stage3 => "Challenge Orange Islands Gym Leaders 3/4",
+    :Stage4 => "Challenge Orange Islands Gym Leaders 4/4",
+    :QuestDescription => "Face all the Gym Leaders on the Orange Islands and prove you're the best against the Supreme Gym Leader!",
+  }
+
+  # @todo: Still need to add code to complete it in the game
+  OrangeIslandsPokedex = {
+    :ID => "46",
+    :Name => "Gotta catch ‘em all(Orange Islands)!",
+    :QuestGiver => "Professor Ivy",
+    :Stage1 => "Complete the Orange Islands Pokédex.",
+    :Stage2 => "Register at least 80 Pokémon.",
+    :Location1 => "nil",
+    # :Location2 => "Route 31",
+    :QuestDescription => "Go meet many kinds of Pokémon and complete the Orange Islands Pokédex!",
+  }
+
+  RescueLapras = {
+    :ID => "47",
+    :Name => "Rescue Lapras!",
+    :Stage1 => "Help Lapras against the swimmers.",
+    :Stage2 => "Caught friendly Lapras.",
+    :Location1 => "Route 50",
+    :Location2 => "Route 50",
+    :QuestDescription => "You saw some swimmers mistreating a Lapras. You need to help the poor Pokémon.",
+  }
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

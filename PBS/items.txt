@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [REPEL]
 Name = Repel
@@ -2677,6 +2677,14 @@ Pocket = 1
 Price = 0
 Flags = MegaStone,Fling_80
 Description = One of a variety of mysterious Mega Stones. Have Diancie hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DRAGONITENITE]
+Name = Dragonitenite
+NamePlural = Dragonitenites
+Pocket = 1
+Price = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Aragonite hold it, and it will be able to Mega Evolve.
 #-------------------------------
 [REDORB]
 Name = Red Orb
@@ -7266,18 +7274,18 @@ Price = 0
 Description = The Poke Doll lost by te Copycat.
 #-------------------------------
 [ILHASTICKET]
-Name = Ilhas Laranja Ticket
-NamePlural = Ilhas Laranja Ticket
+Name = Orange Ticket
+NamePlural = Orange Tickets
 Pocket = 8
 Price = 0
-Description = Um ticket para viajar de dirigível até a cidade de Valencia.
+Description = A ticket required to board the ship to Orange Islands.
 #-------------------------------
 [IVYSPARCEL]
-Name = Bola GS
-NamePlural = Bola GS
+Name = GS Ball Package
+NamePlural = GS Ball Package
 Pocket = 8
 Price = 0
-Description = Um pacote do professor Carvalho, dentro está a Bola GS.
+Description = A package containing the GS Ball. Handle it with care.
 #-------------------------------
 [CRISTAL]
 Name = Cristal

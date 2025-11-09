@@ -1855,6 +1855,195 @@ Pokemon = DRAGONITE,54
 	Moves = DRAGONDANCE,OUTRAGE,FIREPUNCH,HYPERBEAM
 	Item = DRAGONIUMZ
 #-------------------------------
+[ELITEFOUR_Thorton,Thorton,1]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = Whoa! You sure showed me!
+Pokemon = HOUNDOOM,64
+	Item = FOCUSSASH
+	Moves = SUCKERPUNCH,FLAMETHROWER,TAUNT,PROTECT
+Pokemon = URSALUNA,65
+        Form = 1
+	Item = CHOICEBAND
+	Moves = EARTHQUAKE,GIGAIMPACT,AVALANCHE,LOWKICK
+Pokemon = MAGMORTAR,64
+	Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,SUBSTITUTE
+	Item = EXPERTBELT
+Pokemon = PORYGONZ,66
+	Item = CUSTAPBERRY
+	Moves = HYPERBEAM,NASTYPLOT,ENDURE,DARKPULSE
+	Ace = yes
+    	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = INFERNAPE,67
+	Item = FIRIUMZ
+	Moves = TAUNT,CLOSECOMBAT,STEALTHROCK,FLAREBLITZ
+Pokemon = KANGASKHAN,68
+	Item = KANGASKHANITE
+	Moves = FAKEOUT,SEISMICTOSS,SHADOWCLAW,BODYSLAM
+#-------------------------------
+[ELITEFOUR_Thorton,Thorton,2]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = Whoa! You sure showed me!
+Pokemon = POLITOED,64
+	Item = WACANBERRY
+	Moves = EARTHQUAKE,WATERFALL,HYPNOSIS,ICEBEAM
+Pokemon = URSALUNA,65
+        Form = 1
+	Item = CHOICEBAND
+	Moves = EARTHQUAKE,GIGAIMPACT,AVALANCHE,LOWKICK
+Pokemon = SLOWKING,64
+	Moves = PSYCHIC,SURF,ICEBEAM,FLAMETHROWER
+	Item = WISEGLASSES
+Pokemon = PORYGONZ,66
+	Item = CUSTAPBERRY
+	Moves = HYPERBEAM,NASTYPLOT,ENDURE,DARKPULSE
+	Ace = yes
+    	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = EMPOLEON,67
+	Item = WATERIUMZ
+	Moves = SURF,ICEBEAM,SUBSTITUTE,GRASSKNOT
+Pokemon = KANGASKHAN,68
+	Item = KANGASKHANITE
+	Moves = FAKEOUT,SEISMICTOSS,SHADOWCLAW,BODYSLAM
+#-------------------------------
+[ELITEFOUR_Thorton,Thorton,3]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = Whoa! You sure showed me!
+Pokemon = EXEGGUTOR,64
+	Item = EXPERTBELT
+	Moves = LEAFSTORM,PSYCHIC,SLUDGEBOMB,ANCIENTPOWER
+Pokemon = URSALUNA,65
+        Form = 1
+	Item = CHOICEBAND
+	Moves = EARTHQUAKE,GIGAIMPACT,AVALANCHE,LOWKICK
+Pokemon = HERACROSS,64
+	Moves = MEGAHORN,EARTHQUAKE,REVERSAL,AERIALACE
+	Item = SCOPELENS
+Pokemon = PORYGONZ,66
+	Item = CUSTAPBERRY
+	Moves = HYPERBEAM,NASTYPLOT,ENDURE,DARKPULSE
+	Ace = yes
+    	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = TORTERRA,67
+	Item = GRASSIUMZ
+	Moves = WOODHAMMER,EARTHQUAKE,STONEEDGE,CRUNCH
+Pokemon = KANGASKHAN,68
+	Item = KANGASKHANITE
+	Moves = FAKEOUT,SEISMICTOSS,SHADOWCLAW,BODYSLAM
+#-------------------------------
+[ELITEFOUR_Bruno,Bruno,2]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = Why?! ...How could we lose?
+Pokemon = HITMONTOP,66
+	Moves = CLOSECOMBAT,ROCKSLIDE,SUCKERPUNCH,COUNTER
+	Item = BLACKBELT
+Pokemon = ANNIHILAPE,66
+	Moves = CROSSCHOP,SHADOWPUNCH,THRASH,BULLDOZE
+	Item = FIGHTINIUMZ
+Pokemon = STEELIX,68
+	Moves = TAUNT,EARTHQUAKE,ROCKBLAST,HEAVYSLAM
+	Item = STEELIXITE
+Pokemon = MACHAMP,69
+	Moves = STONEEDGE,DYNAMICPUNCH,REVENGE,EARTHQUAKE
+	Ace = yes
+	DynamaxLvl = 10
+	Gigantamax = yes
+	Item = BLACKBELT
+Pokemon = HITMONLEE,67
+	Moves = HIGHJUMPKICK,BLAZEKICK,FORESIGHT,MEDITATE
+	Item = ASSAULTVEST
+Pokemon = HITMONCHAN,67	
+	Moves = FIREPUNCH,THUNDERPUNCH,ICEPUNCH,MACHPUNCH
+	Item = BLACKBELT
+#-------------------------------
+[ELITEFOUR_Green,Green,1]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = Wow… you actually read me like a book.
+Pokemon = CLEFABLE,67
+	Moves = PERISHSONG,MOONBLAST,SOFTBOILED,FLAMETHROWER
+	Gender = Female
+        Item = LEFTOVERS
+	Ability = MAGICGUARD
+        EV = 252,0,172,0,0,84
+Pokemon = GRANBULL,67
+	Moves = PLAYROUGH,EARTHQUAKE,CLOSECOMBAT,THUNDERPUNCH
+        Item = CHOICEBAND
+	Ability = INTIMIDATE
+	EV = 252,252,0,0,0,4
+Pokemon = NIDOQUEEN,68
+	Moves = STEALTHROCK,EARTHPOWER,SLUDGEWAVE,ICEBEAM
+        Item = LIFEORB
+	Ability = SHEERFORCE
+	EV = 252,0,0,0,252,4
+Pokemon = BLASTOISE,70
+	Moves = HYDROCANNON,ICEBEAM,DARKPULSE,SUBSTITUTE
+	Ace = yes
+        DynamaxLvl = 10
+	Gigantamax = yes
+        Item = LEFTOVERS
+	Ability = TORRENT
+	EV = 252,0,0,252,0,4
+Pokemon = ALAKAZAM,69
+	Moves = PSYCHIC,FOCUSBLAST,SHADOWBALL,DAZZLINGGLEAM
+	Gender = Male
+        Item = ALAKAZITE
+	Ability = MAGICGUARD
+        EV = 0,0,0,252,252,4
+Pokemon = DITTO,69
+	Moves = TRANSFORM
+	Item = CHOICESCARF
+	Ability = IMPOSTER
+        EV = 252,0,0,252,0,4
+#-------------------------------
+[ELITEFOUR_Karen,Karen,2]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = Well, aren't you good. I like that in a Trainer.
+Pokemon = UMBREON,68
+	Moves = SANDATTACK,PAYBACK,CONFUSERAY,MOONLIGHT
+	Item = DARKINIUMZ
+Pokemon = GENGAR,70
+	Moves = SHADOWBALL,THUNDERBOLT,FOCUSBLAST,DESTINYBOND
+	Ace = yes
+	DynamaxLvl = 10
+	Gigantamax = yes
+	Item = SPELLTAG
+Pokemon = HONCHKROW,69
+	Moves = SUCKERPUNCH,DRILLPECK,HAZE,HEATWAVE
+	Item = BLACKGLASSES
+Pokemon = HOUNDOOM,68
+	Moves = FLAMETHROWER,THUNDERFANG,NASTYPLOT,DARKPULSE
+	Item = BLACKGLASSES
+Pokemon = VILEPLUME,69
+	Moves = SLEEPPOWDER,SLUDGEBOMB,PETALDANCE,POLLENPUFF
+	Item = OCCABERRY
+Pokemon = TYRANITAR,71
+	Moves = EARTHQUAKE,STONEEDGE,PAYBACK,ICEFANG
+	Item = TYRANITARITE
+#-------------------------------
+[ELITEFOUR_Lance,Lance,2]
+Items = ZRING,DYNAMAXBAND,MEGARING
+LoseText = How could I be pushed to such a point?
+Pokemon = GYARADOS,70
+	Moves = DRAGONPULSE,DRAGONDANCE,AQUATAIL,ICEFANG
+Pokemon = CHARIZARD,71
+	Moves = AIRSLASH,FLAMETHROWER,SHADOWCLAW,DRAGONPULSE
+	Moves = SHADOWBALL,THUNDERBOLT,FOCUSBLAST,DESTINYBOND
+	Ace = yes
+	DynamaxLvl = 10
+	Gigantamax = yes
+Pokemon = AERODACTYL,70
+	Moves = THUNDERFANG,ROCKSLIDE,AERIALACE,CRUNCH
+Pokemon = DRAGONITE,71
+	Moves = ICESPINNER,OUTRAGE,THUNDERPUNCH,FLY
+	Item = DRAGONIUMZ
+Pokemon = YANMEGA,70
+	Moves = UTURN,ANCIENTPOWER,AIRSLASH,HYPERBEAM
+Pokemon = DRAGONITE,72
+	Moves = DRAGONDANCE,OUTRAGE,FIREPUNCH,HYPERBEAM
+	Item = DRAGONITENITE
+#-------------------------------
 [ROCKET_Male,Allen]
 LoseText = ...
 Pokemon = PERSIAN,33
@@ -2345,15 +2534,19 @@ Pokemon = MAGNEZONE,62
     Moves = ZAPCANNON,FLASHCANNON,REFLECT,THUNDERWAVE
 Pokemon = WEAVILE,62
     Moves = ICICLECRASH,KNOCKOFF,ICESHARD,PURSUIT
+    Gender = male
 Pokemon = TYRANITAR,62
     Moves = ROCKSLIDE,CRUNCH,PURSUIT,EARTHQUAKE
+    Gender = male
 Pokemon = KINGDRA,62
     Moves = HYDROPUMP,SURF,DRACOMETEOR,ICEBEAM
+    Gender = female
 Pokemon = GENGAR,62
     Moves = DARKPULSE,CONFUSERAY,SHADOWBALL,SLUDGEBOMB
     Ace = yes
     DynamaxLvl = 10
     Gigantamax = yes
+    Gender = male
 Pokemon = MEWTWO,80
     Form = 3
     Moves = PSYCHIC,RECOVER,FIREPUNCH,ICEPUNCH
@@ -2696,12 +2889,212 @@ Pokemon = GOLDUCK,64
     Item = WATERIUMZ
 #-------------------------------
 [LEADER_Surge,Lt.Surge,2]
-LoseText = My electric trick...
-Pokemon = RAICHU,51
-Pokemon = ELECTRODE,47
-Pokemon = ELECTABUZZ,50
-Pokemon = VOLTORB,36
-Pokemon = MAGNETON,46
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,55
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 55
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTABUZZ,58
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,57
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 56
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,60
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,3]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,56
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 56
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTABUZZ,59
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,58
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 57
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,61
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,4]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,57
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 57
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTIVIRE,60
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,59
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 58
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,62
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,5]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,58
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 58
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTIVIRE,61
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,60
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 59
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,63
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,6]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,59
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 59
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTIVIRE,62
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,61
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 60
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,64
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,7]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,60
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 60
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTIVIRE,63
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,62
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 61
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,65
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,8]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,61
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 61
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTIVIRE,64
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,63
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 62
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,66
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
+#-------------------------------
+[LEADER_Surge,Lt.Surge,9]
+Items = ZRING,DYNAMAXBAND
+LoseText = My electric trick.
+Pokemon = ELECTRODE,62
+    Moves = REFLECT,LIGHTSCREEN,TAUNT,EXPLOSION
+    Gender = male
+Pokemon = LANTURN, 62
+    Moves = HYDROPUMP,THUNDER,BLIZZARD,SIGNALBEAM
+    Gender = male
+Pokemon = ELECTIVIRE,65
+    Item = ELECTRIUMZ
+    Moves = THUNDERBOLT,VOLTSWITCH,PSYCHIC,FOCUSBLAST
+    Gender = male
+Pokemon = MAGNEZONE,64
+    Moves = DISCHARGE,FLASHCANNON,MAGNETRISE,SIGNALBEAM
+    Gender = male
+Pokemon = JOLTEON, 63
+    Moves = IRONTAIL,VOLTSWITCH,DOUBLETEAM,THUNDER
+    Gender = male
+Pokemon = RAICHU,67
+    Moves = NASTYPLOT,THUNDERBOLT,FOCUSBLAST,PROTECT
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Gender = male
 #-------------------------------
 [LEADER_SABRINA,Sabrina,2]
 Items = MEGARING
@@ -3011,15 +3404,12 @@ Pokemon = PIKACHU,44
 #-------------------------------
 [RIVAL_YELLOW,Yellow,2]
 LoseText = ...
-Pokemon = CHARMANDER,14
-Pokemon = PIKACHU,44
-Pokemon = RATTATA,29
-#-------------------------------
-[RIVAL_YELLOW,Yellow,3]
-LoseText = ...
-Pokemon = SQUIRTLE,14
-Pokemon = PIKACHU,44
-Pokemon = RATTATA,29
+Pokemon = PIKACHU,54
+    Gender = female
+    Form = 5
+    Moves = VOLTSWITCH,CHARM,SIGNALBEAM,EXTREMESPEED
+Pokemon = RATTATA,50
+Pokemon = DODRIO,50
 #-------------------------------
 [HIKER,KENT]
 LoseText = You got me!
@@ -3110,6 +3500,106 @@ LoseText = ...
 Pokemon = DRAGONAIR,35
 Pokemon = DITTO,27
 Pokemon = RHYHORN,32
+#-------------------------------
+[ROCKET_Male,Grunt,64]
+LoseText = Oh, no!
+Pokemon = KADABRA,55
+Pokemon = MACHOKE,55
+Pokemon = NIDOKING,65
+#-------------------------------
+[ROCKET_Male,Grunt,65]
+LoseText = Ouch...
+Pokemon = DROWZEE,55
+Pokemon = RHYHORN,55
+Pokemon = ARBOK,65
+#-------------------------------
+[ROCKET_Male,Grunt,66]
+LoseText = That's bad...
+Pokemon = KADABRA,55
+Pokemon = UMBREON,55
+Pokemon = RATICATE,65
+    Form = 1
+#-------------------------------
+[ROCKET_Male,Grunt,67]
+LoseText = Brothers! I lost!
+Pokemon = MURKROW,55
+Pokemon = RATICATE,55
+    Form = 1
+Pokemon = TENTACRUEL,65
+#-------------------------------
+[ROCKET_Male,Grunt,68]
+LoseText = Where are the lights?!
+Pokemon = HAUNTER,55
+Pokemon = ARIADOS,55
+Pokemon = ESPEON,65
+#-------------------------------
+[ROCKET_Male,Grunt,69]
+LoseText = Who are you?
+Pokemon = UNOWN,55
+Pokemon = SNEASEL,55
+    Form = 1
+Pokemon = MUK,65
+    Form = 1
+#-------------------------------
+[ROCKET_Male,Grunt,70]
+LoseText = Arrgh!
+Pokemon = HOUNDOUR,55
+Pokemon = RATICATE,55
+    Form = 1
+Pokemon = WEAVILE,65
+#-------------------------------
+[ROCKET_Male,Grunt,71]
+LoseText = It's cold...
+Pokemon = KOFFING,55
+Pokemon = PILOSWINE,55
+Pokemon = SANDSLASH,65
+    Form = 1
+#-------------------------------
+[ROCKET_Male,Grunt,72]
+LoseText = I'm shocked!
+Pokemon = SNEASEL,55
+Pokemon = ELECTRODE,55
+Pokemon = RAICHU,65
+    Form = 1
+#-------------------------------
+[ROCKET_Male,Grunt,73]
+LoseText = It's cold...
+Pokemon = GIRAFARIG,55
+Pokemon = VILEPLUME,55
+Pokemon = GENGAR,65
+#-------------------------------
+[SCIENTIST, Grunt,1]
+LoseText = You're good.
+Pokemon = EXEGGCUTE,55
+Pokemon = MUK,55
+Pokemon = SLOWBRO,65
+    Form = 1
+#-------------------------------
+[SCIENTIST, Grunt,2]
+LoseText = That was a surprise...
+Pokemon = DROWZEE,55
+Pokemon = WEEZING,55
+Pokemon = CROBAT,65
+#-------------------------------
+[SCIENTIST, Grunt,3]
+LoseText = How did you know?!
+Pokemon = SNEASEL,55
+Pokemon = HYPNO,55
+Pokemon = ALAKAZAM,65
+#-------------------------------
+[SCIENTIST, Grunt,4]
+LoseText = Weak Pokémon!
+Pokemon = SLOWBRO,55
+Pokemon = HYPNO,55
+Pokemon = STARMIE,65
+#-------------------------------
+[SCIENTIST, Grunt,5]
+LoseText = Tch! I didn't take you seriously.
+Pokemon = WEEZING,55
+    Form = 1
+Pokemon = XATU,55
+Pokemon = SLOWKING,65
+    Form = 1
 #-------------------------------
 [LEADER_GIOVANNI,Giovanni,2]
 LoseText = ...
@@ -3368,11 +3858,196 @@ Pokemon = VICTREEBEL,55
 Pokemon = VILEPLUME,56
 #-------------------------------
 [LEADER_Erika,Erika,1]
+Items = DYNAMAXBAND
 LoseText = Looks like I underestimated you...
-Pokemon = TANGELA,49
-Pokemon = BELLOSSOM,49
-Pokemon = VILEPLUME,48
-Pokemon = VICTREEBEL,49
+Pokemon = TANGROWTH,56
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,56
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,57
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,58
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,58
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,60
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,57
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,57
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,58
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,59
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,59
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,61
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,3]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,58
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,58
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,59
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,60
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,60
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,62
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,4]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,59
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,59
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,60
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,61
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,61
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,63
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,5]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,60
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,60
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,61
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,62
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,62
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,64
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,6]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,61
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,61
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,62
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,63
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,63
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,65
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,7]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,62
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,62
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,63
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,64
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,64
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,66
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
+#-------------------------------
+[LEADER_Erika,Erika,8]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = Looks like I underestimated you...
+Pokemon = TANGROWTH,63
+    Moves = GIGADRAIN,KNOCKOFF,SLUDGEBOMB,EARTHQUAKE
+    Item = ROCKYHELMET
+Pokemon = LEAFEON,63
+    Moves = SWORDSDANCE,LEAFBLADE,RETURN,XSCISSOR
+    Item = OCCABERRY
+Pokemon = BELLOSSOM,64
+    Moves = QUIVERDANCE,GIGADRAIN,SLEEPPOWDER,SAFEGUARD
+    Item = GRASSIUMZ
+Pokemon = VILEPLUME,65
+    Moves = GIGADRAIN,SLUDGEBOMB,SLEEPPOWDER,MOONBLAST
+    Item = OCCABERRY
+Pokemon = VICTREEBEL,65
+    Moves = LEAFSTORM,SLUDGEBOMB,SWORDSDANCE,HIDDENPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = VENUSAUR,67
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+    Item = VENUSAURITE
 #-------------------------------
 [ROCKET_Male,Grunt,7]
 LoseText = ...
@@ -3417,12 +4092,59 @@ Pokemon = RHYHORN,37
 Pokemon = WEEZING,41
 #-------------------------------
 [RIVAL_ROCKET,Agent-017,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
 LoseText = ...
-Pokemon = VENUSAUR,45
-Pokemon = CHARIZARD,46
-Pokemon = MACHAMP,45
-Pokemon = BLASTOISE,44
-Pokemon = GENGAR,51
+Pokemon = MEWTWO,85
+    Form = 3
+    Moves = PSYCHIC,RECOVER,FIREPUNCH,ICEPUNCH
+    Item = PSYCHIUMZ
+Pokemon = MAGNEZONE,68
+    Moves = ZAPCANNON,FLASHCANNON,REFLECT,THUNDERWAVE
+Pokemon = WEAVILE,66
+    Moves = ICICLECRASH,KNOCKOFF,ICESHARD,PURSUIT
+    Gender = male
+Pokemon = TYRANITAR,66
+    Moves = ROCKSLIDE,CRUNCH,PURSUIT,EARTHQUAKE
+    Gender = male
+Pokemon = KINGDRA,66
+    Moves = HYDROPUMP,SURF,DRACOMETEOR,ICEBEAM
+    Gender = female
+Pokemon = GENGAR,66
+    Gender = male
+    Moves = DARKPULSE,CONFUSERAY,SHADOWBALL,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[CHAMPION_Red,Red,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...
+Pokemon = PIKACHU,82
+    Gender = male
+    Moves = VOLTSWITCH,ZAPCANNON,DIG,EXTREMESPEED
+    Item = ELECTRIUMZ
+Pokemon = SNORLAX,76
+    Gender = male
+    Moves = CURSE,BODYSLAM,REST,EARTHQUAKE
+Pokemon = LAPRAS,76
+    Gender = female
+    Moves = FREEZEDRY,HYDROPUMP,ICEBEAM,SING
+Pokemon = CHARIZARD,78
+    Gender = male
+    Moves = FIREBLAST,FOCUSBLAST,SOLARBEAM,EARTHQUAKE
+    Item = CHARIZARDITEY
+Pokemon = BLASTOISE,76
+    Gender = male
+    Moves = HYDROPUMP,DARKPULSE,ICEBEAM,RAPIDSPIN
+Pokemon = VENUSAUR,76
+    Gender = male
+    Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
+#-------------------------------
+[RIVAL_YELLOW,Yellow,3]
+LoseText = ...
+Pokemon = SQUIRTLE,14
+Pokemon = PIKACHU,44
+Pokemon = RATTATA,29
 #-------------------------------
 [PSYCHIC_Male,EDDIE]
 LoseText = I couldn't foresee your power...
@@ -3455,12 +4177,212 @@ LoseText = Ooh... I lost... You're not weak...
 Pokemon = NIDOQUEEN,60
 #-------------------------------
 [LEADER_Janine,Janine,1]
+Items = DYNAMAXBAND,ZRING,MEGARING
 LoseText = ...! So... So strong!
-Pokemon = GOLBAT,47
-Pokemon = WEEZING,44
-Pokemon = WEEZING,44
-Pokemon = VENOMOTH,50
-Pokemon = ARIADOS,47
+Pokemon = CROBAT,56
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,57
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,58
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,58
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,56
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,60
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,57
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,58
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,59
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,59
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,57
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,61
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,3]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,58
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,59
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,60
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,60
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,58
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,62
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,4]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,59
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,60
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,61
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,61
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,59
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,63
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,5]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,60
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,61
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,62
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,62
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,60
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,64
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,6]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,61
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,62
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,63
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,63
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,61
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,65
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,7]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,62
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,63
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,64
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,64
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,62
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,66
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_Janine,Janine,8]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = ...! So... So strong!
+Pokemon = CROBAT,63
+    Item = FOCUSSASH
+    Moves = TAUNT,TAILWIND,BRAVEBIRD,TOXIC
+Pokemon = TENTACRUEL,64
+    Item = BLACKSLUDGE
+    Moves = TOXICSPIKES,SCALD,HAZE,RAPIDSPIN
+Pokemon = WEEZING,65
+    Item = BLACKSLUDGE
+    Moves = SLUDGEBOMB,TOXICSPIKES,PAINSPLIT,FLAMETHROWER
+Pokemon = ARBOK,65
+    Item = POISONIUMZ
+    Moves = GLARE,GUNKSHOT,COIL,EARTHQUAKE
+Pokemon = NIDOQUEEN,63
+    Item = ASSAULTVEST
+    Moves = EARTHPOWER,SLUDGEWAVE,ICEBEAM,STEALTHROCK
+Pokemon = WEEZING,67
+    Form = 1
+    Item = ROCKYHELMET
+    Moves = STRANGESTEAM,WILLOWISP,PAINSPLIT,SLUDGEBOMB
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 #-------------------------------
 [ROCKET_Male,Grunt,14]
 LoseText = ...
@@ -3610,6 +4532,7 @@ LoseText = ...
 Pokemon = SEVIPER,37
 Pokemon = MIMEJR,30
 Pokemon = WOBBUFFET,38
+    Gender = male
 Pokemon = CARNIVINE,41
 Pokemon = YANMEGA,41
 Pokemon = MEOWTH,40
@@ -3937,20 +4860,412 @@ LoseText = ...
 Pokemon = PONYTA,40
 #-------------------------------
 [LEADER_BLAINE,Blaine,1]
+Items = DYNAMAXBAND
 LoseText = My spirit has not been defeated!
-Pokemon = NINETALES,49
-Pokemon = RAPIDASH,50
-Pokemon = ARCANINE,45
-Pokemon = MAGMAR,53
+Pokemon = FLAREON,56
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,57
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,56
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,56
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,58
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,60
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_BLAINE,Blaine,2]
+Items = DYNAMAXBAND,
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,57
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,58
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,57
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,57
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,59
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,61
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+#-------------------------------
+[LEADER_BLAINE,Blaine,3]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,58
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,59
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,58
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,58
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,60
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,62
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+-------------------------------
+[LEADER_BLAINE,Blaine,4]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,59
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,60
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,59
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,59
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,61
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,63
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+-------------------------------
+[LEADER_BLAINE,Blaine,5]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,60
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,61
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,60
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,60
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,62
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,64
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+-------------------------------
+[LEADER_BLAINE,Blaine,6]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,61
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,62
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,61
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,61
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,63
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,65
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+-------------------------------
+[LEADER_BLAINE,Blaine,7]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,62
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,63
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,62
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,62
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,64
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,66
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+-------------------------------
+[LEADER_BLAINE,Blaine,8]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = My spirit has not been defeated!
+Pokemon = FLAREON,63
+    Item = FOCUSSASH
+    Moves = SUNNYDAY,FLAREBLITZ,SUPERPOWER,DOUBLEEDGE
+Pokemon = NINETALES,64
+    Item = PASSHOBERRY
+    Moves = NASTYPLOT,FIREBLAST,SOLARBEAM,SUNNYDAY
+Pokemon = ARCANINE,63
+    Item = FIRIUMZ    
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,MORNINGSUN
+Pokemon = MAGMORTAR,63
+    Item = ASSAULTVEST
+    Moves = FIREBLAST,THUNDERBOLT,FOCUSBLAST,EARTHQUAKE
+Pokemon = ARCANINE,65
+    Form = 1
+    Item = LIECHIBERRY
+    Moves = HEADSMASH,FLAREBLITZ,EXTREMESPEED,MORNINGSUN
+Pokemon = RAPIDASH,67
+    Item = CHARCOAL
+    Moves = FLAREBLITZ,MEGAHORN,WILDCHARGE,HYPNOSIS
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 #-------------------------------
 [LEADER_BLUE,Blue,1]
+Items = DYNAMAXBAND,ZRING,MEGARING
 LoseText = This is the real power of Johto...
-Pokemon = DODRIO,56
-Pokemon = GOLEM,56
-Pokemon = BLASTOISE,57
-Pokemon = ALAKAZAM,56
+Pokemon = EXEGGUTOR,56
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,57
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,56
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,56
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,58
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,60
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,2]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,57
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,58
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,57
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,57
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,59
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,61
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,3]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,58
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,59
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
 Pokemon = ARCANINE,58
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,58
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
 Pokemon = UMBREON,60
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,62
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,4]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,59
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,60
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,59
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,59
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,61
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,63
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,5]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,60
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,61
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,60
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,60
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,62
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,64
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,6]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,61
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,62
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,61
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,61
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,63
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,65
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,7]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,62
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,63
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,62
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,62
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,64
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,66
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
+#-------------------------------
+[LEADER_BLUE,Blue,8]
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = This is the real power of Johto...
+Pokemon = EXEGGUTOR,63
+    Item = IAPAPABERRY
+    Moves = PROTECT,SUBSTITUTE,LEECHSEED,PSYWAVE
+Pokemon = MACHAMP,64
+    Item = ASSAULTVEST
+    Moves = CLOSECOMBAT,KNOCKOFF,THUNDERPUNCH,BULLETPUNCH
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = ARCANINE,63
+    Item = ELECTRIUMZ   
+    Moves = FLAREBLITZ,WILDCHARGE,EXTREMESPEED,PROTECT
+Pokemon = RHYPERIOR,63
+    Item = ASSAULTVEST
+    Moves = EARTHQUAKE,ROCKBLAST,SUPERPOWER,METALBURST
+Pokemon = UMBREON,65
+    Item = LEFTOVERS
+    Moves = FOULPLAY,TOXIC,SNARL,MOONLIGHT
+Pokemon = AERODACTYL,67
+    Moves = ROCKTOMB,AERIALACE,GIGAIMPACT,ICEFANG
+    Item = AERODACTYLITE
 #-------------------------------
 [SWIMMERmA,TONY]
 LoseText = I thought I could win.
@@ -4024,7 +5339,7 @@ Pokemon = BIDOOF,60
 #-------------------------------
 [SWIMMERmA,DEAN]
 LoseText = ...
-Pokemon = STARYU,40
+Pokemon = POLIWHIRL,60
 #-------------------------------
 [SWIMMERfE,MELISSA]
 LoseText = Aiyah!
@@ -4067,15 +5382,6 @@ Pokemon = JYNX,50
 Pokemon = EXEGGUTOR,50
 Pokemon = ALAKAZAM,56
 #-------------------------------
-[ELITEFOUR_Lance,Lance,2]
-LoseText = ...
-Pokemon = GYARADOS,46
-Pokemon = DRAGONITE,49
-Pokemon = DRAGONITE,49
-Pokemon = AERODACTYL,48
-Pokemon = CHARIZARD,48
-Pokemon = DRAGONITE,50
-#-------------------------------
 [ELITEFOUR_Lance,Lance,3]
 LoseText = ...
 Pokemon = DRAGONITE,40
@@ -4092,41 +5398,61 @@ Pokemon = MEWTWO,70
     Shiny = yes
 #-------------------------------
 [SWIMMERmA,Luis]
-LoseText = ...
-Pokemon = HORSEA,32
-Pokemon = BEEDRILL,40
+LoseText = Only the strong can win the Orange League.
+Pokemon = SEADRA,56
+Pokemon = BEEDRILL,60
 #-------------------------------
 [SWIMMERmA,Briam]
-LoseText = ...
-Pokemon = HORSEA,32
-Pokemon = HITMONCHAN,40
+LoseText = This Lapras is not yours... So why?
+Pokemon = SEADRA,56
+Pokemon = HITMONCHAN,60
 #-------------------------------
 [SWIMMERmA,Etan]
-LoseText = ...
-Pokemon = HORSEA,32
-Pokemon = SPEAROW,40
+LoseText = Laura's are weak if not well trained.
+Pokemon = SEADRA,56
+Pokemon = FEAROW,60
 #-------------------------------
 [LEADER_CISSY,Cissy]
-LoseText = ...
-Pokemon = BLASTOISE,57
-Pokemon = SEADRA,56
+Items = DYNAMAXBAND,ZRING,MEGARING
+LoseText = You kept your balance all the way through…
+Pokemon = GASTRODON,65
+    Item = LEFTOVERS
+    Moves = SCALD,RECOVER,TOXIC,EARTHQUAKE
+Pokemon = ARCTOVISH,65
+    Item = LIFEORB
+    Moves = FISHIOUSREND,FREEZEDRY,ICICLECRASH,PROTECT
+Pokemon = KINGLER,68
+    Item = LIFEORB    
+    Moves = SWORDSDANCE,LIQUIDATION,KNOCKOFF,SUPERPOWER
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+Pokemon = DONDOZO,65
+    Item = LEFTOVERS
+    Moves = WATERFALL,AVALANCHE,REST,SLEEPTALK
+Pokemon = KINGDRA,66
+    Item = WATERIUMZ
+    Moves = HYDROPUMP,DRACOMETEOR,ICEBEAM,SURF
+Pokemon = BLASTOISE,70
+    Item = BLASTOISINITE
+    Moves = SURF,DARKPULSE,AURASPHERE,ICEBEAM
 #-------------------------------
-[SWIMMERfE,MISTIE]
+[SWIMMERfE_2,MISTIE]
 LoseText = ...
-Pokemon = DEWGONG,35
-Pokemon = SHELLDER,32
-Pokemon = REMORAID,35
+Pokemon = DEWGONG,55
+Pokemon = SHELLDER,62
+Pokemon = REMORAID,55
 #-------------------------------
 [TUBER_Female,KIA]
-LoseText = ...
-Pokemon = HORSEA,31
-Pokemon = SLOWPOKE,31
+LoseText = I'm not a good swimmer yet...
+Pokemon = HORSEA,61
+Pokemon = SLOWPOKE,61
 #-------------------------------
-[SWIMMERmA,DONNELL]
+[SWIMMERmA_2,DONNELL]
 LoseText = ...
-Pokemon = SLOWPOKE,34
-Pokemon = PSYDUCK,34
-Pokemon = SLOWBRO,34
+Pokemon = SLOWPOKE,54
+Pokemon = PSYDUCK,54
+Pokemon = SLOWBRO,64
 #-------------------------------
 [SWIMMERmA,LUTHER]
 LoseText = ...
@@ -6607,3 +7933,8 @@ Pokemon = VENUSAUR,75
     Gender = male
     Moves = GIGADRAIN,SLUDGEBOMB,SYNTHESIS,LEECHSEED
 #-------------------------------
+[YOUNGSTER_2,Sam]
+LoseText = Whoa...
+Pokemon = TOUCANNON,55
+Pokemon = GUMSHOOS,55
+Pokemon = PSYDUCK,55

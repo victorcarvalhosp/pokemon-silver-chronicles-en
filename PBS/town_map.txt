@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
 Filename = Map.png
@@ -372,7 +372,7 @@ Point = 23,4,Cidade Coliseu,PokeArena,256,20,34,
 Point = 23,6,Route,Porto,,,,
 #-------------------------------
 [4]
-Name = Ilhas Laranja
+Name = Orange Islands
 Filename = Map_Orange_Islands.png
 Point = 5,15,Ilha Valencia,,340,11,32,
 Point = 5,10,Ilha Mikan,,341,18,30,

@@ -202,6 +202,42 @@
 251,South,0,680,North,1
 # Coliseum Town - Entrance (257) - Coliseum Town (256)
 257,North,0,256,South,8
+# Route 21 Complement (258) - Pallet Town (263)
+258,North,0,263,South,34
+# Route 21 (424) - Route 21 Complement (258)
+424,East,0,258,West,0
+# Cinnabar Island (330) - Route 21 Complement (258)
+330,East,0,258,West,75
+# Pallet Town (263) - Route 1 (264)
+263,North,3,264,South,0
+# Route 21 (424) - Pallet Town (263)
+424,North,0,263,South,2
+# Route 1 (264) - Viridian City (265)
+264,North,1,265,South,0
+# Viridian City (265) - Route 18 (419)
+265,East,120,419,West,0
+# Route 22 (361) - Viridian City (265)
+361,East,0,265,West,10
+# Route 2 (266) - Viridian City (265)
+266,South,9,265,North,0
+# Pewter City (269) - Route 2 (266)
+269,South,0,266,North,2
+# Route 3 (270) - Route 2 (266)
+270,South,0,266,North,40
+# Route 4 (377) - Pewter City (269)
+377,West,6,269,East,0
+# Route 3 (270) - Pewter City (269)
+270,West,0,269,East,24
+# Route 3 (270) - Route 4 (377)
+270,North,0,377,South,0
+# Cerulean City (271) - Route 4 (377)
+271,West,6,377,East,0
+# Route 9 (388) - Cerulean City (271)
+388,West,0,271,East,5
+# Route 5 (379) - Cerulean City (271)
+379,North,0,271,South,0
+# Route 24 (382) - Cerulean City (271)
+382,South,0,271,North,9
 # Verdanturf (285) - Rota 117 (674)
 285,East,0,674,West,1
 # Rota 108 (289) - Rota 107 (288)
@@ -224,12 +260,106 @@
 329,North,0,677,South,8
 # Rota 122 (329) - Rota 123 (686)
 329,South,0,686,North,95
+# Cinnabar Island (330) - Route 21 (424)
+330,North,0,424,South,2
+# Route 20 (423) - Cinnabar Island (330)
+423,West,39,330,East,0
+# Route 22 (361) - Cinnabar Island (330)
+361,East,178,330,West,0
+# Fuchsia City (331) - Route 18 (419)
+331,West,11,419,East,0
+# Fuchsia City (331) - Route 20 (423)
+331,South,0,423,North,80
+# Route 15 (411) - Fuchsia City (331)
+411,West,0,331,East,1
+# Route 16 (414) - Fuchsia City (331)
+414,East,183,331,West,0
+# Route 17 (418) - Fuchsia City (331)
+418,East,149,331,West,0
+# Route 19 (422) - Fuchsia City (331)
+422,North,0,331,South,13
 # Route 26 (337) - Route 26 (336)
 337,North,0,336,South,0
 # Rota 26 complemento cima (338) - Route 26 (336)
 338,South,0,336,North,0
-# Valencia Island (340) - Rota baixo (342)
-340,South,4,342,North,0
+# Lavender Town (350) - Route 10 (389)
+350,North,0,389,South,3
+# Route 8 (387) - Lavender Town (350)
+387,East,5,350,West,0
+# Route 11 (403) - Lavender Town (350)
+403,East,0,350,West,70
+# Route 12 (408) - Lavender Town (350)
+408,North,0,350,South,0
+# Route 17 (418) - Lavender Town (350)
+418,North,257,350,South,0
+# Route 5 (379) - Route 4 (377)
+379,West,0,377,East,34
+# Route 5 (379) - Route 9 (388)
+379,East,0,388,West,35
+# Vermilion City (380) - Route 8 (387)
+380,East,0,387,West,74
+# Route 6 (381) - Vermilion City (380)
+381,South,0,380,North,9
+# Route 6 - Complement 2 (868) - Vermilion City (380)
+868,South,0,380,North,42
+# Route 6 - Complement (867) - Vermilion City (380)
+867,South,11,380,North,0
+# Route 11 (403) - Vermilion City (380)
+403,West,0,380,East,1
+# Route 14 (410) - Vermilion City (380)
+410,West,0,380,East,71
+# Route 6 - Complement 2 (868) - Route 6 (381)
+868,West,0,381,East,0
+# Route 6 - Complement (867) - Route 6 (381)
+867,East,0,381,West,0
+# Route 25 (383) - Route 24 (382)
+383,West,0,382,East,0
+# Route 7 (385) - Celadon City (386)
+385,West,0,386,East,9
+# Celadon City (386) - Route 6 - Complement (867)
+386,East,42,867,West,0
+# Route 18 (419) - Celadon City (386)
+419,East,0,386,West,194
+# Route 16 (414) - Celadon City (386)
+414,East,0,386,West,0
+# Route 17 (418) - Celadon City (386)
+418,East,0,386,West,34
+# Route 10 - Complement (869) - Celadon City (386)
+869,South,0,386,North,169
+# Route 15 (411) - Route 8 (387)
+411,East,0,387,West,175
+# Route 12 (408) - Route 8 (387)
+408,West,0,387,East,25
+# Route 9 (388) - Route 10 (389)
+388,East,0,389,West,2
+# Route 10 - Complement (869) - Route 9 (388)
+869,North,0,388,South,52
+# Route 10 - Complement (869) - Route 10 (389)
+869,East,0,389,West,32
+# Route 11 (403) - Route 15 (411)
+403,West,100,411,East,0
+# Route 12 (408) - Route 11 (403)
+408,West,50,403,East,0
+# Route 16 (414) - Route 12 (408)
+414,South,257,408,North,0
+# Route 14 (410) - Route 12 (408)
+410,North,72,408,South,0
+# Route 13 (409) - Route 12 (408)
+409,North,48,408,South,0
+# Route 13 (409) - Route 14 (410)
+409,West,0,410,East,0
+# Route 14 (410) - Route 15 (411)
+410,West,30,411,East,0
+# Route 17 (418) - Route 16 (414)
+418,North,0,414,South,0
+# Route 10 - Complement (869) - Route 16 (414)
+869,South,0,414,North,234
+# Route 17 (418) - Route 18 (419)
+418,South,1,419,North,0
+# Route 19 (422) - Route 20 (423)
+422,West,0,423,East,0
+# Route 20 (423) - Route 21 (424)
+423,West,0,424,East,36
 # Rota baixo (521) - Ilha Sunburst (522)
 521,South,0,522,North,1
 # Rota baixo (523) - Ilha Sunburst (522)
@@ -344,135 +474,9 @@
 862,North,0,861,South,10
 # Mahogany Town - Complement (863) - Mahogany Town - Complement 2 (864)
 863,West,2,864,East,0
-# Lavender Town (350) - Route 10 (389)
-350,North,0,389,South,3
-# Route 9 (388) - Route 10 (389)
-388,East,0,389,West,2
-# Route 10 - Complement (869) - Route 10 (389)
-869,East,0,389,West,32
-# Route 8 (387) - Lavender Town (350)
-387,East,5,350,West,0
-# Route 11 (403) - Lavender Town (350)
-403,East,0,350,West,70
-# Route 12 (408) - Lavender Town (350)
-408,North,0,350,South,0
-# Route 17 (418) - Lavender Town (350)
-418,North,257,350,South,0
-# Vermilion City (380) - Route 8 (387)
-380,East,0,387,West,74
-# Route 15 (411) - Route 8 (387)
-411,East,0,387,West,175
-# Route 12 (408) - Route 8 (387)
-408,West,0,387,East,25
-# Route 6 (381) - Vermilion City (380)
-381,South,0,380,North,9
-# Route 6 - Complement 2 (868) - Vermilion City (380)
-868,South,0,380,North,42
-# Route 6 - Complement (867) - Vermilion City (380)
-867,South,11,380,North,0
-# Route 11 (403) - Vermilion City (380)
-403,West,0,380,East,1
-# Route 14 (410) - Vermilion City (380)
-410,West,0,380,East,71
-# Route 6 - Complement 2 (868) - Route 6 (381)
-868,West,0,381,East,0
-# Route 6 - Complement (867) - Route 6 (381)
-867,East,0,381,West,0
-# Celadon City (386) - Route 6 - Complement (867)
-386,East,42,867,West,0
-# Route 7 (385) - Celadon City (386)
-385,West,0,386,East,9
-# Route 18 (419) - Celadon City (386)
-419,East,0,386,West,194
-# Route 16 (414) - Celadon City (386)
-414,East,0,386,West,0
-# Route 17 (418) - Celadon City (386)
-418,East,0,386,West,34
-# Route 10 - Complement (869) - Celadon City (386)
-869,South,0,386,North,169
-# Viridian City (265) - Route 18 (419)
-265,East,120,419,West,0
-# Fuchsia City (331) - Route 18 (419)
-331,West,11,419,East,0
-# Route 17 (418) - Route 18 (419)
-418,South,1,419,North,0
-# Route 1 (264) - Viridian City (265)
-264,North,1,265,South,0
-# Route 22 (361) - Viridian City (265)
-361,East,0,265,West,10
-# Route 2 (266) - Viridian City (265)
-266,South,9,265,North,0
-# Pallet Town (263) - Route 1 (264)
-263,North,3,264,South,0
-# Route 21 Complement (258) - Pallet Town (263)
-258,North,0,263,South,34
-# Route 21 (424) - Pallet Town (263)
-424,North,0,263,South,2
-# Route 21 (424) - Route 21 Complement (258)
-424,East,0,258,West,0
-# Cinnabar Island (330) - Route 21 Complement (258)
-330,East,0,258,West,75
-# Cinnabar Island (330) - Route 21 (424)
-330,North,0,424,South,2
-# Route 20 (423) - Route 21 (424)
-423,West,0,424,East,36
-# Route 20 (423) - Cinnabar Island (330)
-423,West,39,330,East,0
-# Route 22 (361) - Cinnabar Island (330)
-361,East,178,330,West,0
-# Fuchsia City (331) - Route 20 (423)
-331,South,0,423,North,80
-# Route 19 (422) - Route 20 (423)
-422,West,0,423,East,0
-# Route 15 (411) - Fuchsia City (331)
-411,West,0,331,East,1
-# Route 16 (414) - Fuchsia City (331)
-414,East,183,331,West,0
-# Route 17 (418) - Fuchsia City (331)
-418,East,149,331,West,0
-# Route 19 (422) - Fuchsia City (331)
-422,North,0,331,South,13
-# Route 11 (403) - Route 15 (411)
-403,West,100,411,East,0
-# Route 14 (410) - Route 15 (411)
-410,West,30,411,East,0
-# Route 12 (408) - Route 11 (403)
-408,West,50,403,East,0
-# Route 16 (414) - Route 12 (408)
-414,South,257,408,North,0
-# Route 14 (410) - Route 12 (408)
-410,North,72,408,South,0
-# Route 13 (409) - Route 12 (408)
-409,North,48,408,South,0
-# Route 17 (418) - Route 16 (414)
-418,North,0,414,South,0
-# Route 10 - Complement (869) - Route 16 (414)
-869,South,0,414,North,234
-# Route 13 (409) - Route 14 (410)
-409,West,0,410,East,0
-# Pewter City (269) - Route 2 (266)
-269,South,0,266,North,2
-# Route 3 (270) - Route 2 (266)
-270,South,0,266,North,40
-# Route 4 (377) - Pewter City (269)
-377,West,6,269,East,0
-# Route 3 (270) - Pewter City (269)
-270,West,0,269,East,24
-# Route 3 (270) - Route 4 (377)
-270,North,0,377,South,0
-# Cerulean City (271) - Route 4 (377)
-271,West,6,377,East,0
-# Route 5 (379) - Route 4 (377)
-379,West,0,377,East,34
-# Route 9 (388) - Cerulean City (271)
-388,West,0,271,East,5
-# Route 5 (379) - Cerulean City (271)
-379,North,0,271,South,0
-# Route 24 (382) - Cerulean City (271)
-382,South,0,271,North,9
-# Route 5 (379) - Route 9 (388)
-379,East,0,388,West,35
-# Route 10 - Complement (869) - Route 9 (388)
-869,North,0,388,South,52
-# Route 25 (383) - Route 24 (382)
-383,West,0,382,East,0
+# Valencia Island (340) - Route 49 (342)
+340,South,4,342,North,0
+# Route 49 - Complement (888) - Route 49 (342)
+888,East,0,342,West,0
+# Route 49 - Complement (888) - Valencia Island (340)
+888,North,16,340,South,0

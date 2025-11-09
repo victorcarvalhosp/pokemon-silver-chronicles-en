@@ -668,7 +668,7 @@ Bicycle = true
 MapPosition = 0,22,1
 BattleBack = cave3
 #-------------------------------
-[154]   # Rota baixo
+[154]   # Route 50
 Name = Rota baixo
 Outdoor = true
 Bicycle = true
@@ -682,7 +682,7 @@ Bicycle = true
 HealingSpot = 155,29,15
 MapPosition = 4,8,7
 #-------------------------------
-[156]   # Rota cima
+[156]   # Route 51
 Name = Rota cima
 Outdoor = true
 MapPosition = 4,5,8
@@ -1187,22 +1187,24 @@ ShowArea = true
 HealingSpot = 340,11,32
 MapPosition = 4,5,15
 #-------------------------------
-[341]   # Ilha Mikan
+[341]   # Mikan Island
 Name = Ilha Mikan
 Outdoor = true
 ShowArea = true
 HealingSpot = 341,18,30
 MapPosition = 4,6,10
 #-------------------------------
-[342]   # Rota baixo
+[342]   # Route 49
 Name = Rota baixo
 Outdoor = true
 MapPosition = 4,5,15
 #-------------------------------
-[343]   # Vale Vileplume
-Name = Vale Vileplume
+[343]   # Vileplume Valley
+Name = Vileplume Valley
 Outdoor = true
 MapPosition = 4,5,14
+BattleBack = forest
+Environment = None
 #-------------------------------
 [344]   # Elm's House
 Name = Elm's House
@@ -1228,6 +1230,19 @@ MapPosition = 1,25,8
 Name = Rota 22
 Outdoor = true
 MapPosition = 1,10,9
+#-------------------------------
+[370]   # Pewter City - Gym
+Name = Pewter City - Gym
+MapPosition = 1,13,3
+BattleBack = cave2
+MapSize = 0,
+Environment = Rock
+#-------------------------------
+[371]   # Cerulean City - Gym
+Name = Cerulean City - Gym
+MapPosition = 1,22,4
+BattleBack = water
+Environment = StillWater
 #-------------------------------
 [377]   # Route 4
 Name = Rota 4
@@ -1267,6 +1282,7 @@ Outdoor = true
 ShowArea = true
 HealingSpot = 384,24,39
 MapPosition = 1,21,8
+BattleBack = city
 #-------------------------------
 [385]   # Route 7
 Name = Rota 7
@@ -1349,33 +1365,66 @@ Outdoor = true
 MapPosition = 1,17,9
 #-------------------------------
 [418]   # Route 17
-Name = Rota 17
+Name = Route 17
 Outdoor = true
 BicycleAlways = true
 MapPosition = 1,16,11
+BattleBack = city
 #-------------------------------
 [419]   # Route 18
 Name = Rota 18
 Outdoor = true
 MapPosition = 1,17,14
 #-------------------------------
+[420]   # Route 18 - Gate
+Name = Route 18 - Gate
+Bicycle = true
+MapPosition = 1,17,14
+#-------------------------------
 [421]   # Route 18 - Gate 2F
 Name = transição 2nd
 #-------------------------------
 [422]   # Route 19
-Name = Rota 19
+Name = Route 19
 Outdoor = true
 MapPosition = 1,18,15
+BattleBack = beach
 #-------------------------------
 [423]   # Route 20
-Name = Rota 20
+Name = Route 20
 Outdoor = true
 MapPosition = 1,15,16
+BattleBack = beach
 #-------------------------------
 [424]   # Route 21
 Name = Rota 21
 Outdoor = true
 MapPosition = 1,13,14
+#-------------------------------
+[429]   # Vermilion City - Gym
+Name = Vermilion City - Gym
+MapPosition = 1,21,11
+BattleBack = battle6
+#-------------------------------
+[468]   # Celadon City - Gym
+Name = Celadon City - Gym
+MapPosition = 1,18,9
+BattleBack = battle8
+#-------------------------------
+[477]   # Lavender Town - TV Tower 2nd
+Name = Lavender Town - TV Tower 2nd
+Flags = HideFollowingPkmn
+#-------------------------------
+[478]   # Lavender Town - TV Tower 4th
+Name = Lavender Town - TV Tower 4th
+MapPosition = 1,25,8
+BattleBack = indoor4
+Flags = HideFollowingPkmn
+#-------------------------------
+[481]   # Fuchsia City - Gym
+Name = Fuchsia City - Gym
+MapPosition = 1,18,14
+BattleBack = battle3
 #-------------------------------
 [486]   # Zona Safari Centro
 Name = Zona Safari Centro
@@ -1435,10 +1484,46 @@ Name = Saffron City - Gym
 MapPosition = 1,22,7
 BattleBack = gym4
 #-------------------------------
+[506]   # SILPH Corp. 2nd
+Name = SILPH Corp. 2nd
+MapPosition = 1,22,8
+BattleBack = lab
+#-------------------------------
+[507]   # SILPH Corp. 3nd
+Name = SILPH Corp. 3nd
+MapPosition = 1,21,8
+BattleBack = lab
+#-------------------------------
+[508]   # SILPH Corp. 4nd
+Name = SILPH Corp. 4nd
+MapPosition = 1,21,8
+BattleBack = lab
+#-------------------------------
+[509]   # SILPH Corp. 5nd
+Name = SILPH Corp. 5nd
+MapPosition = 1,21,8
+BattleBack = lab
+#-------------------------------
+[510]   # SILPH Corp. 6nd
+Name = SILPH Corp. 6nd
+MapPosition = 1,21,8
+BattleBack = lab
+#-------------------------------
 [511]   # ROCK TUNNEL 2
 Name = ROCK TUNNEL 2
 MapPosition = 1,25,6
 BattleBack = cave1
+#-------------------------------
+[514]   # Route 20 - Gym
+Name = Route 20 - Gym
+MapPosition = 1,16,16
+BattleBack = cave4
+Environment = Cave
+#-------------------------------
+[517]   # Viridian City - Gym
+Name = Viridian City - Gym
+MapPosition = 1,13,8
+BattleBack = battle9
 #-------------------------------
 [521]   # Rota baixo
 Name = Rota baixo
@@ -1592,6 +1677,11 @@ MapPosition = 4,14,3
 Name = Rota direita
 Outdoor = true
 MapPosition = 4,10,3
+#-------------------------------
+[582]   # Mikan Island - Gym
+Name = Mikan Island - Gym
+MapPosition = 4,5,11
+BattleBack = water
 #-------------------------------
 [592]   # Pokecenter
 Name = Pokecenter
@@ -1892,3 +1982,50 @@ Flags = PowerSpot
 [857]   # Regiao Kalos
 Name = Ice Path Copy
 Outdoor = false
+#-------------------------------
+[871]   # Lavender Town - Catacombs
+Name = Lavender Town - Catacombs
+Flags = HideFollowingPkmn
+#-------------------------------
+[872]   # Lavender Town - TV Tower Ventilation
+Name = Lavender Town - TV Tower Ventilation
+Flags = HideFollowingPkmn
+#-------------------------------
+[874]   # Lavender Town - TV Tower 3rd
+Name = Lavender Town - TV Tower 3rd
+Flags = HideFollowingPkmn
+#-------------------------------
+[875]   # Lavender Town - TV Tower 4th
+Name = Lavender Town - TV Tower 4th
+Flags = HideFollowingPkmn
+#-------------------------------
+[878]   # Pokémon League HQ
+Name = Pokémon League HQ
+Name = 
+MapPosition = 1,9,7
+BattleBack = elite1
+Flags = PowerSpot
+#-------------------------------
+[879]   # Pokémon League HQ
+Name = Pokémon League HQ
+MapPosition = 1,9,7
+BattleBack = elite3
+Flags = PowerSpot
+#-------------------------------
+[880]   # Pokémon League HQ
+Name = Pokémon League HQ
+MapPosition = 1,9,7
+BattleBack = elite2
+Flags = PowerSpot
+#-------------------------------
+[881]   # Pokémon League HQ
+Name = Pokémon League HQ
+MapPosition = 1,9,7
+BattleBack = elite4
+Flags = PowerSpot
+#-------------------------------
+[882]   # Pokémon League HQ
+Name = Pokémon League HQ
+MapPosition = 1,9,7
+BattleBack = champion1
+Flags = PowerSpot

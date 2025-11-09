@@ -19,6 +19,7 @@ class Game_Temp
   attr_accessor :speechbubble_arrow
   attr_accessor :speechbubble_outofrange
   attr_accessor :speechbubble_talking
+  attr_accessor :speechbubble_position
 end
 
 module MessageConfig
@@ -77,7 +78,7 @@ def pbRepositionMessageWindow(msgwindow, linecount=2)
        msgwindow.setSkin("Graphics/windowskins/frlgtextskin")
        msgwindow.height = 102
        msgwindow.width = Graphics.width
-       if $game_player.direction==8
+       if ($game_player.direction==8 && $game_temp.speechbubble_position==0) || $game_temp.speechbubble_position==1 
          $game_temp.speechbubble_vp = Viewport.new(0, 0, Graphics.width, 280)
          msgwindow.y = 6
        else
@@ -111,7 +112,9 @@ end
 def pbCreateMessageWindow(viewport = nil, skin = nil)
   arrow = nil
   if $game_temp.speechbubble_bubble==2 && $game_map.events[$game_temp.speechbubble_talking] != nil # Message window set to floating bubble.
-    if $game_player.direction==8 # Player facing up, message window top.
+    if  ($game_temp.speechbubble_position== 0 && $game_player.direction==8 ) || $game_temp.speechbubble_position==1 # Player facing up, message window top.
+      Console.echo_li("Entered on up logic")
+
       $game_temp.speechbubble_vp = Viewport.new(0, 104, Graphics.width, 280)
       $game_temp.speechbubble_vp.z = 999999
       arrow = Sprite.new($game_temp.speechbubble_vp)
@@ -122,10 +125,13 @@ def pbCreateMessageWindow(viewport = nil, skin = nil)
       arrow.zoom_x = 2
       arrow.zoom_y = 2
       if arrow.x<-230
+        Console.echo_li("Entered arrow.x<-230 logic #{arrow.x}")
         arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x
         arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow3")
       end
     else # Player facing left, down, right, message window bottom.
+      Console.echo("Entered on bottom logic")
+
       $game_temp.speechbubble_vp = Viewport.new(0, 0, Graphics.width, 280)
       $game_temp.speechbubble_vp.z = 999999
       arrow = Sprite.new($game_temp.speechbubble_vp)
@@ -134,20 +140,26 @@ def pbCreateMessageWindow(viewport = nil, skin = nil)
       arrow.z = 999999
       arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow1")
       if arrow.y>=Graphics.height-120 # Change arrow direction.
+        Console.echo("Entered on first if")
+
         $game_temp.speechbubble_outofrange=true
         $game_temp.speechbubble_vp.rect.y+=104
         arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x - Graphics.width
         arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow4")
         arrow.y = ($game_map.events[$game_temp.speechbubble_talking].screen_y - Graphics.height) - 136
         if arrow.x<-250
+          Console.echo_li("Entered on arrow.x<-250 logic")
           arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x
           arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow3")
         end
         if arrow.x>=256
+          Console.echo_li("Entered on arrow.x>=256 logic")
+
           arrow.x-=15# = $game_map.events[$game_temp.speechbubble_talking].screen_x-Graphics.width
           arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow3")
         end
       else
+        Console.echo("Entered on else")
         $game_temp.speechbubble_outofrange=false
       end
       arrow.zoom_x = 2
@@ -180,7 +192,11 @@ def pbDisposeMessageWindow(msgwindow)
   $game_temp.speechbubble_vp.dispose if $game_temp.speechbubble_vp
 end
 
-def pbCallBub(status=0,value=0)
+# position 0 is default behavior. 1 is force top. 2 is force bottom.
+def pbCallBub(status=0,value=0,position=0)
   $game_temp.speechbubble_talking=get_character(value).id
   $game_temp.speechbubble_bubble=status
+  $game_temp.speechbubble_position=position
+  Console.echo("called my function with position #{position}")
+
 end

@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
 !isQuestActive?(: AssociationElections)
 
-activateQuest(:AssociationElections,colorQuest("blue"),true)
-advanceQuestToStage(:AssociationElections, 3)
-completeQuest(:AssociationElections)
+activateQuest(:OrangeIslandsGymChallenge,colorQuest("blue"),true)
+advanceQuestToStage(:RescueLapras, 2)
+completeQuest(:RescueLapras)
 
 
 Dialog lines to use on TCG:
