@@ -60,6 +60,51 @@ class SocialLinkProfile
         end
     end
 
+    def has_phone_contact?
+        return !phone_contact.nil?
+    end
+
+    def phone_contact
+        return nil if !$PokemonGlobal.phoneNumbers
+        
+        # Normalize this Social Link's name for matching
+        my_name_normalized = pbNormalizeStringForMatching(@name)
+        
+        # Search for a phone contact matching this Social Link's name
+        $PokemonGlobal.phoneNumbers.each do |num|
+            next if !num[0]  # Skip if not visible
+            
+            # num[2] is the name for both trainers and NPCs
+            contact_name = num[2]
+            
+            # For trainers (length == 8), check both full display name and just the trainer name
+            if num.length == 8
+                trainer_type_name = GameData::TrainerType.get(num[1]).name
+                trainer_name = pbGetMessageFromHash(MessageTypes::TrainerNames, contact_name)
+                
+                # Remove gender/variant suffix from trainer type (e.g., "Cool Trainer_Male" -> "Cool Trainer")
+                trainer_type_base = trainer_type_name.split('_')[0].strip
+                
+                # Build full name with base trainer type
+                full_name = _INTL("{1} {2}", trainer_type_base, trainer_name)
+                
+                # Normalize for matching
+                full_name_normalized = pbNormalizeStringForMatching(full_name)
+                trainer_name_normalized = pbNormalizeStringForMatching(trainer_name)
+                
+                # Match either "TrainerType TrainerName" or just "TrainerName" (normalized)
+                if my_name_normalized == full_name_normalized || my_name_normalized == trainer_name_normalized
+                    return num
+                end
+            else
+                # For NPCs, match the name directly (normalized)
+                contact_name_normalized = pbNormalizeStringForMatching(contact_name)
+                return num if my_name_normalized == contact_name_normalized
+            end
+        end
+        return nil
+    end
+
 end
 
 module GameData

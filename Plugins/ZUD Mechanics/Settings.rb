@@ -68,19 +68,19 @@ module Settings
 # The default number of Pokemon you may have out in a Max Raid battle. 
 # (Default 3)
 #-------------------------------------------------------------------------------
-  MAXRAID_SIZE = 3
+  MAXRAID_SIZE = 6
   
 #-------------------------------------------------------------------------------
 # The base number of KO's a Max Raid Pokemon needs to eject you from the den. 
 # (Default 4)
 #-------------------------------------------------------------------------------
-  MAXRAID_KOS = 4
+  MAXRAID_KOS = 3
   
 #-------------------------------------------------------------------------------
 # The base number of turns you have in a Max Raid battle before being ejected. 
 # (Default 10)
 #-------------------------------------------------------------------------------
-  MAXRAID_TIMER = 10
+  MAXRAID_TIMER = 14
   
 #-------------------------------------------------------------------------------
 # The base number of hit points Max Raid shields have when they are raised. 

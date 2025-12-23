@@ -8,3 +8,4 @@ PurpleZaffre - overworlds
 DiegoWT - Overworlds
 Wolfang62 - trainer sprites and overworlds
 The-Red-eX - some tilesets
+Chain-Of-Ashes - some tiles

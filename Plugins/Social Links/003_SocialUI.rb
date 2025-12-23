@@ -2,6 +2,128 @@
 # Functions
 #===============================================================================
 
+# Helper function to normalize strings by removing accents and special characters
+def pbNormalizeStringForMatching(str)
+    # Convert to string, strip whitespace
+    normalized = str.to_s.strip
+    
+    # Replace accented characters with their base equivalents
+    accents = {
+        'á' => 'a', 'à' => 'a', 'â' => 'a', 'ä' => 'a', 'ã' => 'a', 'å' => 'a',
+        'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
+        'í' => 'i', 'ì' => 'i', 'î' => 'i', 'ï' => 'i',
+        'ó' => 'o', 'ò' => 'o', 'ô' => 'o', 'ö' => 'o', 'õ' => 'o',
+        'ú' => 'u', 'ù' => 'u', 'û' => 'u', 'ü' => 'u',
+        'ñ' => 'n', 'ç' => 'c',
+        'Á' => 'A', 'À' => 'A', 'Â' => 'A', 'Ä' => 'A', 'Ã' => 'A', 'Å' => 'A',
+        'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Ë' => 'E',
+        'Í' => 'I', 'Ì' => 'I', 'Î' => 'I', 'Ï' => 'I',
+        'Ó' => 'O', 'Ò' => 'O', 'Ô' => 'O', 'Ö' => 'O', 'Õ' => 'O',
+        'Ú' => 'U', 'Ù' => 'U', 'Û' => 'U', 'Ü' => 'U',
+        'Ñ' => 'N', 'Ç' => 'C'
+    }
+    
+    accents.each { |accented, plain| normalized.gsub!(accented, plain) }
+    
+    # Normalize whitespace (replace any whitespace with single space)
+    normalized.gsub!(/[[:space:]]/, ' ')
+    normalized.squeeze!(' ')
+    
+    # Convert to lowercase
+    normalized.downcase!
+    
+    return normalized
+end
+
+# Automatically adds Social Links for all phone contacts that have matching profiles
+def pbAddSocialLinksFromPhone(silent: false)
+    return if !$PokemonGlobal.phoneNumbers
+    added_count = 0
+    added_names = []
+    
+    # Check each phone contact
+    $PokemonGlobal.phoneNumbers.each do |num|
+        next if !num[0]  # Skip if not visible
+        
+        # Get the contact name
+        contact_name = num[2]
+        
+        # For trainers (length == 8), match by trainer type + name
+        if num.length == 8
+            trainer_type = num[1]
+            trainer_type_name = GameData::TrainerType.get(trainer_type).name
+            trainer_name = pbGetMessageFromHash(MessageTypes::TrainerNames, contact_name)
+            
+            # Remove gender/variant suffix from trainer type (e.g., "Cool Trainer_Male" -> "Cool Trainer")
+            # This handles cases like COOLTRAINER_Male, COOLTRAINER_Female, etc.
+            trainer_type_base = trainer_type_name.split('_')[0].strip
+            
+            # Build full name with base trainer type
+            full_name = _INTL("{1} {2}", trainer_type_base, trainer_name)
+            
+            # Normalize names for matching (removes accents, normalizes whitespace)
+            full_name_normalized = pbNormalizeStringForMatching(full_name)
+            trainer_name_normalized = pbNormalizeStringForMatching(trainer_name)
+            
+            # Try to find a matching Social Link profile
+            # Match by full name or just trainer name (normalized, case-insensitive)
+            matching_profile = nil
+            GameData::SocialLinkProfile.each do |profile_data|
+                profile_name_normalized = pbNormalizeStringForMatching(profile_data.name)
+                
+                # Check if profile name matches full name or just trainer name
+                if profile_name_normalized == full_name_normalized || profile_name_normalized == trainer_name_normalized
+                    matching_profile = profile_data
+                    break
+                end
+            end
+            
+            # Add the Social Link if found and not already added
+            if matching_profile && !pbHasSocialLink?(matching_profile.id)
+                if pbAddSocialLink(matching_profile.id, silent: true)
+                    added_count += 1
+                    added_names.push(matching_profile.name)
+                end
+            end
+        else
+            # For NPCs, try to find by name match (normalized, case-insensitive)
+            matching_profile = nil
+            contact_name_normalized = pbNormalizeStringForMatching(contact_name)
+            
+            GameData::SocialLinkProfile.each do |profile_data|
+                profile_name_normalized = pbNormalizeStringForMatching(profile_data.name)
+                
+                # Check if names match (normalized)
+                if profile_name_normalized == contact_name_normalized
+                    matching_profile = profile_data
+                    break
+                end
+            end
+            
+            # Add the Social Link if found and not already added
+            if matching_profile && !pbHasSocialLink?(matching_profile.id)
+                if pbAddSocialLink(matching_profile.id, silent: true)
+                    added_count += 1
+                    added_names.push(matching_profile.name)
+                end
+            end
+        end
+    end
+    
+    # Show result message if not silent
+    if !silent
+        if added_count == 0
+            pbMessage(_INTL("No new Social Links were added from your phone contacts."))
+        elsif added_count == 1
+            pbMessage(_INTL("Added {1} to your Social Links!", added_names[0]))
+        else
+            pbMessage(_INTL("Added {1} Social Links from your phone contacts!", added_count))
+        end
+    end
+    
+    return added_count
+end
+
 # Opens your list of active social links
 def pbSocialMedia
     pbFadeOutIn {
@@ -396,6 +518,7 @@ class SocialMedia_Scene
         @theme = pbPlayerSocialLinksSaved.theme_color
         @show_pokemon = !@profile.favorite_pokemon.nil? && SocialLinkSettings::SHOW_FAVORITE_POKEMON
         @instant_messages = !@profile.im_contact_id.nil? && PluginManager.installed?("Instant Messages", "1.1")
+        @has_phone_contact = @profile.has_phone_contact?
 
         @pic_center = [72, 72]
         @name_position = [344, 46]
@@ -442,6 +565,7 @@ class SocialMedia_Scene
         @sprites["bondoverlay"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
         @sprites["nameoverlay"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
         @sprites["locationoverlay"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
+        @sprites["buttonhints"] = BitmapSprite.new(Graphics.width, Graphics.height, @viewport)
 
         #Profile Picture
         @sprites["profile_picture"] = IconSprite.new(0, 0, @viewport)
@@ -522,6 +646,40 @@ class SocialMedia_Scene
             @sprites["im_button"].y = @im_button_position[1]
         end
 
+        #Phone Call Button
+        if @has_phone_contact
+            @sprites["phone_button"] = IconSprite.new(0, 0, @viewport)
+            # Try to load a phone_button graphic, or reuse im_button as fallback
+            if pbResolveBitmap("Graphics/UI/Social Links/phone_button")
+                @sprites["phone_button"].setBitmap("Graphics/UI/Social Links/phone_button")
+            else
+                @sprites["phone_button"].setBitmap("Graphics/UI/Social Links/im_button")
+            end
+            # Position below IM button if both exist, otherwise use IM button position
+            if @instant_messages
+                @sprites["phone_button"].x = @im_button_position[0]
+                @sprites["phone_button"].y = @im_button_position[1] + @sprites["im_button"].height + 8
+            else
+                phone_button_position = [Graphics.width - @sprites["phone_button"].width - 24, 152]
+                @sprites["phone_button"].x = phone_button_position[0]
+                @sprites["phone_button"].y = phone_button_position[1]
+            end
+        end
+
+        #Button Hints
+        pbSetSystemFont(@sprites["buttonhints"].bitmap)
+        textpos = []
+        hint_y = Graphics.height - 32
+        if @has_phone_contact
+            hint_text = @instant_messages ? _INTL("USE: Call") : _INTL("USE: Phone Call")
+            textpos.push([hint_text, 8, hint_y, 0, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR])
+        end
+        if @instant_messages
+            hint_x = @has_phone_contact ? Graphics.width / 2 : 8
+            textpos.push([_INTL("SPECIAL: Message"), hint_x, hint_y, 0, MessageConfig::DARK_TEXT_MAIN_COLOR, MessageConfig::DARK_TEXT_SHADOW_COLOR])
+        end
+        pbDrawTextPositions(@sprites["buttonhints"].bitmap, textpos) if textpos.length > 0
+
         pbFadeInAndShow(@sprites)
     end
 
@@ -530,15 +688,21 @@ class SocialMedia_Scene
             Graphics.update
             Input.update
             pbUpdate
-            if @instant_messages && Input.trigger?(Input::SPECIAL)
+            if Input.trigger?(Input::USE)
+                if @has_phone_contact
+                    pbPlayDecisionSE
+                    contact = @profile.phone_contact
+                    if contact
+                        pbCallTrainer(contact[1], contact[2])
+                    end
+                end
+            elsif @instant_messages && Input.trigger?(Input::SPECIAL)
                 pbPlayDecisionSE
                 filter = [:Contact, @profile.im_contact_id]
                 pbInstantMessages(filter)
             elsif Input.trigger?(Input::BACK)
                 pbPlayCloseMenuSE
                 break
-            elsif Input.trigger?(Input::USE)
-
             end
         end
         return

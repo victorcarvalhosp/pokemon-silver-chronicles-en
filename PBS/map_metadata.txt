@@ -672,25 +672,27 @@ BattleBack = cave3
 Name = Rota baixo
 Outdoor = true
 Bicycle = true
-MapPosition = 4,6,12
+MapPosition = 4,5,12
 #-------------------------------
-[155]   # Ilha Mandarim do Norte
+[155]   # Mandarin Island North
 Name = Ilha Mandarim do Norte
 Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 155,29,15
-MapPosition = 4,8,7
+MapPosition = 4,8,8
+BattleBack = beach
 #-------------------------------
 [156]   # Route 51
 Name = Rota cima
 Outdoor = true
-MapPosition = 4,5,8
+MapPosition = 4,5,9
 #-------------------------------
-[157]   # Rota lado esquerdo
-Name = Rota lado esquerdo
+[157]   # Route 52
+Name = Route 52
 Outdoor = true
-MapPosition = 4,6,8
+MapPosition = 4,7,7
+BattleBack = beach
 #-------------------------------
 [158]   # Blackthorn City
 Name = Blacktorn City
@@ -1185,14 +1187,14 @@ Name = Valencia Island
 Outdoor = true
 ShowArea = true
 HealingSpot = 340,11,32
-MapPosition = 4,5,15
+MapPosition = 4,5,14
 #-------------------------------
 [341]   # Mikan Island
 Name = Ilha Mikan
 Outdoor = true
 ShowArea = true
 HealingSpot = 341,18,30
-MapPosition = 4,6,10
+MapPosition = 4,5,10
 #-------------------------------
 [342]   # Route 49
 Name = Rota baixo
@@ -1202,7 +1204,7 @@ MapPosition = 4,5,15
 [343]   # Vileplume Valley
 Name = Vileplume Valley
 Outdoor = true
-MapPosition = 4,5,14
+MapPosition = 4,5,13
 BattleBack = forest
 Environment = None
 #-------------------------------
@@ -1525,209 +1527,294 @@ Name = Viridian City - Gym
 MapPosition = 1,13,8
 BattleBack = battle9
 #-------------------------------
-[521]   # Rota baixo
-Name = Rota baixo
+[521]   # Route 53
+Name = Route 53
 Outdoor = true
-MapPosition = 4,8,9
+MapPosition = 4,9,10
 #-------------------------------
-[522]   # Ilha Sunburst
+[522]   # Sunburst Island
 Name = Ilha Sunburst
 Outdoor = true
 ShowArea = true
 HealingSpot = 522,25,20
 MapPosition = 4,9,11
 #-------------------------------
-[523]   # Rota baixo
-Name = Rota baixo
+[523]   # Route 54
+Name = Route 54
 Outdoor = true
 MapPosition = 4,9,12
 #-------------------------------
-[524]   # Ilha Pinkan
-Name = Ilha Pinkan
+[524]   # Pinkan Island
+Name = Pinkan Island
 Outdoor = true
 ShowArea = true
 MapPosition = 4,12,13
 #-------------------------------
-[525]   # Rota esquerda
-Name = Rota esquerda
+[525]   # Route 55
+Name = Route 55
 Outdoor = true
+Weather = Rain,80
 MapPosition = 4,10,13
 #-------------------------------
-[526]   # Ilha Mandarim do Sul
-Name = Ilha Mandarim do Sul
+[526]   # Mandarin Island South
+Name = Mandarin Island South
 Outdoor = true
 ShowArea = true
 HealingSpot = 526,17,10
 MapPosition = 4,28,16
 #-------------------------------
-[527]   # Rota direita
-Name = Rota direita
+[527]   # Route 56
+Name = Route 56
 Outdoor = true
 MapPosition = 4,14,13
 #-------------------------------
-[528]   # Rota direita da direita
-Name = Rota direita da direita
+[528]   # Route 56
+Name = Route 56
 Outdoor = true
 MapPosition = 4,15,13
 #-------------------------------
-[529]   # Rota cima
-Name = Rota cima
+[529]   # Route 57
+Name = Route 57
 Outdoor = true
 MapPosition = 4,17,14
+BattleBack = beach
 #-------------------------------
-[530]   # Rota direita
-Name = Rota direita
+[530]   # Route 58
+Name = Route 58
 Outdoor = true
 MapPosition = 4,29,16
+BattleBack = beach
 #-------------------------------
-[531]   # Ilha Trovita
-Name = Ilha Trovita
+[531]   # Trovita Island
+Name = Trovita Island
 Outdoor = true
 ShowArea = true
 HealingSpot = 531,18,12
-MapPosition = 4,13,14
+MapPosition = 4,13,15
 #-------------------------------
-[534]   # Rota direita-direita
-Name = Rota direita-direita
+[534]   # Route 58
+Name = Route 58
 Outdoor = true
 MapPosition = 4,22,16
+BattleBack = beach
 #-------------------------------
-[535]   # Ilha Moro
-Name = Ilha Moro
+[535]   # Moro Island
+Name = Moro Island
 Outdoor = true
 ShowArea = true
 HealingSpot = 535,24,18
 MapPosition = 4,24,13
+BattleBack = beach
 #-------------------------------
-[536]   # Rota baixo
-Name = Rota baixo
+[536]   # Route 59
+Name = Route 59
 Outdoor = true
 MapPosition = 4,24,14
+BattleBack = beach
 #-------------------------------
-[537]   # Rota cima
-Name = Rota cima
+[537]   # Route 60
+Name = Route 60
 Outdoor = true
 MapPosition = 4,26,12
+BattleBack = beach
 #-------------------------------
-[538]   # Ilhas Grapefruit
-Name = Ilhas Grapefruit
+[538]   # Grapefruit Islands
+Name = Grapefruit Islands
 Outdoor = true
 ShowArea = true
+HealingSpot = 538,66,15
 MapPosition = 4,26,8
+BattleBack = beach
 #-------------------------------
-[539]   # Rota baixo
-Name = Rota baixo
+[539]   # Route 61
+Name = Route 61
 Outdoor = true
 MapPosition = 4,26,10
+BattleBack = beach
 #-------------------------------
-[540]   # Ilha Navel
+[540]   # Navel Island
 Name = Ilha Navel
 Outdoor = true
 ShowArea = true
 HealingSpot = 540,18,20
 MapPosition = 4,25,5
 #-------------------------------
-[541]   # Rota baixo
-Name = Rota baixo
+[541]   # Route 62
+Name = Route 62
 Outdoor = true
 MapPosition = 4,24,7
+BattleBack = beach
 #-------------------------------
-[542]   # Rota cima
-Name = Rota cima
+[542]   # Route 63
+Name = Route 63
 Outdoor = true
 MapPosition = 4,25,3
+BattleBack = beach
 #-------------------------------
-[543]   # Ilha Kumquat
-Name = Ilha Kumquat
+[543]   # Kumquat Island
+Name = Kumquat Island
 Outdoor = true
 ShowArea = true
-HealingSpot = 543,39,15
+HealingSpot = 543,35,15
+Weather = Rain,3
 MapPosition = 4,17,3
 #-------------------------------
-[544]   # Rota direita
-Name = Rota direita
+[544]   # Route 63
+Name = Route 63
 Outdoor = true
 MapPosition = 4,20,3
+BattleBack = beach
 #-------------------------------
-[545]   # Rota baixo
-Name = Rota baixo
+[545]   # Route 64
+Name = Route 64
 Outdoor = true
+Weather = Sun,20
 MapPosition = 4,17,4
+BattleBack = beach
 #-------------------------------
-[546]   # Ilha Pummello
-Name = Ilha Pummello
+[546]   # Pummelo Island
+Name = Pummelo Island
 Outdoor = true
 ShowArea = true
-HealingSpot = 546,21,35
+HealingSpot = 546,22,38
 MapPosition = 4,6,3
+BattleBack = cave2
 #-------------------------------
-[547]   # Ilha de Shamouti
+[547]   # Shamouti Island
 Name = Ilha de Shamouti
 Outdoor = true
 ShowArea = true
 HealingSpot = 547,26,13
 MapPosition = 4,17,8
 #-------------------------------
-[548]   # Rota esquerda
-Name = Rota esquerda
+[548]   # Route 65
+Name = Route 65
 Outdoor = true
+Weather = Sun,20
 MapPosition = 4,14,3
+BattleBack = beach
 #-------------------------------
-[549]   # Rota direita
-Name = Rota direita
+[549]   # Route 65
+Name = Route 65
 Outdoor = true
 MapPosition = 4,10,3
+#-------------------------------
+[554]   # Valencia Island - Ivy's Lab
+Name = Valencia Island - Ivy's Lab
+MapPosition = 4,5,14
 #-------------------------------
 [582]   # Mikan Island - Gym
 Name = Mikan Island - Gym
 MapPosition = 4,5,11
 BattleBack = water
 #-------------------------------
-[592]   # Pokecenter
+[589]   # Orange League HQ - Hall
+Name = Orange League HQ - Hall
+MapPosition = 4,6,3
+#-------------------------------
+[591]   # Mandarim Island North - Power Plant
+Name = Mandarim Island North - Power Plant
+MapPosition = 4,9,7
+#-------------------------------
+[592]   # Sunburst Island - Poké Center
 Name = Pokecenter
 #-------------------------------
-[598]   # Caverna
+[598]   # Sunburst Island - Cave
 Name = Caverna
 MapPosition = 4,9,11
+BattleBack = cave2
 #-------------------------------
-[599]   # Caverna de Cristal
+[599]   # Crystal Cave
 Name = Caverna de Cristal
 Bicycle = true
 MapPosition = 4,9,11
 DarkMap = true
+BattleBack = cave2
 #-------------------------------
-[610]   # Caverna Kabuto
-Name = Caverna Kabuto
+[605]   # Trovita Island - Lighthouse
+Name = Trovita Island - Lighthouse
+MapPosition = 4,13,15
+#-------------------------------
+[606]   # Trovita Island - Lighthouse 2nd
+Name = Trovita Island - Lighthouse 2nd
+MapPosition = 4,13,15
+BattleBack = indoor2
+#-------------------------------
+[607]   # Trovita Island - Lighthouse 3rd
+Name = Trovita Island - Lighthouse 3rd
+MapPosition = 4,13,15
+BattleBack = indoor2
+#-------------------------------
+[608]   # Trovita Island - Lighthouse 4th
+Name = Trovita Island - Lighthouse 4th
+MapPosition = 4,13,15
+BattleBack = indoor2
+#-------------------------------
+[609]   # Trovita Island - Gym
+Name = Trovita Island - Gym
+MapPosition = 4,13,15
+BattleBack = battle6
+#-------------------------------
+[610]   # Route 57 - Cave
+Name = Route 57 - Cave
 Name = 
 MapPosition = 4,16,14
 #-------------------------------
-[611]   # caverna kabuto 2°
+[611]   # Route 57 - Cave 2nd
 Name = caverna kabuto 2°
 MapPosition = 4,16,14
 #-------------------------------
 [623]   # descida
 Name = descida
 #-------------------------------
-[643]   # Casa
+[636]   # Kumquat Island - Gym
+Name = Kumquat Island - Gym
+MapPosition = 4,17,3
+BattleBack = battle8
+#-------------------------------
+[643]   # Shamouti Island - House
 Name = Casa
 Outdoor = false
 #-------------------------------
-[644]   # Ilha do Fogo
+[644]   # Fire Island
 Name = Ilha do Fogo
 Outdoor = true
+Weather = Sun,100
 MapPosition = 4,18,8
 #-------------------------------
-[645]   # Ilha do Raio
+[645]   # Thunder Island
 Name = Ilha do Raio
 Outdoor = true
-Weather = Storm,50
+Weather = Storm,100
 MapPosition = 4,17,9
 #-------------------------------
-[646]   # Ilha do Gelo
-Name = Ilha do Gelo
+[646]   # Ice Island
+Name = Ice Island
 Outdoor = true
 Weather = Snow,100
 MapPosition = 4,16,9
+BattleBack = snow2
+#-------------------------------
+[652]   # Pummelo Island - Poké Center
+Name = Pummelo Island - Poké Center
+MapPosition = 4,6,3
+#-------------------------------
+[653]   # Pummelo Island - House
+Name = Pummelo Island - House
+MapPosition = 4,6,3
+#-------------------------------
+[654]   # Pummelo Island - House 2
+Name = Pummelo Island - House 2
+MapPosition = 4,6,3
+#-------------------------------
+[655]   # Orange League HQ
+Name = Orange League HQ
+MapPosition = 4,6,3
+#-------------------------------
+[656]   # Orange League HQ - Arena
+Name = Orange League HQ - Arena
+Outdoor = true
+BattleBack = battle6
 #-------------------------------
 [671]   # Rota 115
 Name = Rota 115

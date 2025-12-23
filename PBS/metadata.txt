@@ -1,4 +1,4 @@
-﻿# See the documentation on the wiki to learn how to edit this file.
+# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [0]
 StartMoney = 3000
@@ -43,3 +43,19 @@ RunCharset = GBC-Char
 CycleCharset = invisible
 SurfCharset = invisible
 FishCharset = invisible
+#-------------------------------
+[5]
+TrainerType = PkMnTRAINER_Male
+WalkCharset = cart_hero_male_4
+RunCharset = cart_hero_male_4
+CycleCharset = hero_male_cycle
+SurfCharset = hero_male_surf
+FishCharset = hero_male_fish
+#-------------------------------
+[6]
+TrainerType = PkMnTRAINER_Female
+WalkCharset = cart_hero_female_4
+RunCharset = cart_hero_female_4
+CycleCharset = hero_female_cycle
+SurfCharset = hero_female_surf
+FishCharset = hero_female_fish

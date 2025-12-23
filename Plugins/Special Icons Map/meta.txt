@@ -1,0 +1,4 @@
+﻿Name      = Special Icons Map
+Version   = 0.0.1
+Website   = 'https://victordejs.com'
+Credits   = victordevjs

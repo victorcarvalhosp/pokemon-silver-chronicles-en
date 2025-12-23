@@ -1052,13 +1052,13 @@ end
 #-------------------------------------------------------------------------------
 # Adds the Raid Database to the Pokegear if unlocked.
 #-------------------------------------------------------------------------------
-MenuHandlers.add(:pokegear_menu, :raid_database, {
-  "name"      => _INTL("Raid Database"),
-  "icon_name" => "raid",
-  "order"     => 40,
-  "condition" => proc { next $player.has_raid_database },
-  "effect"    => proc { |menu|
-    pbFadeOutIn { pbOpenRaidData }
-    next false
-  }
-})
+# MenuHandlers.add(:pokegear_menu, :raid_database, {
+#   "name"      => _INTL("Raid Database"),
+#   "icon_name" => "raid",
+#   "order"     => 40,
+#   "condition" => proc { next $player.has_raid_database },
+#   "effect"    => proc { |menu|
+#     pbFadeOutIn { pbOpenRaidData }
+#     next false
+#   }
+# })

@@ -58,7 +58,7 @@ class MaxRaidBattle
     location = (inMaxLair?) ? "lair" : "den"
     rules[:introtext] = "#{prefix} {1} emerged from within the #{location}!"
     rules[:raidcapture] = ["{1} disappeared somewhere into the #{location}...", "Battle Raid Capture"]
-    rules[:raidcapture].push(20) if rules[:hard]
+    # rules[:raidcapture].push(20) if rules[:hard]
     player_trainers, ally_items, player_party, player_party_starts = BattleCreationHelperMethods.set_up_player_trainers(foe_party)
     scene = BattleCreationHelperMethods.create_battle_scene
     battle = RaidBattle.new(scene, player_party, foe_party, player_trainers, nil)

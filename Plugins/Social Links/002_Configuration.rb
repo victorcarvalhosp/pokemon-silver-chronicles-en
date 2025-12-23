@@ -2,6 +2,25 @@
 # Social Link Profile registrations
 #
 # These are the Social Links for individual NPCs the player can interact with.
+#
+# PHONE INTEGRATION:
+# Phone calling is automatically enabled for any Social Link whose :name matches
+# a contact in the player's phone. The system will:
+#   - Match the Social Link name with phone contacts
+#   - Show a phone button and USE hint on the profile when a match is found
+#   - Allow calling the contact by pressing USE button (C key)
+#
+# Name matching is flexible:
+#   - For trainers: Matches either just the name (e.g., "Joey") OR the full display 
+#     name with trainer type (e.g., "Youngster Joey")
+#   - For NPCs: Matches the exact registered name (e.g., "Professor Oak", "Mother")
+#
+# Examples:
+#   - Social Link "Joey" matches trainer phone contact (YOUNGSTER, "Joey")
+#   - Social Link "Youngster Joey" also matches trainer phone contact (YOUNGSTER, "Joey")
+#   - Social Link "Professor Oak" matches NPC phone contact "Professor Oak"
+#
+# If multiple contacts have the same name, the first match is used.
 #===============================================================================
 # Parameters:
 #   - :id => Symbol - The ID of the Social Link 
@@ -83,7 +102,7 @@ GameData::SocialLinkProfile.register({
 
 GameData::SocialLinkProfile.register({
     :id             => :JOEY,
-    :name		    => _INTL("Joey"),
+    :name		    => _INTL("Joey"),  # Matches trainer name (works with or without "Youngster")
     :image		    => "Joey",
     :init_location  => _INTL("Viridian City"),
     :init_status    => _INTL("It's getting cold out. Maybe I should try wearing longer shorts?"),
@@ -94,6 +113,15 @@ GameData::SocialLinkProfile.register({
                         7 => [[:Shiny, :NORMAL, 2]],
                         10 => [[:EXP, :NORMAL, 1.8], [:Shiny, :NORMAL, 5]]
                     }
+})
+
+
+GameData::SocialLinkProfile.register({
+    :id             => :MOTHER,
+    :name		    => _INTL("Mother"),
+    :image		    => "Mother",
+    :init_location  => _INTL("New Bark Town"),
+    :init_status    => _INTL("Stay safe out there, sweetie!")
 })
 
 GameData::SocialLinkProfile.register({
@@ -107,4 +135,116 @@ GameData::SocialLinkProfile.register({
                     [138, 138],
                     [154, 112]
                     ]
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :PROFELM,
+    :name		    => _INTL("Professor Elm"),
+    :image		    => "Elm",
+    :init_location  => _INTL("New Bark Town"),
+    :init_status    => _INTL("Research is going well today!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :PROFIVY,
+    :name		    => _INTL("Professor Ivy"),
+    :image		    => "Ivy",
+    :init_location  => _INTL("Valencia Island"),
+    :init_status    => _INTL("The weather is beautiful here.")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :KRIS,
+    :name		    => _INTL("Kris"),
+    :image		    => "Kris",
+    :init_location  => _INTL("New Bark Town"),
+    :init_status    => _INTL("Ready for a new adventure!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :YELLOW,
+    :name		    => _INTL("Yellow"),
+    :image		    => "Yellow",
+    :init_location  => _INTL("Viridian City"),
+    :init_status    => _INTL("Spending time with my Pokémon.")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :RED,
+    :name		    => _INTL("Red"),
+    :image		    => "Red",
+    :init_location  => _INTL("Mt. Silver"),
+    :init_status    => _INTL("...")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :WADE,
+    :name		    => _INTL("Bug Catcher Wade"),
+    :image		    => "Wade",
+    :init_location  => _INTL("Route 31"),
+    :init_status    => _INTL("Found some cool Bug Pokémon today!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :LIZ,
+    :name		    => _INTL("Picnicker Liz"),
+    :image		    => "Liz",
+    :init_location  => _INTL("Route 32"),
+    :init_status    => _INTL("Perfect day for a picnic!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :ANTHONY,
+    :name		    => _INTL("Hiker Anthony"),
+    :image		    => "Anthony",
+    :init_location  => _INTL("Route 33"),
+    :init_status    => _INTL("The mountain trails are calling me.")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :IAN,
+    :name		    => _INTL("Youngster Ian"),
+    :image		    => "Ian",
+    :init_location  => _INTL("Route 34"),
+    :init_status    => _INTL("Training hard every day!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :IRWIN,
+    :name		    => _INTL("Juggler Irwin"),
+    :image		    => "Irwin",
+    :init_location  => _INTL("Route 35"),
+    :init_status    => _INTL("Practicing my juggling skills.")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :BEVERLY,
+    :name		    => _INTL("Pokéfan Beverly"),
+    :image		    => "Beverly",
+    :init_location  => _INTL("Route 36"),
+    :init_status    => _INTL("My Pokémon are so adorable today!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :DANA,
+    :name		    => _INTL("Lass Dana"),
+    :image		    => "Dana",
+    :init_location  => _INTL("Route 38"),
+    :init_status    => _INTL("Enjoying the sunshine!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :WILTON,
+    :name		    => _INTL("Fisherman Wilton"),
+    :image		    => "Wilton",
+    :init_location  => _INTL("Route 44"),
+    :init_status    => _INTL("The fish are biting today!")
+})
+
+GameData::SocialLinkProfile.register({
+    :id             => :GAVEN,
+    :name		    => _INTL("CoolTrainer Gaven"),
+    :image		    => "Gaven",
+    :init_location  => _INTL("Route 45"),
+    :init_status    => _INTL("Always ready for a battle!")
 })

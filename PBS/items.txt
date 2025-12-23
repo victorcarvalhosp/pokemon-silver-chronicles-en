@@ -7271,7 +7271,14 @@ Name = Lost Item
 NamePlural = Lost Item's
 Pocket = 8
 Price = 0
-Description = The Poke Doll lost by te Copycat.
+Description = The Poke Doll lost by the Copycat.
+#-------------------------------
+[HOENNTICKET]
+Name = Hoenn Ticket
+NamePlural = Hoenn Tickets
+Pocket = 8
+Price = 0
+Description = A ticket required to board the ship to Hoenn.
 #-------------------------------
 [ILHASTICKET]
 Name = Orange Ticket
@@ -7287,19 +7294,19 @@ Pocket = 8
 Price = 0
 Description = A package containing the GS Ball. Handle it with care.
 #-------------------------------
-[CRISTAL]
-Name = Cristal
-NamePlural = Cristal
+[CRYSTALARTIFACT]
+Name = Crystal Artifact
+NamePlural = Crystal Artifacts
 Pocket = 8
 Price = 0
-Description = Uma linda pedra de cristal.
+Description = A crystal relic of unknown origin. Its inner glow reacts to certain Pokémon said to be made of living crystal.
 #-------------------------------
 [BILLSENGINE]
-Name = Ressucitador
-NamePlural = Ressucitador
+Name = Bill's Engine
+NamePlural = Bill's Engine
 Pocket = 8
 Price = 0
-Description = Uma invenção de Bill, que promete acordar Pokémons fósseis.
+Description = A portable device that Bill designed to reanimate dormant fossil cells.
 #-------------------------------
 [S_S_ANNE_TICKETS]
 Name = S.S. ANNE TICKET

@@ -16,6 +16,9 @@ def pbMaxRaidDen(pkmn = [], rules = {}, pokemon = {})
   this_event = interp.get_self
   return if !this_event
   raid_pkmn = interp.getVariable
+
+  PBDebug.log("raid pokemon type: #{raid_pkmn}")
+
   case raid_pkmn
   #-----------------------------------------------------------------------------
   # Attempts to reset an empty den.

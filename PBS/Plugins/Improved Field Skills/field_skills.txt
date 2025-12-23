@@ -4039,3 +4039,9 @@ Skills = SUNNYDAY,RAINDANCE,SANDSTORM
 #-------------------------------
 [OGERPON_11]
 Skills = SUNNYDAY,RAINDANCE,SANDSTORM
+#-------------------------------
+[ONIX_1]
+Skills = STRENGTH,ROCKSMASH,ROCKCLIMB,DIG,RAINDANCE,SANDSTORM,HAIL
+#-------------------------------
+[RHYHORN_1]
+Skills = DIG,SUNNYDAY,RAINDANCE,SANDSTORM

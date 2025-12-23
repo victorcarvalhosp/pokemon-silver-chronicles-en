@@ -241,7 +241,7 @@ IconPosition = 47
 Description = A Ribbon awarded for completing the Wi-Fi Battle Tower challenge.
 #-------------------------------
 [CHAMPION]
-Name = Champion Ribbon
+Name = Johto Champion Ribbon
 IconPosition = 48
 Description = Ribbon for clearing the Pokémon League and entering the Hall of Fame in Johto region.
 #-------------------------------
@@ -381,9 +381,14 @@ IconPosition = 75
 Description = Pokémon World Championships Regional Champion Ribbon.
 #-------------------------------
 [KANTOCHAMPION]
-Name = Regional Champion Ribbon
+Name = Kanto Champion Ribbon
 IconPosition = 73
 Description = Ribbon for clearing the Pokémon League and entering the Hall of Fame in Kanto region.
+#-------------------------------
+[ORANGECHAMPION]
+Name = Orange League Champion Ribbon
+IconPosition = 74
+Description = Ribbon for clearing the Pokémon League and entering the Hall of Fame in the Orange Archipelago region.
 #-------------------------------
 [EARTH]
 Name = Earth Ribbon

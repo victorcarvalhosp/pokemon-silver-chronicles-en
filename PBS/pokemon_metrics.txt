@@ -816,6 +816,12 @@ FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
+[ONIX,1]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
 [DROWZEE]
 BackSprite = -8,-16
 FrontSprite = 0,4
@@ -945,6 +951,12 @@ ShadowSize = 2
 [RHYHORN]
 BackSprite = -19,-4
 FrontSprite = 1,7
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[RHYHORN,1]
+BackSprite = -20,-5
+FrontSprite = -1,6
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------

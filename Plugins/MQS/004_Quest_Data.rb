@@ -528,29 +528,31 @@ module QuestModule
 
   OrangeIslandsGymChallenge = {
     :ID => "46",
-    :Name => "Pokémon Gym challenge",
+    :Name => "Orange League challenge",
     :QuestGiver => "Prof. Ivy",
     :Stage1 => "Challenge Orange Islands Gym Leaders 1/4",
     :Stage2 => "Challenge Orange Islands Gym Leaders 2/4",
     :Stage3 => "Challenge Orange Islands Gym Leaders 3/4",
     :Stage4 => "Challenge Orange Islands Gym Leaders 4/4",
+    :Stage5 => "Challenge The Supreme Gym Leader!",
+
     :QuestDescription => "Face all the Gym Leaders on the Orange Islands and prove you're the best against the Supreme Gym Leader!",
   }
 
   # @todo: Still need to add code to complete it in the game
   OrangeIslandsPokedex = {
-    :ID => "46",
-    :Name => "Gotta catch ‘em all(Orange Islands)!",
+    :ID => "47",
+    :Name => "Gotta catch ‘em all(Archipelago)!",
     :QuestGiver => "Professor Ivy",
-    :Stage1 => "Complete the Orange Islands Pokédex.",
+    :Stage1 => "Complete the Regional Pokédex.",
     :Stage2 => "Register at least 80 Pokémon.",
-    :Location1 => "nil",
+    :Location1 => "Orange Archipelago",
     # :Location2 => "Route 31",
-    :QuestDescription => "Go meet many kinds of Pokémon and complete the Orange Islands Pokédex!",
+    :QuestDescription => "Go meet many kinds of Pokémon and complete the Orange Archipelago Pokédex!",
   }
 
   RescueLapras = {
-    :ID => "47",
+    :ID => "48",
     :Name => "Rescue Lapras!",
     :Stage1 => "Help Lapras against the swimmers.",
     :Stage2 => "Caught friendly Lapras.",
@@ -558,6 +560,99 @@ module QuestModule
     :Location2 => "Route 50",
     :QuestDescription => "You saw some swimmers mistreating a Lapras. You need to help the poor Pokémon.",
   }
+
+  MaxDensOrangeIslands = {
+    :ID => "49",
+    :Name => "Strange Energy Emerges",
+    :QuestGiver => "Professor Ivy",
+    :Stage1 => "Investigate the strange phenomenon.",
+    :Location1 => "Route 51",
+    :Stage2 => "Investigate the phenomenon 2/8",
+    :Location2 => "Check Map for locations",
+    :Stage3 => "Investigate the phenomenon 3/8",
+    :Location3 => "Check Map for locations",
+    :Stage4 => "Investigate the phenomenon 4/8",
+    :Location4 => "Check Map for locations",
+    :Stage5 => "Investigate the phenomenon 5/8",
+    :Location5 => "Check Map for locations",
+    :Stage6 => "Investigate the phenomenon 6/8",
+    :Location6 => "Check Map for locations",
+    :Stage7 => "Investigate the phenomenon 7/8",
+    :Location7 => "Check Map for locations",
+    :Stage8 => "Investigate the phenomenon 8/8",
+    :Location8 => "Check Map for locations",
+    :QuestDescription => "An unusual energy spike appeared right after Prof. Ivy tried a new method to open the GS Ball. You need to investigate the strange phenomenon.",
+  }
+
+  CrystalOnix = {
+    :ID => "50",
+    :Name => "Crystal Onix Legend",
+    :Stage1 => "Search for the Crystal Onix.",
+    :Location1 => "Sunburst Island",
+    :QuestDescription => "Locals whisper about a legendary Crystal Onix that dwells deep inside the island’s shimmering caverns. Is that legend really true?",
+  }
+
+  PinkanProtection = {
+    :ID => "51",
+    :Name => "Pink Pokémon Protection",
+    :Stage1 => "Find and defeat the burglars hiding somewhere.",
+    :Location1 => "Pinkan Island",
+    :QuestDescription => "Officer Jenny requested your help protecting the rare pink Pokémon of Pinkan Island. Suspicious burglars are targeting the protected species. Find and defeat all three burglars, then report back to Jenny. ",
+  }
+
+  AriadosTrade = {
+    :ID => "52",
+    :Name => "Rocky Trade",
+    :QuestGiver => "Youngster Marcus",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Trovita Island",
+    :QuestDescription => "This youngster in Trovita Island wants to trade an Ariados for his Charjabug. Do you think it's a good trade?",
+  }
+
+  BillsEngine = {
+    :ID => "53",
+    :Name => "Pokémon Fossil",
+    :Stage1 => "Test Bill's Engine in a fossil.",
+    :Location1 => "Route 57",
+    :QuestDescription => "Bill made a new portable engine that can reanimate fossils. He is not sure if it works, so he wants you to test it in a fossil.",
+  }
+
+  GrapefruitIslands = {
+    :ID => "54",
+    :Name => "Settle the Orchard Spat",
+    :Stage1 => "Test Bill's Engine in a fossil.",
+    :QuestGiver => "Cowgirl Ruby",
+    :Location1 => "Grapefruit Islands",
+    :QuestDescription => "The orchard farmers are arguing about who is the strongest battler. The Orchard Leader asked you to settle the dispute by challenging all five of them throughout the orchards.",
+  }
+
+  SandygastTrade = {
+    :ID => "55",
+    :Name => "Pinsir Trade",
+    :QuestGiver => "Kid Anya",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Kumquat Island",
+    :QuestDescription => "This kid in Kumquat Island wants to trade a Sandygast for her Pinsir. Do you think it's a good trade?",
+  }
+
+  FestivalOfTheLegend = {
+    :ID => "56",
+    :Name => "Legend Festival",
+    :Stage1 => "Participate in the Festival.",
+    :Location1 => "Shamouti Island",
+    :QuestDescription => "The inhabitants are celebrating their annual festival and selected you as their Chosen One, who must retrieve three crystal balls from each of the legendary birds islands and bring them to Shamouti's shrine.",
+  }
+
+  GSBall2 = {
+    :ID => "57",
+    :Name => "Mysterious GS Ball - Part 2",
+    :QuestGiver => "Prof. Ivy",
+    :Stage1 => "Deliver GS Ball to Prof. Birch.",
+    :Location1 => "Hoenn",
+    :QuestDescription => "Professor Ivy asked you to deliver the GS Ball to Prof. Birch in order to continue their research.",
+  }
+
+  
   
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {

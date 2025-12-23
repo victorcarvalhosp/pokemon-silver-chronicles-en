@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
-!isQuestActive?(: AssociationElections)
+!isQuestActive?(:FestivalOfTheLegend)
 
-activateQuest(:OrangeIslandsGymChallenge,colorQuest("blue"),true)
-advanceQuestToStage(:RescueLapras, 2)
-completeQuest(:RescueLapras)
+activateQuest(:GSBall2,colorQuest("blue"),true)
+advanceQuestToStage(:MaxDensOrangeIslands, 2)
+completeQuest(:OrangeIslandsGymChallenge)
 
 
 Dialog lines to use on TCG:

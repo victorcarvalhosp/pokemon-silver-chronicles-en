@@ -36,6 +36,12 @@ Gender = Male
 BaseMoney = 30
 IntroBGM = Encounter-Sailor-Hiker
 #-------------------------------
+[HIKER_2]
+Name = HIKER
+Gender = Male
+BaseMoney = 30
+IntroBGM = Encounter-Sailor-Hiker
+#-------------------------------
 [BEAUTY]
 Name = BEAUTY
 Gender = Female
@@ -203,11 +209,19 @@ VictoryBGM = Victory - Trainer
 Name = JOGGER
 Gender = Female
 BaseMoney = 30
+IntroBGM = SEQ_EYE_SPORT
 #-------------------------------
 [TRIATHLETE_MaleRunner]
 Name = JOGGER
 Gender = Male
 BaseMoney = 30
+IntroBGM = SEQ_EYE_SPORT
+#-------------------------------
+[TRIATHLETE_MaleRunner_2]
+Name = JOGGER
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_SPORT
 #-------------------------------
 [BATTLEGIRL]
 Name = BATTLE GIRL
@@ -249,7 +263,7 @@ BaseMoney = 30
 #-------------------------------
 [TRIATHLETE_MaleSwimmer]
 Name = TRIATHLETE
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_SPORT
 #-------------------------------
@@ -261,7 +275,7 @@ IntroBGM = SEQ_EYE_SPORT
 #-------------------------------
 [DRAGONTAMER]
 Name = DRAGON TAMER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 #-------------------------------
 [BIRDKEEPER]
@@ -288,6 +302,13 @@ BaseMoney = 30
 Name = SAILOR
 Gender = Male
 BaseMoney = 30
+IntroBGM = SEQ_EYE_SAILOR
+#-------------------------------
+[SAILOR_2]
+Name = SAILOR
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_SAILOR
 #-------------------------------
 [COLLECTOR]
 Name = COLLECTOR
@@ -716,7 +737,7 @@ BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
-[ELITEFOUR_PRIMA]
+[ELITEFOUR_LORELEI]
 Name = ELITE FOUR
 Gender = Unknown
 BaseMoney = 100
@@ -724,34 +745,34 @@ IntroBGM = SEQ_EYE_ELITE
 #-------------------------------
 [PkMnTRAINER_Bill]
 Name = PkMn TRAINER
-Gender = Unknown
+Gender = Male
 BaseMoney = 30
 IntroBGM = Battle-Stadium
 #-------------------------------
 [LEADER_RUDY]
 Name = LEADER
-Gender = Unknown
+Gender = Male
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_DANNY]
 Name = LEADER
-Gender = Unknown
+Gender = Male
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_LUANA]
 Name = LEADER
-Gender = Unknown
+Gender = Female
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_DRAKE]
-Name = LEADER
-Gender = Unknown
+Name = CHAMPION
+Gender = Male
 BaseMoney = 80
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
@@ -920,7 +941,6 @@ Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_BIKER
 #-------------------------------
-
 [LEADER_Nessa]
 Name = PkMn TRAINER
 Gender = Female
@@ -975,3 +995,65 @@ IntroBGM = SEQ_EYE_CHAMP
 BattleBGM = GSCChampionBattle
 VictoryBGM = PkmRS_Victory4
 #-------------------------------
+[BURGLAR]
+Name = Burglar
+Gender = Male
+BaseMoney = 32
+IntroBGM = SEQ_EYE_FIGHT
+#-------------------------------
+[RANCHER]
+Name = Rancher
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_SAILOR
+#-------------------------------
+[COWGIRL]
+Name = Cowgirl
+Gender = Female
+BaseMoney = 30
+IntroBGM = SEQ_EYE_SAILOR
+#-------------------------------
+[GARDENER]
+Name = Gardener
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_SAILOR
+#-------------------------------
+[PkMnBREEDER_Male_2]
+Name = PkMn BREEDER
+Gender = Male
+BaseMoney = 30
+#-------------------------------
+[PkMnBREEDER_Female_2]
+Name = PkMn BREEDER
+Gender = Female
+BaseMoney = 30
+#-------------------------------
+[GUARDIAN_Male]
+Name = Guardian
+Gender = Male
+BaseMoney = 30
+IntroBGM = Encounter-Psychic
+#-------------------------------
+[GUARDIAN_Female]
+Name = Guardian
+Gender = Female
+BaseMoney = 30
+IntroBGM = Encounter-Psychic
+#-------------------------------
+[ARTISAN]
+Name = Artisan
+Gender = Male
+BaseMoney = 30
+IntroBGM = Encounter-Psychic
+#-------------------------------
+[PkMnBREEDER_Female_3]
+Name = PkMn BREEDER
+Gender = Female
+BaseMoney = 30
+#-------------------------------
+[PEASANT]
+Name = Peasant
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_COOLTRAINER_SNOW
