@@ -1,0 +1,5 @@
+Name       = Season Change
+Version    = 1.0 
+Essentials = 20
+Link       = https://www.pokecommunity.com/threads/trying-to-make-seasons-change-tilesets-in-v17-2-and-need-help.405800/#post-9839242
+Credits    = Klein

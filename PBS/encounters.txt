@@ -2,26 +2,20 @@
 #-------------------------------
 [004] # Route 29
 LandDay,21
-    20,RATTATA,2
-    20,SENTRET,2
-    19,PIDGEY,3
-    14,SENTRET,3
-    10,LEDYBA,2
+    20,RATTATA,2,3
+    20,SENTRET,2,3
+    20,PIDGEY,3
+    10,LEDYBA,2,3
     10,SUNKERN,2,4
-    5,FLETCHLING,2
-    2,FLETCHLING,2,4
+    10,FLETCHLING,2,4
 LandNight,21
-    25,HOOTHOOT,2
+    25,HOOTHOOT,2,4
     20,RATTATA,2,4
-    10,HOOTHOOT,2,4
     10,PIDGEY,2,3
     10,RATTATA_1,2,3
-    5,FLETCHLING,2
-    5,RATTATA,3
-    5,SPINARAK,2,3
-    4,SPINARAK,2,4
-    4,WEEDLE,2,4
-    2,FLETCHLING,2,4
+    10,FLETCHLING,2,4
+    10,SPINARAK,2,4
+    10,WEEDLE,2,4
 #-------------------------------
 [006] # Route 30
 Water,5
@@ -41,44 +35,38 @@ SuperRod
     20,POLIWAG,3
 LandDay,21
     20,LEDYBA,2
-    20,SUNKERN,2,3
+    15,SUNKERN,2,3
     10,CATERPIE,2,4
     10,PIDGEY,2,4
-    10,PIDGEY,2
+    10,FLETCHLING,2,4
     10,RATTATA,2,3
-    5,HOPPIP,3,4
-    5,PIDGEY,3
-    4,METAPOD,3,4
-    4,SUNKERN,3
-    1,KAKUNA,4
-    1,PIDGEY,4
+    10,HOPPIP,3,4
+    5,METAPOD,3,4
+    5,SUNKERN,3
+    5,KAKUNA,4
 LandNight,21
-    20,HOOTHOOT,3,4
-    20,SPINARAK,3
+    20,HOOTHOOT,2,4
+    20,SPINARAK,2,4
     10,CATERPIE,4,5
-    10,HOOTHOOT,3
-    10,HOOTHOOT,2,3
-    10,SPINARAK,2,4
-    5,POLIWAG,3,4
+    10,FLETCHLING,2,4
+    10,POLIWAG,3,4
     5,ZUBAT,3,4
-    4,POLIWAG,3
-    4,ZUBAT,3
-    1,CATERPIE,4
-    1,PIDGEY,3,4
+    5,KAKUNA,4
+    10,CATERPIE,4
+    10,RATTATA,3,4
 #-------------------------------
 [009] # Route 31
 Land,21
     20,WEEDLE,4
-    15,LEDYBA,4
-    10,BELLSPROUT,3,5
+    10,LEDYBA,4
+    10,BELLSPROUT,3,6
     10,KAKUNA,5,6
     10,LEDYBA,3,6
     10,PIDGEY,4,6
     8,BIDOOF,3,6
-    6,SHINX,4,5
-    5,BELLSPROUT,3,6
-    5,MAGBY,3,5
-    2,YAMPER,4,6
+    8,SHINX,4,5
+    8,MAGBY,3,5
+    6,YAMPER,4,6
 Water,5
     60,MAGIKARP,2
     30,GOLDEEN,3
@@ -95,17 +83,16 @@ SuperRod
     40,MAGIKARP,2
     20,POLIWAG,3
 LandNight,21
-    20,POLIWAG,3,5
-    20,SPINARAK,4,5
-    10,BELLSPROUT,2,5
-    10,GASTLY,3,5
-    10,HOOTHOOT,3,4
-    10,ZUBAT,3,5
-    5,HOOTHOOT,3,6
-    5,MAGBY,3,5
-    4,BIDOOF,3,6
-    4,SHINX,4,6
-    2,YAMPER,4,6
+    20,POLIWAG,4
+    10,SPINARAK,4
+    10,BELLSPROUT,3,6
+    10,KAKUNA,5,6
+    10,GASTLY,3,6
+    10,ZUBAT,4,6
+    8,BIDOOF,3,6
+    8,SHINX,4,5
+    8,MAGBY,3,5
+    6,YAMPER,4,6
 #-------------------------------
 [010] # Violet City
 Water,5
@@ -121,16 +108,14 @@ GoodRod
 #-------------------------------
 [011] # Route 32
 Land,21
-    24,EKANS,4
-    20,BELLSPROUT,6
+    20,EKANS,4
+    15,BELLSPROUT,6
     15,RATTATA,4
     10,BELLSPROUT,4,5
-    10,EKANS,5
-    5,FLETCHLING,4,5
+    10,FLETCHLING,4,5
     5,HOPPIP,6
-    5,MAREEP,4
-    4,WOOPER,4
-    2,MAREEP,6
+    15,MAREEP,4,6
+    10,WOOPER,4
 Water,5
     60,MAGIKARP,2
     30,GOLDEEN,3
@@ -147,17 +132,16 @@ SuperRod
     40,MAGIKARP,2
     20,POLIWAG,3
 LandNight,21
-    30,RATTATA_1,4,5
-    20,WOOPER,3
-    10,BELLSPROUT,5,7
-    10,HOOTHOOT,5
-    10,ZUBAT,4,6
-    5,HOOTHOOT,6
-    5,RATTATA_1,7
-    4,CATERPIE,5,6
-    4,ZUBAT,6,7
-    1,GASTLY,7
-    1,METAPOD,7
+    10,EKANS,4
+    20,RATTATA_1,4
+    10,HOOTHOOT,4,5
+    10,FLETCHLING,4,5
+    15,ZUBAT,6
+    15,MAREEP,4,6
+    5,WOOPER,4
+    5,GASTLY,5,7
+    5,BELLSPROUT,6
+    5,CATERPIE,5,6
 #-------------------------------
 [013] # Route 36
 Land,21
