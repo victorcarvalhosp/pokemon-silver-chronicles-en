@@ -20,8 +20,23 @@ def isQuestActive?(quest)
   return false
 end
 
+def isQuestActiveOnly?(quest)
+  $PokemonGlobal.quests.active_quests.each do |q|
+    return true if q.id == quest
+  end
+  return false
+end
+
 def isQuestComplete?(quest)
   $PokemonGlobal.quests.completed_quests.each do |q|
+    return true if q.id == quest
+  end
+  return false
+end
+
+
+def isQuestFail?(quest)
+  $PokemonGlobal.quests.failed_quests.each do |q|
     return true if q.id == quest
   end
   return false

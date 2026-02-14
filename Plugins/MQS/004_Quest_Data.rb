@@ -1,12 +1,12 @@
 module QuestModule
-  
+
   # You don't actually need to add any information, but the respective fields in the UI will be blank or "???"
   # I included this here mostly as an example of what not to do, but also to show it's a thing that exists
   Quest0 = {
-  
+
   }
   # change 3
-  
+
   # Here's the simplest example of a single-stage quest with everything specified - test
   # Quest1 = {
   #   :ID => "1",
@@ -102,13 +102,13 @@ module QuestModule
   BellsproutTrade = {
     :ID => "6",
     :Name => "Rocky Trade",
-    :QuestGiver => "Youngster Joey",
+    :QuestGiver => "Youngster Andy",
     :Stage1 => "Trade Pokémon.",
     :Location1 => "Violet City",
     :QuestDescription => "This youngster in Violet City wants to trade a Bellsprout for his Onix. Do you think it's a good trade?",
   }
 
-  
+
   RuinsOfAlphPuzzleOne = {
     :ID => "7",
     :Name => "Mysterious Ruins",
@@ -421,12 +421,12 @@ module QuestModule
     :Stage1 => "Challenge Kanto Gym Leaders",
     :Stage2 => "Challenge Kanto Gym Leaders 1/8",
     :Stage3 => "Challenge Kanto Gym Leaders 2/8",
-    :Stage4 => "Challenge Kanto Johto Gym Leaders 3/8",
-    :Stage5 => "Challenge Kanto Johto Gym Leaders 4/8",
-    :Stage6 => "Challenge Kanto Johto Gym Leaders 5/8",
-    :Stage7 => "Challenge Kanto Johto Gym Leaders 6/8",
-    :Stage8 => "Challenge Kanto Johto Gym Leaders 7/8",
-    :Stage9 => "Challenge Kanto Johto Gym Leaders 8/8",
+    :Stage4 => "Challenge Kanto Gym Leaders 3/8",
+    :Stage5 => "Challenge Kanto Gym Leaders 4/8",
+    :Stage6 => "Challenge Kanto Gym Leaders 5/8",
+    :Stage7 => "Challenge Kanto Gym Leaders 6/8",
+    :Stage8 => "Challenge Kanto Gym Leaders 7/8",
+    :Stage9 => "Challenge Kanto Gym Leaders 8/8",
     :QuestDescription => "Collect all 8 Gym Badges in Kanto. If you manage to defeat all the Gym Leaders, you'll eventually challenge the Kanto Pokémon League Champion!",
   }
 
@@ -530,10 +530,10 @@ module QuestModule
     :ID => "46",
     :Name => "Orange League challenge",
     :QuestGiver => "Prof. Ivy",
-    :Stage1 => "Challenge Orange Islands Gym Leaders 1/4",
-    :Stage2 => "Challenge Orange Islands Gym Leaders 2/4",
-    :Stage3 => "Challenge Orange Islands Gym Leaders 3/4",
-    :Stage4 => "Challenge Orange Islands Gym Leaders 4/4",
+    :Stage1 => "Challenge Gym Leaders 1/4",
+    :Stage2 => "Challenge Gym Leaders 2/4",
+    :Stage3 => "Challenge Gym Leaders 3/4",
+    :Stage4 => "Challenge Gym Leaders 4/4",
     :Stage5 => "Challenge The Supreme Gym Leader!",
 
     :QuestDescription => "Face all the Gym Leaders on the Orange Islands and prove you're the best against the Supreme Gym Leader!",
@@ -652,8 +652,214 @@ module QuestModule
     :QuestDescription => "Professor Ivy asked you to deliver the GS Ball to Prof. Birch in order to continue their research.",
   }
 
+  MareepTrade = {
+    :ID => "58",
+    :Name => "Poney Trade",
+    :QuestGiver => "Larry",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Route 2",
+    :QuestDescription => "This guy in Route 2 wants to trade a Mareep for his Ponyta. Do you think it's a good trade?",
+  }
+
+
+  HoennGymChallenge = {
+    :ID => "59",
+    :Name => "Pokémon Gym challenge",
+    :QuestGiver => "Prof. Birch",
+    :Stage1 => "Challenge Hoenn Gym Leaders",
+    :Location1 => "Petalburg City",
+    :Stage2 => "Challenge Hoenn Gym Leaders 2/8",
+    :Stage3 => "Challenge Hoenn Gym Leaders 3/8",
+    :Stage4 => "Challenge Hoenn Gym Leaders 4/8",
+    :Stage5 => "Challenge Hoenn Gym Leaders 5/8",
+    :Stage6 => "Challenge Hoenn Gym Leaders 6/8",
+    :Stage7 => "Challenge Hoenn Gym Leaders 7/8",
+    :Stage8 => "Challenge Hoenn Gym Leaders 8/8",
+    :QuestDescription => "Collect all 8 Gym Badges in Hoenn. If you manage to defeat all the Gym Leaders, you'll eventually challenge the Hoenn Pokémon League!",
+  }
+
+  # @todo: Still need to add code to complete it in the game
+  HoennPokedex = {
+    :ID => "60",
+    :Name => "Gotta catch ‘em all(Hoenn)!",
+    :QuestGiver => "Prof. Birch",
+    :Stage1 => "Complete the Regional Pokédex.",
+    :Stage2 => "Register at least 80 Pokémon.",
+    :Location1 => "Hoenn",
+    # :Location2 => "Route 31",
+    :QuestDescription => "Go meet many kinds of Pokémon and complete the Hoenn Pokédex!",
+  }
+
+
+  TakePartnerGirlToLab = {
+    :ID => "61",
+    :Name => "Help in the rain",
+    :QuestGiver => "\\v[76]",
+    :Stage1 => "Go with \\v[76] to the lab.",
+    :Location1 => "Littleroot Town",
+    :QuestDescription => "This cute girl wants your help to arrive in the Prof. Birch's lab. ",
+  }
+
+  TakePartnerBoyToLab = {
+    :ID => "62",
+    :Name => "Help in the rain",
+    :QuestGiver => "\\v[77]",
+    :Stage1 => "Go with \\v[77] to the lab.",
+    :Location1 => "Littleroot Town",
+    :QuestDescription => "This boy wants your help to arrive in the Prof. Birch's lab. ",
+  }
+
+  DoubleBattleBlackbelt = {
+    :ID => "63",
+    :Name => "Blackbelt's Double Battle",
+    :QuestGiver => "Blackbelt Thomas",
+    :Stage1 => "Defeat the Blackbelt's!",
+    :Location1 => "Route 104",
+    :QuestDescription => "This pair of Blackbelts want to test their skills against you and your partner in a Double Battle!",
+  }
+
+  WorkingShoes = {
+    :ID => "64",
+    :Name => "Dad's working shoes",
+    :QuestGiver => "Mom",
+    :Stage1 => "Buy Dad's new shoes",
+    :Location1 => "Goldenrod City",
+    :Stage2 => "Deliver the shoes",
+    :Location2 => "New Bark Town",
+    :QuestDescription => "Mom called with a “tiny favor.” Dad’s work shoes are falling apart, but he refuses to replace them. She wants you to quietly buy him a new pair in Goldenrod.",
+  }
+
+  BoxDelivery = {
+    :ID => "65",
+    :Name => "Dad's office delivery",
+    :QuestGiver => "Dad",
+    :Stage1 => "Get the box",
+    :Location1 => "Mahogany Town",
+    :Stage2 => "Deliver the box",
+    :Location2 => "Goldenrod City",
+    :QuestDescription => "Dad's boss asked him to bring a box from Mahogany Town for the office team in Goldenrod, but he’s too busy to step away from work. He trusted you with the job instead.",
+  }
+
+  SalarymanDadsFriend = {
+    :ID => "66",
+    :Name => "Dad's old friend",
+    :QuestGiver => "Salaryman Richard",
+    :Stage1 => "Battle him!",
+    :Location1 => "Saffron City",
+    :QuestDescription => "You meet a salaryman who knows your dad from years ago. He remembers how your dad once talked about becoming a Pokémon Trainer, even if life never gave him the time. Before catching his train, he asks for one friendly battle.",
+  }
+
+  DadProtectionGift = {
+    :ID => "67",
+    :Name => "Dad's visit in Kanto",
+    :QuestGiver => "Dad",
+    :Stage1 => "Meet Dad at the station.",
+    :Location1 => "Saffron City",
+    :QuestDescription => "Dad called after seeing the news in Kanto. He’s passing through Saffron for work and wants to meet you at the station to give you something.",
+  }
+
+  SickMiltank = {
+    :ID => "68",
+    :Name => "Sick Miltank",
+    :QuestGiver => "Ranchers",
+    :Stage1 => "Give Miltank an Oran Berry.",
+    :Location1 => "Route 39",
+    :Stage2 => "Give Miltank a Revival Herb.",
+    :Location2 => "Route 39",
+    :QuestDescription => "There's a sick Miltank in the Moomoo Farm. The ranchers are taking care of her, but she isn't getting better. Can you give her something to help her recover?",
+  }
+
+  ViridianSchool = {
+    :ID => "69",
+    :Name => "School Lessons",
+    :QuestGiver => "School Teacher",
+    :Stage1 => "Battle the Teacher",
+    :Location1 => "Viridian City",
+    :QuestDescription => "The school Teacher in Viridian City wants you to teach the students some Pokémon lessons in a demonstration battle. Can you help her?",
+  }
+
+  HeracrossTrade = {
+    :ID => "70",
+    :Name => "Sleepy Trade",
+    :QuestGiver => "Student Enzo",
+    :Stage1 => "Trade Pokémon.",
+    :Location1 => "Viridian City",
+    :QuestDescription => "This student in Viridian City wants to trade a Heracross for his Munchlax. Do you think it's a good trade?",
+  }
+
+  SecondStarterKanto = {
+    :ID => "71",
+    :Name => "A second chance",
+    :QuestGiver => "Guitarist Wesley",
+    :Stage1 => "Battle Wesley.",
+    :Location1 => "Route 24",
+    :QuestDescription => "This Trainer is about to release a Pokémon because it never bonded with them. Maybe it will choose you instead if you beat him in a battle.",
+  }
+
+  ThirdStarterKanto = {
+    :ID => "72",
+    :Name => "Unrequested visitor",
+    :QuestGiver => "Lady Simone",
+    :Stage1 => "Get the wild Pokémon",
+    :Location1 => "Celadon City",
+    :QuestDescription => "A wild starter has moved into someone’s home and won’t stop causing trouble. Can you make it stop?",
+  }
+
+  SafariZoneGoldTeeth = {
+    :ID => "73",
+    :Name => "Missing Gold Teeth",
+    :QuestGiver => "Warden",
+    :Stage1 => "Find the Gold Teeth",
+    :Location1 => "Safari Zone",
+    :Stage2 => "Return the Gold Teeth",
+    :Location2 => "Fuchsia City",
+    :QuestDescription => "The Safari Zone Warden is missing his golden teeth. Can you help him find them and bring back to him?",
+  }
+
+  FossilOwnerAptitudeTest1 = {
+    :ID => "74",
+    :Name => "Fossil Owner Test",
+    :QuestGiver => "Warden Baoba",
+    :Stage1 => "Revive the Fossil Pokémon",
+    :Location1 => "Cinnabar Island",
+    :Stage2 => "Show a Kabuto to Baoba",
+    :Location2 => "Fuchsia City",
+    :QuestDescription => "The Safari Zone Warden Baoba is testing your aptitude to be a fossil owner. If you show him a Kabuto, he will give you something special in return.",
+  }
+
+  FossilOwnerAptitudeTest2 = {
+    :ID => "74",
+    :Name => "Fossil Owner Test 2",
+    :QuestGiver => "Warden Baoba",
+    :Stage1 => "Revive the Fossil Pokémon",
+    :Location1 => "Cinnabar Island",
+    :Stage2 => "Show a Omanyte to Baoba",
+    :Location2 => "Fuchsia City",
+    :QuestDescription => "The Safari Zone Warden Baoba is testing your aptitude to be a fossil owner. If you show him a Omanyte, he will give you something special in return.",
+  }
+
+  TimeTraveler = {
+    :ID => "75",
+    :Name => "Time Traveler",
+    :QuestGiver => "Time Traveler",
+    :Stage1 => "Battle the 'Time Traveler'",
+    :Location1 => "Ilex Forest",
+    :QuestDescription => "This guy says he's from the past and that he traveled through time. It doesn't seem very credible, but he offers you a proof if you can beat him in a battle. ",
+  }
+
+  TimeTraveler2 = {
+    :ID => "76",
+    :Name => "Time Traveler 2",
+    :QuestGiver => "Time Traveler",
+    :Stage1 => "Battle the 'Time Traveler'",
+    :Location1 => "Olivine City",
+    :QuestDescription => "This guy says he's from the past and that he traveled through time. It doesn't seem very credible, but he offers you a proof if you can beat him in a battle. ",
+  }
+
   
-  
+
+
+
   # Here's an extension of the above that includes multiple stages
   # Quest2 = {
   #   :ID => "2",
@@ -670,7 +876,7 @@ module QuestModule
   #   :QuestDescription => "Some wild Pokémon stole a little boy's favourite toy. Find those troublemakers and help him get it back.",
   #   :RewardString => "Something shiny!"
   # }
-  
+
   # Here's an example of a quest with lots of stages that also doesn't have a stage location defined for every stage
   Quest3 = {
     :ID => "3",
@@ -694,7 +900,7 @@ module QuestModule
     :QuestDescription => "Isn't the alphabet longer than this?",
     :RewardString => "Chicken soup!"
   }
-  
+
   # Here's an example of not defining the quest giver and reward text
   Quest4 = {
     :ID => "4",
@@ -707,7 +913,7 @@ module QuestModule
     :QuestDescription => "You crash landed on an alien planet. There are other humans here and they look hungry...",
     :RewardString => "nil"
   }
-  
+
   # Other random examples you can look at if you want to fill out the UI and check out the page scrolling
   Quest5 = {
     :ID => "5",
@@ -717,7 +923,7 @@ module QuestModule
     :QuestDescription => "Barry told me that he saw something cool at Acuity Lake and that I should go see. I hope it's not another trick.",
     :RewardString => "You win nothing for giving in to peer pressure."
   }
-  
+
   Quest6 = {
     :ID => "6",
     :Name => "The journey begins",
@@ -729,7 +935,7 @@ module QuestModule
     :QuestDescription => "The Professor has entrusted me with an important delivery for the Viridian City Pokémon Mart. This is my first task, best not mess it up!",
     :RewardString => "nil"
   }
-  
+
   Quest7 = {
     :ID => "7",
     :Name => "Close encounters of the... first kind?",
@@ -739,7 +945,7 @@ module QuestModule
     :QuestDescription => "A sudden burst of light, and then...! What are you?",
     :RewardString => "A possible probing."
   }
-  
+
   Quest8 = {
     :ID => "8",
     :Name => "These boots were made for walking",
@@ -750,7 +956,7 @@ module QuestModule
     :Location2 => "Celadon City Sewers",
     :QuestDescription => "A musician was feeling down because he thinks no one likes his music. I should help him drum up some business."
   }
-  
+
   Quest9 = {
     :ID => "9",
     :Name => "Got any grapes?",
@@ -761,7 +967,7 @@ module QuestModule
     :QuestDescription => "Let's try to revive old memes by listening to this funny song about a duck wanting grapes.",
     :RewardString => "A loss of braincells. Hurray!"
   }
-  
+
   Quest10 = {
     :ID => "10",
     :Name => "Singing in the rain",
@@ -772,7 +978,7 @@ module QuestModule
     :QuestDescription => "Whatever you want it to be.",
     :RewardString => "Wet clothes."
   }
-  
+
   Quest11 = {
     :ID => "11",
     :Name => "When is this list going to end?",
@@ -784,7 +990,7 @@ module QuestModule
     :QuestDescription => "I'm losing my sanity.",
     :RewardString => "nil"
   }
-  
+
   Quest12 = {
     :ID => "12",
     :Name => "The laaast melon",

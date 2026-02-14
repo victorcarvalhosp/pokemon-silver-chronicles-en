@@ -9,13 +9,13 @@ Skills = CUT,STRENGTH,FLASH,ROCKSMASH,SWEETSCENT,SUNNYDAY
 Skills = CUT,STRENGTH,FLASH,ROCKSMASH,ROCKCLIMB,SWEETSCENT,SUNNYDAY
 #-------------------------------
 [CHARMANDER]
-Skills = DIG,SUNNYDAY
+Skills = DIG,SUNNYDAY.FLASH
 #-------------------------------
 [CHARMELEON]
-Skills = DIG,SUNNYDAY
+Skills = DIG,SUNNYDAY,FLASH
 #-------------------------------
 [CHARIZARD]
-Skills = FLY,DIG,SUNNYDAY,SANDSTORM
+Skills = FLY,DIG,SUNNYDAY,SANDSTORM,FLASH
 #-------------------------------
 [SQUIRTLE]
 Skills = SURF,STRENGTH,WATERFALL,ROCKSMASH,WHIRLPOOL,DIG,RAINDANCE,HAIL,LIFEDEW
@@ -2034,7 +2034,7 @@ Skills = SURF,WHIRLPOOL,DIG,SUNNYDAY,RAINDANCE,SANDSTORM
 Skills = DIG,SUNNYDAY,SANDSTORM
 #-------------------------------
 [TYRANTRUM]
-Skills = DIG,SUNNYDAY,SANDSTORM
+Skills = DIG,SUNNYDAY,SANDSTORM,STRENGTH
 #-------------------------------
 [AMAURA]
 Skills = RAINDANCE,SANDSTORM,HAIL
@@ -2442,10 +2442,10 @@ Skills = SURF,WATERFALL,WHIRLPOOL,HEADBUTT,RAINDANCE
 Skills = SURF,WATERFALL,WHIRLPOOL,DIG,HEADBUTT,RAINDANCE,SANDSTORM
 #-------------------------------
 [YAMPER]
-Skills = DIG
+Skills = DIG,FLASH
 #-------------------------------
 [BOLTUND]
-Skills = DIG
+Skills = DIG,FLASH
 #-------------------------------
 [ROLYCOLY]
 Skills = DIG,SANDSTORM

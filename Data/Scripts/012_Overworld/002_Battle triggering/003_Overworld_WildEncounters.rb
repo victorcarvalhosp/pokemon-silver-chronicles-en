@@ -246,6 +246,8 @@ class PokemonEncounters
   # Returns the encounter method that the current encounter should be generated
   # from, depending on the player's current location.
   def encounter_type
+    Console.echo_warn "Called encounter_type function"
+
     time = pbGetTimeNow
     ret = nil
     if $PokemonGlobal.surfing
@@ -253,10 +255,13 @@ class PokemonEncounters
     else   # Land/Cave (can have both in the same map)
       if has_land_encounters? && $game_map.terrain_tag($game_player.x, $game_player.y).land_wild_encounters
         ret = :BugContest if pbInBugContest? && has_encounter_type?(:BugContest)
+        Console.echo_warn "Trying to find encounter type for tall grass"
+        Console.echo_warn "Terrain tag is '#{$game_map.terrain_tag($game_player.x, $game_player.y)}' "
         if !ret && $game_map.terrain_tag($game_player.x, $game_player.y).id_number == 10
           ret = find_valid_encounter_type_for_time(:TallGrass, time)
+        else
+          ret = find_valid_encounter_type_for_time(:Land, time) if !ret
         end
-        ret = find_valid_encounter_type_for_time(:Land, time) if !ret
       end
       if !ret && has_cave_encounters?
         ret = find_valid_encounter_type_for_time(:Cave, time)

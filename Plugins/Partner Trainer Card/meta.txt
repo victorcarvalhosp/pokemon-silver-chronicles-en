@@ -1,0 +1,3 @@
+Name = Partner Trainer Card
+Essentials = 20.1
+Credits = victordevjs

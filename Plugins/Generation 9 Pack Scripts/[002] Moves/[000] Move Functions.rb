@@ -1,7 +1,7 @@
 ################################################################################
-# 
+#
 # Updates to old move effects.
-# 
+#
 ################################################################################
 
 
@@ -25,7 +25,7 @@ class Battle::Move::GiveUserStatusToTarget < Battle::Move
         @battle.pbDisplay(_INTL("{1}'s frostbite was healed.", user.pbThis))
       end
     else
-      paldea_pbEffectAgainstTarget
+      paldea_pbEffectAgainstTarget(user, target)
     end
   end
 end
@@ -145,7 +145,7 @@ class Battle::Move::HealUserFullyAndFallAsleep < Battle::Move::HealingMove
     end
     return paldea_pbMoveFailed?(user, targets)
   end
-end  
+end
 
 #===============================================================================
 # Roar, Whirlwind
@@ -229,7 +229,7 @@ class Battle::Move::StartUserSideDoubleSpeed < Battle::Move
   def pbEffectGeneral(user)
     user.pbOwnSide.effects[PBEffects::Tailwind] = 4
     @battle.pbDisplay(_INTL("The Tailwind blew from behind {1}!", user.pbTeam(true)))
-    @battle.allSameSideBattlers.each do |b| 
+    @battle.allSameSideBattlers.each do |b|
       next if !b || b.fainted?
       if b.hasActiveAbility?(:WINDRIDER) && b.pbCanRaiseStatStage?(:ATTACK, b, self)
         b.pbRaiseStatStageByAbility(:ATTACK, 1, b)
@@ -254,7 +254,7 @@ class Battle::Move::UserSwapsPositionsWithAlly < Battle::Move
     super
     user.effects[PBEffects::ProtectRate] = oldVal
   end
-  
+
   alias paldea_pbMoveFailed? pbMoveFailed?
   def pbMoveFailed?(user, targets)
     if Settings::MECHANICS_GENERATION >= 9
@@ -272,7 +272,7 @@ class Battle::Move::UserSwapsPositionsWithAlly < Battle::Move
     end
     return paldea_pbMoveFailed?(user, targets)
   end
-  
+
   alias paldea_pbEffectGeneral pbEffectGeneral
   def pbEffectGeneral(user)
     if Settings::MECHANICS_GENERATION >= 9
@@ -378,7 +378,7 @@ class Battle::Move::UserTargetSwapAbilities < Battle::Move
     end
     return paldea_pbMoveFailed?(user, targets)
   end
-  
+
   alias paldea_pbFailsAgainstTarget? pbFailsAgainstTarget?
   def pbFailsAgainstTarget?(user, target, show_message)
     ret = paldea_pbFailsAgainstTarget?(user, target, show_message)

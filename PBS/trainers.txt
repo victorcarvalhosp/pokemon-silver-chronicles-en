@@ -27,8 +27,8 @@ Pokemon = RATTATA,4
 #-------------------------------
 [YOUNGSTER,Joey,1]
 LoseText = Oh...I'm out of Pokémon that can figth...
-Pokemon = RATTATA,14
-Pokemon = RATTATA,14
+Pokemon = RATTATA,12
+Pokemon = RATTATA,12
 #-------------------------------
 [YOUNGSTER,Joey,2]
 LoseText = Oh...I'm out of Pokémon that can figth...
@@ -55,10 +55,10 @@ Pokemon = WEEDLE,3
 #-------------------------------
 [BUGCATCHER,Wade,1]
 LoseText = Arrgh! Again... You're strong!
-Pokemon = BUTTERFREE,22
-Pokemon = BUTTERFREE,22
-Pokemon = BUTTERFREE,22
-Pokemon = BEEDRILL,23
+Pokemon = BUTTERFREE,12
+Pokemon = BUTTERFREE,12
+Pokemon = BUTTERFREE,12
+Pokemon = BEEDRILL,13
 #-------------------------------
 [MONGE,Nico]
 LoseText = I fought hard but I'm still pretty weak.
@@ -460,10 +460,10 @@ Pokemon = VOLTORB,14
 #-------------------------------
 [JUGGLER,Irwin,1]
 LoseText =  Whew!That was a jolt again!
+Pokemon = VOLTORB,16
+Pokemon = VOLTORB,18
 Pokemon = VOLTORB,22
-Pokemon = VOLTORB,26
-Pokemon = VOLTORB,28
-Pokemon = ELECTRODE,34
+Pokemon = ELECTRODE,24
 #-------------------------------
 [BUGCATCHER,Arnie]
 LoseText =  I see. So you can battle that way.
@@ -1111,15 +1111,15 @@ Pokemon = SLOWBRO,20
 #-------------------------------
 [ROCKET_Male,Grunt]
 LoseText = ...
-Pokemon = DROWZEE,17
+Pokemon = DROWZEE,19
 Pokemon = ZUBAT,19
 #-------------------------------
 [ROCKET_Male,Grunt,42]
 LoseText = Kaboom!
 Pokemon = RATTATA,16
 Pokemon = RATTATA,16
-Pokemon = RATTATA,16
-Pokemon = RATTATA,16
+Pokemon = RATTATA,18
+Pokemon = RATTATA,18
 #-------------------------------
 [SCIENTIST,Jed]
 LoseText = I see...
@@ -1129,18 +1129,18 @@ Pokemon = MAGNETON,28
 #-------------------------------
 [ROCKET_Male,Grunt,43]
 LoseText = Grrrr...
-Pokemon = VENONAT,18
-Pokemon = VENONAT,18
+Pokemon = VENONAT,20
+Pokemon = VENONAT,20
 #-------------------------------
 [ROCKET_Male,Grunt,44]
 LoseText = What? I lost?
-Pokemon = GOLBAT,18
+Pokemon = GOLBAT,26
 #-------------------------------
 [ROCKET_Male,Grunt,46]
 LoseText = I knew I would lost...
-Pokemon = RATTATA,17
+Pokemon = RATTATA,20
 Pokemon = ZUBAT,19
-Pokemon = RATTATA,17
+Pokemon = RATTATA,20
 #-------------------------------
 [SCIENTIST,Ross]
 LoseText = A mere tactical error cost me...
@@ -1149,16 +1149,16 @@ Pokemon = KOFFING,22
 #-------------------------------
 [ROCKET_Female,Grunt]
 LoseText = ...
-Pokemon = EKANS,18
-Pokemon = GLOOM,18
+Pokemon = EKANS,20
+Pokemon = GLOOM,20
 #-------------------------------
 [SCIENTIST,Mitch]
 LoseText = Thinking is my strong suit, not battling.
-Pokemon = DITTO,24
+Pokemon = DITTO,26
 #-------------------------------
 [ROCKET_Male,Grunt,45]
 LoseText = The password for the boss's door is... RATICATETAIL.
-Pokemon = RATICATE,19
+Pokemon = RATICATE,22
 Pokemon = RATICATE,22
 	Form = 1
 #-------------------------------
@@ -1179,7 +1179,7 @@ Pokemon = GLOOM,23
 #-------------------------------
 [ROCKET_Male,Grunt,46]
 LoseText = ...
-Pokemon = DROWZEE,19
+Pokemon = DROWZEE,22
 Pokemon = GRIMER,21
 Pokemon = RATICATE,22
 	Form = 1
@@ -1208,22 +1208,22 @@ Pokemon = JYNX,29
 [LEADER_Pryce,Pryce]
 Items = DYNAMAXBAND
 LoseText = Hmm. Seems as if my luck has run out.
-Pokemon = SEEL,28
+Pokemon = SEEL,29
     Moves = REST,HAIL,ICYWIND,SURF
-Pokemon = MRMIME,29
+Pokemon = MRMIME,30
 	Form = 1
 	Moves = PSYCHIC,FREEZEDRY,DRAINPUNCH,TRICKROOM
-Pokemon = MAMOSWINE,32
+Pokemon = MAMOSWINE,33
     Moves = BLIZZARD,ICEFANG,ANCIENTPOWER,MUDBOMB
-Pokemon = LAPRAS,28
+Pokemon = LAPRAS,29
     Moves = PERISHSONG,BLIZZARD,SURF,CONFUSERAY
 	Ace = yes
     DynamaxLvl = 10
 	Gigantamax = yes
-Pokemon = NINETALES,28
+Pokemon = NINETALES,29
 	Form = 1
     Moves = BLIZZARD,DAZZLINGGLEAM,EXTRASENSORY,DARKPULSE
-Pokemon = DEWGONG,29
+Pokemon = DEWGONG,30
     Moves = AURORABEAM,REST,SLEEPTALK,DIVE
 #-------------------------------
 [LEADER_Pryce,Pryce,1]
@@ -1244,13 +1244,13 @@ Pokemon = LAPRAS,30
 Pokemon = NINETALES,30
     Moves = BLIZZARD,DAZZLINGGLEAM,EXTRASENSORY,DARKPULSE
 	Form = 1
-Pokemon = DEWGONG,30
+Pokemon = DEWGONG,31
     Moves = AURORABEAM,REST,SLEEPTALK,DIVE
 #-------------------------------
 [LEADER_Pryce,Pryce,2]
 Items = DYNAMAXBAND
 LoseText = Hmm. Seems as if my luck has run out.
-Pokemon = SEEL,32
+Pokemon = SEEL,33
     Moves = REST,HAIL,ICYWIND,SURF
 Pokemon = MRMIME,33
 	Form = 1
@@ -3638,6 +3638,15 @@ Pokemon = GEODUDE,23
 LoseText = ...
 Pokemon = ONIX,25
 #-------------------------------
+[GUITARIST,Wesley]
+LoseText = Too much noise...
+Pokemon = MAGNEZONE,58
+    Moves = METALSOUND,SCREECH,THUNDERBOLT
+Pokemon = JIGGLYPUFF,58
+    Moves = SING,HYPERVOICE,PERISHSONG
+Pokemon = ELECTRODE,58
+    Moves = SONICBOOM,SCREECH,LIGHTSCREEN,THUNDERBOLT
+#-------------------------------
 [YOUNGSTER,JOEY]
 LoseText = Whoo! Good stuff.
 Pokemon = VILEPLUME,58
@@ -4648,6 +4657,12 @@ LoseText = Wa ha...
 Pokemon = CLEFABLE,54
 Pokemon = GOLDUCK,56
 Pokemon = PIKACHU,55
+#-------------------------------
+[TEACHER_Female,Lilian]
+LoseText = Really impressive!
+Pokemon = PIKACHU,50
+Pokemon = WIGGLYTUFF,50
+Pokemon = NIDORINA,50
 #-------------------------------
 [BATTLEGIRL,SHEILA]
 LoseText = You're the strongest!
@@ -6086,8 +6101,9 @@ Pokemon = TREECKO,5
 #-------------------------------
 [GIRLFRIEND,Girl,1]
 LoseText = ...
-Pokemon = TREECKO,5
-    Moves = POUND,RAZORLEAF
+Pokemon = MUDKIP,5
+    Moves = TACKLE,WATERGUN
+    Happiness = 20
 #-------------------------------
 [GIRLFRIEND,Girl,2]
 LoseText = ...
@@ -6099,47 +6115,55 @@ LoseText = ...
 Pokemon = TREECKO,5
     Moves = POUND,RAZORLEAF
 #-------------------------------
-[YOUNGSTER,Calvin,2]
-LoseText = ...
-Pokemon = POOCHYENA,5
+[YOUNGSTER_3,Joe]
+LoseText = I need to train more...
+Pokemon = CASCOON,5
+    Moves = HARDEN
 Pokemon = POOCHYENA,3
 #-------------------------------
-[BUGCATCHER,Rick,2]
-LoseText = ...
-Pokemon = WURMPLE,4
-Pokemon = WURMPLE,4
+[YOUNGSTER_3,Calvin]
+LoseText = Arrgh, I lost... I should have trained mine more...
+Pokemon = POOCHYENA,5
+Pokemon = POOCHYENA,4
 #-------------------------------
-[YOUNGSTER,Allen]
-LoseText = ...
-Pokemon = ZIGZAGOON,4
-Pokemon = TAILLOW,3
+[BUGCATCHER_2,Rick]
+LoseText = Ow! Down and out!
+Pokemon = WURMPLE,5
+Pokemon = WURMPLE,5
 #-------------------------------
-[LASS,Tiana]
-LoseText = ...
-Pokemon = ZIGZAGOON,4
-Pokemon = SHROOMISH,4
-#-------------------------------
-[YOUNGSTER,Billy]
-LoseText = ...
+[YOUNGSTER_3,Allen]
+LoseText = I called you because I thought I could beat you...
 Pokemon = ZIGZAGOON,5
+Pokemon = TAILLOW,5
+#-------------------------------
+[LASS_2,Tiana]
+LoseText = I ended up furthering your career...
+Pokemon = ZIGZAGOON,5
+Pokemon = SHROOMISH,5
+#-------------------------------
+[YOUNGSTER_3,Billy]
+LoseText = Waah! I got sand in my runners! They're all gritty!
+Pokemon = TAILLOW,8
 Pokemon = SEEDOT,7
 #-------------------------------
-[BUGCATCHER,Lyle]
-LoseText = ...
-Pokemon = WURMPLE,3
-Pokemon = WURMPLE,3
-Pokemon = WURMPLE,3
-Pokemon = WURMPLE,3
+[BUGCATCHER_2,Lyle]
+LoseText = I have all these Pokémon, but I couldn't win...
+Pokemon = WURMPLE,6
+Pokemon = WURMPLE,6
+Pokemon = WURMPLE,6
+Pokemon = WURMPLE,6
+Pokemon = CASCOON,8
+Pokemon = SILCOON,8
 #-------------------------------
-[FISHERMAN,Darian]
-LoseText = ...
-Pokemon = LOTAD,4
-Pokemon = WAILMER,5
+[FISHERMAN_3,Darian]
+LoseText = I almost drowned.
+Pokemon = LOTAD,8
+Pokemon = WAILMER,7
 #-------------------------------
 [LADY,Cindy]
-LoseText = ...
-Pokemon = ZIGZAGOON,6
-Pokemon = ZIGZAGOON,4
+LoseText = Oh, my!
+Pokemon = ZIGZAGOON,7
+Pokemon = ZIGZAGOON,8
 #-------------------------------
 [TEAMAQUA_Male,Grunt,2]
 LoseText = ...
@@ -6151,31 +6175,32 @@ LoseText = ...
 Pokemon = POOCHYENA,9
 Pokemon = WURMPLE,8
 #-------------------------------
-[BUGCATCHER,James,2]
-LoseText = ...
-Pokemon = NINCADA,6
-Pokemon = NINCADA,6
+[BUGCATCHER_2,James]
+LoseText = I can't be popular if I lose.
+Pokemon = NINCADA,10
+Pokemon = NINCADA,10
 #-------------------------------
-[RICHBOY,Winston,1]
-LoseText = ...
-Pokemon = ZIGZAGOON,7
-Pokemon = ZIGZAGOON,6
+[RICHBOY,Winston]
+LoseText = Why couldn't I win?
+Pokemon = ZIGZAGOON,11
+Pokemon = HERDIER,11
 #-------------------------------
-[LASS,HALEY,2]
-LoseText = ...
-Pokemon = LOTAD,6
-Pokemon = SHROOMISH,6
+[LASS_2,Haley]
+LoseText = I shouldn't have battled...
+Pokemon = LOTAD,11
+Pokemon = SHROOMISH,11
 #-------------------------------
 [TWINS,Hina & Mia]
-LoseText = ...
-Pokemon = SEEDOT,6
-Pokemon = LOTAD,6
+LoseText = We battled together, but we both lost...
+Pokemon = SEEDOT,11
+Pokemon = LOTAD,12
 #-------------------------------
 [FISHERMAN,Ivan]
-LoseText = ...
-Pokemon = CARVANHA,5
-Pokemon = CARVANHA,6
-Pokemon = CARVANHA,7
+LoseText = I thought I wasn't too bad, if I may say so, but I guess not... Bleah...
+Pokemon = CARVANHA,11
+Pokemon = TYMPOLE,11
+Pokemon = CARVANHA,11
+Pokemon = TYMPOLE,11
 #-------------------------------
 [SCHOOLKID_Boy,Adam,1]
 LoseText = ...
@@ -6517,11 +6542,6 @@ Pokemon = NINCADA,8
 LoseText = ...
 Pokemon = NINCADA,6
 Pokemon = NINCADA,6
-#-------------------------------
-[RICHBOY,Winston]
-LoseText = ...
-Pokemon = ZIGZAGOON,7
-Pokemon = ZIGZAGOON,6
 #-------------------------------
 [YOUNGSTER,Tommy]
 LoseText = ...
@@ -7194,30 +7214,55 @@ Pokemon = SLUGMA,25
 Pokemon = CAMERUPT,27
 Pokemon = TORKOAL,30
 #-------------------------------
-[COOLTRAINER_Male,Randall]
-LoseText = ...
-Pokemon = SWELLOW,26
-Pokemon = SWELLOW,26
+[COOLTRAINER_Male_2,Randall]
+LoseText = That was a magnificent battle!
+Pokemon = SKITTY,6
+Pokemon = SKITTY,7
 #-------------------------------
-[COOLTRAINER_Female,Mary]
-LoseText = ...
-Pokemon = DELCATTY,26
-Pokemon = DELCATTY,26
+[COOLTRAINER_Female_2,Mary]
+LoseText = You are a cut above me...
+Pokemon = TAILLOW,6
+Pokemon = LILLIPUP,7
 #-------------------------------
-[COOLTRAINER_Female,Alexia]
-LoseText = ...
-Pokemon = WIGGLYTUFF,26
-Pokemon = WIGGLYTUFF,26
+[COOLTRAINER_Female_2,Alexia]
+LoseText = My defense was not good enough.
+Pokemon = ZIGZAGOON,7
+    Item = EVIOLITE
+Pokemon = ZIGZAGOON,8
+    Item = EVIOLITE
 #-------------------------------
-[COOLTRAINER_Female,Jody]
-LoseText = ...
-Pokemon = ZANGOOSE,26
-Pokemon = ZANGOOSE,26
+[COOLTRAINER_Female_2,Jody]
+LoseText = My Pokémon's status weren't lowered, but I still lost...
+Pokemon = SLAKOTH,8
+Pokemon = SLAKOTH,9
 #-------------------------------
-[COOLTRAINER_Male,Berke]
-LoseText = ...
-Pokemon = VIGOROTH,26
-Pokemon = VIGOROTH,26
+[COOLTRAINER_Male_2,Berke]
+LoseText = Your power... You're the real deal.
+Pokemon = ZANGOOSE,8
+    Item = RAZORCLAW
+Pokemon = PATRAT,9
+    Item = RAZORCLAW
+#-------------------------------
+[LEADER_WALLY,Wally]
+Items = DYNAMAXBAND
+LoseText = Wow! You are strong, after all!
+Pokemon = SLAKOTH,10
+    Moves = YAWN,ENCORE,SLASH,TICKLE
+Pokemon = SPINDA,10
+    Moves = PSYBEAM,HYPNOSIS,FAKEOUT,DISABLE
+Pokemon = MINCCINO,10
+    Gender = female
+    Moves = BABYDOLLEYES,ECHOEDVOICE,AQUATAIL,KNOCKOFF
+Pokemon = VIGOROTH,12
+    Moves = ENCORE,UPROAR,FOCUSENERGY,SCRATCH
+Pokemon = SKITTY,10
+    Gender = female
+    Moves = FAKEOUT,ATTRACT,SING,DISARMINGVOICE
+Pokemon = SLAKING,12
+    Ace = yes
+    DynamaxLvl = 10
+    Gigantamax = yes
+    Moves = SLACKOFF,ENCORE,SCRATCH,AMNESIA 
 #-------------------------------
 [LEADER_Norman,Norman]
 LoseText = ...
@@ -8118,3 +8163,48 @@ Pokemon = SANDACONDA,64
 Pokemon = INCINEROAR,64
 Pokemon = VIKAVOLT,64
 #-------------------------------
+[SALARYMAN, Richard]
+LoseText = ...Yeah. You’re the real deal.
+Pokemon = MAGNETON,55
+Pokemon = HYPNO,56
+Pokemon = RATICATE,55
+Pokemon = MACHOKE,56
+Pokemon = PORYGON,56
+Pokemon = GOLBAT,55
+#-------------------------------
+[BLACKBELT,Thomas]
+LoseText = You're strong!
+Pokemon = THROH,8
+#-------------------------------
+[BLACKBELT_2,Silas]
+LoseText = You're strong!
+Pokemon = SAWK,8
+#-------------------------------
+[TIMETRAVELER,Hideyoshi]
+LoseText = You're strong!
+Pokemon = DONPHAN,28
+Pokemon = MAGCARGO,28
+Pokemon = RATICATE,28
+    Form = 1
+#-------------------------------
+[TIMETRAVELER,Hideyoshi,1]
+LoseText = You're strong!
+Pokemon = DONPHAN,32
+Pokemon = MAGCARGO,32
+Pokemon = RATICATE,32
+    Form = 1
+#-------------------------------
+[TIMETRAVELER,Hideyoshi,2]
+LoseText = You're strong!
+Pokemon = DONPHAN,36
+Pokemon = MAGCARGO,36
+Pokemon = RATICATE,36
+    Form = 1
+#-------------------------------
+[TIMETRAVELER,Hideyoshi,3]
+LoseText = You're strong!
+Pokemon = DONPHAN,40
+Pokemon = MAGCARGO,40
+Pokemon = RATICATE,40
+    Form = 1
+

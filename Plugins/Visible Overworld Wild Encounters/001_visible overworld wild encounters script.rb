@@ -220,7 +220,7 @@ module VisibleEncounterSettings
   SPAWN_RANGE = 4 # default 4
   # This parameter needs to be a positive integer. It is the maximum range from the player a PokeEvent will be able to spawn 
 
-  RESTRICT_ENCOUNTERS_TO_PLAYER_MOVEMENT = false # default false
+  RESTRICT_ENCOUNTERS_TO_PLAYER_MOVEMENT = true # default false
   # true - means that water encounters are popping up
   #       if and only if player is surfing
   #       (perhaps decreases encounter rate)
@@ -502,7 +502,11 @@ class PokemonEncounters
     else   # Land/Cave (can have both in the same map)
       if has_land_encounters? && $game_map.terrain_tag(x, y).land_wild_encounters
         ret = :BugContest if pbInBugContest? && has_encounter_type?(:BugContest)
-        ret = find_valid_encounter_type_for_time(:Land, time) if !ret
+        if !ret && $game_map.terrain_tag($game_player.x, $game_player.y).id_number == 10
+          ret = find_valid_encounter_type_for_time(:TallGrass, time)
+        else
+          ret = find_valid_encounter_type_for_time(:Land, time) if !ret
+        end
       end
       if !ret && has_cave_encounters?
         ret = find_valid_encounter_type_for_time(:Cave, time)
@@ -599,7 +603,6 @@ class Game_Map
     graphic_shiny = (VisibleEncounterSettings::SPRITES[2] && shiny!=nil) ? shiny : false
     fname = ow_sprite_filename_with_water(x, y, encounter[0].to_s, graphic_form, graphic_gender, graphic_shiny)
 
-    Console.echo("Filename is #{fname}")
     fname.gsub!("Graphics/Characters/","")
 
     event.pages[0].graphic.character_name = fname
@@ -711,7 +714,6 @@ def ow_sprite_filename_with_water(x, y, species, form = 0, gender = 0, shiny = f
     :shiny => shiny,
     :shadow => shadow
   }
-  Console.echo("params is #{params}")
 
   fname = nil
   fname = GameData::Species.check_graphic_file("Graphics/Characters/", params, "Swimming Shiny") if water_tile and shiny
@@ -720,8 +722,6 @@ def ow_sprite_filename_with_water(x, y, species, form = 0, gender = 0, shiny = f
   fname = GameData::Species.check_graphic_file("Graphics/Characters/", params, "Levitates") if water_tile and nil_or_empty?(fname)
   fname = GameData::Species.check_graphic_file("Graphics/Characters/", params, "Followers") if nil_or_empty?(fname)
   fname = "Graphics/Characters/Followers/000.png" if nil_or_empty?(fname)
-
-  Console.echo("Filename is #{fname}")
 
   return fname
 end

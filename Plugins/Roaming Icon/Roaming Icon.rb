@@ -40,6 +40,7 @@ class PokemonRegionMap_Scene
       roam_town_map_pos = GameData::MapMetadata.try_get(
         roam_pos[1]
       )&.town_map_position
+      next if !roam_town_map_pos
       next if mapindex!=roam_town_map_pos[0]
       x = roam_town_map_pos[1]
       y = roam_town_map_pos[2]

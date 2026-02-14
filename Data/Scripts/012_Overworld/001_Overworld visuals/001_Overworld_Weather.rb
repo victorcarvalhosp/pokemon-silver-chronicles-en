@@ -24,7 +24,7 @@ module RPG
 
     def initialize(viewport = nil)
       @viewport         = Viewport.new(0, 0, Graphics.width, Graphics.height)
-      @viewport.z       = viewport.z + 1
+      @viewport.z       = [viewport.z + 1, 250].max   # Ensure weather appears above pictures (z=200)
       @origViewport     = viewport
       # [array of particle bitmaps, array of tile bitmaps,
       #  +x per second (particle), +y per second (particle), +opacity per second (particle),
@@ -162,7 +162,7 @@ module RPG
       if @sprites.length < MAX_SPRITES && @weatherTypes[@type] && @weatherTypes[@type][1].length > 0
         MAX_SPRITES.times do |i|
           if !@sprites[i]
-            sprite = Sprite.new(@origViewport)
+            sprite = Sprite.new(@viewport)
             sprite.z       = 1000
             sprite.ox      = @ox
             sprite.oy      = @oy
@@ -177,7 +177,7 @@ module RPG
          @weatherTypes[@target_type][1].length > 0
         MAX_SPRITES.times do |i|
           if !@new_sprites[i]
-            sprite = Sprite.new(@origViewport)
+            sprite = Sprite.new(@viewport)
             sprite.z       = 1000
             sprite.ox      = @ox
             sprite.oy      = @oy
@@ -194,7 +194,7 @@ module RPG
       return if @tiles.length >= @tiles_wide * @tiles_tall
       (@tiles_wide * @tiles_tall).times do |i|
         if !@tiles[i]
-          sprite = Sprite.new(@origViewport)
+          sprite = Sprite.new(@viewport)
           sprite.z       = 1000
           sprite.ox      = @ox
           sprite.oy      = @oy

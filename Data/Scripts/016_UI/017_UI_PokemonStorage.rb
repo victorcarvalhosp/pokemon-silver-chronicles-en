@@ -1,3 +1,13 @@
+HOENN_SWITCH = 479
+FIRST_BADGE_SWITCH = 867
+SECOND_BADGE_SWITCH = 481
+THIRD_BADGE_SWITCH = 482
+FOURTH_BADGE_SWITCH = 483
+FIFTH_BADGE_SWITCH = 484
+SIXTH_BADGE_SWITCH = 485
+SEVENTH_BADGE_SWITCH = 486
+EIGHTH_BADGE_SWITCH = 487
+
 #===============================================================================
 # Pokémon icons
 #===============================================================================
@@ -1143,11 +1153,11 @@ class PokemonStorageScene
   end
 
   def pbWithdraw(selected, heldpoke, partyindex)
-    pbHold(selected) if !heldpoke
-    pbShowPartyTab
-    pbPartySetArrow(@sprites["arrow"], partyindex)
-    pbPlace([-1, partyindex], heldpoke)
-    pbHidePartyTab
+      pbHold(selected) if !heldpoke
+      pbShowPartyTab
+      pbPartySetArrow(@sprites["arrow"], partyindex)
+      pbPlace([-1, partyindex], heldpoke)
+      pbHidePartyTab
   end
 
   def pbStore(selected, heldpoke, destbox, firstfree)
@@ -1679,25 +1689,73 @@ class PokemonStorageScreen
     return @heldpkmn
   end
 
-  def pbWithdraw(selected, heldpoke)
-    box = selected[0]
-    index = selected[1]
-    if box == -1
-      raise _INTL("Can't withdraw from party...")
+  def pbCanWithdraw(selected, heldpoke = nil)
+
+    
+    # If switch 479 is off, always allow withdrawal
+    if !$game_switches[HOENN_SWITCH]
+      return true
     end
-    if @storage.party_full?
-      pbDisplay(_INTL("Your party's full!"))
+    
+    
+    # Get the Pokemon to check - either from heldpoke or from storage
+    pokemon = heldpoke
+    if !pokemon && selected
+      box = selected[0]
+      index = selected[1]
+      if box >= 0
+        pokemon = @storage[box, index]
+      end
+    end
+    
+    # If switch 479 is on, check conditions
+    if !pokemon
       return false
     end
-    @scene.pbWithdraw(selected, heldpoke, @storage.party.length)
-    if heldpoke
-      @storage.pbMoveCaughtToParty(heldpoke)
-      @heldpkmn = nil
-    else
-      @storage.pbMove(-1, -1, box, index)
+    
+    # Condition 1: If second badge is on and pokemon level is below 25, return true
+    if $game_switches[SECOND_BADGE_SWITCH] && pokemon.level < 25
+      return true
     end
-    @scene.pbRefresh
-    return true
+    
+    # Condition 2: If first badge is on and pokemon level is below 15, return true
+    if $game_switches[FIRST_BADGE_SWITCH] && pokemon.level < 15
+      return true
+    end
+    
+    # Condition 3: If Pokemon is in Hoenn regional dex (region 2), return true
+    hoennDexNumber = pbGetRegionalNumber(2, pokemon.species)
+    if hoennDexNumber > 0
+      return true
+    end
+    
+    # Otherwise, return false
+    return false
+  end  
+
+  def pbWithdraw(selected, heldpoke)
+    if(pbCanWithdraw(selected, heldpoke) == false) 
+      pbDisplay(_INTL("Per League regulations, you can't withdraw this Pokémon."))
+    else
+      box = selected[0]
+      index = selected[1]
+      if box == -1
+        raise _INTL("Can't withdraw from party...")
+      end
+      if @storage.party_full?
+        pbDisplay(_INTL("Your party's full!"))
+        return false
+      end
+      @scene.pbWithdraw(selected, heldpoke, @storage.party.length)
+      if heldpoke
+        @storage.pbMoveCaughtToParty(heldpoke)
+        @heldpkmn = nil
+      else
+        @storage.pbMove(-1, -1, box, index)
+      end
+      @scene.pbRefresh
+      return true
+    end
   end
 
   def pbStore(selected, heldpoke)
@@ -1763,39 +1821,47 @@ class PokemonStorageScreen
   end
 
   def pbPlace(selected)
-    box = selected[0]
-    index = selected[1]
-    if @storage[box, index]
-      raise _INTL("Position {1},{2} is not empty...", box, index)
-    elsif box != -1
-      if index >= @storage.maxPokemon(box)
-        pbDisplay("Can't place that there.")
-        return
-      elsif @heldpkmn.mail
-        pbDisplay("Please remove the mail.")
-        return
-      elsif @heldpkmn.cannot_store
-        pbDisplay(_INTL("{1} refuses to go into storage!", @heldpkmn.name))
-        return
+      box = selected[0]
+      index = selected[1]
+      if(pbCanWithdraw(selected, nil) == false && box == -1) 
+        pbDisplay(_INTL("Per League regulations, you can't withdraw this Pokémon."))
+      else
+        if @storage[box, index]
+          raise _INTL("Position {1},{2} is not empty...", box, index)
+        elsif box != -1
+          if index >= @storage.maxPokemon(box)
+            pbDisplay("Can't place that there.")
+            return
+          elsif @heldpkmn.mail
+            pbDisplay("Please remove the mail.")
+            return
+          elsif @heldpkmn.cannot_store
+            pbDisplay(_INTL("{1} refuses to go into storage!", @heldpkmn.name))
+            return
+          end
+        end
+        if Settings::HEAL_STORED_POKEMON && box >= 0
+          old_ready_evo = @heldpkmn.ready_to_evolve
+          @heldpkmn.heal
+          @heldpkmn.ready_to_evolve = old_ready_evo
+        end
+        @scene.pbPlace(selected, @heldpkmn)
+        @storage[box, index] = @heldpkmn
+        if box == -1
+          @storage.party.compact!
+        end
+        @scene.pbRefresh
+        @heldpkmn = nil
       end
-    end
-    if Settings::HEAL_STORED_POKEMON && box >= 0
-      old_ready_evo = @heldpkmn.ready_to_evolve
-      @heldpkmn.heal
-      @heldpkmn.ready_to_evolve = old_ready_evo
-    end
-    @scene.pbPlace(selected, @heldpkmn)
-    @storage[box, index] = @heldpkmn
-    if box == -1
-      @storage.party.compact!
-    end
-    @scene.pbRefresh
-    @heldpkmn = nil
   end
 
   def pbSwap(selected)
     box = selected[0]
     index = selected[1]
+    if(pbCanWithdraw(selected, @heldpkmn) == false && box == -1)
+      pbDisplay(_INTL("Per League regulations, you can't withdraw this Pokémon."))
+      return false
+    end
     if !@storage[box, index]
       raise _INTL("Position {1},{2} is empty...", box, index)
     end

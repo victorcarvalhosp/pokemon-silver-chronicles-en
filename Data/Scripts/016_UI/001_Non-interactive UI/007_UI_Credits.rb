@@ -61,6 +61,7 @@ Leonan Carvalho "Grundor"
 Robson de Souza "Binho"
 Higor Renan "DarknessX"
 Hugo Conceição "Hitsugaya Ryussen"
+Enrique Rodrigues "Enrisco"
 Victor Fernandes de Carvalho "@victordevjs"
 
 Screenwriters:
@@ -103,6 +104,11 @@ hyo-oppa
 The-Red-eX
 Lime029
 Gracidya
+aveontrainer
+Dewdneym
+maicerochico
+zetavares852
+StreakOfSprites
 
 {INSERTS_PLUGIN_CREDITS_DO_NOT_REMOVE}
 

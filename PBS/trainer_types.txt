@@ -9,10 +9,16 @@ IntroBGM = SEQ_EYE_ETHAN
 [PkMnTRAINER_Female]
 Name = PkMn TRAINER
 Gender = Unknown
-BaseMoney = 30
+BaseMoney = 40
 IntroBGM = SEQ_EYE_LYRA
 #-------------------------------
 [LASS]
+Name = LASS
+Gender = Female
+BaseMoney = 30
+IntroBGM = SEQ_EYE_GIRL
+#-------------------------------
+[LASS_2]
 Name = LASS
 Gender = Female
 BaseMoney = 30
@@ -25,6 +31,12 @@ BaseMoney = 30
 IntroBGM = SEQ_EYE_BOY
 #-------------------------------
 [YOUNGSTER_2]
+Name = YOUNGSTER
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_BOY
+#-------------------------------
+[YOUNGSTER_3]
 Name = YOUNGSTER
 Gender = Male
 BaseMoney = 30
@@ -54,6 +66,12 @@ BaseMoney = 30
 IntroBGM = SEQ_EYE_FISHERMAN
 #-------------------------------
 [FISHERMAN_2]
+Name = FISHERMAN
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_FISHERMAN
+#-------------------------------
+[FISHERMAN_3]
 Name = FISHERMAN
 Gender = Male
 BaseMoney = 30
@@ -99,6 +117,12 @@ Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_KID
 #-------------------------------
+[BUGCATCHER_2]
+Name = BUG CATCHER
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_KID
+#-------------------------------
 [SCHOOLKID_Boy]
 Name = SCHOOL KID
 Gender = Male
@@ -117,6 +141,12 @@ Gender = Unknown
 BaseMoney = 30
 #-------------------------------
 [BLACKBELT]
+Name = BLACK BELT
+Gender = Male
+BaseMoney = 30
+IntroBGM = SEQ_EYE_FIGHT
+#-------------------------------
+[BLACKBELT_2]
 Name = BLACK BELT
 Gender = Male
 BaseMoney = 30
@@ -359,6 +389,18 @@ BaseMoney = 50
 IntroBGM = SEQ_EYE_ACE
 #-------------------------------
 [COOLTRAINER_Female]
+Name = COOLTRAINER
+Gender = Female
+BaseMoney = 50
+IntroBGM = SEQ_EYE_ACE
+#-------------------------------
+[COOLTRAINER_Male_2]
+Name = COOLTRAINER
+Gender = Male
+BaseMoney = 50
+IntroBGM = SEQ_EYE_ACE
+#-------------------------------
+[COOLTRAINER_Female_2]
 Name = COOLTRAINER
 Gender = Female
 BaseMoney = 50
@@ -788,14 +830,16 @@ Gender = Unknown
 BaseMoney = 30
 #-------------------------------
 [BOYFRIEND]
-Name = Treinador
-Gender = Unknown
-BaseMoney = 30
+Name = PkMn TRAINER
+Gender = Male
+BaseMoney = 60
+IntroBGM = Boyfriend as Rival
 #-------------------------------
 [GIRLFRIEND]
-Name = Treinadora
-Gender = Unknown
-BaseMoney = 30
+Name = PkMn TRAINER
+Gender = Female
+BaseMoney = 60
+IntroBGM = Girlfriend as Rival
 #-------------------------------
 [LEADER_Roxanne]
 Name = LEADER
@@ -883,37 +927,44 @@ Name = Guardiao
 Gender = Unknown
 BaseMoney = 30
 #-------------------------------
+[LEADER_WALLY]
+Name = LEADER
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle-Gym_Leader
+VictoryBGM = pgs_gymvictory
+#-------------------------------
 [LEADER_Flannery]
 Name = LEADER
-Gender = Unknown
+Gender = Female
 BaseMoney = 100
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_Norman]
 Name = LEADER
-Gender = Unknown
+Gender = Male
 BaseMoney = 100
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_Winona]
 Name = LEADER
-Gender = Unknown
+Gender = Female
 BaseMoney = 100
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [LEADER_LizaTate]
 Name = LEADER
-Gender = Unknown
+Gender = Female
 BaseMoney = 100
 BattleBGM = Battle-Gym_Leader
 VictoryBGM = pgs_gymvictory
 #-------------------------------
 [TEAMMAGMA_Leader]
 Name = TEAM MAGMA
-Gender = Unknown
+Gender = Male
 BaseMoney = 100
 IntroBGM = Encounter-Team_Magma
 #-------------------------------
@@ -1057,3 +1108,20 @@ Name = Peasant
 Gender = Male
 BaseMoney = 30
 IntroBGM = SEQ_EYE_COOLTRAINER_SNOW
+#-------------------------------
+[SALARYMAN]
+Name = Salary Man
+Gender = Male
+BaseMoney = 50
+IntroBGM = Encounter-Salaryman
+#-------------------------------
+[TEACHER_Female]
+Name = Teacher
+Gender = Female
+BaseMoney = 40
+#-------------------------------
+[TIMETRAVELER]
+Name = Time Traveler
+Gender = Male
+BaseMoney = 0
+IntroBGM = Encounter-Psychic

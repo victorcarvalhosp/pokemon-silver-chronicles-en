@@ -37,7 +37,8 @@ module Settings
   # The odds of a newly generated Pokémon being shiny (out of 65536).
   SHINY_POKEMON_CHANCE = (MECHANICS_GENERATION >= 6) ? 16 : 8
   # Whether super shininess is enabled (uses a different shiny animation).
-  SUPER_SHINY          = (MECHANICS_GENERATION >= 8)
+  # SUPER_SHINY          = (MECHANICS_GENERATION >= 8)
+  SUPER_SHINY  = false
   # The odds of a wild Pokémon/bred egg having Pokérus (out of 65536).
   POKERUS_CHANCE       = 3
 
@@ -142,7 +143,9 @@ module Settings
   RIVAL_NAMES = [
     [:Rival, 111],
     [:RIVAL2, 12],
-    [:CHAMPION, 12]
+    [:CHAMPION, 12],
+    [:GIRLFRIEND,76],
+    [:BOYFRIEND,77],
 ]
 
   #=============================================================================
@@ -160,7 +163,7 @@ module Settings
   BADGE_FOR_FLASH          = 0
   BADGE_FOR_CUT            = 2
   BADGE_FOR_ROCKSMASH      = 3
-  BADGE_FOR_STRENGTH       = 6
+  BADGE_FOR_STRENGTH       = 5
   BADGE_FOR_SURF           = 4
   BADGE_FOR_FLY            = 1
   BADGE_FOR_WHIRLPOOL      = 7
@@ -295,6 +298,12 @@ module Settings
     152 => [4,  9, 11, 13, 41, 53, 78, 82, 93, 95, 136, 169],
     169 => [4,  9, 11, 13, 41, 53, 78, 82, 93, 95, 136, 152]
   }
+
+  # This was added just as fallback for old game versions that had the roaming Latias and Lations in Johto
+  GENERIC_ROAMING_AREAS_FALLBACK = {
+    849  => [   850,   ],
+    850 => [849,    ],
+  }
   
   # A set of arrays, each containing the details of a roaming Pokémon. The
   # information within each array is as follows:
@@ -306,15 +315,17 @@ module Settings
   #   * Name of BGM to play for that encounter (optional).
   #   * Roaming areas specifically for this Pokémon (optional).
   ROAMING_SPECIES = [
-    [:LATIAS, 30, 53, 0, "Battle roaming"],
-    [:LATIOS, 30, 53, 0, "Battle roaming"],
-    [:KYOGRE, 40, 54, 2, nil, {
+    # Need to keep these Rattata's roaming, as they are a "fix" for default examples Latias and Lations
+    # that I can't remove as it breaks the old save files. So I just replaced them with weak Rattata's.
+    [:RATTATA, 5, 999, 0, "Battle roaming", GENERIC_ROAMING_AREAS_FALLBACK],
+    [:RATTATA, 5, 999, 0, "Battle roaming", GENERIC_ROAMING_AREAS_FALLBACK],
+    [:RATTATA, 5, 999, 2, nil, {
       2  => [   21, 31    ],
       21 => [2,     31, 69],
       31 => [2, 21,     69],
       69 => [   21, 31    ]
     }],
-    [:LATIOS, 30, 53, 0, "Battle roaming"],
+    [:RATTATA, 5, 999, 0, "Battle roaming",GENERIC_ROAMING_AREAS_FALLBACK],
     [:MEOWTH_2, 40, 752, 1, nil, JOHTO_ROAMING_AREAS ]
 
   ]

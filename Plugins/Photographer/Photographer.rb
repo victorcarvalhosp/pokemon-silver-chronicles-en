@@ -196,4 +196,79 @@ def pbPhotographSimple()
  
 
 end  
+
+
+
+def pbPhotographWithPartner(follower_id)
+  # pbToneChangeAll(Tone.new(-255,-255,-255),0)
+  # viewport=Viewport.new(0,0,Graphics.width,Graphics.height)
+  # viewport.z=99
+  # bg=Sprite.new(viewport)
+  # bg.bitmap=Bitmap.new("Graphics/Transitions/Black.png")
+  
+  # bg.opacity=0
+  # Fade in
+  # 20.times do
+  #   bg.opacity+=13
+  #   pbWait(1)
+  # end
+  # # Stay
+  # bg.opacity=255
+  # pbWait(60)
+  # # Fade out
+  # 20.times do
+  #   bg.opacity-=13
+  #   pbWait(1)
+  # end
+  # bg.dispose
+  # viewport.dispose
+  # pbWait(1)
+  # pbToneChangeAll(Tone.new(0,0,0),0)
+
+  pbToneChangeAll(Tone.new(-255,-255,-255),5)
+  pbWait(10)
+
+  pbMoveRoute($game_player, [PBMoveRoute::TurnDown])
+
+  partner = Followers.get(follower_id)
+  partner.moveto($game_player.x-1,$game_player.y)
+  pbMoveRoute(partner, [PBMoveRoute::TurnDown])
+
+  xPosition = $game_player.x - 2
+  yPosition = $game_player.y - 1
+  events = []
+  for i in 0...$player.party.length
+    if(i < 3)
+      xPosition = xPosition + 1
+    elsif(i >= 3)
+      if(i === 3)
+        xPosition = $game_player.x - 2
+        yPosition = yPosition - 1
+      end
+      xPosition = xPosition + 1
+    end
+
+    if(!$player.party[i].egg?)
+      events.push($game_map.addPokemonOWToMapForPhotography(xPosition, yPosition, $player.party[i]))
+    end
+  end
+
+  # ZOOM IN  
+  # Just use this if you have the zoom plugin: https://reliccastle.com/resources/810/
+  pbZoomMap(2,1,"in")
+  # $game_map.scroll_up(10)
+  pbScrollMap(8, 2, 5) # Move camera two tiles up
+
+  pbPhotographSimple()
+
+  pbScrollMap(2, 2, 5) # Go camera back two tiles down
+
+  for event in events
+    $game_map.events[event.id]&.erase
+    $PokemonMap&.addErasedEvent(event.id)
+  end
+
+  pbToneChangeAll(Tone.new(0,0,0),10)
+
+end
   

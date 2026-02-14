@@ -810,14 +810,14 @@ DiveMap = 300
 [190]   # Hall da Fama Johto
 Name = Hall da Fama Johto
 #-------------------------------
-[200]   # Littleroot town
+[200]   # Littleroot Town
 Name = Littleroot town
 Outdoor = true
 ShowArea = true
 HealingSpot = 200,16,17
 MapPosition = 2,7,12
 #-------------------------------
-[201]   # rota 101
+[201]   # Route 101
 Name = rota 101
 Outdoor = true
 MapPosition = 2,7,11
@@ -829,24 +829,24 @@ ShowArea = true
 HealingSpot = 202,14,8
 MapPosition = 2,5,11
 #-------------------------------
-[203]   # rota 102
+[203]   # Route 102
 Name = rota 102
 Outdoor = true
 MapPosition = 2,5,11
 #-------------------------------
-[204]   # rota 103
+[204]   # Route 103
 Name = rota 103
 Outdoor = true
 MapPosition = 2,8,9
 #-------------------------------
-[205]   # Petalburg
+[205]   # Petalburg City
 Name = Petalburg
 Outdoor = true
 ShowArea = true
 HealingSpot = 205,20,23
 MapPosition = 2,4,10
 #-------------------------------
-[206]   # Rota 104
+[206]   # Route 104
 Name = Rota 104
 Outdoor = true
 MapPosition = 2,4,9
@@ -880,7 +880,7 @@ Name = Rota 109
 Outdoor = true
 MapPosition = 2,10,13
 #-------------------------------
-[227]   # Pokecenter
+[227]   # Oldale Town - Poké Center
 Name = Pokecenter
 MapPosition = 2,5,11
 #-------------------------------
@@ -991,14 +991,14 @@ Name = National Park
 MapPosition = 0,13,8
 #-------------------------------
 [263]   # Pallet Town
-Name = Pallet town
+Name = Pallet Town
 Outdoor = true
 ShowArea = true
-HealingSpot = 263,27,21
+HealingSpot = 263,28,21
 MapPosition = 1,13,12
 #-------------------------------
 [264]   # Route 1
-Name = Rota 01
+Name = Route 01
 Outdoor = true
 MapPosition = 1,13,11
 #-------------------------------
@@ -1010,7 +1010,7 @@ HealingSpot = 265,22,30
 MapPosition = 1,13,9
 #-------------------------------
 [266]   # Route 2
-Name = Rota 2
+Name = Route 2
 Outdoor = true
 MapPosition = 1,13,7
 #-------------------------------
@@ -1027,7 +1027,7 @@ HealingSpot = 269,16,37
 MapPosition = 1,13,4
 #-------------------------------
 [270]   # Route 3
-Name = Rota 3
+Name = Route 3
 Outdoor = true
 MapPosition = 1,16,4
 #-------------------------------
@@ -1233,6 +1233,10 @@ Name = Rota 22
 Outdoor = true
 MapPosition = 1,10,9
 #-------------------------------
+[366]   # Viridian City - School
+Name = Viridian City - School
+BattleBack = indoor4
+#-------------------------------
 [370]   # Pewter City - Gym
 Name = Pewter City - Gym
 MapPosition = 1,13,3
@@ -1247,12 +1251,12 @@ BattleBack = water
 Environment = StillWater
 #-------------------------------
 [377]   # Route 4
-Name = Rota 4
+Name = Route 4
 Outdoor = true
 MapPosition = 1,17,4
 #-------------------------------
 [379]   # Route 5
-Name = Rota 5
+Name = Route 5
 Outdoor = true
 MapPosition = 1,21,6
 #-------------------------------
@@ -1264,17 +1268,17 @@ HealingSpot = 380,15,7
 MapPosition = 1,21,10
 #-------------------------------
 [381]   # Route 6
-Name = Rota 6
+Name = Route 6
 Outdoor = true
 MapPosition = 1,21,9
 #-------------------------------
 [382]   # Route 24
-Name = Rota 24
+Name = Route 24
 Outdoor = true
 MapPosition = 1,22,3
 #-------------------------------
 [383]   # Route 25
-Name = Rota 25
+Name = Route 25
 Outdoor = true
 MapPosition = 1,24,2
 #-------------------------------
@@ -1287,7 +1291,7 @@ MapPosition = 1,21,8
 BattleBack = city
 #-------------------------------
 [385]   # Route 7
-Name = Rota 7
+Name = Route 7
 Outdoor = true
 MapPosition = 1,20,8
 #-------------------------------
@@ -1295,21 +1299,21 @@ MapPosition = 1,20,8
 Name = Celadon City
 Outdoor = true
 ShowArea = true
-HealingSpot = 386,48,16
+HealingSpot = 386,47,16
 MapPosition = 1,18,8
 #-------------------------------
 [387]   # Route 8
-Name = Rota 8
+Name = Route 8
 Outdoor = true
 MapPosition = 1,24,8
 #-------------------------------
 [388]   # Route 9
-Name = Rota 9
+Name = Route 9
 Outdoor = true
 MapPosition = 1,23,5
 #-------------------------------
 [389]   # Route 10
-Name = Rota 10
+Name = Route 10
 Outdoor = true
 MapPosition = 1,25,7
 #-------------------------------
@@ -1329,7 +1333,7 @@ MapPosition = 1,17,4
 BattleBack = cave2
 #-------------------------------
 [403]   # Route 11
-Name = Rota 11
+Name = Route 11
 Outdoor = true
 MapPosition = 1,24,10
 #-------------------------------
@@ -1342,27 +1346,27 @@ Name = Digletts Cave
 MapPosition = 1,17,6
 #-------------------------------
 [408]   # Route 12
-Name = Rota 12
+Name = Route 12
 Outdoor = true
 MapPosition = 1,25,10
 #-------------------------------
 [409]   # Route 13
-Name = Rota 13
+Name = Route 13
 Outdoor = true
 MapPosition = 1,25,12
 #-------------------------------
 [410]   # Route 14
-Name = Rota 14
+Name = Route 14
 Outdoor = true
 MapPosition = 1,23,13
 #-------------------------------
 [411]   # Route 15
-Name = Rota 15
+Name = Route 15
 Outdoor = true
 MapPosition = 1,21,14
 #-------------------------------
 [414]   # Route 16
-Name = Rota 16
+Name = Route 16
 Outdoor = true
 MapPosition = 1,17,9
 #-------------------------------
@@ -1374,7 +1378,7 @@ MapPosition = 1,16,11
 BattleBack = city
 #-------------------------------
 [419]   # Route 18
-Name = Rota 18
+Name = Route 18
 Outdoor = true
 MapPosition = 1,17,14
 #-------------------------------
@@ -1399,7 +1403,7 @@ MapPosition = 1,15,16
 BattleBack = beach
 #-------------------------------
 [424]   # Route 21
-Name = Rota 21
+Name = Route 21
 Outdoor = true
 MapPosition = 1,13,14
 #-------------------------------
@@ -1407,6 +1411,11 @@ MapPosition = 1,13,14
 Name = Vermilion City - Gym
 MapPosition = 1,21,11
 BattleBack = battle6
+#-------------------------------
+[457]   # Celadon City - House
+Name = Celadon City - House
+MapPosition = 1,19,9
+BattleBack = indoor4
 #-------------------------------
 [468]   # Celadon City - Gym
 Name = Celadon City - Gym
@@ -1428,38 +1437,38 @@ Name = Fuchsia City - Gym
 MapPosition = 1,18,14
 BattleBack = battle3
 #-------------------------------
-[486]   # Zona Safari Centro
+[486]   # Zona Safari - Center Area
 Name = Zona Safari Centro
 Outdoor = true
 MapPosition = 1,16,14
 SafariMap = true
 #-------------------------------
-[487]   # Casa Centro
+[487]   # Safari Zone - Rest House
 Name = Casa Centro
 SafariMap = true
 #-------------------------------
-[488]   # Área 1
+[488]   # Safari Zone - Area 1
 Name = Área 1
 Outdoor = true
 MapPosition = 1,16,14
 SafariMap = true
 #-------------------------------
-[489]   # Casa Área 1
+[489]   # Safari Zone - Rest Area
 Name = Casa Área 1
 Outdoor = false
 SafariMap = true
 #-------------------------------
-[490]   # Área 2
+[490]   # Safari Zone - Area 2
 Name = Área 2
 Outdoor = true
 MapPosition = 1,16,14
 SafariMap = true
 #-------------------------------
-[491]   # Casa Área 2
+[491]   # Safari Zone - Rest Area
 Name = Casa Área 2
 SafariMap = true
 #-------------------------------
-[492]   # Área 3
+[492]   # Safari Zone - Area 3
 Name = Área 3
 Outdoor = true
 MapPosition = 1,16,14
@@ -1514,6 +1523,7 @@ BattleBack = lab
 [511]   # ROCK TUNNEL 2
 Name = ROCK TUNNEL 2
 MapPosition = 1,25,6
+DarkMap = true
 BattleBack = cave1
 #-------------------------------
 [514]   # Route 20 - Gym
@@ -1898,7 +1908,12 @@ MapPosition = 2,14,12
 Name = Rota 134
 MapPosition = 2,10,12
 #-------------------------------
-[698]   # Vale Petalburg
+[697]   # Petalburg City - Gym
+Name = Petalburg City - Gym
+MapPosition = 2,2,11
+BattleBack = battle1
+#-------------------------------
+[698]   # Petalburg Valley
 Name = Vale Petalburg
 Outdoor = true
 ShowArea = true

@@ -251,6 +251,22 @@ MenuHandlers.add(:pause_menu, :trainer_card, {
   }
 })
 
+MenuHandlers.add(:pause_menu, :partner, {
+  "name"      => _INTL("Partner"),
+  "order"     => 51,
+  "condition" => proc { next $game_switches[960] },
+  "effect"    => proc { |menu|
+    pbPlayDecisionSE
+    pbFadeOutIn {
+      scene = PokemonPartnerTrainerCard_Scene.new
+      screen = PokemonPartnerTrainerCardScreen.new(scene)
+      screen.pbStartScreen
+      menu.pbRefresh
+    }
+    next false
+  }
+})
+
 MenuHandlers.add(:pause_menu, :save, {
   "name"      => _INTL("Save"),
   "order"     => 60,

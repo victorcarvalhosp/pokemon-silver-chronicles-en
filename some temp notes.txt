@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
-!isQuestActive?(:FestivalOfTheLegend)
+!isQuestActive?(:TimeTraveler)
 
-activateQuest(:GSBall2,colorQuest("blue"),true)
-advanceQuestToStage(:MaxDensOrangeIslands, 2)
-completeQuest(:OrangeIslandsGymChallenge)
+activateQuest(:TimeTraveler,colorQuest("blue"),true)
+advanceQuestToStage(:SafariZoneGoldTeeth, 2)
+completeQuest(:TimeTraveler)
 
 
 Dialog lines to use on TCG:

@@ -248,6 +248,14 @@ end
 #===============================================================================
 class QuestData
 
+  # Helper method to process \v[XX] codes in text
+  def processTextCodes(text)
+    return "" if !text || text == ""
+    text = text.to_s.clone
+    text.gsub!(/\\v\[([0-9]+)\]/i) { $game_variables[$1.to_i].to_s }
+    return text
+  end
+
   # Get ID number for quest
   def getID(quest)
     return "#{QuestModule.const_get(quest)[:ID]}"
@@ -255,12 +263,14 @@ class QuestData
 
   # Get quest name
   def getName(quest)
-    return "#{QuestModule.const_get(quest)[:Name]}"
+    text = "#{QuestModule.const_get(quest)[:Name]}"
+    return processTextCodes(text)
   end
 
   # Get name of quest giver
   def getQuestGiver(quest)
-    return "#{QuestModule.const_get(quest)[:QuestGiver]}"
+    text = "#{QuestModule.const_get(quest)[:QuestGiver]}"
+    return processTextCodes(text)
   end
 
   # Get array of quest stages
@@ -274,30 +284,35 @@ class QuestData
 
   # Get quest reward
   def getQuestReward(quest)
-    return "#{QuestModule.const_get(quest)[:RewardString]}"
+    text = "#{QuestModule.const_get(quest)[:RewardString]}"
+    return processTextCodes(text)
   end
 
   # Get overall quest description
   def getQuestDescription(quest)
-    return "#{QuestModule.const_get(quest)[:QuestDescription]}"
+    text = "#{QuestModule.const_get(quest)[:QuestDescription]}"
+    return processTextCodes(text)
   end
 
   # Get current task location
   def getStageLocation(quest,stage)
     loc = ("Location" + "#{stage}").to_sym
-    return "#{QuestModule.const_get(quest)[loc]}"
+    text = "#{QuestModule.const_get(quest)[loc]}"
+    return processTextCodes(text)
   end  
 
   # Get summary of current task
   def getStageDescription(quest,stage)
     stg = ("Stage" + "#{stage}").to_sym
-    return "#{QuestModule.const_get(quest)[stg]}"
+    text = "#{QuestModule.const_get(quest)[stg]}"
+    return processTextCodes(text)
   end 
 ### Code for Percy
   # Get current stage label
   def getStageLabel(quest,stage)
     lab = ("StageLabel" + "#{stage}").to_sym
-    return "#{QuestModule.const_get(quest)[lab]}"
+    text = "#{QuestModule.const_get(quest)[lab]}"
+    return processTextCodes(text)
   end 
 ###
   # Get maximum number of tasks for quest

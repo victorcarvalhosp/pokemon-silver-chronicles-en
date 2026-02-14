@@ -591,7 +591,7 @@ NamePlural = Growth Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil in regions where Berries are grown. 
 #-------------------------------
 [DAMPMULCH]
 Name = Damp Mulch
@@ -599,7 +599,7 @@ NamePlural = Damp Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil in regions where Berries are grown.
 #-------------------------------
 [STABLEMULCH]
 Name = Stable Mulch
@@ -607,7 +607,7 @@ NamePlural = Stable Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil in regions where Berries are grown. 
 #-------------------------------
 [GOOEYMULCH]
 Name = Gooey Mulch
@@ -615,7 +615,7 @@ NamePlural = Gooey Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer to be spread on soft soil in regions where Berries are grown. 
 #-------------------------------
 [SHOALSALT]
 Name = Shoal Salt
@@ -5682,6 +5682,16 @@ Flags = Fling_100
 Move = MISTYEXPLOSION
 Description = The user attacks everything around and faints upon using this move. Power increases on Misty Terrain.
 #-------------------------------
+[TM202]
+Name = TM202
+NamePlural = TM202s
+Pocket = 4
+Price = 14000
+FieldUse = TM
+Flags = Fling_100
+Move = THUNDERPUNCH
+Description = The target is punched with an electrified fist. It may also leave the target with paralysis.
+#-------------------------------
 [HM01]
 Name = HM01
 NamePlural = HM01s
@@ -8532,4 +8542,36 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A key to your room in the Grand Hotel.
+#-------------------------------
+[COMMONUMBRELLA]
+Name = Common Umbrella
+NamePlural = Common Umbrella
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A common umbrella.
+#-------------------------------
+[WORKINGSHOES]
+Name = Working Shoes
+NamePlural = Working Shoes
+Pocket = 8
+Price = 5000
+Flags = KeyItem
+Description = A sturdy pair of everyday working shoes. They look comfortable and built to last.
+#-------------------------------
+[RAGECANDYBARBOX]
+Name = Rage Candy Box
+NamePlural = Rage Candy Box's
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A big box of the Mahogany Town's famous candy.
+#-------------------------------
+[GOLDTEETH]
+Name = Gold Teeth
+NamePlural = Gold Teeth's
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A set of golden false teeth lost by the Safari Zone's warden. They make his smile sparkle.
 #-------------------------------

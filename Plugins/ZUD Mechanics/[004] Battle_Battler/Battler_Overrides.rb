@@ -5,10 +5,10 @@ class Battle::Battler
   #-----------------------------------------------------------------------------
   # Aliased for initializing new effects and other properties.
   #-----------------------------------------------------------------------------
-  alias zud_pbInitEffects pbInitEffects  
+  alias zud_pbInitEffects pbInitEffects
   def pbInitEffects(batonPass)
-    @power_index                       = -1                       
-    @ignore_dynamax                    = false 
+    @power_index                       = -1
+    @ignore_dynamax                    = false
     @selectedMoveIsZMove               = false
     @lastMoveUsedIsZMove               = false
     @effects[PBEffects::Dynamax]       = 0
@@ -43,7 +43,7 @@ class Battle::Battler
     end
     pbInitRaidBoss
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased to consider HP changes with Dynamax HP.
   #-----------------------------------------------------------------------------
@@ -57,7 +57,7 @@ class Battle::Battler
     @ignore_dynamax = false
     return ret
   end
-  
+
   alias zud_pbRecoverHP pbRecoverHP
   def pbRecoverHP(*args)
     # All effects that heal HP always scale down their healing for Dynamax Pokemon,
@@ -68,57 +68,57 @@ class Battle::Battler
     @ignore_dynamax = false
     return ret
   end
-  
+
   alias zud_pbRecoverHPFromDrain pbRecoverHPFromDrain
   def pbRecoverHPFromDrain(*args)
     @ignore_dynamax = true
     zud_pbRecoverHPFromDrain(*args)
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for Z-Move usage.
   #-----------------------------------------------------------------------------
   # Registers if selected move is a Z-Move, and triggers the use of that Z-Move.
   # Unregisters the Z-Move at the end of the turn, or if the move failed to execute.
   #-----------------------------------------------------------------------------
-  alias zud_pbTryUseMove pbTryUseMove 
+  alias zud_pbTryUseMove pbTryUseMove
   def pbTryUseMove(*args)
     ret = zud_pbTryUseMove(*args)
     @lastMoveUsedIsZMove = ret if args[1].zMove?
-    return ret 
+    return ret
   end
-  
+
   alias zud_pbUseMove pbUseMove
   def pbUseMove(choice, specialUsage = false)
     @lastMoveUsedIsZMove = false
     if choice[2].powerMove?
       @power_index = choice[1] if @power_index == -1
       choice[2] = calc_power_move(choice[2])
-      if @selectedMoveIsZMove 
+      if @selectedMoveIsZMove
         choice[2].specialUseZMove = specialUsage
       end
     end
     zud_pbUseMove(choice, specialUsage)
   end
-  
+
   alias zud_pbEndTurn pbEndTurn
   def pbEndTurn(_choice)
     if _choice[0] == :UseMove && _choice[2].zMove?
       if @lastMoveUsedIsZMove
         @battle.pbSetBattleMechanicUsage(@index, "Z-Move")
-      else 
+      else
         @battle.pbUnregisterZMove(@index)
       end
       @power_trigger = false
     end
     zud_pbEndTurn(_choice)
   end
-  
+
   #-----------------------------------------------------------------------------
   # Edited for allowing Z-Moves when called by other moves.
   #-----------------------------------------------------------------------------
   # Allows Z-Powered version of moves selected via other moves, such as Sleep Talk.
-  #-----------------------------------------------------------------------------  
+  #-----------------------------------------------------------------------------
   def pbUseMoveSimple(moveID, target = -1, idxMove = -1, specialUsage = true)
     choice = []
     choice[0] = :UseMove
@@ -142,7 +142,7 @@ class Battle::Battler
       pbUseMove(choice, specialUsage)
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for fainting.
   #-----------------------------------------------------------------------------
@@ -156,7 +156,7 @@ class Battle::Battler
     @pokemon.makeUnUltra if ultra?
     raid_KOCounter(self.pbDirectOpposing) if @battle.raid_battle
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for Transform.
   #-----------------------------------------------------------------------------
@@ -177,7 +177,7 @@ class Battle::Battler
     display_base_moves if dynamax?
     @battle.scene.pbRefreshOne(@index)
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for Encore.
   #-----------------------------------------------------------------------------
@@ -193,7 +193,7 @@ class Battle::Battler
     end
     zud_pbEncoredMoveIndex
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for Flinch.
   #-----------------------------------------------------------------------------
@@ -204,7 +204,7 @@ class Battle::Battler
     return if @effects[PBEffects::Dynamax] > 0
     zud_pbFlinch(*args)
   end
-  
+
   #-----------------------------------------------------------------------------
   # Edited for Imprison.
   #-----------------------------------------------------------------------------
@@ -219,7 +219,7 @@ class Battle::Battler
     end
     return false
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for Grudge, Destiny Bond.
   #-----------------------------------------------------------------------------
@@ -246,7 +246,7 @@ class Battle::Battler
     end
     zud_pbEffectsOnMakingHit(move, user, target)
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for move selection.
   #-----------------------------------------------------------------------------
@@ -277,7 +277,7 @@ class Battle::Battler
       return zud_pbCanChooseMove?(move, commandPhase, showMessages, specialUsage)
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for Dynamax immunities.
   #-----------------------------------------------------------------------------

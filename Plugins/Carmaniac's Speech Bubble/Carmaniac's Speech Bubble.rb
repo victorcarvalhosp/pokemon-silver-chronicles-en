@@ -20,6 +20,7 @@ class Game_Temp
   attr_accessor :speechbubble_outofrange
   attr_accessor :speechbubble_talking
   attr_accessor :speechbubble_position
+  attr_accessor :speechbubble_follower_event
 end
 
 module MessageConfig
@@ -31,24 +32,34 @@ end
 # Function modifiers
 #-------------------------------------------------------------------------------
 
+# Helper to get the talking character (event or follower)
+def get_speechbubble_character
+  return $game_temp.speechbubble_follower_event if $game_temp.speechbubble_follower_event
+  return $game_map.events[$game_temp.speechbubble_talking] if $game_temp.speechbubble_talking
+  return nil
+end
+
 class Window_AdvancedTextPokemon
   def text=(value)
     if value != nil && value != "" && $game_temp.speechbubble_bubble && $game_temp.speechbubble_bubble > 0
       if $game_temp.speechbubble_bubble == 1
         $game_temp.speechbubble_bubble = 0
         resizeToFit2(value,400,100)
-        @x = $game_map.events[$game_temp.speechbubble_talking].screen_x
-        @y = $game_map.events[$game_temp.speechbubble_talking].screen_y - (32 + @height)
-            
-        if @y>(Graphics.height-@height-2)
-          @y = (Graphics.height-@height)
-        elsif @y<2
-          @y=2
-        end
-        if @x>(Graphics.width-@width-2)
-          @x = ($game_map.events[$game_temp.speechbubble_talking].screen_x-@width)
-        elsif @x<2
-          @x=2
+        char = get_speechbubble_character
+        if char
+          @x = char.screen_x
+          @y = char.screen_y - (32 + @height)
+              
+          if @y>(Graphics.height-@height-2)
+            @y = (Graphics.height-@height)
+          elsif @y<2
+            @y=2
+          end
+          if @x>(Graphics.width-@width-2)
+            @x = (char.screen_x-@width)
+          elsif @x<2
+            @x=2
+          end
         end
       else
         $game_temp.speechbubble_bubble = 0
@@ -111,55 +122,45 @@ end
  
 def pbCreateMessageWindow(viewport = nil, skin = nil)
   arrow = nil
-  if $game_temp.speechbubble_bubble==2 && $game_map.events[$game_temp.speechbubble_talking] != nil # Message window set to floating bubble.
+  char = get_speechbubble_character
+  if $game_temp.speechbubble_bubble==2 && char != nil # Message window set to floating bubble.
     if  ($game_temp.speechbubble_position== 0 && $game_player.direction==8 ) || $game_temp.speechbubble_position==1 # Player facing up, message window top.
-      Console.echo_li("Entered on up logic")
-
       $game_temp.speechbubble_vp = Viewport.new(0, 104, Graphics.width, 280)
       $game_temp.speechbubble_vp.z = 999999
       arrow = Sprite.new($game_temp.speechbubble_vp)
-      arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x - Graphics.width
-      arrow.y = ($game_map.events[$game_temp.speechbubble_talking].screen_y - Graphics.height) - 136
+      arrow.x = char.screen_x - Graphics.width
+      arrow.y = (char.screen_y - Graphics.height) - 136
       arrow.z = 999999
       arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow4")
       arrow.zoom_x = 2
       arrow.zoom_y = 2
       if arrow.x<-230
-        Console.echo_li("Entered arrow.x<-230 logic #{arrow.x}")
-        arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x
+        arrow.x = char.screen_x
         arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow3")
       end
     else # Player facing left, down, right, message window bottom.
-      Console.echo("Entered on bottom logic")
-
       $game_temp.speechbubble_vp = Viewport.new(0, 0, Graphics.width, 280)
       $game_temp.speechbubble_vp.z = 999999
       arrow = Sprite.new($game_temp.speechbubble_vp)
-      arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x
-      arrow.y = $game_map.events[$game_temp.speechbubble_talking].screen_y
+      arrow.x = char.screen_x
+      arrow.y = char.screen_y
       arrow.z = 999999
       arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow1")
       if arrow.y>=Graphics.height-120 # Change arrow direction.
-        Console.echo("Entered on first if")
-
         $game_temp.speechbubble_outofrange=true
         $game_temp.speechbubble_vp.rect.y+=104
-        arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x - Graphics.width
+        arrow.x = char.screen_x - Graphics.width
         arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow4")
-        arrow.y = ($game_map.events[$game_temp.speechbubble_talking].screen_y - Graphics.height) - 136
+        arrow.y = (char.screen_y - Graphics.height) - 136
         if arrow.x<-250
-          Console.echo_li("Entered on arrow.x<-250 logic")
-          arrow.x = $game_map.events[$game_temp.speechbubble_talking].screen_x
+          arrow.x = char.screen_x
           arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow3")
         end
         if arrow.x>=256
-          Console.echo_li("Entered on arrow.x>=256 logic")
-
-          arrow.x-=15# = $game_map.events[$game_temp.speechbubble_talking].screen_x-Graphics.width
+          arrow.x-=15# = char.screen_x-Graphics.width
           arrow.bitmap = RPG::Cache.load_bitmap("Graphics/Pictures/","Arrow3")
         end
       else
-        Console.echo("Entered on else")
         $game_temp.speechbubble_outofrange=false
       end
       arrow.zoom_x = 2
@@ -194,9 +195,25 @@ end
 
 # position 0 is default behavior. 1 is force top. 2 is force bottom.
 def pbCallBub(status=0,value=0,position=0)
+  $game_temp.speechbubble_follower_event = nil
   $game_temp.speechbubble_talking=get_character(value).id
   $game_temp.speechbubble_bubble=status
   $game_temp.speechbubble_position=position
-  Console.echo("called my function with position #{position}")
+
+end
+
+# position 0 is default behavior. 1 is force top. 2 is force bottom.
+# followerName can be a string (follower name) or nil (first follower)
+def pbCallBubFollower(status=0, followerName=nil, position=0)
+  $game_temp.speechbubble_talking = nil
+  follower_event = Followers.get(followerName)
+  if follower_event
+    $game_temp.speechbubble_follower_event = follower_event
+  else
+    $game_temp.speechbubble_follower_event = nil
+  end
+  $game_temp.speechbubble_bubble=status
+  $game_temp.speechbubble_position=position
+  Console.echo("called pbCallBubFollower with position #{position}")
 
 end
