@@ -980,6 +980,12 @@ Gender = Male
 BaseMoney = 50
 IntroBGM = SEQ_EYE_KID
 #-------------------------------
+[SUPERNERD_2]
+Name = Super Nerd
+Gender = Male
+BaseMoney = 50
+IntroBGM = SEQ_EYE_KID
+#-------------------------------
 [JUGGLER]
 Name = JUGGLER
 Gender = Male

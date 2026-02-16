@@ -7298,11 +7298,11 @@ Price = 0
 Description = A ticket required to board the ship to Orange Islands.
 #-------------------------------
 [IVYSPARCEL]
-Name = GS Ball Package
-NamePlural = GS Ball Package
+Name = Mysterious Ball Package
+NamePlural = Mysterious Ball Packages
 Pocket = 8
 Price = 0
-Description = A package containing the GS Ball. Handle it with care.
+Description = A package containing a Mysterious Ball. Handle it with care.
 #-------------------------------
 [CRYSTALARTIFACT]
 Name = Crystal Artifact

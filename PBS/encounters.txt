@@ -1505,20 +1505,6 @@ SuperRod
     10,CHINCHOU,40
     10,LANTURN,40
 #-------------------------------
-[180] # Victory Road
-Cave,10
-    10,GEODUDE,32,38
-    10,MACHOP,32,38
-    10,ZUBAT,32,38
-    10,ONIX,34,46
-    10,GOLBAT,36,42
-    10,GRAVELER,36,44
-    10,MACHOKE,35,44
-    5,GRAVELER_1,38,44
-    5,DONPHAN,38,44
-    5,ARBOK,38,42
-    5,URSARING,36,40
-#-------------------------------
 [257] # Coliseum Town - Entrance
 Land,21
     20,BUTTERFREE,13
@@ -1616,6 +1602,20 @@ HeadbuttLow
     20,ARIADOS,30,40
     40,PINECO,25,30
 #-------------------------------
+[180] # Victory Road
+Cave,10
+    10,GEODUDE,32,38
+    10,MACHOP,32,38
+    10,ZUBAT,32,38
+    10,ONIX,34,46
+    10,GOLBAT,36,42
+    10,GRAVELER,36,44
+    10,MACHOKE,35,44
+    5,GRAVELER_1,38,44
+    5,DONPHAN,38,44
+    5,ARBOK,38,42
+    5,URSARING,36,40
+#-------------------------------
 [302] # Victory Road
 Cave,10
     10,GEODUDE,32,38
@@ -1643,6 +1643,54 @@ Cave,10
     5,DONPHAN,38,44
     5,ARBOK,38,42
     5,URSARING,36,40
+#-------------------------------
+[180,6] # Victory Road
+Cave,10
+    9,GEODUDE,48,54
+    10,MACHOP,48,54
+    10,RHYHORN,48,54
+    10,ONIX,48,56
+    10,GOLBAT,48,54
+    10,GRAVELER,48,54
+    10,MACHOKE,48,54
+    10,SANDSLASH,48,55
+    5,GRAVELER_1,48,55
+    5,DONPHAN,48,55
+    5,ARBOK,48,58
+    5,URSARING,50,60
+    1,CROBAT,55,60
+#-------------------------------
+[302,6] # Victory Road
+Cave,10
+    9,GEODUDE,48,54
+    10,MACHOP,48,54
+    10,RHYHORN,48,54
+    10,ONIX,48,56
+    10,GOLBAT,48,54
+    10,GRAVELER,48,54
+    10,MACHOKE,48,54
+    10,SANDSLASH,48,55
+    5,GRAVELER_1,48,55
+    5,DONPHAN,48,55
+    5,ARBOK,48,58
+    5,URSARING,52,60
+    1,RHYDON,55,60
+#-------------------------------
+[303,6] # Victory Road
+Cave,10
+    9,GEODUDE,48,54
+    10,MACHOP,48,54
+    10,RHYHORN,48,54
+    10,ONIX,48,56
+    10,GOLBAT,48,54
+    10,GRAVELER,48,54
+    10,MACHOKE,48,54
+    10,SANDSLASH,48,55
+    5,GRAVELER_1,48,55
+    5,DONPHAN,48,55
+    5,ARBOK,48,58
+    5,URSARING,46,60
+    1,URSALUNA,55,60
 #-------------------------------
 [329] # Rota 122
 Water,5
@@ -2413,7 +2461,7 @@ SuperRod
     1,DRAGONAIR,30
 #-------------------------------
 [497] # ROCK TUNNEL
-Cave,5
+Cave,8
     10,CUBONE,32,44
     10,GEODUDE,42,44
     10,GEODUDE_1,42,48
@@ -2428,19 +2476,20 @@ Cave,5
     5,NIDOQUEEN,45,60
 #-------------------------------
 [511] # ROCK TUNNEL 2
-Cave,5
-    10,CUBONE,32,42
+Cave,10
+    10,CUBONE,38,42
     10,GEODUDE,42,45
-    10,GEODUDE_1,42,48
+    6,GEODUDE_1,42,48
     10,GOLBAT,42,46
     10,GRAVELER,43,48
     10,GRAVELER_1,43,48
     10,ROCKRUFF,32,35
-    10,ROLYCOLY,32,35
-    5,CARKOL,40,46
+    9,ROLYCOLY,32,35
+    9,CARKOL,40,46
     5,MAROWAK,40,50
     5,NIDOKING,45,60
     5,NIDOQUEEN,45,60
+    1,STEELIX,55,60
 #-------------------------------
 [672] # Rota 116
 Land,21

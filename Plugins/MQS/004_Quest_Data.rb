@@ -519,11 +519,11 @@ module QuestModule
 
   GSBall = {
     :ID => "45",
-    :Name => "Mysterious GS Ball",
+    :Name => "Mysterious Ball",
     :QuestGiver => "Prof. Elm",
-    :Stage1 => "Deliver GS Ball to Prof. Ivy.",
+    :Stage1 => "Deliver Mysterious Ball to Prof. Ivy.",
     :Location1 => "Valencia Island",
-    :QuestDescription => "Professor Elm asked you to deliver a GS Ball to Prof. Ivy in order to continue their research.",
+    :QuestDescription => "Professor Elm asked you to deliver a Mysterious Ball to Professor Ivy in order to continue their research.",
   }
 
   OrangeIslandsGymChallenge = {
@@ -645,11 +645,11 @@ module QuestModule
 
   GSBall2 = {
     :ID => "57",
-    :Name => "Mysterious GS Ball - Part 2",
+    :Name => "Mysterious Ball - Part 2",
     :QuestGiver => "Prof. Ivy",
-    :Stage1 => "Deliver GS Ball to Prof. Birch.",
+    :Stage1 => "Deliver the Mysterious Ball to Prof. Birch.",
     :Location1 => "Hoenn",
-    :QuestDescription => "Professor Ivy asked you to deliver the GS Ball to Prof. Birch in order to continue their research.",
+    :QuestDescription => "Professor Ivy asked you to deliver the Mysterious Ball to Prof. Birch in order to continue their research.",
   }
 
   MareepTrade = {
@@ -854,6 +854,33 @@ module QuestModule
     :Stage1 => "Battle the 'Time Traveler'",
     :Location1 => "Olivine City",
     :QuestDescription => "This guy says he's from the past and that he traveled through time. It doesn't seem very credible, but he offers you a proof if you can beat him in a battle. ",
+  }
+
+  SecondStarterOrangeIslands = {
+    :ID => "77",
+    :Name => "Fan Club Exhibition",
+    :QuestGiver => "PokéManiac Isaac",
+    :Stage1 => "Show your Pokémon",
+    :Location1 => "Mandarim Island North",
+    :QuestDescription => "This PokéManiac wants to see the final evolution of your Orange Island starter Pokémon.",
+  }
+
+  ThirdStarterOrangeIslands = {
+    :ID => "78",
+    :Name => "Pokédex Nerd",
+    :QuestGiver => "Super Nerd Richard",
+    :Stage1 => "Register 70 Pokémon",
+    :Location1 => "Mandarim Island South",
+    :QuestDescription => "This Super Nerd is really interested in the Orange Islands Pokédex, so he wants to check yours.",
+  }
+
+  DadVacation = {
+    :ID => "79",
+    :Name => "Dad's vacation",
+    :QuestGiver => "Dad",
+    :Stage1 => "Meet your family",
+    :Location1 => "Kumquat Island",
+    :QuestDescription => "After years working non-stop, your Dad was finally able to take a vacation. He invited you to join him and your mom at the beach. Can you make it there?",
   }
 
   

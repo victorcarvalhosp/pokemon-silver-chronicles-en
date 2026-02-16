@@ -675,7 +675,7 @@ Bicycle = true
 MapPosition = 4,5,12
 #-------------------------------
 [155]   # Mandarin Island North
-Name = Ilha Mandarim do Norte
+Name = Mandarin Island North
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -1486,7 +1486,9 @@ SafariMap = true
 Name = casa Policia
 #-------------------------------
 [497]   # ROCK TUNNEL
-Name = ROCK TUNNEL
+Name = Rock Tunnel
+Outdoor = false
+Bicycle = true
 MapPosition = 1,25,6
 BattleBack = cave1
 #-------------------------------
@@ -1521,7 +1523,8 @@ MapPosition = 1,21,8
 BattleBack = lab
 #-------------------------------
 [511]   # ROCK TUNNEL 2
-Name = ROCK TUNNEL 2
+Name = Rock Tunnel
+Bicycle = true
 MapPosition = 1,25,6
 DarkMap = true
 BattleBack = cave1
@@ -1543,7 +1546,7 @@ Outdoor = true
 MapPosition = 4,9,10
 #-------------------------------
 [522]   # Sunburst Island
-Name = Ilha Sunburst
+Name = Sunburst Island
 Outdoor = true
 ShowArea = true
 HealingSpot = 522,25,20
@@ -2131,3 +2134,9 @@ Name = Pokémon League HQ
 MapPosition = 1,9,7
 BattleBack = champion1
 Flags = PowerSpot
+#-------------------------------
+[897]   # ROCK TUNNEL Entrance
+Name = Rock Tunnel
+Outdoor = false
+Bicycle = true
+MapPosition = 1,25,5

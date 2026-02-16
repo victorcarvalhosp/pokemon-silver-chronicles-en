@@ -413,65 +413,70 @@ def raid_Rewards(species, rank = 1, bonus = 1, loot = nil)
   # Reward hash.
   #---------------------------------------------------------------------------
   reward = {
-    "ExpCandy"  => [:EXPCANDYXS, :EXPCANDYS, :EXPCANDYM, :EXPCANDYL, :EXPCANDYXL],
+    "ExpCandy"  => [:EXPCANDYXS, :EXPCANDYS],
     "Berries"   => [:POMEGBERRY, :KELPSYBERRY, :QUALOTBERRY, :HONDEWBERRY, :GREPABERRY, :TAMATOBERRY],
     "Vitamins"  => [:HPUP, :PROTEIN, :IRON, :CALCIUM, :ZINC, :CARBOS],
     "Training"  => [:PPUP, :PPMAX, :ABILITYCAPSULE, :ABILITYPATCH, :BOTTLECAP, :GOLDBOTTLECAP],
     "TreasureA" => [:BALMMUSHROOM, :PEARLSTRING, :RELICGOLD, :RELICSTATUE, :RELICCROWN],
     "TreasureB" => [:BIGMUSHROOM, :BIGNUGGET, :BIGPEARL, :RELICSILVER, :RELICBAND],
     "TreasureC" => [:TINYMUSHROOM, :NUGGET, :PEARL, :RELICCOPPER, :RELICVASE],
-    "BonusItem" => [:DYNAMAXCANDYXL, :MAXSOUP]
+    "BonusItem" => [:DYNAMAXCANDY, :MAXSOUP]
   }
   #---------------------------------------------------------------------------
   # Adds Exp. Candy rewards.
   #---------------------------------------------------------------------------
-  case rank
-  when 1
-    rewards.push( 
-      [reward["ExpCandy"][0], qty   + rand(3)],
-      [reward["ExpCandy"][1], qty25 + rand(3)]
-    )
-  when 2
-    rewards.push(
-      [reward["ExpCandy"][0], qty   + rand(3)],
-      [reward["ExpCandy"][1], qty50 + rand(3)]
-    )
-  when 3
-    rewards.push(
-      [reward["ExpCandy"][0], qty80 + rand(3)],
-      [reward["ExpCandy"][1], qty   + rand(3)],
-      [reward["ExpCandy"][2], qty25 + rand(3)]
-    )
-  when 4
-    rewards.push(
-      [reward["ExpCandy"][0], qty80 + rand(3)],
-      [reward["ExpCandy"][1], qty   + rand(3)],
-      [reward["ExpCandy"][2], qty50 + rand(3)]
-    )
-    rewards.push([reward["ExpCandy"][3], qty25 + rand(3)]) if rand(10) < 2
-  when 5
-    rewards.push([reward["ExpCandy"][0], qty50 + rand(3)]) if rand(10) < 6
-    rewards.push(
-      [reward["ExpCandy"][1], qty80 + rand(3)],
-      [reward["ExpCandy"][2], qty   + rand(3)],
-      [reward["ExpCandy"][3], qty50 + rand(3)],
-      [reward["ExpCandy"][4], qty25 + rand(3)]
-    )
-  when 6
-    rewards.push([reward["ExpCandy"][0], qty25 + rand(2)]) if rand(10) < 2
-    rewards.push([reward["ExpCandy"][1], qty50 + rand(3)]) if rand(10) < 6
-    rewards.push(
-      [reward["ExpCandy"][2], qty80 + rand(3)],
-      [reward["ExpCandy"][3], qty   + rand(3)],
-      [reward["ExpCandy"][4], qty50 + rand(3)]
-    )
-  end
+  rewards.push( 
+    [reward["ExpCandy"][0], qty   + rand(3)],
+    [reward["ExpCandy"][1], qty25 + rand(3)]
+  )
+  # case rank
+  # when 1
+    # rewards.push( 
+    #   [reward["ExpCandy"][0], qty   + rand(3)],
+    #   [reward["ExpCandy"][1], qty25 + rand(3)]
+    # )
+  # when 2
+  #   rewards.push(
+  #     [reward["ExpCandy"][0], qty   + rand(3)],
+  #     [reward["ExpCandy"][1], qty50 + rand(3)]
+  #   )
+  # when 3
+  #   rewards.push(
+  #     [reward["ExpCandy"][0], qty80 + rand(3)],
+  #     [reward["ExpCandy"][1], qty   + rand(3)],
+  #     [reward["ExpCandy"][2], qty25 + rand(3)]
+  #   )
+  # when 4
+  #   rewards.push(
+  #     [reward["ExpCandy"][0], qty80 + rand(3)],
+  #     [reward["ExpCandy"][1], qty   + rand(3)],
+  #     [reward["ExpCandy"][2], qty50 + rand(3)]
+  #   )
+  #   rewards.push([reward["ExpCandy"][3], qty25 + rand(3)]) if rand(10) < 2
+  # when 5
+  #   rewards.push([reward["ExpCandy"][0], qty50 + rand(3)]) if rand(10) < 6
+  #   rewards.push(
+  #     [reward["ExpCandy"][1], qty80 + rand(3)],
+  #     [reward["ExpCandy"][2], qty   + rand(3)],
+  #     [reward["ExpCandy"][3], qty50 + rand(3)],
+  #     [reward["ExpCandy"][4], qty25 + rand(3)]
+  #   )
+  # when 6
+  #   rewards.push([reward["ExpCandy"][0], qty25 + rand(2)]) if rand(10) < 2
+  #   rewards.push([reward["ExpCandy"][1], qty50 + rand(3)]) if rand(10) < 6
+  #   rewards.push(
+  #     [reward["ExpCandy"][2], qty80 + rand(3)],
+  #     [reward["ExpCandy"][3], qty   + rand(3)],
+  #     [reward["ExpCandy"][4], qty50 + rand(3)]
+  #   )
+  # end
   #---------------------------------------------------------------------------
   # Adds specific item rewards.
   #---------------------------------------------------------------------------
   if rank > 2
-    rewards.push([:RARECANDY, qty25 + rand(3)], 
-                 [:DYNAMAXCANDY, qty25 + rand(3)])
+    # rewards.push([:RARECANDY, qty25 + rand(1)], 
+    #              [:DYNAMAXCANDY, qty25 + rand(1)])
+    rewards.push([:DYNAMAXCANDY, qty25 + rand(1)])
     rewards.push([reward["BonusItem"].sample, 1]) if bonus >= 5
     trItem = GameData::Item.get_TR_from_type(GameData::Species.get(species).types)
     rewards.push([trItem, 1]) if trItem
