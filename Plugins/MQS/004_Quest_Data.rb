@@ -880,7 +880,9 @@ module QuestModule
     :QuestGiver => "Dad",
     :Stage1 => "Meet your family",
     :Location1 => "Kumquat Island",
-    :QuestDescription => "After years working non-stop, your Dad was finally able to take a vacation. He invited you to join him and your mom at the beach. Can you make it there?",
+    :Stage2 => "Do 3 family activities",
+    :Location2 => "Kumquat Island",
+    :QuestDescription => "After years working non-stop, your Dad was finally able to take a vacation. He invited you to join him and your mom at the beach so you can spend some quality time together. Can you make it there?",
   }
 
   

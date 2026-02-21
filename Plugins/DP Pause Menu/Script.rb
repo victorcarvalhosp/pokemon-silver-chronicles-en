@@ -62,7 +62,7 @@ class DP_PauseMenu
     @options = []
 	
 	# Retire: Safari
-	@options << ["RETIRE", "retireA", "retireB", proc {
+	@options << ["Retire", "retireA", "retireB", proc {
 		setMenuSpritesVisible(false)
 		if pbConfirmMessage(_INTL("Would you like to leave the Safari Game right now?"))
 		  @done = true
@@ -73,7 +73,7 @@ class DP_PauseMenu
     }] if pbInSafari?
 	
 	# Retire: Bug-Catching Contest
-	@options << ["RETIRE", "retireA", "retireB", proc {
+	@options << ["Retire", "retireA", "retireB", proc {
 		setMenuSpritesVisible(false)
 		if pbConfirmMessage(_INTL("Would you like to end the Contest now?"))
 		  @done = true
@@ -85,7 +85,7 @@ class DP_PauseMenu
 	
 	
 	# Pokedex
-    @options << ["POKéDEX", "pokedexA", "pokedexB", proc {
+    @options << ["Pokédex", "pokedexA", "pokedexB", proc {
       if Settings::USE_CURRENT_REGION_DEX
         pbFadeOutIn do
           scene = PokemonPokedex_Scene.new
@@ -109,7 +109,7 @@ class DP_PauseMenu
     }] if $player.has_pokedex
 	
 	# Party Menu
-    @options << ["POKéMON", "pokemonA", "pokemonB", proc {
+    @options << ["Pokémon", "pokemonA", "pokemonB", proc {
       hiddenmove = nil
       pbFadeOutIn do
         sscene = PokemonParty_Scene.new
@@ -127,7 +127,7 @@ class DP_PauseMenu
     }] if $player.party.size > 0
 	
 	# Bag
-    @options << ["BAG", "bagA", "bagB", proc {
+    @options << ["Bag", "bagA", "bagB", proc {
       item = 0
       pbFadeOutIn do
         scene = PokemonBag_Scene.new
@@ -141,7 +141,7 @@ class DP_PauseMenu
     }] if !pbInBugContest?
 	
 	# Add Pokegear
-	@options << ["POKéGEAR", "pokegearA", "pokegearB", proc {
+	@options << ["Pokégear", "pokegearA", "pokegearB", proc {
 		pbFadeOutIn do
 			scene = PokemonPokegear_Scene.new
 			screen = PokemonPokegearScreen.new(scene)
@@ -171,22 +171,21 @@ class DP_PauseMenu
 		end
     }]
 	
-	# Save Game
-    @options << ["SAVE", "saveA", "saveB", proc {
+	# Save Game (same approach as default pause menu: hide menu, open save without fade)
+    @options << ["Save", "saveA", "saveB", proc {
 		setMenuSpritesVisible(false)
-		pbFadeOutIn do
-		  if PluginManager.installed?("HGSS Multi-Save")
-			(UI::Save.new.main) ? @done = true : setMenuSpritesVisible(true)
-		  else
-			scene = PokemonSave_Scene.new
-			screen = PokemonSaveScreen.new(scene)
-			(screen.pbSaveScreen) ? @done = true : setMenuSpritesVisible(true)
-		  end
+		if PluginManager.installed?("HGSS Multi-Save")
+		  @done = true if UI::Save.new.main
+		else
+		  scene = PokemonSave_Scene.new
+		  screen = PokemonSaveScreen.new(scene)
+		  @done = true if screen.pbSaveScreen
 		end
+		setMenuSpritesVisible(true) unless @done
     }] if $game_system && !$game_system.save_disabled && !pbInSafari? && !pbInBugContest?
 	
 	# Options
-    @options << ["OPTIONS", "optionsA", "optionsB", proc {
+    @options << ["Options", "optionsA", "optionsB", proc {
 		pbFadeOutIn do
 			scene = PokemonOption_Scene.new
 			screen = PokemonOptionScreen.new(scene)
@@ -194,6 +193,13 @@ class DP_PauseMenu
 			pbUpdateSceneMap
 		end
     }]
+
+	# Debug (no icon; same condition as default pause menu)
+    @options << ["DEBUG", "", "", proc {
+		pbFadeOutIn do
+			pbDebugMenu
+		end
+    }] if $DEBUG
 	
 	# Uncomment the Exit/Quit option below if desired :)
 	# But you will likely want to edit the UI to properly display 8+ options, tho :/
@@ -262,10 +268,12 @@ class DP_PauseMenu
       @sprites[@options[i][0]] = IconSprite.new(0, 0, @viewport)
       idx = (i == @option ? 2 : 1)
       path = @options[i][idx]
-      @sprites[@options[i][0]].setBitmap("Graphics/UI/DP Pause Menu/#{path}")
-      if @sprites[@options[i][0]].bitmap
-        @sprites[@options[i][0]].ox = @sprites[@options[i][0]].bitmap.width / 2
-        @sprites[@options[i][0]].oy = @sprites[@options[i][0]].bitmap.height / 2
+      if path && !path.empty?
+        @sprites[@options[i][0]].setBitmap("Graphics/UI/DP Pause Menu/#{path}")
+        if @sprites[@options[i][0]].bitmap
+          @sprites[@options[i][0]].ox = @sprites[@options[i][0]].bitmap.width / 2
+          @sprites[@options[i][0]].oy = @sprites[@options[i][0]].bitmap.height / 2
+        end
       end
       @sprites[@options[i][0]].x = 39
       @sprites[@options[i][0]].y = 36 + 48 * i
@@ -304,20 +312,24 @@ class DP_PauseMenu
         pbPlayCursorSE
         $PokemonGlobal.last_menu_index = @option
         path = @options[old][1]
-        @sprites[@options[old][0]].setBitmap("Graphics/UI/DP Pause Menu/#{path}")
-        if @sprites[@options[old][0]].bitmap
-          @sprites[@options[old][0]].ox = @sprites[@options[old][0]].bitmap.width / 2
-          @sprites[@options[old][0]].oy = @sprites[@options[old][0]].bitmap.height / 2
+        if path && !path.empty?
+          @sprites[@options[old][0]].setBitmap("Graphics/UI/DP Pause Menu/#{path}")
+          if @sprites[@options[old][0]].bitmap
+            @sprites[@options[old][0]].ox = @sprites[@options[old][0]].bitmap.width / 2
+            @sprites[@options[old][0]].oy = @sprites[@options[old][0]].bitmap.height / 2
+          end
         end
         @sprites[@options[old][0]].angle = 0
         @sprites[@options[old][0]].zoom_x = 1
         @sprites[@options[old][0]].zoom_y = 1
         @sprites["sel"].y = 10 + 48 * @option
         path = @options[@option][2]
-        @sprites[@options[@option][0]].setBitmap("Graphics/UI/DP Pause Menu/#{path}")
-        if @sprites[@options[@option][0]].bitmap
-          @sprites[@options[@option][0]].ox = @sprites[@options[@option][0]].bitmap.width / 2
-          @sprites[@options[@option][0]].oy = @sprites[@options[@option][0]].bitmap.height / 2
+        if path && !path.empty?
+          @sprites[@options[@option][0]].setBitmap("Graphics/UI/DP Pause Menu/#{path}")
+          if @sprites[@options[@option][0]].bitmap
+            @sprites[@options[@option][0]].ox = @sprites[@options[@option][0]].bitmap.width / 2
+            @sprites[@options[@option][0]].oy = @sprites[@options[@option][0]].bitmap.height / 2
+          end
         end
         changed = false
         @scaling = 0

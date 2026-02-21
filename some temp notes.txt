@@ -1,9 +1,9 @@
 ALWAYS CHECK IF QUEST IS ACTIVE FIRST!!
-!isQuestActive?(:TimeTraveler)
+!isQuestActive?(:DadVacation)
 
 activateQuest(:TimeTraveler,colorQuest("blue"),true)
 advanceQuestToStage(:SafariZoneGoldTeeth, 2)
-completeQuest(:ThirdStarterOrangeIslands)
+completeQuest(:DadVacation)
 
 
 Dialog lines to use on TCG:

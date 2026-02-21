@@ -159,6 +159,39 @@ def pbPhotographOlivineBar()
 
 end
 
+def pbPhotograpKumquatRestaurant()
+
+  pbZoomMap(2,1,"in")
+  pbScrollMap(8, 1, 5) # Go camera one tile up
+  pbPhotographSimple()
+
+  pbToneChangeAll(Tone.new(0,0,0),10)
+  pbWait(10)
+
+end
+
+def pbPhotograpKumquatDance()
+
+  pbZoomMap(2,1,"in")
+  # pbScrollMap(8, 1, 5) # Go camera one tile up
+  pbPhotographSimple()
+
+  pbToneChangeAll(Tone.new(0,0,0),10)
+  pbWait(10)
+
+end
+
+def pbPhotograpKumquatGameCorner()
+
+  pbZoomMap(2,1,"in")
+  # pbScrollMap(8, 1, 5) # Go camera one tile up
+  pbPhotographSimple()
+
+  pbToneChangeAll(Tone.new(0,0,0),10)
+  pbWait(10)
+
+end
+
 def pbPhotographSimple()
 
   pbToneChangeAll(Tone.new(0,0,0),10)
@@ -193,7 +226,7 @@ def pbPhotographSimple()
   pbMessage(_INTL("It has taken a picture successfully."))
   pbMessage(_INTL("Photo is saved on /Album folder."))
 
- 
+  
 
 end  
 
