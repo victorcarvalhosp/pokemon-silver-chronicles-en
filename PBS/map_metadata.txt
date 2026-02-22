@@ -1694,7 +1694,7 @@ MapPosition = 4,6,3
 BattleBack = cave2
 #-------------------------------
 [547]   # Shamouti Island
-Name = Ilha de Shamouti
+Name = Shamouti Island
 Outdoor = true
 ShowArea = true
 HealingSpot = 547,26,13
@@ -1807,6 +1807,30 @@ Outdoor = true
 Weather = Snow,100
 MapPosition = 4,16,9
 BattleBack = snow2
+#-------------------------------
+[647]   # Fire Island - Cave
+Name = Fire Island - Cave
+Bicycle = true
+MapPosition = 4,17,9
+BattleBack = cave2
+#-------------------------------
+[648]   # Fire Island - Cave 2F
+Name = Fire Island - Cave 2F
+Bicycle = true
+MapPosition = 4,17,9
+BattleBack = cave2
+#-------------------------------
+[650]   # Thunder Island - Cave
+Name = Thunder Island - Cave
+Bicycle = true
+MapPosition = 4,17,9
+BattleBack = cave2
+#-------------------------------
+[651]   # Thunder Island - Cave 2F
+Name = Thunder Island - Cave 2F
+Bicycle = true
+MapPosition = 4,17,9
+BattleBack = cave2
 #-------------------------------
 [652]   # Pummelo Island - Poké Center
 Name = Pummelo Island - Poké Center

@@ -2,12 +2,11 @@
 # Main Module - PBMiniGames
 #===============================================================================
 module PBMiniGames
-  FORCED_EXIT_SWITCH = 90
-  INPUT_EXIT = Input::BACK
-  
+  FORCED_EXIT_SWITCH = 921
+  ACCURACY_VAR = 300
   SURVIVAL_TIME_RECORD_VARS = {
-    1 => 37,  # ID 1 uses variable 37
-    2 => 38   # ID 2 uses variable 38
+    1 => 298,  # ID 1 uses variable 298
+    2 => 297   # ID 2 uses variable 297
     # Add more mappings as needed
   }
 
@@ -15,7 +14,11 @@ module PBMiniGames
 # DanceGame Class - Rhythm/Dance Minigame
 #=============================================================================
   class DanceGame
-    INFINITE_HIGH_SCORE_VAR = 36
+    INFINITE_HIGH_SCORE_VAR = 299
+    TEACHER_EVENT_ID = 46   # Map event ID of the "teacher" that turns with the correct arrow
+    DANCER_EVENT_IDS = [45, 47, 48]   # Dancer NPCs that turn with a slight delay after the teacher
+    DANCER_TURN_DELAY_FRAMES = 8     # Frames to wait after teacher turns before dancers turn
+
 #=============================================================================
 # Method to get the survival time record variable based on ID
 #=============================================================================
@@ -49,6 +52,7 @@ end
         if @sprites["background"]
           @sprites["background"].opacity += 15 if @sprites["background"].opacity < 255
         end
+        $scene.miniupdate if $scene.is_a?(Scene_Map)
         pbUpdate
       end
     end
@@ -101,7 +105,7 @@ end
       loop do
         Graphics.update
         Input.update
-        break if Input.trigger?(Input::USE) || Input.trigger?(Input::BACK)
+        break if Input.trigger?(Input::USE)
       end
 
       # 2. Show reward ON TOP of analysis (keeping both visible)
@@ -158,9 +162,19 @@ end
           lives: 2
         },
         3 => {
-          name: "Sequence 3",
-          moves: [:down, :right, :up, :down, :left, :up, :left, :down, :right, :left, :left, :down],
-          bgm: "Audio/BGM/Gym",
+          name: "Pokémon Dance!",
+          moves: [
+           :down, :down, :down, :right, :up, :down, :left, :up, :left, :down,
+           :right, :left, :up, :down, :left, :right, :up, :down, :left, :up, 
+           :left, :down, :right, :left, :right, :left, :right, :left, :right, :left,
+           :right, :up, :down, :right, :up, :down, :left, :up, :left, :down, 
+           :right, :left, :up, :down, :left, :right, :up, :down, :left, :up, 
+           :left, :down, :up, :down, :up, :down, :right, :up, :down, :left, 
+           :up, :left, :down, :right, :up, :down, :left, :up, :left, :down,
+           :right, :up, :down, :left, :up, :left, :down, :right, :left, :right, 
+           :down, :up, :right, :up, :down, :right, :up, :down, :left, :down,
+           :right, :down, :down, :down],
+          bgm: "Audio/BGM/pokedance",
           reward: {
             60 => { type: :item, id: :RARECANDY, quantity: 1 },
             80 => { type: :item, id: :RARECANDY, quantity: 2 },
@@ -228,10 +242,9 @@ end
     #===========================================================================
     def self.pbDanceGame(game_id, bpm = 120)
   if valid_game_id?(game_id)
-    pbFadeOutIn {
-      scene = new(game_id, bpm)  # Passa bpm como parâmetro
-      scene.start_game
-    }
+    # Run without pbFadeOutIn so the overworld map and player stay visible (no black overlay).
+    scene = new(game_id, bpm)
+    scene.start_game
   else
     raise "Minigame not found for ID #{game_id}."
   end
@@ -246,6 +259,7 @@ end
     end
 
     def start_game
+      $GameSpeed = 0
       $game_system.bgm_memorize
       pbStartScene
       Audio.bgm_stop
@@ -287,7 +301,7 @@ end
         total_moves = @correct_moves + @error_moves
         @accuracy = total_moves > 0 ? (@correct_moves.to_f / total_moves * 100).to_i : 0
         @play_time = (Time.now - @start_time).to_i
-        $game_variables[35] = @accuracy
+        $game_variables[ACCURACY_VAR] = @accuracy
         $game_switches[FORCED_EXIT_SWITCH] = false
         
         # Update time record if longer in survival mode
@@ -298,7 +312,7 @@ end
           end
         end
       else
-        $game_variables[35] = -1
+        $game_variables[ACCURACY_VAR] = -1
         $game_switches[FORCED_EXIT_SWITCH] = true
       end
 
@@ -309,7 +323,7 @@ end
       
       $game_system.bgm_restore
       pbEndScene
-      
+
       # Show reward/analysis scene if not forced exit
       pbShowRewardScene unless @forced_exit
     end
@@ -410,21 +424,6 @@ end
         sleep(0.03)
       end
       overlay.dispose
-    end
-
-    def pbFadeInBackground
-      background_sprite = Sprite.new(@viewport)
-      background_sprite.bitmap = Bitmap.new("Graphics/Minigame/bg_main.png")
-      background_sprite.x = 0
-      background_sprite.y = 0
-      background_sprite.opacity = 0
-
-      15.times do
-        background_sprite.opacity += 17
-        Graphics.update
-        Input.update
-        sleep(0.05)
-      end
     end
 
     def pbShowSequenceName(name)
@@ -664,6 +663,33 @@ end
 
     private
 
+    # Turn the teacher event (ID 046) to face the expected arrow direction. Returns PBMoveRoute turn constant or nil.
+    def teacher_turn_route(expected_move)
+      case expected_move
+      when :up    then PBMoveRoute::TurnUp
+      when :down  then PBMoveRoute::TurnDown
+      when :left  then PBMoveRoute::TurnLeft
+      when :right then PBMoveRoute::TurnRight
+      else nil
+      end
+    end
+
+    # Turn all following characters to face the same direction as the player (no movement).
+    def pbTurnFollowers(dir)
+      return if dir <= 0 || !$game_temp.respond_to?(:followers) || !$game_temp.followers.respond_to?(:each_follower)
+      turn_cmd = case dir
+                 when 2 then PBMoveRoute::TurnDown
+                 when 4 then PBMoveRoute::TurnLeft
+                 when 6 then PBMoveRoute::TurnRight
+                 when 8 then PBMoveRoute::TurnUp
+                 else return
+                 end
+      $game_temp.followers.each_follower do |event, _follower|
+        next unless event
+        pbMoveRoute(event, [turn_cmd])
+      end
+    end
+
     def calculate_survival_reward
       seconds = @play_time
       case seconds
@@ -695,6 +721,9 @@ end
     end
 
     def handle_input(expected_move)
+      @teacher_turned_this_arrow = false
+      @dancers_turned_this_arrow = false
+      @dancer_turn_at = nil
       max_time_allowed = 1.0 / @speed
       frame_time = 1.0 / Graphics.frame_rate
       move_speed = (Graphics.height + @sprites["arrow"].bitmap.height) / (max_time_allowed / frame_time)
@@ -709,20 +738,20 @@ end
       loop do
         Graphics.update
         Input.update
-        
-        # Modified for infinite mode - BACK shows analysis instead of exiting
-        if Input.trigger?(INPUT_EXIT)
-          if @game_mode == :infinite
-            pbPlayDecisionSE
-            return :exit
-          else
-            pbPlayDecisionSE
-            @forced_exit = true
-            $game_variables[35] = -1 # Reset variable when exiting with BACK
-            return :exit
+
+        # Turn player and followers to face direction keys (no movement)
+        dir = Input.dir4
+        if dir > 0
+          case dir
+          when 2 then $game_player.turn_down
+          when 4 then $game_player.turn_left
+          when 6 then $game_player.turn_right
+          when 8 then $game_player.turn_up
           end
+          pbTurnFollowers(dir)
         end
-        
+        $scene.miniupdate if $scene.is_a?(Scene_Map)
+
         unless @sprites["arrow"] && @sprites["arrow"].bitmap
           return :error 
         end
@@ -737,6 +766,27 @@ end
         end
 
         if rects_collide?(arrow_rect, target_rect)
+          # Teacher event turns to face the correct direction at the correct time (once per arrow)
+          if !@teacher_turned_this_arrow
+            teacher = $game_map.events[TEACHER_EVENT_ID]
+            if teacher
+              turn_cmd = teacher_turn_route(expected_move)
+              pbMoveRoute(teacher, [turn_cmd]) if turn_cmd
+            end
+            @teacher_turned_this_arrow = true
+            @dancer_turn_at = Graphics.frame_count + DANCER_TURN_DELAY_FRAMES
+          end
+          # Dancer NPCs turn with a slight delay after the teacher
+          if @dancer_turn_at && Graphics.frame_count >= @dancer_turn_at && !@dancers_turned_this_arrow
+            turn_cmd = teacher_turn_route(expected_move)
+            if turn_cmd
+              DANCER_EVENT_IDS.each do |event_id|
+                dancer = $game_map.events[event_id]
+                pbMoveRoute(dancer, [turn_cmd]) if dancer
+              end
+            end
+            @dancers_turned_this_arrow = true
+          end
           input_map.each do |key, move|
             if Input.trigger?(key)
               if expected_move == move
@@ -757,17 +807,7 @@ end
     # Sprite and Viewport Methods
     #===========================================================================
     def pbCreateSprites
-      bg_path = "Graphics/Minigame/bg_main.png"
-      if FileTest.exist?(bg_path)
-        @sprites["background"] = Sprite.new(@viewport)
-        @sprites["background"].bitmap = Bitmap.new(bg_path)
-        @sprites["background"].z = 0
-        @sprites["background"].opacity = 0
-      else
-        pbMessage("Error: Background image not found at #{bg_path}")
-        dispose_sprites
-        return
-      end
+      # No bg_main.png: overworld map and player stay visible during the minigame.
 
       @arrows.each do |key, path|
         filename = "#{path}.png"

@@ -7141,25 +7141,28 @@ Flags = KeyItem
 Description = A card key that open a shutter in the Radio Tower.
 #-------------------------------
 [PEDRAAZUL]
-Name = Esfera Antiga
-NamePlural = Esfera Antiga
+Name = Blue Ancient Sphere
+NamePlural = Blue Ancient Sphere
 Pocket = 8
 Price = 0
-Description = Uma linda pedra azul.
+Flags = KeyItem
+Description = A beautiful blue ancient sphere.
 #-------------------------------
 [PEDRAAMARELA]
-Name = Esfera Antiga
-NamePlural = Esfera Antiga
+Name = Yellow Ancient Sphere
+NamePlural = Yellow Ancient Sphere
 Pocket = 8
 Price = 0
-Description = Uma linda pedra amarela.
+Flags = KeyItem
+Description = A beautiful yellow ancient sphere.
 #-------------------------------
 [PEDRAVERMELHA]
-Name = Esfera Antiga
-NamePlural = Esfera Antiga
+Name = Red Ancient Sphere
+NamePlural = Red Ancient Sphere
 Pocket = 8
 Price = 0
-Description = Uma linda pedra vermelha.
+Flags = KeyItem
+Description = A beautiful red ancient sphere.
 #-------------------------------
 [CLEARBELL]
 Name = Clear Bell

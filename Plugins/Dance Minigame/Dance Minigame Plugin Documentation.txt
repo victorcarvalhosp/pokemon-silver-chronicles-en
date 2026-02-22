@@ -26,10 +26,10 @@ Place your music files in Audio/BGM/
 System Variables
 Type	ID	Purpose
 Switch	90	Forced minigame exit flag
-Variable	35	Accuracy percentage (0-100)
-Variable	36	Infinite mode high score
-Variable	37	Survival time record (Mode 1)
-Variable	38	Survival time record (Mode 2)
+Variable	300	Accuracy percentage (0-100)
+Variable	299	Infinite mode high score
+Variable	298	Survival time record (Mode 1)
+Variable	297	Survival time record (Mode 2)
 Initialization
 
 
